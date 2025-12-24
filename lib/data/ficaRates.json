@@ -1,0 +1,16 @@
+{
+    "2024": {
+        "socialSecurityRate": 6.2,
+        "socialSecurityWageCap": 168600,
+        "medicareRate": 1.45,
+        "medicareAdditionalRate": 0.9,
+        "medicareAdditionalThreshold": 200000
+    },
+    "2025": {
+        "socialSecurityRate": 6.2,
+        "socialSecurityWageCap": 176100,
+        "medicareRate": 1.45,
+        "medicareAdditionalRate": 0.9,
+        "medicareAdditionalThreshold": 200000
+    }
+}

@@ -1,0 +1,431 @@
+{
+    "project": {
+        "name": "CalcTrust",
+        "description": "Professional, trust-first financial calculator platform for the modern workforce",
+        "url": "https://calctrust.com",
+        "tagline": "Accuracy over growth. Trust over hype.",
+        "version": "1.2.0",
+        "type": "Financial reference product (YMYL)",
+        "status": "Production-ready"
+    },
+    "architecture": {
+        "currentCountry": "USA",
+        "futureReady": "Multi-country isolated (UK, CA, AU planned)",
+        "urlStructure": {
+            "root": "/ (global country selector hub)",
+            "usa": "/usa (USA hub with 10-section trust-first layout)",
+            "calculators": "/usa/{calculator-slug}",
+            "trust": "/about, /methodology, /how-calculations-work, /disclaimer, /contact"
+        },
+        "dataIsolation": "Country-specific tax logic, never mixed",
+        "countrySelector": "Header dropdown with flags (🇺🇸 🇬🇧 🇨🇦)",
+        "rendering": "Static Site Generation (SSG only)",
+        "principle": "No backend, no database, no user data collection"
+    },
+    "techStack": {
+        "framework": "Next.js 16.1.1 (App Router)",
+        "language": "TypeScript (strict mode)",
+        "styling": "Tailwind CSS v4",
+        "ui": "shadcn/ui components (Radix primitives)",
+        "icons": "Lucide React",
+        "theming": "next-themes (dark mode with system detection)",
+        "rendering": "Static Site Generation (SSG only)",
+        "hosting": "Cloudflare Pages / Netlify / Vercel",
+        "performance": "Lighthouse 90+ target, ~5s build time",
+        "buildOutput": "/out directory (deployable static HTML)"
+    },
+    "design": {
+        "aesthetic": "CalcTrust-inspired minimalist, premium, trust-first",
+        "philosophy": [
+            "Calculator-first UX",
+            "Zero visual noise",
+            "Typography-driven hierarchy",
+            "Generous whitespace (hero sections: pt-48 pb-40)",
+            "Flat UI, subtle borders",
+            "Calm, serious tone",
+            "No aggressive CTAs",
+            "No popups or dark patterns"
+        ],
+        "colorPalette": {
+            "light": {
+                "background": "oklch(0.96) - subtle cool gray",
+                "foreground": "oklch(0.141) - soft black",
+                "card": "oklch(1) - pure white",
+                "border": "oklch(0.90)",
+                "accent": "oklch(0.95) - subtle highlight"
+            },
+            "dark": {
+                "background": "oklch(0.1) - deep soft black",
+                "foreground": "oklch(0.98) - near white",
+                "card": "oklch(0.12)",
+                "border": "oklch(0.2)",
+                "accent": "oklch(0.15)"
+            }
+        },
+        "typography": {
+            "fontFamily": "Inter (variable)",
+            "features": [
+                "tabular numbers (tnum) for calculator results",
+                "ligatures enabled",
+                "iOS zoom fix: 16px minimum on inputs"
+            ],
+            "headings": "Clean, no-nonsense, professional"
+        },
+        "heroSections": {
+            "global": "pt-48 pb-40 - spacious, airy",
+            "usa": "pt-48 pb-28 md:pt-64 md:pb-48 - extra generous on desktop"
+        }
+    },
+    "pages": {
+        "total": 274,
+        "uniqueCalculators": 263,
+        "hubs": [
+            "/ (Global) - 10-section trust-first layout",
+            "/usa (USA Hub) - 10-section trust-first layout"
+        ],
+        "trustPages": [
+            "/about - E-E-A-T compliance",
+            "/contact - Transparency",
+            "/disclaimer - YMYL legal protection",
+            "/methodology - Calculation transparency",
+            "/how-calculations-work - User education"
+        ],
+        "static": [
+            "/sitemap.xml - Dynamic sitemap",
+            "/robots.txt - AI bot permissions (GPTBot, ClaudeBot allowed)"
+        ],
+        "buildStatus": "✅ 274/274 pages built successfully"
+    },
+    "internalLinking": {
+        "system": "4-Zone Automated",
+        "totalLinks": "~2,700+",
+        "implementation": "lib/linking-utils.ts",
+        "zones": {
+            "zone1": {
+                "name": "Contextual",
+                "location": "Intro paragraph",
+                "content": "1 natural link to core calculator",
+                "component": "ContextualLink"
+            },
+            "zone2": {
+                "name": "Related",
+                "location": "After content",
+                "content": "4-slot grid: 2 peers + 1 parent + 1 conversion",
+                "component": "RelatedCalculatorsGrid"
+            },
+            "zone3": {
+                "name": "Variations",
+                "location": "Before FAQ",
+                "content": "5-7 adjacent value pills (nearby salaries, states)",
+                "component": "VariationPills"
+            },
+            "zone4": {
+                "name": "Authority",
+                "location": "Bottom",
+                "content": "Methodology, How Calculations Work, Disclaimer",
+                "component": "AuthorityLinks"
+            }
+        },
+        "coreCalculators": [
+            "salary-to-hourly-calculator",
+            "hourly-to-salary-calculator",
+            "take-home-pay-calculator",
+            "overtime-pay-calculator",
+            "401k-calculator",
+            "bonus-tax-calculator",
+            "pay-raise-calculator"
+        ],
+        "pathPattern": "/usa/ prefix applied via wrapUsa() helper"
+    },
+    "pageCategories": {
+        "coreCalculators": 11,
+        "statePaycheckCalculators": 50,
+        "salaryBreakdowns": 24,
+        "hourlyBreakdowns": 29,
+        "biweeklyConversions": 18,
+        "weeklyConversions": 17,
+        "monthlyConversions": 18,
+        "raiseCalculators": 12,
+        "stateSalaryCombinations": 84,
+        "trustPages": 5,
+        "hubs": 2,
+        "other": 4
+    },
+    "taxData": {
+        "year": "2025",
+        "lastUpdated": "December 2025",
+        "nextUpdate": "January 2026 (annual)",
+        "federal": {
+            "brackets": "Progressive 10% - 37%",
+            "standardDeductions": {
+                "single": 15000,
+                "married": 30000,
+                "headOfHousehold": 22500
+            }
+        },
+        "fica": {
+            "socialSecurity": "6.2% (wage base: $176,100)",
+            "medicare": "1.45% (additional 0.9% over $200k)"
+        },
+        "states": {
+            "noIncomeTax": [
+                "AK (Alaska)",
+                "FL (Florida)",
+                "NV (Nevada)",
+                "NH (New Hampshire)",
+                "SD (South Dakota)",
+                "TN (Tennessee)",
+                "TX (Texas)",
+                "WA (Washington)",
+                "WY (Wyoming)"
+            ],
+            "highestRate": "California (13.3%)",
+            "lowestRate": "North Dakota (2.5%)"
+        }
+    },
+    "fileStructure": {
+        "app/": {
+            "page.tsx": "Global country selector hub (10-section)",
+            "layout.tsx": "Root layout with Header, Footer, ThemeProvider",
+            "globals.css": "Tailwind + themed CSS variables (9.5KB)",
+            "sitemap.ts": "Dynamic sitemap generation",
+            "favicon.ico": "Site icon",
+            "about/page.tsx": "Company/mission (E-E-A-T)",
+            "contact/page.tsx": "Contact form/info",
+            "disclaimer/page.tsx": "Legal disclaimers (YMYL compliance)",
+            "methodology/page.tsx": "Calculation sources/methods",
+            "how-calculations-work/page.tsx": "User guides",
+            "usa/page.tsx": "USA calculator hub (10-section trust-first)",
+            "usa/[slug]/page.tsx": "Dynamic calculator pages with 4-zone linking, markdown support",
+            "usa/calculators/": "Additional calculator pages"
+        },
+        "components/": {
+            "calculator/": {
+                "CalculatorShell.tsx": "Universal calculator UI (client component)",
+                "index.ts": "Calculator exports"
+            },
+            "layout/": {
+                "Header.tsx": "Navigation with country selector + search + ModeToggle (client)",
+                "Footer.tsx": "Multi-column trust links with /usa/ prefix",
+                "index.ts": "Layout exports"
+            },
+            "seo/": {
+                "Schema.tsx": "JSON-LD structured data (FAQSchema, BreadcrumbSchema, WebPageSchema, HowToSchema)",
+                "InternalLinks.tsx": "4-zone link components (ContextualLink, RelatedCalculatorsGrid, VariationPills, AuthorityLinks)",
+                "index.ts": "SEO exports"
+            },
+            "search/": {
+                "SearchModal.tsx": "Full-screen search modal with keyboard navigation",
+                "SearchTrigger.tsx": "Search button trigger in header",
+                "index.ts": "Search exports"
+            },
+            "ui/": {
+                "accordion.tsx": "Collapsible accordion component",
+                "badge.tsx": "Badge/tag component",
+                "button.tsx": "Button component with variants",
+                "card.tsx": "Card container component",
+                "checklist-item.tsx": "Checklist item component",
+                "dropdown-menu.tsx": "Dropdown menu component",
+                "feature-card.tsx": "Feature card for landing pages",
+                "input.tsx": "Form input component",
+                "label.tsx": "Form label component",
+                "link-card.tsx": "Clickable link card component",
+                "navigation-menu.tsx": "Navigation menu component",
+                "section-header.tsx": "Section header with title and description",
+                "select.tsx": "Select dropdown component",
+                "separator.tsx": "Visual separator component",
+                "sheet.tsx": "Slide-out sheet/drawer component",
+                "stat-card.tsx": "Animated stat card with count-up effect",
+                "tabs.tsx": "Tabs component",
+                "text-link.tsx": "Styled text link component"
+            },
+            "mode-toggle.tsx": "Dark/Light mode switch (client)",
+            "theme-provider.tsx": "next-themes wrapper (client)"
+        },
+        "lib/": {
+            "content/": {
+                "calculators.ts": "All 263 calculator definitions + page metadata (123KB)",
+                "markdown-loader.ts": "Markdown parsing utility for YMYL content (gray-matter)",
+                "calculators/": "Directory containing 263 unique markdown content files"
+            },
+            "calculators/": {
+                "index.ts": "Calculator function exports",
+                "paycheck.ts": "Paycheck calculation functions",
+                "salary.ts": "Salary conversion functions",
+                "types.ts": "Calculator TypeScript types"
+            },
+            "data/": {
+                "federalTaxBrackets.json": "2025 federal tax brackets",
+                "ficaRates.json": "Social Security and Medicare rates",
+                "stateTaxRates.json": "All 50 state tax rates"
+            },
+            "linking-utils.ts": "Automated link generation with /usa/ prefix via wrapUsa()",
+            "search.ts": "Calculator search functionality",
+            "utils.ts": "cn() helper for Tailwind"
+        },
+        "public/": {
+            "robots.txt": "Sitemap declaration + AI bot permissions",
+            "file.svg": "File icon",
+            "globe.svg": "Globe icon",
+            "next.svg": "Next.js logo",
+            "vercel.svg": "Vercel logo",
+            "window.svg": "Window icon"
+        },
+        "root/": {
+            "README.md": "Production-grade documentation for future developers",
+            "keywords.md": "Comprehensive keyword strategy (1,170+ keywords)",
+            "calctrust-structure.json": "This file - architectural reference",
+            "components.json": "shadcn/ui configuration",
+            "eslint.config.mjs": "ESLint configuration",
+            "next.config.ts": "Next.js configuration",
+            "package.json": "Project dependencies and scripts",
+            "postcss.config.mjs": "PostCSS configuration",
+            "tsconfig.json": "TypeScript configuration"
+        }
+    },
+    "features": {
+        "core": [
+            "Instant calculations on page load",
+            "Reactive updates on input change",
+            "Clear results with visual highlights",
+            "Mobile-first responsive design",
+            "Dark mode with system detection",
+            "Country selector in navbar",
+            "No user accounts required",
+            "No data storage or cookies (beyond theme preference)"
+        ],
+        "seo": [
+            "274 static pages (SSG)",
+            "Dynamic sitemap.xml",
+            "JSON-LD structured data (4 types)",
+            "4-zone internal linking (~2,700+ links)",
+            "E-E-A-T trust pages",
+            "Canonical URLs with /usa/ prefix",
+            "State-aware breadcrumb schema",
+            "1,170+ keywords targeted"
+        ],
+        "trust": [
+            "Last updated timestamps on every page",
+            "Methodology references",
+            "Clear disclaimers (YMYL compliance)",
+            "No data collection",
+            "Privacy-first design",
+            "Transparent calculation methods",
+            "No aggressive monetization"
+        ],
+        "accessibility": [
+            "aria-label on interactive elements",
+            "Proper label associations",
+            "Keyboard navigation support",
+            "Focus states on all inputs",
+            "iOS zoom fix (16px inputs)"
+        ]
+    },
+    "monetization": {
+        "primary": "AdSense (minimal, non-intrusive, future)",
+        "rules": [
+            "Never block calculators",
+            "Never break UX",
+            "Never reduce trust",
+            "No aggressive popups",
+            "No data harvesting"
+        ],
+        "future": [
+            "Payroll software affiliates",
+            "Tax software affiliates",
+            "Financial services partnerships (vetted only)"
+        ]
+    },
+    "seoMetrics": {
+        "totalKeywords": "1,170+",
+        "totalPages": 274,
+        "totalInternalLinks": "~2,700+",
+        "schemaTypes": [
+            "WebPage",
+            "FAQPage",
+            "BreadcrumbList",
+            "HowTo"
+        ],
+        "buildTime": "~5-6 seconds (274 pages)",
+        "lighthouseTarget": "90+",
+        "keywordStrategy": "Long-tail, YMYL-focused, state-aware"
+    },
+    "codeQuality": {
+        "typescript": "Strict mode, no 'any' types",
+        "linting": "ESLint configured",
+        "imports": "Clean, no unused imports",
+        "clientComponents": "11 components (all justified)",
+        "consoleLog": "None in production code",
+        "dangerouslySetInnerHTML": "Only for JSON-LD (safe)",
+        "hydration": "No mismatches",
+        "buildErrors": "None",
+        "typeErrors": "None"
+    },
+    "developmentRules": {
+        "forbidden": [
+            "Changing URLs without CTO approval",
+            "Removing trust pages",
+            "Adding a backend",
+            "Storing user data",
+            "Mixing tax logic across countries",
+            "Breaking internal linking system",
+            "Removing canonical URLs"
+        ],
+        "requiresApproval": [
+            "Adding new dependencies",
+            "Changing routing structure",
+            "Modifying tax calculation formulas",
+            "Restructuring component hierarchy",
+            "Changing build configuration",
+            "Adding client-side analytics"
+        ],
+        "safeToModify": [
+            "Adding new calculator pages (following patterns)",
+            "Updating tax data (annual updates)",
+            "Fixing bugs (with tests)",
+            "Improving accessibility (ARIA labels, focus states)",
+            "Updating dependencies (patch/minor versions)",
+            "Refining CSS (visual polish only)"
+        ]
+    },
+    "maintenance": {
+        "annual": [
+            "Update federal tax brackets (January)",
+            "Update FICA limits (January)",
+            "Update state tax rates (January)",
+            "Update standard deductions (January)",
+            "Update lastUpdated timestamps",
+            "Verify all calculator accuracy"
+        ],
+        "asNeeded": [
+            "Add new calculator pages",
+            "Improve FAQ content",
+            "Fix reported bugs",
+            "Update trust page content",
+            "Respond to SEO opportunities"
+        ],
+        "monitoring": [
+            "Google Search Console (post-launch)",
+            "Lighthouse scores",
+            "Build times",
+            "User feedback"
+        ]
+    },
+    "futureExpansions": [
+        "UK calculators (/uk) - ~200 pages",
+        "Canada calculators (/ca) - ~150 pages",
+        "Australia calculators (/au) - ~150 pages",
+        "City-specific pages (NYC, LA, SF, Chicago)",
+        "Industry-specific calculators (teacher, nurse)",
+        "Benefits calculators (HSA, FSA, health insurance)",
+        "Side hustle calculators (1099, gig economy)",
+        "Total potential: 600+ pages across 3 countries"
+    ],
+    "documentation": {
+        "README.md": "Production-grade documentation for future developers",
+        "keywords.md": "Comprehensive keyword strategy document",
+        "calctrust-structure.json": "This file - architectural reference",
+        "task.md": "Development checklist (artifact)",
+        "walkthrough.md": "Implementation summary (artifact)"
+    }
+}

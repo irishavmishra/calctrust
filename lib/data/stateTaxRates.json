@@ -1,0 +1,215 @@
+{
+    "AL": {
+        "rate": 5.0,
+        "name": "Alabama"
+    },
+    "AK": {
+        "rate": 0,
+        "name": "Alaska",
+        "hasNoIncomeTax": true
+    },
+    "AZ": {
+        "rate": 2.5,
+        "name": "Arizona"
+    },
+    "AR": {
+        "rate": 4.4,
+        "name": "Arkansas"
+    },
+    "CA": {
+        "rate": 9.3,
+        "name": "California"
+    },
+    "CO": {
+        "rate": 4.4,
+        "name": "Colorado"
+    },
+    "CT": {
+        "rate": 5.0,
+        "name": "Connecticut"
+    },
+    "DE": {
+        "rate": 6.6,
+        "name": "Delaware"
+    },
+    "FL": {
+        "rate": 0,
+        "name": "Florida",
+        "hasNoIncomeTax": true
+    },
+    "GA": {
+        "rate": 5.49,
+        "name": "Georgia"
+    },
+    "HI": {
+        "rate": 8.25,
+        "name": "Hawaii"
+    },
+    "ID": {
+        "rate": 5.8,
+        "name": "Idaho"
+    },
+    "IL": {
+        "rate": 4.95,
+        "name": "Illinois"
+    },
+    "IN": {
+        "rate": 3.05,
+        "name": "Indiana"
+    },
+    "IA": {
+        "rate": 5.7,
+        "name": "Iowa"
+    },
+    "KS": {
+        "rate": 5.7,
+        "name": "Kansas"
+    },
+    "KY": {
+        "rate": 4.0,
+        "name": "Kentucky"
+    },
+    "LA": {
+        "rate": 4.25,
+        "name": "Louisiana"
+    },
+    "ME": {
+        "rate": 7.15,
+        "name": "Maine"
+    },
+    "MD": {
+        "rate": 5.75,
+        "name": "Maryland"
+    },
+    "MA": {
+        "rate": 5.0,
+        "name": "Massachusetts"
+    },
+    "MI": {
+        "rate": 4.25,
+        "name": "Michigan"
+    },
+    "MN": {
+        "rate": 7.85,
+        "name": "Minnesota"
+    },
+    "MS": {
+        "rate": 5.0,
+        "name": "Mississippi"
+    },
+    "MO": {
+        "rate": 4.95,
+        "name": "Missouri"
+    },
+    "MT": {
+        "rate": 5.9,
+        "name": "Montana"
+    },
+    "NE": {
+        "rate": 5.84,
+        "name": "Nebraska"
+    },
+    "NV": {
+        "rate": 0,
+        "name": "Nevada",
+        "hasNoIncomeTax": true
+    },
+    "NH": {
+        "rate": 0,
+        "name": "New Hampshire",
+        "hasNoIncomeTax": true
+    },
+    "NJ": {
+        "rate": 6.37,
+        "name": "New Jersey"
+    },
+    "NM": {
+        "rate": 4.9,
+        "name": "New Mexico"
+    },
+    "NY": {
+        "rate": 6.85,
+        "name": "New York"
+    },
+    "NC": {
+        "rate": 4.75,
+        "name": "North Carolina"
+    },
+    "ND": {
+        "rate": 1.95,
+        "name": "North Dakota"
+    },
+    "OH": {
+        "rate": 3.5,
+        "name": "Ohio"
+    },
+    "OK": {
+        "rate": 4.75,
+        "name": "Oklahoma"
+    },
+    "OR": {
+        "rate": 8.75,
+        "name": "Oregon"
+    },
+    "PA": {
+        "rate": 3.07,
+        "name": "Pennsylvania"
+    },
+    "RI": {
+        "rate": 5.99,
+        "name": "Rhode Island"
+    },
+    "SC": {
+        "rate": 6.4,
+        "name": "South Carolina"
+    },
+    "SD": {
+        "rate": 0,
+        "name": "South Dakota",
+        "hasNoIncomeTax": true
+    },
+    "TN": {
+        "rate": 0,
+        "name": "Tennessee",
+        "hasNoIncomeTax": true
+    },
+    "TX": {
+        "rate": 0,
+        "name": "Texas",
+        "hasNoIncomeTax": true
+    },
+    "UT": {
+        "rate": 4.65,
+        "name": "Utah"
+    },
+    "VT": {
+        "rate": 6.6,
+        "name": "Vermont"
+    },
+    "VA": {
+        "rate": 5.75,
+        "name": "Virginia"
+    },
+    "WA": {
+        "rate": 0,
+        "name": "Washington",
+        "hasNoIncomeTax": true
+    },
+    "WV": {
+        "rate": 5.12,
+        "name": "West Virginia"
+    },
+    "WI": {
+        "rate": 5.3,
+        "name": "Wisconsin"
+    },
+    "WY": {
+        "rate": 0,
+        "name": "Wyoming",
+        "hasNoIncomeTax": true
+    },
+    "DC": {
+        "rate": 8.5,
+        "name": "District of Columbia"
+    }
+}
