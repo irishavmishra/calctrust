@@ -1,69 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "50000-salary-massachusetts",
-  "category": "state-salary",
-  "title": "$50,000 Salary in Massachusetts",
-  "subheading": "Calculate your take-home pay on a $50,000 salary in Massachusetts. See federal and state tax withholdings, FICA deductions, and monthly breakdowns.",
-  "sections": {
-    "whatThisHelps": [
-      "Understand your take-home pay on a $50,000 salary in Massachusetts",
-      "Calculate federal and Massachusetts state tax withholdings",
-      "See monthly, biweekly, and weekly breakdowns of your net pay",
-      "Compare your effective tax rate against other states",
-      "Plan your budget based on actual after-tax income"
-    ],
-    "whoUsefulFor": [
-      "Job seekers evaluating offers in Massachusetts",
-      "Current Massachusetts residents planning their finances",
-      "People considering relocating to Massachusetts",
-      "HR professionals explaining compensation to Massachusetts employees",
-      "Financial planners helping clients in Massachusetts"
-    ],
-    "howItWorks": [
-      "Enter your $50,000 annual salary",
-      "Select your filing status (single, married, etc.)",
-      "The calculator applies current federal tax brackets",
-      "Massachusetts state tax rates are automatically calculated",
-      "FICA taxes (Social Security and Medicare) are deducted",
-      "Your net take-home pay is displayed across all pay periods"
-    ],
-    "assumptions": [
-      "Uses 2025 federal tax brackets and Massachusetts state tax rates",
-      "Assumes standard deduction unless you specify itemized",
-      "Calculates based on full-year employment",
-      "Does not include local/city taxes that may apply",
-      "401(k) and other pre-tax deductions not included unless specified"
-    ],
-    "commonMistakes": [
-      "Forgetting that Massachusetts may have local/city taxes in addition to state tax",
-      "Not accounting for pre-tax deductions like health insurance",
-      "Comparing gross salary instead of net take-home between states",
-      "Ignoring the impact of filing status on tax liability"
-    ],
-    "whyResultsVary": [
-      "Your filing status significantly impacts tax brackets",
-      "Pre-tax deductions (401k, HSA) reduce taxable income",
-      "Additional income sources affect your marginal rate",
-      "Local taxes may apply depending on where you live/work",
-      "Tax credits and itemized deductions change the calculation"
-    ],
-    "faq": [
-      {
-        "question": "What is the take-home pay for $50,000 in Massachusetts?",
-        "answer": "Your take-home pay depends on your filing status and deductions. Use the calculator above to get an accurate estimate based on current Massachusetts and federal tax rates."
-      },
-      {
-        "question": "Does Massachusetts have state income tax?",
-        "answer": "Yes, Massachusetts has state income tax that will be deducted from your $50,000 salary along with federal taxes."
-      },
-      {
-        "question": "How much is $50,000 per month after taxes in Massachusetts?",
-        "answer": "Your monthly take-home depends on your specific tax situation. Enter your details in the calculator to see your exact monthly net pay."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '50000-salary-massachusetts',
+  category: 'state-salary',
+  title: '$50,000 Salary in Massachusetts',
+  subheading: 'Calculate your take-home pay on a $50,000 salary in Massachusetts.',
+  sections: {
+    whatThisHelps: ['Understand take-home pay on $50K in MA', 'Calculate MA flat 5% tax'],
+    whoUsefulFor: ['Massachusetts workers', 'Boston metro employees'],
+    howItWorks: ['$50K salary entered', 'MA flat 5% rate applied'],
+    deepDive: ['$50,000 in Massachusetts with flat 5% tax. Boston is expensive—suburbs or NH residence can help.'],
+    examples: ['Annual: $50,000. Take-home: ~$3,200-3,350/month.'],
+    expertTips: ['Compare to NH for border workers (no income tax)', 'MA flat tax is simple'],
+    assumptions: ['2025 MA 5% flat rate'],
+    faq: [{ question: 'What is $50K take-home in MA?', answer: '~$3,200-3,350/month.' }],
+    relatedCalculators: [{ title: '$75K Massachusetts', href: '/usa/75000-salary-massachusetts' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

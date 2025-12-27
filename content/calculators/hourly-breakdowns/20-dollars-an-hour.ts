@@ -1,65 +1,73 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "20-dollars-an-hour",
-  "category": "hourly-breakdowns",
-  "title": "$20 an Hour is How Much a Year?",
-  "subheading": "$20 an hour is $41,600 per year working full-time. See weekly, monthly, and annual breakdowns plus overtime calculations.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $20/hour to annual salary ($41,600/year)",
-      "See monthly ($3,467), weekly ($800), and daily breakdowns",
-      "Understand your earning potential at $20/hour",
-      "Compare $20/hour against other wages and cost of living",
-      "Calculate overtime earnings at time-and-a-half ($30.00/hour)"
+  slug: '20-dollars-an-hour',
+  category: 'hourly-breakdowns',
+  title: '$20 an Hour is How Much a Year?',
+  subheading: '$20 an hour equals $41,600 per year working full-time. This round number marks a significant milestone—approximately the U.S. individual median income and a common target for wage negotiations.',
+  sections: {
+    whatThisHelps: [
+      'Convert $20/hour to annual salary ($41,600/year)',
+      'See monthly ($3,467), weekly ($800), and daily breakdowns',
+      'Understand your earning potential at $20/hour',
+      'Compare $20/hour against median U.S. wages',
+      'Calculate overtime at time-and-a-half ($30/hour)',
     ],
-    "whoUsefulFor": [
-      "Workers earning $20/hour wanting to know their annual salary",
-      "Job seekers comparing hourly and salaried positions",
-      "Budgeters planning expenses based on $20/hour income",
-      "Freelancers setting rates around $20/hour",
-      "Anyone negotiating wages around the $20/hour mark"
+    whoUsefulFor: [
+      'Workers earning $20/hour wanting their annual salary',
+      'Job seekers using $20/hour as a negotiation target',
+      'Budgeters planning around $40,000+ annual income',
+      'Anyone comparing hourly vs. salaried positions',
     ],
-    "howItWorks": [
-      "Multiply hourly rate by hours worked per week (40 standard)",
-      "Multiply weekly earnings by 52 weeks for annual salary",
-      "$20 × 40 hours × 52 weeks = $41,600/year",
-      "Divide annual by 12 for monthly: $3,467/month",
-      "Overtime calculated at 1.5× for hours over 40/week"
+    howItWorks: [
+      '$20 × 40 hours × 52 weeks = $41,600/year',
+      'Monthly: $41,600 ÷ 12 = $3,467/month',
+      'Weekly: $20 × 40 = $800/week',
+      'Overtime: $20 × 1.5 = $30/hour',
     ],
-    "assumptions": [
-      "Based on full-time work (40 hours per week)",
-      "52 weeks per year (no unpaid time off)",
-      "Does not include overtime, bonuses, or tips",
-      "Gross pay before any tax deductions",
-      "Standard hourly employment without additional income"
+    deepDive: [
+      '$20/hour is a psychological benchmark wage that many workers target in negotiations. At $41,600 annually, this wage is near the U.S. individual median income and represents solid middle-class footing in most regions.',
+      'Housing affordability expands significantly at $20/hour. The 30% guideline allows for $1,040/month in rent—enough for comfortable one-bedroom apartments in most cities and two-bedroom options in moderate-cost areas.',
+      'This wage is common for experienced trades workers, dental hygienists in training, IT technicians, and skilled manufacturing roles. Many $20/hour positions are stepping stones to $25-30/hour with experience and certifications.',
     ],
-    "commonMistakes": [
-      "Forgetting that gross pay differs significantly from take-home",
-      "Not accounting for unpaid time off reducing annual earnings",
-      "Comparing hourly to salary without considering benefits",
-      "Overlooking overtime potential for hourly workers"
+    examples: [
+      'Full-Time: $20 × 40 × 52 = $41,600/year. Take-home: ~$3,050-$3,250/month.',
+      'With Overtime (10 hours/week): $800 + $300 = $1,100/week = $57,200/year.',
+      'Dual Income Household: Two $20/hour earners = $83,200/year—above median household income.',
     ],
-    "faq": [
-      {
-        "question": "How much is $20 an hour annually?",
-        "answer": "$20 per hour equals $41,600 per year working full-time (40 hours/week, 52 weeks/year)."
-      },
-      {
-        "question": "How much is $20 an hour monthly?",
-        "answer": "$20/hour is approximately $3,467 per month before taxes."
-      },
-      {
-        "question": "Is $20 an hour a good wage?",
-        "answer": "Whether $20/hour is good depends on your location and cost of living. The annual equivalent of $41,600 is around the median U.S. household income."
-      },
-      {
-        "question": "What is time and a half for $20/hour?",
-        "answer": "Time and a half for $20/hour is $30.00/hour for overtime work."
-      }
+    expertTips: [
+      '$20/hour overtime at $30/hour is significant—10 weekly hours adds $15,600 annually',
+      'This wage qualifies for most conventional mortgage programs',
+      'Aim to save 10-15% for retirement at this income level',
+      'Negotiate for skill-based raises that push toward $25/hour',
     ],
-    "freshnessSignal": "December 2025"
-  }
+    assumptions: [
+      'Based on 40 hours/week, 52 weeks/year',
+      'Does not include overtime, bonuses, or tips',
+      'Gross pay before tax deductions',
+    ],
+    commonMistakes: [
+      'Assuming $41,600 gross means $41,600 take-home',
+      'Not leveraging overtime at $30/hour rate',
+      'Comparing gross hourly to net salary figures',
+    ],
+    whyResultsVary: [
+      'State income taxes create $1,500-4,000 take-home variations',
+      'Overtime availability differs by industry and season',
+      'Benefits value adds $5,000-15,000 to total compensation',
+    ],
+    faq: [
+      { question: 'How much is $20/hour annually?', answer: '$20/hour equals $41,600/year full-time.' },
+      { question: 'Is $20/hour a good wage?', answer: 'Yes—$41,600/year is near the U.S. individual median and comfortable in most areas.' },
+      { question: 'What is overtime for $20/hour?', answer: '$30/hour (time and a half).' },
+    ],
+    relatedCalculators: [
+      { title: '$19 an Hour', href: '/usa/19-dollars-an-hour' },
+      { title: '$21 an Hour', href: '/usa/21-dollars-an-hour' },
+      { title: 'Hourly to Salary Calculator', href: '/usa/hourly-to-salary-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

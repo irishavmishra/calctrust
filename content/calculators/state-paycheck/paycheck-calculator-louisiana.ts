@@ -1,54 +1,47 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-louisiana",
-  "category": "state-paycheck",
-  "title": "Louisiana Paycheck Calculator",
-  "subheading": "Calculate your Louisiana take-home pay with our comprehensive paycheck calculator. Louisiana uses a flat 3% income tax rate (simplified in 2024), and uniquely allows deducting federal tax paid from state taxable income. See exactly what you'll receive after federal taxes, Louisiana state taxes, and FICA deductions.",
-  "sections": {
-    "whatThisHelps": [
-      "Louisiana flat tax: See how the new 3% flat rate applies",
-      "Federal tax deduction: Louisiana allows deducting federal tax from state income",
-      "Net pay calculation: Determine actual take-home after all deductions",
-      "Gulf Coast comparison: Compare to no-tax Texas"
+  slug: 'paycheck-calculator-louisiana',
+  category: 'state-paycheck',
+  title: 'Louisiana Paycheck Calculator',
+  subheading: 'Calculate your Louisiana take-home pay. Louisiana uses graduated income tax from 1.85% to 4.25%.',
+  sections: {
+    whatThisHelps: [
+      'Louisiana graduated tax: 1.85-4.25% rates',
+      'Federal tax deduction: Louisiana allows this unique benefit',
+      'Net pay calculation: Determine actual take-home',
     ],
-    "whoUsefulFor": [
-      "Louisiana employees verifying paychecks: Confirm withholding accuracy",
-      "New Orleans workers: Calculate net pay for Louisiana's largest city",
-      "Oil and gas workers: Major industry employees",
-      "Texas border workers: Compare Louisiana vs. Texas"
+    whoUsefulFor: [
+      'Louisiana employees verifying paychecks',
+      'New Orleans metro workers',
+      'Baton Rouge area employees',
     ],
-    "deepDive": [
-      "Louisiana simplified to a flat 3% rate in 2024, replacing graduated rates.",
-      "Louisiana is one of only three states allowing federal tax deduction from state taxable income.",
-      "Texas has no income tax. A $75,000 earner saves ~$2,000 annually in Texas vs. Louisiana."
+    howItWorks: [
+      'Enter your gross salary',
+      'Louisiana graduated rates applied',
+      'Federal tax can be deducted from state taxable income',
     ],
-    "examples": [
-      "Entry-Level Worker - Annual salary: $42,000 - Net biweekly: ~$1,340** (82.8% of gross)",
-      "New Orleans Professional - Annual salary: $85,000 - Net biweekly: ~$2,470** (75.6% of gross)"
+    deepDive: [
+      '2025 Louisiana rates: 1.85% on first $12,500, 3.5% on $12,501-$50,000, 4.25% over $50,000.',
+      'Louisiana is one of three states allowing federal tax deduction from state income.',
     ],
-    "faq": [
-      {
-        "question": "What is Louisiana's income tax rate?",
-        "answer": "Louisiana has a flat 3% income tax rate for all taxpayers (as of 2024)."
-      },
-      {
-        "question": "Can I deduct federal taxes in Louisiana?",
-        "answer": "Yes. Louisiana allows taxpayers to deduct federal income taxes paid."
-      }
+    examples: [
+      'Entry-Level: Annual $40,000, Net biweekly ~$1,290',
+      'New Orleans Professional: Annual $75,000, Net biweekly ~$2,250',
     ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator Texas",
-        "href": "/usa/paycheck-calculator-texas"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
+    expertTips: [
+      'Claim federal tax deduction to reduce Louisiana state burden',
+      'Louisiana has relatively low state taxes compared to many states',
     ],
-    "freshnessSignal": "December 2025. Tax rates reflect current Louisiana and federal guidelines"
-  }
+    assumptions: ['Based on 2025 Louisiana tax brackets', 'Federal deduction applied'],
+    commonMistakes: ['Forgetting Louisiana allows federal tax deduction'],
+    faq: [{ question: 'What is Louisiana income tax rate?', answer: '1.85% to 4.25% graduated.' }],
+    relatedCalculators: [
+      { title: 'Paycheck Calculator Texas', href: '/usa/paycheck-calculator-texas' },
+      { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

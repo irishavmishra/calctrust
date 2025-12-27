@@ -64,6 +64,12 @@ export interface BlogContent {
     /** Subheading/intro paragraph */
     subheading?: string;
 
+    /** SEO meta title (50-60 chars, YMYL-compliant) */
+    metaTitle?: string;
+
+    /** SEO meta description (140-160 chars, YMYL-compliant) */
+    metaDescription?: string;
+
     /** Structured content sections */
     sections: BlogContentSections;
 }

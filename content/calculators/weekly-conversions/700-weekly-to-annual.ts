@@ -1,29 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "700-weekly-to-annual",
-  "category": "weekly-conversions",
-  "title": "$700 Weekly is How Much a Year?",
-  "subheading": "$700 weekly equals $36,400 per year. See hourly, monthly, and annual salary equivalents.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $700 weekly to annual salary ($36,400/year)",
-      "Calculate your equivalent hourly rate (~$17.50/hour)",
-      "Plan your annual budget from weekly income",
-      "Compare weekly vs. other pay schedules"
-    ],
-    "howItWorks": [
-      "$700 × 52 weeks = $36,400 annual",
-      "Divide weekly by 40 hours = $17.50/hour"
-    ],
-    "faq": [
-      {
-        "question": "How much is $700 a week per year?",
-        "answer": "$700 per week equals $36,400 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '700-weekly-to-annual',
+  category: 'weekly-conversions',
+  title: '$700 Weekly is How Much a Year?',
+  subheading: '$700 weekly equals $36,400 per year (~$17.50/hour).',
+  sections: {
+    whatThisHelps: ['Convert $700 weekly to $36,400/year', 'Hourly: ~$17.50', 'Monthly: $3,033'],
+    whoUsefulFor: ['Workers paid $700/week'],
+    howItWorks: ['$700 × 52 = $36,400/year', 'Monthly: $3,033', 'Hourly: ~$17.50'],
+    deepDive: ['$700 weekly provides $36,400 annually—comfortable middle-class income.'],
+    examples: ['Annual: $36,400. Monthly: $3,033.'],
+    expertTips: ['At ~$18/hour equivalent, start retirement contributions'],
+    assumptions: ['52 weeks/year', '40 hours/week'],
+    faq: [{ question: 'How much is $700 weekly per year?', answer: '$36,400/year.' }],
+    relatedCalculators: [{ title: '$650 Weekly', href: '/usa/650-weekly-to-annual' }, { title: '$750 Weekly', href: '/usa/750-weekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

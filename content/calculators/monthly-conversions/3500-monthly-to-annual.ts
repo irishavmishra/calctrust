@@ -1,27 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "3500-monthly-to-annual",
-  "category": "monthly-conversions",
-  "title": "$3,500 Monthly is How Much a Year?",
-  "subheading": "$3,500 monthly equals $42,000 per year. Convert your monthly salary to hourly and weekly amounts.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $3,500 monthly to annual salary ($42,000/year)",
-      "See weekly and biweekly equivalents",
-      "Plan annual finances from monthly income"
-    ],
-    "howItWorks": [
-      "$3,500 × 12 months = $42,000 annual"
-    ],
-    "faq": [
-      {
-        "question": "How much is $3,500 a month per year?",
-        "answer": "$3,500 monthly equals $42,000 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '3500-monthly-to-annual',
+  category: 'monthly-conversions',
+  title: '$3,500 Monthly is How Much a Year?',
+  subheading: '$3,500 monthly equals $42,000 per year (~$20.19/hour).',
+  sections: {
+    whatThisHelps: ['Convert $3,500 monthly to $42,000/year', 'Hourly: ~$20.19', 'Biweekly: ~$1,615'],
+    whoUsefulFor: ['Workers earning $3,500/month'],
+    howItWorks: ['$3,500 × 12 = $42,000/year', 'Hourly: $42,000 ÷ 2,080 = ~$20.19'],
+    deepDive: ['$3,500 monthly provides $42,000 annually—exceeding $40K and near $20/hour.'],
+    examples: ['Annual: $42,000. Hourly: ~$20.19.'],
+    expertTips: ['At ~$20/hour equivalent, prioritize retirement contributions'],
+    assumptions: ['12 months/year', '40 hours/week, 52 weeks'],
+    faq: [{ question: 'How much is $3,500 monthly per year?', answer: '$42,000/year.' }],
+    relatedCalculators: [{ title: '$3,000 Monthly', href: '/usa/3000-monthly-to-annual' }, { title: '$4,000 Monthly', href: '/usa/4000-monthly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

@@ -1,29 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "650-weekly-to-annual",
-  "category": "weekly-conversions",
-  "title": "$650 Weekly is How Much a Year?",
-  "subheading": "$650 weekly equals $33,800 per year. See hourly, monthly, and annual salary equivalents.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $650 weekly to annual salary ($33,800/year)",
-      "Calculate your equivalent hourly rate (~$16.25/hour)",
-      "Plan your annual budget from weekly income",
-      "Compare weekly vs. other pay schedules"
-    ],
-    "howItWorks": [
-      "$650 × 52 weeks = $33,800 annual",
-      "Divide weekly by 40 hours = $16.25/hour"
-    ],
-    "faq": [
-      {
-        "question": "How much is $650 a week per year?",
-        "answer": "$650 per week equals $33,800 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '650-weekly-to-annual',
+  category: 'weekly-conversions',
+  title: '$650 Weekly is How Much a Year?',
+  subheading: '$650 weekly equals $33,800 per year (~$16.25/hour).',
+  sections: {
+    whatThisHelps: ['Convert $650 weekly to $33,800/year', 'Hourly: ~$16.25', 'Monthly: $2,817'],
+    whoUsefulFor: ['Workers paid $650/week'],
+    howItWorks: ['$650 × 52 = $33,800/year', 'Monthly: $2,817', 'Hourly: ~$16.25'],
+    deepDive: ['$650 weekly provides $33,800 annually—solid middle-class entry point.'],
+    examples: ['Annual: $33,800. Monthly: $2,817.'],
+    expertTips: ['At ~$16/hour, prioritize savings'],
+    assumptions: ['52 weeks/year', '40 hours/week'],
+    faq: [{ question: 'How much is $650 weekly per year?', answer: '$33,800/year.' }],
+    relatedCalculators: [{ title: '$600 Weekly', href: '/usa/600-weekly-to-annual' }, { title: '$700 Weekly', href: '/usa/700-weekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

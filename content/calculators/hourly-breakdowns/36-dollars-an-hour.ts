@@ -1,65 +1,29 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "36-dollars-an-hour",
-  "category": "hourly-breakdowns",
-  "title": "$36 an Hour is How Much a Year?",
-  "subheading": "$36 an hour is $74,880 per year working full-time. See weekly, monthly, and annual breakdowns plus overtime calculations.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $36/hour to annual salary ($74,880/year)",
-      "See monthly ($6,240), weekly ($1440), and daily breakdowns",
-      "Understand your earning potential at $36/hour",
-      "Compare $36/hour against other wages and cost of living",
-      "Calculate overtime earnings at time-and-a-half ($54.00/hour)"
+  slug: '36-dollars-an-hour',
+  category: 'hourly-breakdowns',
+  title: '$36 an Hour is How Much a Year?',
+  subheading: '$36 an hour equals $74,880 per year working full-time—approaching $75K annually.',
+  sections: {
+    whatThisHelps: ['Convert $36/hour to annual salary ($74,880/year)', 'Calculate overtime at $54/hour'],
+    whoUsefulFor: ['Workers earning $36/hour', 'Job seekers targeting $75K positions'],
+    howItWorks: ['$36 × 40 × 52 = $74,880/year', 'Monthly: $6,240', 'Overtime: $54/hour'],
+    deepDive: ['$36/hour approaches $75K annually—strong income enabling comfortable living and aggressive wealth building.'],
+    examples: ['Full-Time: $74,880/year. Take-home: ~$5,450-$5,700/month.'],
+    expertTips: ['OT at $54/hour is very valuable', 'Consider maxing all retirement accounts'],
+    assumptions: ['Based on 40 hours/week, 52 weeks/year'],
+    faq: [
+      { question: 'How much is $36/hour annually?', answer: '$74,880/year full-time.' },
+      { question: 'What is overtime for $36/hour?', answer: '$54/hour.' },
     ],
-    "whoUsefulFor": [
-      "Workers earning $36/hour wanting to know their annual salary",
-      "Job seekers comparing hourly and salaried positions",
-      "Budgeters planning expenses based on $36/hour income",
-      "Freelancers setting rates around $36/hour",
-      "Anyone negotiating wages around the $36/hour mark"
+    relatedCalculators: [
+      { title: '$35 an Hour', href: '/usa/35-dollars-an-hour' },
+      { title: '$40 an Hour', href: '/usa/40-dollars-an-hour' },
+      { title: 'Hourly to Salary Calculator', href: '/usa/hourly-to-salary-calculator' },
     ],
-    "howItWorks": [
-      "Multiply hourly rate by hours worked per week (40 standard)",
-      "Multiply weekly earnings by 52 weeks for annual salary",
-      "$36 × 40 hours × 52 weeks = $74,880/year",
-      "Divide annual by 12 for monthly: $6,240/month",
-      "Overtime calculated at 1.5× for hours over 40/week"
-    ],
-    "assumptions": [
-      "Based on full-time work (40 hours per week)",
-      "52 weeks per year (no unpaid time off)",
-      "Does not include overtime, bonuses, or tips",
-      "Gross pay before any tax deductions",
-      "Standard hourly employment without additional income"
-    ],
-    "commonMistakes": [
-      "Forgetting that gross pay differs significantly from take-home",
-      "Not accounting for unpaid time off reducing annual earnings",
-      "Comparing hourly to salary without considering benefits",
-      "Overlooking overtime potential for hourly workers"
-    ],
-    "faq": [
-      {
-        "question": "How much is $36 an hour annually?",
-        "answer": "$36 per hour equals $74,880 per year working full-time (40 hours/week, 52 weeks/year)."
-      },
-      {
-        "question": "How much is $36 an hour monthly?",
-        "answer": "$36/hour is approximately $6,240 per month before taxes."
-      },
-      {
-        "question": "Is $36 an hour a good wage?",
-        "answer": "Whether $36/hour is good depends on your location and cost of living. The annual equivalent of $74,880 is above the median U.S. household income."
-      },
-      {
-        "question": "What is time and a half for $36/hour?",
-        "answer": "Time and a half for $36/hour is $54.00/hour for overtime work."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

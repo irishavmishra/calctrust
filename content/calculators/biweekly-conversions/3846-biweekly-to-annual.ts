@@ -1,48 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "3846-biweekly-to-annual",
-  "category": "biweekly-conversions",
-  "title": "$3,846 Biweekly is How Much a Year?",
-  "subheading": "$3,846 biweekly equals $99,996 per year. Calculate your hourly rate and monthly income from biweekly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $3,846 biweekly to annual salary ($99,996/year)",
-      "Calculate your equivalent hourly rate (~$48.08/hour)",
-      "See monthly breakdown ($8,333/month)",
-      "Plan budget based on 26 pay periods per year",
-      "Compare biweekly pay against other payment schedules"
-    ],
-    "whoUsefulFor": [
-      "Employees paid $3,846 every two weeks",
-      "Job seekers comparing biweekly vs. annual salary offers",
-      "Financial planners helping clients budget biweekly income",
-      "Anyone switching from biweekly to monthly budgeting"
-    ],
-    "howItWorks": [
-      "Biweekly means 26 pay periods per year (every 2 weeks)",
-      "$3,846 × 26 = $99,996 annual salary",
-      "Divide by 12 for monthly: $8,333/month",
-      "Divide biweekly by 80 hours for hourly rate: ~$48.08/hour"
-    ],
-    "assumptions": [
-      "Standard biweekly schedule (26 pay periods)",
-      "Full-time employment (80 hours per pay period)",
-      "Gross pay before deductions",
-      "Consistent pay without bonuses or commissions"
-    ],
-    "faq": [
-      {
-        "question": "How much is $3,846 biweekly per year?",
-        "answer": "$3,846 biweekly equals $99,996 per year (26 pay periods)."
-      },
-      {
-        "question": "What is $3,846 biweekly per hour?",
-        "answer": "$3,846 biweekly is approximately $48.08 per hour (assuming 80 hours per pay period)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '3846-biweekly-to-annual',
+  category: 'biweekly-conversions',
+  title: '$3,846 Biweekly is How Much a Year?',
+  subheading: '$3,846 biweekly equals $100,000 per year (~$48/hour)—exactly six figures.',
+  sections: {
+    whatThisHelps: ['Convert $3,846 biweekly to $100,000/year', 'Hourly: ~$48', 'Monthly: $8,333'],
+    whoUsefulFor: ['Employees paid $3,846 biweekly', 'Workers at six-figure income'],
+    howItWorks: ['$3,846 × 26 = $99,996/year (~$100K)', 'Monthly: $8,333', 'Hourly: ~$48'],
+    deepDive: ['$3,846 biweekly is the six-figure milestone—$100K annually provides excellent financial flexibility.'],
+    examples: ['Annual: $100,000. Monthly: $8,333.'],
+    expertTips: ['At $100K, consider tax optimization strategies and backdoor Roth'],
+    assumptions: ['26 pay periods/year', '80 hours per period'],
+    faq: [{ question: 'How much is $3,846 biweekly annually?', answer: '~$100,000/year (six figures).' }],
+    relatedCalculators: [{ title: '$3,500 Biweekly', href: '/usa/3500-biweekly-to-annual' }, { title: '$4,000 Biweekly', href: '/usa/4000-biweekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

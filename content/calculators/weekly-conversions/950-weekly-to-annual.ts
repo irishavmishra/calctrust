@@ -1,29 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "950-weekly-to-annual",
-  "category": "weekly-conversions",
-  "title": "$950 Weekly is How Much a Year?",
-  "subheading": "$950 weekly equals $49,400 per year. See hourly, monthly, and annual salary equivalents.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $950 weekly to annual salary ($49,400/year)",
-      "Calculate your equivalent hourly rate (~$23.75/hour)",
-      "Plan your annual budget from weekly income",
-      "Compare weekly vs. other pay schedules"
-    ],
-    "howItWorks": [
-      "$950 × 52 weeks = $49,400 annual",
-      "Divide weekly by 40 hours = $23.75/hour"
-    ],
-    "faq": [
-      {
-        "question": "How much is $950 a week per year?",
-        "answer": "$950 per week equals $49,400 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '950-weekly-to-annual',
+  category: 'weekly-conversions',
+  title: '$950 Weekly is How Much a Year?',
+  subheading: '$950 weekly equals $49,400 per year (~$23.75/hour)—approaching $50K.',
+  sections: {
+    whatThisHelps: ['Convert $950 weekly to $49,400/year', 'Hourly: ~$23.75', 'Monthly: $4,117'],
+    whoUsefulFor: ['Workers paid $950/week'],
+    howItWorks: ['$950 × 52 = $49,400/year', 'Monthly: $4,117', 'Hourly: ~$23.75'],
+    deepDive: ['$950 weekly approaches $50K annually—strong middle-class income.'],
+    examples: ['Annual: $49,400. Monthly: $4,117.'],
+    expertTips: ['At ~$24/hour, maximize retirement contributions'],
+    assumptions: ['52 weeks/year', '40 hours/week'],
+    faq: [{ question: 'How much is $950 weekly per year?', answer: '$49,400/year.' }],
+    relatedCalculators: [{ title: '$900 Weekly', href: '/usa/900-weekly-to-annual' }, { title: '$1,000 Weekly', href: '/usa/1000-weekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

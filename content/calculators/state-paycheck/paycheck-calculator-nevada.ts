@@ -1,58 +1,23 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-nevada",
-  "category": "state-paycheck",
-  "title": "Nevada Paycheck Calculator",
-  "subheading": "Calculate your Nevada take-home pay and enjoy the advantage of living in a state with no income tax. Nevada is one of only nine states with no state income tax, making it attractive for workers seeking to maximize take-home pay. See exactly what you'll receive after federal taxes and FICA deductions—no state tax complications.",
-  "sections": {
-    "whatThisHelps": [
-      "No state tax advantage: Nevada has no state income tax",
-      "Simplified calculation: Only federal taxes and FICA apply",
-      "Net pay maximization: Keep more of your gross pay",
-      "California refugee math: Calculate savings from CA relocation"
-    ],
-    "whoUsefulFor": [
-      "Nevada residents verifying paychecks: Confirm federal/FICA only",
-      "Las Vegas casino/hospitality workers: Major industry employees",
-      "California relocations: Quantify tax savings from moving",
-      "Remote workers choosing Nevada: Evaluate no-tax residency",
-      "Reno tech workers: Growing Nevada tech scene"
-    ],
-    "deepDive": [
-      "Nevada funds government through: - Gaming and entertainment taxes - Sales tax (6.85% state + local additions) - Tourism and hotel taxes - Mining industry taxes",
-      "California has the highest income tax (13.3%). A $100,000 earner saves ~$5,500 annually living in Nevada vs. California."
-    ],
-    "examples": [
-      "Las Vegas Worker - Annual salary: $50,000 - Net biweekly: ~$1,550** (80.6% of gross)",
-      "Reno Professional - Annual salary: $100,000 - Net biweekly: ~$2,900** (75.4% of gross)"
-    ],
-    "faq": [
-      {
-        "question": "Does Nevada have state income tax?",
-        "answer": "No. Nevada has no state income tax on any income."
-      },
-      {
-        "question": "How much do I save vs. California?",
-        "answer": "A $100,000 earner saves approximately $5,500/year in state taxes alone."
-      }
-    ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator California",
-        "href": "/usa/paycheck-calculator-california"
-      },
-      {
-        "title": "Paycheck Calculator Arizona",
-        "href": "/usa/paycheck-calculator-arizona"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
-    ],
-    "freshnessSignal": "December 2025. Nevada has no state income tax"
-  }
+  slug: 'paycheck-calculator-nevada',
+  category: 'state-paycheck',
+  title: 'Nevada Paycheck Calculator',
+  subheading: 'Calculate your Nevada take-home pay. Nevada has NO state income tax—keep more of your paycheck.',
+  sections: {
+    whatThisHelps: ['Nevada: No state income tax', 'Full federal + FICA only', 'Compare to high-tax states'],
+    whoUsefulFor: ['Nevada employees', 'Las Vegas metro workers', 'Reno area employees', 'Remote workers relocating'],
+    howItWorks: ['Enter your gross salary', 'No state deduction—NV has no income tax', 'Only federal + FICA deducted'],
+    deepDive: ['Nevada is one of nine states with no income tax on wages. Combined with no state income tax, take-home is significantly higher than CA, NY, etc.'],
+    examples: ['Entry-Level: Annual $45,000, Net biweekly ~$1,450', 'Las Vegas Professional: Annual $85,000, Net biweekly ~$2,620'],
+    expertTips: ['No state income tax = ~5-10% higher take-home vs. CA', 'Nevada also has no state corporate income tax'],
+    assumptions: ['Based on 2025 federal rates only (NV has no state tax)'],
+    commonMistakes: ['Not comparing net pay to CA/NY equivalent salaries'],
+    faq: [{ question: 'Does Nevada have income tax?', answer: 'No. Nevada has no state income tax on wages.' }],
+    relatedCalculators: [{ title: 'Paycheck Calculator California', href: '/usa/paycheck-calculator-california' }, { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

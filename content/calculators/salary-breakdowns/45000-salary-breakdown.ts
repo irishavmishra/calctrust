@@ -1,41 +1,25 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "45000-salary-breakdown",
-  "category": "salary-breakdowns",
-  "title": "$45,000 Salary Breakdown",
-  "subheading": "Break down your $45,000 annual salary into monthly, biweekly, weekly, and hourly amounts. Estimate take-home pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Break down $45,000 salary across pay periods",
-      "See monthly ($3,750), biweekly, and weekly amounts",
-      "Calculate equivalent hourly rate (~$21.63/hour)",
-      "Estimate take-home pay after taxes",
-      "Plan your budget based on a $45,000 income"
+  slug: '45000-salary-breakdown',
+  category: 'salary-breakdowns',
+  title: '$45,000 Salary Breakdown',
+  subheading: 'Understand what a $45,000 annual salary means—approximately $21.63/hour.',
+  sections: {
+    whatThisHelps: ['See $45K hourly rate ($21.63/hour)', 'Calculate monthly take-home'],
+    whoUsefulFor: ['Workers earning ~$45K'],
+    howItWorks: ['$45,000 ÷ 2,080 = $21.63/hour', 'Monthly gross: $3,750', 'Weekly: $865'],
+    deepDive: ['$45,000 annually is above median individual income in many regions and provides solid financial foundation.'],
+    examples: ['Hourly: $21.63/hour', 'Monthly: $3,750 gross'],
+    expertTips: ['Max employer 401(k) match at this level'],
+    assumptions: ['Based on 2,080 hours/year'],
+    faq: [{ question: 'How much is $45K per hour?', answer: '$21.63/hour' }],
+    relatedCalculators: [
+      { title: '$40,000 Salary', href: '/usa/40000-salary-breakdown' },
+      { title: '$50,000 Salary', href: '/usa/50000-salary-breakdown' },
     ],
-    "whoUsefulFor": [
-      "Employees earning $45,000 annually",
-      "Job seekers evaluating $45,000 salary offers",
-      "Financial planners helping clients budget"
-    ],
-    "howItWorks": [
-      "Annual ÷ 12 = Monthly: $3,750",
-      "Annual ÷ 26 = Biweekly: $1,731",
-      "Annual ÷ 52 = Weekly: $865",
-      "Annual ÷ 2,080 = Hourly: $21.63"
-    ],
-    "faq": [
-      {
-        "question": "How much is $45,000 a year per month?",
-        "answer": "$45,000 per year is $3,750 per month before taxes."
-      },
-      {
-        "question": "What is $45,000 a year hourly?",
-        "answer": "$45,000 annually is approximately $21.63 per hour (based on 2,080 work hours)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

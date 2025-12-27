@@ -1,30 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "10-percent-raise-calculator",
-  "category": "raise-calculators",
-  "title": "10% Pay Raise Calculator",
-  "subheading": "Calculate the impact of a 10% pay raise on your salary. See your new monthly, biweekly, and hourly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Calculate the impact of a 10% raise on your salary",
-      "See new monthly, biweekly, and hourly amounts",
-      "Understand the dollar value of a 10% increase",
-      "Compare 10% against inflation and cost of living"
-    ],
-    "howItWorks": [
-      "Enter your current salary",
-      "Calculator multiplies by 1.10",
-      "Shows increase amount and new total across pay periods"
-    ],
-    "faq": [
-      {
-        "question": "What is a 10% raise on $50,000?",
-        "answer": "A 10% raise on $50,000 is $5,000, making your new salary $55,000."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '10-percent-raise-calculator',
+  category: 'raise-calculators',
+  title: '10% Raise Calculator',
+  subheading: 'Calculate what a 10% pay raise means for your salary—a significant increase.',
+  sections: {
+    whatThisHelps: ['Calculate salary after 10% raise'],
+    whoUsefulFor: ['Employees receiving major raises or promotions'],
+    howItWorks: ['New Salary = Current × 1.10', '$50,000 × 1.10 = $55,000'],
+    deepDive: ['A 10% raise is significant—usually tied to promotions, new roles, or competitive counters. This substantially outpaces inflation.'],
+    examples: ['$40,000 + 10% = $44,000', '$60,000 + 10% = $66,000', '$100,000 + 10% = $110,000'],
+    expertTips: ['10% raises typically accompany promotions—ensure new title reflects compensation'],
+    assumptions: ['Based on annual salary'],
+    faq: [{ question: 'What is a 10% raise on $50,000?', answer: '$55,000 (+$5,000/year).' }],
+    relatedCalculators: [{ title: '8% Raise', href: '/usa/8-percent-raise-calculator' }, { title: '12% Raise', href: '/usa/12-percent-raise-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

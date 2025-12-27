@@ -1,41 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "175000-salary-breakdown",
-  "category": "salary-breakdowns",
-  "title": "$175,000 Salary Breakdown",
-  "subheading": "Break down your $175,000 annual salary into monthly, biweekly, weekly, and hourly amounts. Estimate take-home pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Break down $175,000 salary across pay periods",
-      "See monthly ($14,583), biweekly, and weekly amounts",
-      "Calculate equivalent hourly rate (~$84.13/hour)",
-      "Estimate take-home pay after taxes",
-      "Plan your budget based on a $175,000 income"
-    ],
-    "whoUsefulFor": [
-      "Employees earning $175,000 annually",
-      "Job seekers evaluating $175,000 salary offers",
-      "Financial planners helping clients budget"
-    ],
-    "howItWorks": [
-      "Annual ÷ 12 = Monthly: $14,583",
-      "Annual ÷ 26 = Biweekly: $6,731",
-      "Annual ÷ 52 = Weekly: $3,365",
-      "Annual ÷ 2,080 = Hourly: $84.13"
-    ],
-    "faq": [
-      {
-        "question": "How much is $175,000 a year per month?",
-        "answer": "$175,000 per year is $14,583 per month before taxes."
-      },
-      {
-        "question": "What is $175,000 a year hourly?",
-        "answer": "$175,000 annually is approximately $84.13 per hour (based on 2,080 work hours)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '175000-salary-breakdown',
+  category: 'salary-breakdowns',
+  title: '$175,000 Salary Breakdown',
+  subheading: 'Understand what a $175,000 annual salary means—approximately $84.13/hour.',
+  sections: {
+    whatThisHelps: ['See $175K hourly rate ($84.13/hour)', 'Calculate monthly take-home'],
+    whoUsefulFor: ['Workers earning $175K'],
+    howItWorks: ['$175,000 ÷ 2,080 = $84.13/hour', 'Monthly gross: $14,583'],
+    deepDive: ['$175,000 annually is executive-level income—top 5% of U.S. earners.'],
+    examples: ['Hourly: $84.13/hour', 'Monthly: $14,583 gross'],
+    expertTips: ['Consider comprehensive financial and tax planning'],
+    assumptions: ['Based on 2,080 hours/year'],
+    faq: [{ question: 'How much is $175K per hour?', answer: '$84.13/hour' }],
+    relatedCalculators: [{ title: '$150,000 Salary', href: '/usa/150000-salary-breakdown' }, { title: '$200,000 Salary', href: '/usa/200000-salary-breakdown' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

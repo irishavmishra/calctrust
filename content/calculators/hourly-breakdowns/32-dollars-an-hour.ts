@@ -1,65 +1,32 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "32-dollars-an-hour",
-  "category": "hourly-breakdowns",
-  "title": "$32 an Hour is How Much a Year?",
-  "subheading": "$32 an hour is $66,560 per year working full-time. See weekly, monthly, and annual breakdowns plus overtime calculations.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $32/hour to annual salary ($66,560/year)",
-      "See monthly ($5,547), weekly ($1280), and daily breakdowns",
-      "Understand your earning potential at $32/hour",
-      "Compare $32/hour against other wages and cost of living",
-      "Calculate overtime earnings at time-and-a-half ($48.00/hour)"
+  slug: '32-dollars-an-hour',
+  category: 'hourly-breakdowns',
+  title: '$32 an Hour is How Much a Year?',
+  subheading: '$32 an hour equals $66,560 per year working full-time, approaching the $70K milestone.',
+  sections: {
+    whatThisHelps: ['Convert $32/hour to annual salary ($66,560/year)', 'Calculate overtime at $48/hour'],
+    whoUsefulFor: ['Workers earning $32/hour', 'Job seekers targeting $65-70K positions'],
+    howItWorks: ['$32 × 40 × 52 = $66,560/year', 'Monthly: $5,547', 'Overtime: $48/hour'],
+    deepDive: [
+      '$32/hour approaches $70K annually. This provides strong financial foundation for aggressive wealth building.',
+      'Common roles include specialized nurses, senior IT professionals, and experienced trades masters.',
     ],
-    "whoUsefulFor": [
-      "Workers earning $32/hour wanting to know their annual salary",
-      "Job seekers comparing hourly and salaried positions",
-      "Budgeters planning expenses based on $32/hour income",
-      "Freelancers setting rates around $32/hour",
-      "Anyone negotiating wages around the $32/hour mark"
+    examples: ['Full-Time: $66,560/year. Take-home: ~$4,850-$5,100/month.'],
+    expertTips: ['OT at $48/hour is very lucrative', 'Consider maxing HSA and 401(k) contributions'],
+    assumptions: ['Based on 40 hours/week, 52 weeks/year'],
+    faq: [
+      { question: 'How much is $32/hour annually?', answer: '$66,560/year full-time.' },
+      { question: 'What is overtime for $32/hour?', answer: '$48/hour.' },
     ],
-    "howItWorks": [
-      "Multiply hourly rate by hours worked per week (40 standard)",
-      "Multiply weekly earnings by 52 weeks for annual salary",
-      "$32 × 40 hours × 52 weeks = $66,560/year",
-      "Divide annual by 12 for monthly: $5,547/month",
-      "Overtime calculated at 1.5× for hours over 40/week"
+    relatedCalculators: [
+      { title: '$31 an Hour', href: '/usa/31-dollars-an-hour' },
+      { title: '$33 an Hour', href: '/usa/33-dollars-an-hour' },
+      { title: 'Hourly to Salary Calculator', href: '/usa/hourly-to-salary-calculator' },
     ],
-    "assumptions": [
-      "Based on full-time work (40 hours per week)",
-      "52 weeks per year (no unpaid time off)",
-      "Does not include overtime, bonuses, or tips",
-      "Gross pay before any tax deductions",
-      "Standard hourly employment without additional income"
-    ],
-    "commonMistakes": [
-      "Forgetting that gross pay differs significantly from take-home",
-      "Not accounting for unpaid time off reducing annual earnings",
-      "Comparing hourly to salary without considering benefits",
-      "Overlooking overtime potential for hourly workers"
-    ],
-    "faq": [
-      {
-        "question": "How much is $32 an hour annually?",
-        "answer": "$32 per hour equals $66,560 per year working full-time (40 hours/week, 52 weeks/year)."
-      },
-      {
-        "question": "How much is $32 an hour monthly?",
-        "answer": "$32/hour is approximately $5,547 per month before taxes."
-      },
-      {
-        "question": "Is $32 an hour a good wage?",
-        "answer": "Whether $32/hour is good depends on your location and cost of living. The annual equivalent of $66,560 is above the median U.S. household income."
-      },
-      {
-        "question": "What is time and a half for $32/hour?",
-        "answer": "Time and a half for $32/hour is $48.00/hour for overtime work."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

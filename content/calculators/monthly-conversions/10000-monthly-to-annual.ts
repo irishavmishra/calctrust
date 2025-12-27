@@ -1,27 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "10000-monthly-to-annual",
-  "category": "monthly-conversions",
-  "title": "$10,000 Monthly is How Much a Year?",
-  "subheading": "$10,000 monthly equals $120,000 per year. Convert your monthly salary to hourly and weekly amounts.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $10,000 monthly to annual salary ($120,000/year)",
-      "See weekly and biweekly equivalents",
-      "Plan annual finances from monthly income"
-    ],
-    "howItWorks": [
-      "$10,000 × 12 months = $120,000 annual"
-    ],
-    "faq": [
-      {
-        "question": "How much is $10,000 a month per year?",
-        "answer": "$10,000 monthly equals $120,000 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '10000-monthly-to-annual',
+  category: 'monthly-conversions',
+  title: '$10,000 Monthly is How Much a Year?',
+  subheading: '$10,000 monthly equals $120,000 per year (~$57.69/hour)—well into six figures.',
+  sections: {
+    whatThisHelps: ['Convert $10,000 monthly to $120,000/year', 'Hourly: ~$57.69'],
+    whoUsefulFor: ['Workers earning $10,000/month', 'High earners'],
+    howItWorks: ['$10,000 × 12 = $120,000/year'],
+    deepDive: ['$10,000 monthly is solid six-figure income at $120,000 annually—top quartile of earners.'],
+    examples: ['Annual: $120,000.'],
+    expertTips: ['At ~$58/hour, maximize all tax-advantaged strategies'],
+    assumptions: ['12 months/year'],
+    faq: [{ question: 'How much is $10,000 monthly per year?', answer: '$120,000/year.' }],
+    relatedCalculators: [{ title: '$9,000 Monthly', href: '/usa/9000-monthly-to-annual' }, { title: '$12,000 Monthly', href: '/usa/12000-monthly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

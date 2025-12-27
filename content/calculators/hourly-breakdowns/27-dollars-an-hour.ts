@@ -1,65 +1,48 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "27-dollars-an-hour",
-  "category": "hourly-breakdowns",
-  "title": "$27 an Hour is How Much a Year?",
-  "subheading": "$27 an hour is $56,160 per year working full-time. See weekly, monthly, and annual breakdowns plus overtime calculations.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $27/hour to annual salary ($56,160/year)",
-      "See monthly ($4,680), weekly ($1080), and daily breakdowns",
-      "Understand your earning potential at $27/hour",
-      "Compare $27/hour against other wages and cost of living",
-      "Calculate overtime earnings at time-and-a-half ($40.50/hour)"
+  slug: '27-dollars-an-hour',
+  category: 'hourly-breakdowns',
+  title: '$27 an Hour is How Much a Year?',
+  subheading: '$27 an hour equals $56,160 per year working full-time. This wage provides strong middle-class income in most U.S. regions.',
+  sections: {
+    whatThisHelps: [
+      'Convert $27/hour to annual salary ($56,160/year)',
+      'See monthly ($4,680), weekly ($1,080) breakdowns',
+      'Calculate overtime at $40.50/hour',
     ],
-    "whoUsefulFor": [
-      "Workers earning $27/hour wanting to know their annual salary",
-      "Job seekers comparing hourly and salaried positions",
-      "Budgeters planning expenses based on $27/hour income",
-      "Freelancers setting rates around $27/hour",
-      "Anyone negotiating wages around the $27/hour mark"
+    whoUsefulFor: [
+      'Workers earning $27/hour calculating annual income',
+      'Job seekers targeting $55K+ positions',
     ],
-    "howItWorks": [
-      "Multiply hourly rate by hours worked per week (40 standard)",
-      "Multiply weekly earnings by 52 weeks for annual salary",
-      "$27 × 40 hours × 52 weeks = $56,160/year",
-      "Divide annual by 12 for monthly: $4,680/month",
-      "Overtime calculated at 1.5× for hours over 40/week"
+    howItWorks: [
+      '$27 × 40 hours × 52 weeks = $56,160/year',
+      'Monthly: $4,680 | Weekly: $1,080',
+      'Overtime: $27 × 1.5 = $40.50/hour',
     ],
-    "assumptions": [
-      "Based on full-time work (40 hours per week)",
-      "52 weeks per year (no unpaid time off)",
-      "Does not include overtime, bonuses, or tips",
-      "Gross pay before any tax deductions",
-      "Standard hourly employment without additional income"
+    deepDive: [
+      '$27/hour is well above median wage. At $56,160 annually, you have capacity for meaningful saving, investing, and comfortable lifestyle in most markets.',
+      'Common $27/hour positions include journeyman electricians, experienced accountants, RNs in lower-cost regions, and senior technicians.',
     ],
-    "commonMistakes": [
-      "Forgetting that gross pay differs significantly from take-home",
-      "Not accounting for unpaid time off reducing annual earnings",
-      "Comparing hourly to salary without considering benefits",
-      "Overlooking overtime potential for hourly workers"
+    examples: [
+      'Full-Time: $27 × 40 × 52 = $56,160/year. Take-home: ~$4,100-$4,300/month.',
+      'With Overtime: Substantial boost at $40.50/hour OT rate.',
     ],
-    "faq": [
-      {
-        "question": "How much is $27 an hour annually?",
-        "answer": "$27 per hour equals $56,160 per year working full-time (40 hours/week, 52 weeks/year)."
-      },
-      {
-        "question": "How much is $27 an hour monthly?",
-        "answer": "$27/hour is approximately $4,680 per month before taxes."
-      },
-      {
-        "question": "Is $27 an hour a good wage?",
-        "answer": "Whether $27/hour is good depends on your location and cost of living. The annual equivalent of $56,160 is above the median U.S. household income."
-      },
-      {
-        "question": "What is time and a half for $27/hour?",
-        "answer": "Time and a half for $27/hour is $40.50/hour for overtime work."
-      }
+    expertTips: ['OT at $40.50/hour is highly valuable', 'This income supports aggressive retirement savings'],
+    assumptions: ['Based on 40 hours/week, 52 weeks/year', 'Gross pay before deductions'],
+    commonMistakes: ['Not maximizing tax-advantaged accounts'],
+    whyResultsVary: ['State taxes and overtime affect take-home'],
+    faq: [
+      { question: 'How much is $27/hour annually?', answer: '$56,160/year full-time.' },
+      { question: 'What is overtime for $27/hour?', answer: '$40.50/hour.' },
     ],
-    "freshnessSignal": "December 2025"
-  }
+    relatedCalculators: [
+      { title: '$26 an Hour', href: '/usa/26-dollars-an-hour' },
+      { title: '$28 an Hour', href: '/usa/28-dollars-an-hour' },
+      { title: 'Hourly to Salary Calculator', href: '/usa/hourly-to-salary-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

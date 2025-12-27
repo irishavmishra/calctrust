@@ -1,48 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "3500-biweekly-to-annual",
-  "category": "biweekly-conversions",
-  "title": "$3,500 Biweekly is How Much a Year?",
-  "subheading": "$3,500 biweekly equals $91,000 per year. Calculate your hourly rate and monthly income from biweekly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $3,500 biweekly to annual salary ($91,000/year)",
-      "Calculate your equivalent hourly rate (~$43.75/hour)",
-      "See monthly breakdown ($7,583/month)",
-      "Plan budget based on 26 pay periods per year",
-      "Compare biweekly pay against other payment schedules"
-    ],
-    "whoUsefulFor": [
-      "Employees paid $3,500 every two weeks",
-      "Job seekers comparing biweekly vs. annual salary offers",
-      "Financial planners helping clients budget biweekly income",
-      "Anyone switching from biweekly to monthly budgeting"
-    ],
-    "howItWorks": [
-      "Biweekly means 26 pay periods per year (every 2 weeks)",
-      "$3,500 × 26 = $91,000 annual salary",
-      "Divide by 12 for monthly: $7,583/month",
-      "Divide biweekly by 80 hours for hourly rate: ~$43.75/hour"
-    ],
-    "assumptions": [
-      "Standard biweekly schedule (26 pay periods)",
-      "Full-time employment (80 hours per pay period)",
-      "Gross pay before deductions",
-      "Consistent pay without bonuses or commissions"
-    ],
-    "faq": [
-      {
-        "question": "How much is $3,500 biweekly per year?",
-        "answer": "$3,500 biweekly equals $91,000 per year (26 pay periods)."
-      },
-      {
-        "question": "What is $3,500 biweekly per hour?",
-        "answer": "$3,500 biweekly is approximately $43.75 per hour (assuming 80 hours per pay period)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '3500-biweekly-to-annual',
+  category: 'biweekly-conversions',
+  title: '$3,500 Biweekly is How Much a Year?',
+  subheading: '$3,500 biweekly equals $91,000 per year (~$43.75/hour)—approaching $100K.',
+  sections: {
+    whatThisHelps: ['Convert $3,500 biweekly to $91,000/year', 'Hourly: ~$43.75', 'Monthly: $7,583'],
+    whoUsefulFor: ['Employees paid $3,500 biweekly'],
+    howItWorks: ['$3,500 × 26 = $91,000/year', 'Monthly: $7,583', 'Hourly: ~$43.75'],
+    deepDive: ['$3,500 biweekly approaches six figures at $91K annually.'],
+    examples: ['Annual: $91,000. Monthly: $7,583.'],
+    expertTips: ['At this level, maximize all tax-advantaged accounts'],
+    assumptions: ['26 pay periods/year', '80 hours per period'],
+    faq: [{ question: 'How much is $3,500 biweekly annually?', answer: '$91,000/year.' }],
+    relatedCalculators: [{ title: '$3,200 Biweekly', href: '/usa/3200-biweekly-to-annual' }, { title: '$3,846 Biweekly', href: '/usa/3846-biweekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

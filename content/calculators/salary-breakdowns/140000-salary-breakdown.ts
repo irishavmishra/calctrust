@@ -1,41 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "140000-salary-breakdown",
-  "category": "salary-breakdowns",
-  "title": "$140,000 Salary Breakdown",
-  "subheading": "Break down your $140,000 annual salary into monthly, biweekly, weekly, and hourly amounts. Estimate take-home pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Break down $140,000 salary across pay periods",
-      "See monthly ($11,667), biweekly, and weekly amounts",
-      "Calculate equivalent hourly rate (~$67.31/hour)",
-      "Estimate take-home pay after taxes",
-      "Plan your budget based on a $140,000 income"
-    ],
-    "whoUsefulFor": [
-      "Employees earning $140,000 annually",
-      "Job seekers evaluating $140,000 salary offers",
-      "Financial planners helping clients budget"
-    ],
-    "howItWorks": [
-      "Annual ÷ 12 = Monthly: $11,667",
-      "Annual ÷ 26 = Biweekly: $5,385",
-      "Annual ÷ 52 = Weekly: $2,692",
-      "Annual ÷ 2,080 = Hourly: $67.31"
-    ],
-    "faq": [
-      {
-        "question": "How much is $140,000 a year per month?",
-        "answer": "$140,000 per year is $11,667 per month before taxes."
-      },
-      {
-        "question": "What is $140,000 a year hourly?",
-        "answer": "$140,000 annually is approximately $67.31 per hour (based on 2,080 work hours)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '140000-salary-breakdown',
+  category: 'salary-breakdowns',
+  title: '$140,000 Salary Breakdown',
+  subheading: 'Understand what a $140,000 annual salary means—approximately $67.31/hour.',
+  sections: {
+    whatThisHelps: ['See $140K hourly rate ($67.31/hour)', 'Calculate monthly take-home'],
+    whoUsefulFor: ['Workers earning $140K'],
+    howItWorks: ['$140,000 ÷ 2,080 = $67.31/hour', 'Monthly gross: $11,667'],
+    deepDive: ['$140,000 annually is high earner territory—top 15% of U.S. incomes.'],
+    examples: ['Hourly: $67.31/hour', 'Monthly: $11,667 gross'],
+    expertTips: ['Consider advanced tax optimization'],
+    assumptions: ['Based on 2,080 hours/year'],
+    faq: [{ question: 'How much is $140K per hour?', answer: '$67.31/hour' }],
+    relatedCalculators: [{ title: '$130,000 Salary', href: '/usa/130000-salary-breakdown' }, { title: '$150,000 Salary', href: '/usa/150000-salary-breakdown' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

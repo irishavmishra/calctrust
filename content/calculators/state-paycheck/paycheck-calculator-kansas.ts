@@ -1,57 +1,47 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-kansas",
-  "category": "state-paycheck",
-  "title": "Kansas Paycheck Calculator",
-  "subheading": "Calculate your Kansas take-home pay with our comprehensive paycheck calculator. Kansas uses a graduated income tax with rates from 3.1% to 5.7%. See exactly what you'll receive after federal taxes, Kansas state taxes, and FICA deductions.",
-  "sections": {
-    "whatThisHelps": [
-      "Kansas graduated tax: See how 3.1-5.7% rates apply to your income",
-      "Net pay calculation: Determine actual take-home after all deductions",
-      "Regional comparison: Compare to no-tax neighbors like Texas",
-      "Deduction optimization: See how pre-tax contributions reduce burden"
+  slug: 'paycheck-calculator-kansas',
+  category: 'state-paycheck',
+  title: 'Kansas Paycheck Calculator',
+  subheading: 'Calculate your Kansas take-home pay. Kansas uses graduated income tax from 3.1% to 5.7%.',
+  sections: {
+    whatThisHelps: [
+      'Kansas graduated tax: See how 3.1-5.7% rates apply',
+      'Net pay calculation: Determine actual take-home',
+      'Regional comparison: Compare to no-tax neighbors',
     ],
-    "whoUsefulFor": [
-      "Kansas employees verifying paychecks: Confirm withholding accuracy",
-      "Kansas City metro workers: Straddling the KS/MO border",
-      "Workers relocating to Kansas: Understand tax environment",
-      "Remote workers: Evaluate Kansas cost-effective living"
+    whoUsefulFor: [
+      'Kansas employees verifying paychecks',
+      'Kansas City metro workers (KS side)',
+      'Wichita area employees',
     ],
-    "deepDive": [
-      "Single Filers (2025): - 3.1% on income up to $15,000 - 5.25% on income $15,001 to $30,000 - 5.7% on income over $30,000",
-      "Kansas City straddles both states: - Kansas top rate: 5.7% - Missouri top rate: 4.95% - Living in Missouri may save taxes for higher earners"
+    howItWorks: [
+      'Enter your gross salary or hourly rate',
+      'Kansas graduated rates applied',
+      'FICA deducted: 7.65%',
     ],
-    "examples": [
-      "Entry-Level Worker - Annual salary: $42,000 - Net biweekly: ~$1,310** (80.9% of gross)",
-      "Kansas City Professional - Annual salary: $80,000 - Net biweekly: ~$2,310** (75.1% of gross)"
+    deepDive: [
+      '2025 Kansas rates: 3.1% on first $15,000, 5.25% on $15,001-$30,000, 5.7% over $30,000.',
+      'Kansas City straddles KS/MO border—tax implications differ significantly.',
     ],
-    "faq": [
-      {
-        "question": "What is Kansas's income tax rate?",
-        "answer": "Kansas has graduated rates from 3.1% to 5.7%, with the top rate on income over $30,000."
-      },
-      {
-        "question": "Does Kansas have local income taxes?",
-        "answer": "No, Kansas has no local income taxes."
-      }
+    examples: [
+      'Entry-Level: Annual $42,000, Net biweekly ~$1,320',
+      'Professional: Annual $75,000, Net biweekly ~$2,200',
     ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator Missouri",
-        "href": "/usa/paycheck-calculator-missouri"
-      },
-      {
-        "title": "Paycheck Calculator Texas",
-        "href": "/usa/paycheck-calculator-texas"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
+    expertTips: [
+      'KC metro workers: KS side vs MO side has different tax implications',
+      'Kansas has moderate taxes compared to coastal states',
     ],
-    "freshnessSignal": "December 2025. Tax rates reflect current Kansas and federal guidelines"
-  }
+    assumptions: ['Based on 2025 Kansas tax brackets', 'Single filer status'],
+    commonMistakes: ['Not comparing KS vs MO side for KC metro workers'],
+    faq: [{ question: 'What is Kansas income tax rate?', answer: '3.1% to 5.7% graduated.' }],
+    relatedCalculators: [
+      { title: 'Paycheck Calculator Missouri', href: '/usa/paycheck-calculator-missouri' },
+      { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

@@ -1,41 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "85000-salary-breakdown",
-  "category": "salary-breakdowns",
-  "title": "$85,000 Salary Breakdown",
-  "subheading": "Break down your $85,000 annual salary into monthly, biweekly, weekly, and hourly amounts. Estimate take-home pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Break down $85,000 salary across pay periods",
-      "See monthly ($7,083), biweekly, and weekly amounts",
-      "Calculate equivalent hourly rate (~$40.87/hour)",
-      "Estimate take-home pay after taxes",
-      "Plan your budget based on a $85,000 income"
-    ],
-    "whoUsefulFor": [
-      "Employees earning $85,000 annually",
-      "Job seekers evaluating $85,000 salary offers",
-      "Financial planners helping clients budget"
-    ],
-    "howItWorks": [
-      "Annual ÷ 12 = Monthly: $7,083",
-      "Annual ÷ 26 = Biweekly: $3,269",
-      "Annual ÷ 52 = Weekly: $1,635",
-      "Annual ÷ 2,080 = Hourly: $40.87"
-    ],
-    "faq": [
-      {
-        "question": "How much is $85,000 a year per month?",
-        "answer": "$85,000 per year is $7,083 per month before taxes."
-      },
-      {
-        "question": "What is $85,000 a year hourly?",
-        "answer": "$85,000 annually is approximately $40.87 per hour (based on 2,080 work hours)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '85000-salary-breakdown',
+  category: 'salary-breakdowns',
+  title: '$85,000 Salary Breakdown',
+  subheading: 'Understand what an $85,000 annual salary means—approximately $40.87/hour.',
+  sections: {
+    whatThisHelps: ['See $85K hourly rate ($40.87/hour)', 'Calculate monthly take-home'],
+    whoUsefulFor: ['Workers earning $85K'],
+    howItWorks: ['$85,000 ÷ 2,080 = $40.87/hour', 'Monthly gross: $7,083'],
+    deepDive: ['$85,000 annually exceeds $40/hour—strong upper-middle income.'],
+    examples: ['Hourly: $40.87/hour', 'Monthly: $7,083 gross'],
+    expertTips: ['At $41/hour, consider tax optimization strategies'],
+    assumptions: ['Based on 2,080 hours/year'],
+    faq: [{ question: 'How much is $85K per hour?', answer: '$40.87/hour' }],
+    relatedCalculators: [{ title: '$80,000 Salary', href: '/usa/80000-salary-breakdown' }, { title: '$90,000 Salary', href: '/usa/90000-salary-breakdown' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

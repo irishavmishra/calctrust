@@ -1,29 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "750-weekly-to-annual",
-  "category": "weekly-conversions",
-  "title": "$750 Weekly is How Much a Year?",
-  "subheading": "$750 weekly equals $39,000 per year. See hourly, monthly, and annual salary equivalents.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $750 weekly to annual salary ($39,000/year)",
-      "Calculate your equivalent hourly rate (~$18.75/hour)",
-      "Plan your annual budget from weekly income",
-      "Compare weekly vs. other pay schedules"
-    ],
-    "howItWorks": [
-      "$750 × 52 weeks = $39,000 annual",
-      "Divide weekly by 40 hours = $18.75/hour"
-    ],
-    "faq": [
-      {
-        "question": "How much is $750 a week per year?",
-        "answer": "$750 per week equals $39,000 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '750-weekly-to-annual',
+  category: 'weekly-conversions',
+  title: '$750 Weekly is How Much a Year?',
+  subheading: '$750 weekly equals $39,000 per year (~$18.75/hour).',
+  sections: {
+    whatThisHelps: ['Convert $750 weekly to $39,000/year', 'Hourly: ~$18.75', 'Monthly: $3,250'],
+    whoUsefulFor: ['Workers paid $750/week'],
+    howItWorks: ['$750 × 52 = $39,000/year', 'Monthly: $3,250', 'Hourly: ~$18.75'],
+    deepDive: ['$750 weekly approaches $40K annually—solid middle-class income.'],
+    examples: ['Annual: $39,000. Monthly: $3,250.'],
+    expertTips: ['At ~$19/hour, maximize tax-advantaged accounts'],
+    assumptions: ['52 weeks/year', '40 hours/week'],
+    faq: [{ question: 'How much is $750 weekly per year?', answer: '$39,000/year.' }],
+    relatedCalculators: [{ title: '$700 Weekly', href: '/usa/700-weekly-to-annual' }, { title: '$800 Weekly', href: '/usa/800-weekly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

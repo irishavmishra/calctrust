@@ -1,57 +1,47 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-kentucky",
-  "category": "state-paycheck",
-  "title": "Kentucky Paycheck Calculator",
-  "subheading": "Calculate your Kentucky take-home pay with our comprehensive paycheck calculator. Kentucky uses a flat 4% income tax rate, one of the lowest flat rates in the nation. See exactly what you'll receive after federal taxes, Kentucky state taxes, and FICA deductions.",
-  "sections": {
-    "whatThisHelps": [
-      "Kentucky flat tax: See how the simple 4% rate applies",
-      "Net pay calculation: Determine actual take-home after all deductions",
-      "Local tax variations: Some Kentucky cities have occupational taxes",
-      "Regional comparison: Compare to neighbors with different structures"
+  slug: 'paycheck-calculator-kentucky',
+  category: 'state-paycheck',
+  title: 'Kentucky Paycheck Calculator',
+  subheading: 'Calculate your Kentucky take-home pay. Kentucky uses a flat 4% income tax rate.',
+  sections: {
+    whatThisHelps: [
+      'Kentucky flat 4% tax: Simple calculation',
+      'Net pay calculation: Determine actual take-home',
+      'Regional comparison: Compare to Tennessee (no income tax)',
     ],
-    "whoUsefulFor": [
-      "Kentucky employees verifying paychecks: Confirm withholding accuracy",
-      "Louisville workers: Account for local occupational taxes",
-      "Cincinnati commuters: Compare Kentucky vs. Ohio residence",
-      "Remote workers: Evaluate Kentucky's low flat tax"
+    whoUsefulFor: [
+      'Kentucky employees verifying paychecks',
+      'Louisville metro workers',
+      'Lexington area employees',
     ],
-    "deepDive": [
-      "Kentucky's 4% flat rate is among the lowest for flat-tax states: - Lower than Illinois (4.95%), Colorado (4.4%), Utah (4.65%) - Simple calculation without brackets",
-      "Several Kentucky cities impose occupational taxes: - Louisville: 2.2% local occupational tax - Lexington: 2.25% local occupational tax - Other cities vary"
+    howItWorks: [
+      'Enter your gross salary or hourly rate',
+      'Kentucky flat 4% rate applied to all income',
+      'FICA deducted: 7.65%',
     ],
-    "examples": [
-      "Rural Kentucky Worker - Annual salary: $45,000 - Net biweekly: ~$1,410** (81.4% of gross)",
-      "Louisville Professional - Annual salary: $85,000 - Louisville occupational tax: 2.2% - Net biweekly: ~$2,340** (71.5% of gross, including local tax)"
+    deepDive: [
+      'Kentucky simplified to a flat 4% rate. Some cities like Louisville have additional local taxes.',
+      'Tennessee has no income tax on wages—significant for border workers.',
     ],
-    "faq": [
-      {
-        "question": "What is Kentucky's income tax rate?",
-        "answer": "Kentucky has a flat 4% income tax rate for all taxpayers."
-      },
-      {
-        "question": "Does Kentucky have local income taxes?",
-        "answer": "Yes. Louisville (2.2%), Lexington (2.25%), and other cities have occupational taxes."
-      }
+    examples: [
+      'Entry-Level: Annual $40,000, Net biweekly ~$1,270',
+      'Louisville Professional: Annual $70,000, Net biweekly ~$2,100',
     ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator Tennessee",
-        "href": "/usa/paycheck-calculator-tennessee"
-      },
-      {
-        "title": "Paycheck Calculator Ohio",
-        "href": "/usa/paycheck-calculator-ohio"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
+    expertTips: [
+      'Louisville has local taxes—factor into net pay',
+      'Tennessee border workers can save significantly living across state line',
     ],
-    "freshnessSignal": "December 2025. Tax rates reflect current Kentucky and federal guidelines"
-  }
+    assumptions: ['Based on 2025 Kentucky 4% flat rate', 'Single filer status'],
+    commonMistakes: ['Forgetting Louisville local taxes', 'Not comparing to TN for border workers'],
+    faq: [{ question: 'What is Kentucky income tax rate?', answer: 'Kentucky has a flat 4% income tax.' }],
+    relatedCalculators: [
+      { title: 'Paycheck Calculator Tennessee', href: '/usa/paycheck-calculator-tennessee' },
+      { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

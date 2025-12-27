@@ -1,69 +1,24 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "40000-salary-new-york",
-  "category": "state-salary",
-  "title": "$40,000 Salary in New York",
-  "subheading": "Calculate your take-home pay on a $40,000 salary in New York. See federal and state tax withholdings, FICA deductions, and monthly breakdowns.",
-  "sections": {
-    "whatThisHelps": [
-      "Understand your take-home pay on a $40,000 salary in New York",
-      "Calculate federal and New York state tax withholdings",
-      "See monthly, biweekly, and weekly breakdowns of your net pay",
-      "Compare your effective tax rate against other states",
-      "Plan your budget based on actual after-tax income"
-    ],
-    "whoUsefulFor": [
-      "Job seekers evaluating offers in New York",
-      "Current New York residents planning their finances",
-      "People considering relocating to New York",
-      "HR professionals explaining compensation to New York employees",
-      "Financial planners helping clients in New York"
-    ],
-    "howItWorks": [
-      "Enter your $40,000 annual salary",
-      "Select your filing status (single, married, etc.)",
-      "The calculator applies current federal tax brackets",
-      "New York state tax rates are automatically calculated",
-      "FICA taxes (Social Security and Medicare) are deducted",
-      "Your net take-home pay is displayed across all pay periods"
-    ],
-    "assumptions": [
-      "Uses 2025 federal tax brackets and New York state tax rates",
-      "Assumes standard deduction unless you specify itemized",
-      "Calculates based on full-year employment",
-      "Does not include local/city taxes that may apply",
-      "401(k) and other pre-tax deductions not included unless specified"
-    ],
-    "commonMistakes": [
-      "Forgetting that New York may have local/city taxes in addition to state tax",
-      "Not accounting for pre-tax deductions like health insurance",
-      "Comparing gross salary instead of net take-home between states",
-      "Ignoring the impact of filing status on tax liability"
-    ],
-    "whyResultsVary": [
-      "Your filing status significantly impacts tax brackets",
-      "Pre-tax deductions (401k, HSA) reduce taxable income",
-      "Additional income sources affect your marginal rate",
-      "Local taxes may apply depending on where you live/work",
-      "Tax credits and itemized deductions change the calculation"
-    ],
-    "faq": [
-      {
-        "question": "What is the take-home pay for $40,000 in New York?",
-        "answer": "Your take-home pay depends on your filing status and deductions. Use the calculator above to get an accurate estimate based on current New York and federal tax rates."
-      },
-      {
-        "question": "Does New York have state income tax?",
-        "answer": "Yes, New York has state income tax that will be deducted from your $40,000 salary along with federal taxes."
-      },
-      {
-        "question": "How much is $40,000 per month after taxes in New York?",
-        "answer": "Your monthly take-home depends on your specific tax situation. Enter your details in the calculator to see your exact monthly net pay."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '40000-salary-new-york',
+  category: 'state-salary',
+  title: '$40,000 Salary in New York',
+  subheading: 'Calculate your take-home pay on a $40,000 salary in New York. See state + NYC local taxes.',
+  sections: {
+    whatThisHelps: ['Understand take-home pay on $40K in NY', 'Calculate NY state + NYC local taxes', 'See monthly breakdowns'],
+    whoUsefulFor: ['Entry-level NYC workers', 'Upstate NY employees', 'Job seekers evaluating NY offers'],
+    howItWorks: ['$40K salary entered', 'NY graduated rates applied', 'NYC local tax if applicable', 'Net pay displayed'],
+    deepDive: ['$40,000 in NYC is very tight—housing alone can consume 50%+ of income. Upstate NY is more affordable. NYC adds local tax on top of state.'],
+    examples: ['Annual: $40,000. Monthly gross: $3,333. Take-home: ~$2,500-2,700/month (less if NYC resident).'],
+    expertTips: ['$40K is challenging in NYC—consider outer boroughs or NJ', 'Upstate NY is much more affordable'],
+    assumptions: ['2025 NY state rates', 'Excludes NYC local tax unless specified'],
+    commonMistakes: ['Forgetting NYC local tax for city residents', 'Underestimating NYC cost of living'],
+    whyResultsVary: ['NYC vs upstate', 'Filing status', 'Pre-tax deductions'],
+    faq: [{ question: 'What is $40K take-home in NY?', answer: 'Approximately $2,500-2,700/month (varies by location).' }],
+    relatedCalculators: [{ title: '$50K New York', href: '/usa/50000-salary-new-york' }, { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

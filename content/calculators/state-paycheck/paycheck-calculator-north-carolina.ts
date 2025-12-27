@@ -1,56 +1,23 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-north-carolina",
-  "category": "state-paycheck",
-  "title": "North Carolina Paycheck Calculator",
-  "subheading": "Calculate your North Carolina take-home pay with our comprehensive paycheck calculator. North Carolina uses a flat 4.75% income tax rate, providing predictable taxation. See exactly what you'll receive after federal taxes, North Carolina state taxes, and FICA deductions.",
-  "sections": {
-    "whatThisHelps": [
-      "NC flat tax: See how the 4.75% rate applies to all income",
-      "Net pay calculation: Determine actual take-home after all deductions",
-      "Southeast comparison: Compare to neighboring states"
-    ],
-    "whoUsefulFor": [
-      "North Carolina employees verifying paychecks: Confirm withholding accuracy",
-      "Charlotte and Raleigh workers: Major metro employees",
-      "Remote workers relocating: Tech industry growing in NC",
-      "Retirees with earned income: Part-time work calculation"
-    ],
-    "deepDive": [
-      "NC's 4.75% flat rate is competitive in the Southeast.",
-      "| State | Rate | Notes | |-------|------|-------| | North Carolina | 4.75% | Flat | | South Carolina | 6.4% | Graduated | | Virginia | 5.75% | Graduated | | Tennessee | 0% | No tax |"
-    ],
-    "examples": [
-      "Entry-Level Worker - Annual salary: $45,000 - Net biweekly: ~$1,395** (80.5% of gross)",
-      "Charlotte Professional - Annual salary: $95,000 - Net biweekly: ~$2,680** (73.3% of gross)"
-    ],
-    "faq": [
-      {
-        "question": "What is North Carolina's income tax rate?",
-        "answer": "NC has a flat 4.75% income tax rate for all taxpayers."
-      },
-      {
-        "question": "Does NC have local income taxes?",
-        "answer": "No, NC has no local income taxes."
-      }
-    ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator South Carolina",
-        "href": "/usa/paycheck-calculator-south-carolina"
-      },
-      {
-        "title": "Paycheck Calculator Tennessee",
-        "href": "/usa/paycheck-calculator-tennessee"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
-    ],
-    "freshnessSignal": "December 2025. Tax rates reflect current North Carolina and federal guidelines"
-  }
+  slug: 'paycheck-calculator-north-carolina',
+  category: 'state-paycheck',
+  title: 'North Carolina Paycheck Calculator',
+  subheading: 'Calculate your NC take-home pay. North Carolina uses a flat 4.75% income tax (phasing down).',
+  sections: {
+    whatThisHelps: ['NC flat 4.75% tax', 'Net pay calculation', 'Compare to no-tax neighbors'],
+    whoUsefulFor: ['NC employees', 'Charlotte metro workers', 'Raleigh-Durham area employees'],
+    howItWorks: ['Enter your gross salary', 'NC flat 4.75% rate applied', 'FICA deducted'],
+    deepDive: ['NC simplified to flat tax, phasing down from 5.25% to 3.99% by 2027. Charlotte and RDU are major tech/finance hubs.'],
+    examples: ['Entry-Level: Annual $48,000, Net biweekly ~$1,480', 'Charlotte Professional: Annual $90,000, Net biweekly ~$2,650'],
+    expertTips: ['NC tax rates are decreasing annually', 'Compare to SC for border workers'],
+    assumptions: ['Based on 2025 NC 4.75% flat rate'],
+    commonMistakes: ['Using old higher rate'],
+    faq: [{ question: 'What is NC income tax rate?', answer: 'Flat 4.75% (phasing down to 3.99% by 2027).' }],
+    relatedCalculators: [{ title: 'Paycheck Calculator South Carolina', href: '/usa/paycheck-calculator-south-carolina' }, { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

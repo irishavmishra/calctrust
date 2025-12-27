@@ -1,30 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "12-percent-raise-calculator",
-  "category": "raise-calculators",
-  "title": "12% Pay Raise Calculator",
-  "subheading": "Calculate the impact of a 12% pay raise on your salary. See your new monthly, biweekly, and hourly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Calculate the impact of a 12% raise on your salary",
-      "See new monthly, biweekly, and hourly amounts",
-      "Understand the dollar value of a 12% increase",
-      "Compare 12% against inflation and cost of living"
-    ],
-    "howItWorks": [
-      "Enter your current salary",
-      "Calculator multiplies by 1.12",
-      "Shows increase amount and new total across pay periods"
-    ],
-    "faq": [
-      {
-        "question": "What is a 12% raise on $50,000?",
-        "answer": "A 12% raise on $50,000 is $6,000, making your new salary $56,000."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '12-percent-raise-calculator',
+  category: 'raise-calculators',
+  title: '12% Raise Calculator',
+  subheading: 'Calculate what a 12% pay raise means for your salary.',
+  sections: {
+    whatThisHelps: ['Calculate salary after 12% raise'],
+    whoUsefulFor: ['Employees receiving major compensation changes'],
+    howItWorks: ['New Salary = Current × 1.12', '$50,000 × 1.12 = $56,000'],
+    deepDive: ['A 12% raise is exceptional—typically for major promotions or high-value retention situations.'],
+    examples: ['$40,000 + 12% = $44,800', '$60,000 + 12% = $67,200', '$100,000 + 12% = $112,000'],
+    expertTips: ['12% raises are rare—document this for future negotiations'],
+    assumptions: ['Based on annual salary'],
+    faq: [{ question: 'What is a 12% raise on $50,000?', answer: '$56,000 (+$6,000/year).' }],
+    relatedCalculators: [{ title: '10% Raise', href: '/usa/10-percent-raise-calculator' }, { title: '15% Raise', href: '/usa/15-percent-raise-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

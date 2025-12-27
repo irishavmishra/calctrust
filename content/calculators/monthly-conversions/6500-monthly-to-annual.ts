@@ -1,27 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "6500-monthly-to-annual",
-  "category": "monthly-conversions",
-  "title": "$6,500 Monthly is How Much a Year?",
-  "subheading": "$6,500 monthly equals $78,000 per year. Convert your monthly salary to hourly and weekly amounts.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $6,500 monthly to annual salary ($78,000/year)",
-      "See weekly and biweekly equivalents",
-      "Plan annual finances from monthly income"
-    ],
-    "howItWorks": [
-      "$6,500 × 12 months = $78,000 annual"
-    ],
-    "faq": [
-      {
-        "question": "How much is $6,500 a month per year?",
-        "answer": "$6,500 monthly equals $78,000 per year."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '6500-monthly-to-annual',
+  category: 'monthly-conversions',
+  title: '$6,500 Monthly is How Much a Year?',
+  subheading: '$6,500 monthly equals $78,000 per year (~$37.50/hour).',
+  sections: {
+    whatThisHelps: ['Convert $6,500 monthly to $78,000/year', 'Hourly: ~$37.50'],
+    whoUsefulFor: ['Workers earning $6,500/month'],
+    howItWorks: ['$6,500 × 12 = $78,000/year', 'Hourly: ~$37.50'],
+    deepDive: ['$6,500 monthly provides $78,000 annually—strong upper-middle income.'],
+    examples: ['Annual: $78,000.'],
+    expertTips: ['At ~$38/hour equivalent, maximize all tax-advantaged accounts'],
+    assumptions: ['12 months/year'],
+    faq: [{ question: 'How much is $6,500 monthly per year?', answer: '$78,000/year.' }],
+    relatedCalculators: [{ title: '$6,000 Monthly', href: '/usa/6000-monthly-to-annual' }, { title: '$7,000 Monthly', href: '/usa/7000-monthly-to-annual' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

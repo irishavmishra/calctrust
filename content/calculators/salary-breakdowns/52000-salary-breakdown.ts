@@ -1,41 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "52000-salary-breakdown",
-  "category": "salary-breakdowns",
-  "title": "$52,000 Salary Breakdown",
-  "subheading": "Break down your $52,000 annual salary into monthly, biweekly, weekly, and hourly amounts. Estimate take-home pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Break down $52,000 salary across pay periods",
-      "See monthly ($4,333), biweekly, and weekly amounts",
-      "Calculate equivalent hourly rate (~$25.00/hour)",
-      "Estimate take-home pay after taxes",
-      "Plan your budget based on a $52,000 income"
-    ],
-    "whoUsefulFor": [
-      "Employees earning $52,000 annually",
-      "Job seekers evaluating $52,000 salary offers",
-      "Financial planners helping clients budget"
-    ],
-    "howItWorks": [
-      "Annual ÷ 12 = Monthly: $4,333",
-      "Annual ÷ 26 = Biweekly: $2,000",
-      "Annual ÷ 52 = Weekly: $1,000",
-      "Annual ÷ 2,080 = Hourly: $25.00"
-    ],
-    "faq": [
-      {
-        "question": "How much is $52,000 a year per month?",
-        "answer": "$52,000 per year is $4,333 per month before taxes."
-      },
-      {
-        "question": "What is $52,000 a year hourly?",
-        "answer": "$52,000 annually is approximately $25.00 per hour (based on 2,080 work hours)."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '52000-salary-breakdown',
+  category: 'salary-breakdowns',
+  title: '$52,000 Salary Breakdown',
+  subheading: 'Understand what a $52,000 annual salary means—exactly $25/hour, exceeding $50K.',
+  sections: {
+    whatThisHelps: ['See $52K hourly rate ($25/hour)', 'Calculate monthly take-home'],
+    whoUsefulFor: ['Workers earning $52K', 'Those at $25/hour'],
+    howItWorks: ['$52,000 ÷ 2,080 = $25/hour', 'Monthly gross: $4,333', 'Weekly: $1,000'],
+    deepDive: ['$52,000 annually equals exactly $25/hour and $1,000/week—milestone figures exceeding median income.'],
+    examples: ['Hourly: $25/hour', 'Monthly: $4,333 gross', 'Weekly: $1,000'],
+    expertTips: ['At $25/hour, accelerate retirement savings'],
+    assumptions: ['Based on 2,080 hours/year'],
+    faq: [{ question: 'How much is $52K per hour?', answer: '$25/hour exactly' }],
+    relatedCalculators: [{ title: '$50,000 Salary', href: '/usa/50000-salary-breakdown' }, { title: '$55,000 Salary', href: '/usa/55000-salary-breakdown' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

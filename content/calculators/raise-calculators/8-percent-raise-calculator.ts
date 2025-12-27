@@ -1,30 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "8-percent-raise-calculator",
-  "category": "raise-calculators",
-  "title": "8% Pay Raise Calculator",
-  "subheading": "Calculate the impact of a 8% pay raise on your salary. See your new monthly, biweekly, and hourly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Calculate the impact of a 8% raise on your salary",
-      "See new monthly, biweekly, and hourly amounts",
-      "Understand the dollar value of a 8% increase",
-      "Compare 8% against inflation and cost of living"
-    ],
-    "howItWorks": [
-      "Enter your current salary",
-      "Calculator multiplies by 1.08",
-      "Shows increase amount and new total across pay periods"
-    ],
-    "faq": [
-      {
-        "question": "What is a 8% raise on $50,000?",
-        "answer": "A 8% raise on $50,000 is $4,000, making your new salary $54,000."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '8-percent-raise-calculator',
+  category: 'raise-calculators',
+  title: '8% Raise Calculator',
+  subheading: 'Calculate what an 8% pay raise means for your salary.',
+  sections: {
+    whatThisHelps: ['Calculate salary after 8% raise'],
+    whoUsefulFor: ['Employees receiving exceptional raises'],
+    howItWorks: ['New Salary = Current × 1.08', '$50,000 × 1.08 = $54,000'],
+    deepDive: ['An 8% raise is well above typical—usually for promotions or retention counters.'],
+    examples: ['$40,000 + 8% = $43,200', '$60,000 + 8% = $64,800', '$100,000 + 8% = $108,000'],
+    expertTips: ['8% raises signal you are highly valued—leverage this in negotiations'],
+    assumptions: ['Based on annual salary'],
+    faq: [{ question: 'What is an 8% raise on $50,000?', answer: '$54,000 (+$4,000/year).' }],
+    relatedCalculators: [{ title: '7% Raise', href: '/usa/7-percent-raise-calculator' }, { title: '10% Raise', href: '/usa/10-percent-raise-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

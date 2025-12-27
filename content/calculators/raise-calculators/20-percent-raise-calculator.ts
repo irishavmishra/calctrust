@@ -1,30 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "20-percent-raise-calculator",
-  "category": "raise-calculators",
-  "title": "20% Pay Raise Calculator",
-  "subheading": "Calculate the impact of a 20% pay raise on your salary. See your new monthly, biweekly, and hourly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Calculate the impact of a 20% raise on your salary",
-      "See new monthly, biweekly, and hourly amounts",
-      "Understand the dollar value of a 20% increase",
-      "Compare 20% against inflation and cost of living"
-    ],
-    "howItWorks": [
-      "Enter your current salary",
-      "Calculator multiplies by 1.20",
-      "Shows increase amount and new total across pay periods"
-    ],
-    "faq": [
-      {
-        "question": "What is a 20% raise on $50,000?",
-        "answer": "A 20% raise on $50,000 is $10,000, making your new salary $60,000."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '20-percent-raise-calculator',
+  category: 'raise-calculators',
+  title: '20% Raise Calculator',
+  subheading: 'Calculate what a 20% pay raise means for your salary—an exceptional increase.',
+  sections: {
+    whatThisHelps: ['Calculate salary after 20% raise'],
+    whoUsefulFor: ['Employees receiving exceptional raises', 'Job changers comparing offers'],
+    howItWorks: ['New Salary = Current × 1.20', '$50,000 × 1.20 = $60,000'],
+    deepDive: ['A 20% raise is exceptional—most common when changing jobs, receiving major promotions, or negotiating retention counters.'],
+    examples: ['$40,000 + 20% = $48,000', '$60,000 + 20% = $72,000', '$100,000 + 20% = $120,000'],
+    expertTips: ['20% increases are most achievable when changing employers', 'Prepare to demonstrate value matching compensation'],
+    assumptions: ['Based on annual salary'],
+    faq: [{ question: 'What is a 20% raise on $50,000?', answer: '$60,000 (+$10,000/year).' }],
+    relatedCalculators: [{ title: '15% Raise', href: '/usa/15-percent-raise-calculator' }, { title: 'Pay Raise Calculator', href: '/usa/pay-raise-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

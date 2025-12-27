@@ -1,30 +1,22 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "4-percent-raise-calculator",
-  "category": "raise-calculators",
-  "title": "4% Pay Raise Calculator",
-  "subheading": "Calculate the impact of a 4% pay raise on your salary. See your new monthly, biweekly, and hourly pay.",
-  "sections": {
-    "whatThisHelps": [
-      "Calculate the impact of a 4% raise on your salary",
-      "See new monthly, biweekly, and hourly amounts",
-      "Understand the dollar value of a 4% increase",
-      "Compare 4% against inflation and cost of living"
-    ],
-    "howItWorks": [
-      "Enter your current salary",
-      "Calculator multiplies by 1.04",
-      "Shows increase amount and new total across pay periods"
-    ],
-    "faq": [
-      {
-        "question": "What is a 4% raise on $50,000?",
-        "answer": "A 4% raise on $50,000 is $2,000, making your new salary $52,000."
-      }
-    ],
-    "freshnessSignal": "December 2025"
-  }
+  slug: '4-percent-raise-calculator',
+  category: 'raise-calculators',
+  title: '4% Raise Calculator',
+  subheading: 'Calculate what a 4% pay raise means for your salary—above average annual increase.',
+  sections: {
+    whatThisHelps: ['Calculate salary after 4% raise', 'See monthly impact'],
+    whoUsefulFor: ['Employees receiving above-average raises'],
+    howItWorks: ['New Salary = Current × 1.04', '$50,000 × 1.04 = $52,000 (+$2,000/year)'],
+    deepDive: ['A 4% raise exceeds the 3% average and provides real growth above typical inflation.'],
+    examples: ['$40,000 + 4% = $41,600', '$60,000 + 4% = $62,400', '$100,000 + 4% = $104,000'],
+    expertTips: ['4% indicates strong performance—document achievements for future negotiations'],
+    assumptions: ['Based on annual salary'],
+    faq: [{ question: 'What is a 4% raise on $50,000?', answer: '$52,000 (+$2,000/year).' }],
+    relatedCalculators: [{ title: '3% Raise', href: '/usa/3-percent-raise-calculator' }, { title: '5% Raise', href: '/usa/5-percent-raise-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

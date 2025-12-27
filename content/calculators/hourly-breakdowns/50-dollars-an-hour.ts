@@ -1,65 +1,50 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "50-dollars-an-hour",
-  "category": "hourly-breakdowns",
-  "title": "$50 an Hour is How Much a Year?",
-  "subheading": "$50 an hour is $104,000 per year working full-time. See weekly, monthly, and annual breakdowns plus overtime calculations.",
-  "sections": {
-    "whatThisHelps": [
-      "Convert $50/hour to annual salary ($104,000/year)",
-      "See monthly ($8,667), weekly ($2000), and daily breakdowns",
-      "Understand your earning potential at $50/hour",
-      "Compare $50/hour against other wages and cost of living",
-      "Calculate overtime earnings at time-and-a-half ($75.00/hour)"
+  slug: '50-dollars-an-hour',
+  category: 'hourly-breakdowns',
+  title: '$50 an Hour is How Much a Year?',
+  subheading: '$50 an hour equals $104,000 per year working full-time—a six-figure income providing excellent financial position.',
+  sections: {
+    whatThisHelps: [
+      'Convert $50/hour to annual salary ($104,000/year)',
+      'See monthly ($8,667), weekly ($2,000) breakdowns',
+      'Calculate overtime at $75/hour',
     ],
-    "whoUsefulFor": [
-      "Workers earning $50/hour wanting to know their annual salary",
-      "Job seekers comparing hourly and salaried positions",
-      "Budgeters planning expenses based on $50/hour income",
-      "Freelancers setting rates around $50/hour",
-      "Anyone negotiating wages around the $50/hour mark"
+    whoUsefulFor: [
+      'Workers earning $50/hour wanting annual income',
+      'Job seekers targeting six-figure positions',
+      'Budgeters planning with $100K+ income',
     ],
-    "howItWorks": [
-      "Multiply hourly rate by hours worked per week (40 standard)",
-      "Multiply weekly earnings by 52 weeks for annual salary",
-      "$50 × 40 hours × 52 weeks = $104,000/year",
-      "Divide annual by 12 for monthly: $8,667/month",
-      "Overtime calculated at 1.5× for hours over 40/week"
+    howItWorks: ['$50 × 40 × 52 = $104,000/year', 'Monthly: $8,667', 'Overtime: $75/hour'],
+    deepDive: [
+      '$50/hour is a milestone wage that crosses the $100K threshold. At $104,000 annually, you are in the top quartile of U.S. earners with significant financial flexibility.',
+      'This wage is common for senior professionals, specialized nurses, experienced engineers, and skilled consultant roles.',
     ],
-    "assumptions": [
-      "Based on full-time work (40 hours per week)",
-      "52 weeks per year (no unpaid time off)",
-      "Does not include overtime, bonuses, or tips",
-      "Gross pay before any tax deductions",
-      "Standard hourly employment without additional income"
+    examples: [
+      'Full-Time: $50 × 40 × 52 = $104,000/year. Take-home: ~$7,500-$7,900/month.',
+      'With Overtime (5 hrs/week): $2,000 + $375 = $2,375/week = $123,500/year.',
     ],
-    "commonMistakes": [
-      "Forgetting that gross pay differs significantly from take-home",
-      "Not accounting for unpaid time off reducing annual earnings",
-      "Comparing hourly to salary without considering benefits",
-      "Overlooking overtime potential for hourly workers"
+    expertTips: [
+      'At $50/hour, max all tax-advantaged retirement accounts',
+      'OT at $75/hour substantially accelerates wealth building',
+      'Consider tax-efficient investment strategies',
     ],
-    "faq": [
-      {
-        "question": "How much is $50 an hour annually?",
-        "answer": "$50 per hour equals $104,000 per year working full-time (40 hours/week, 52 weeks/year)."
-      },
-      {
-        "question": "How much is $50 an hour monthly?",
-        "answer": "$50/hour is approximately $8,667 per month before taxes."
-      },
-      {
-        "question": "Is $50 an hour a good wage?",
-        "answer": "Whether $50/hour is good depends on your location and cost of living. The annual equivalent of $104,000 is above the median U.S. household income."
-      },
-      {
-        "question": "What is time and a half for $50/hour?",
-        "answer": "Time and a half for $50/hour is $75.00/hour for overtime work."
-      }
+    assumptions: ['Based on 40 hours/week, 52 weeks/year', 'Gross pay before deductions'],
+    commonMistakes: ['Lifestyle inflation at six-figure income', 'Not optimizing tax strategies'],
+    whyResultsVary: ['State taxes significantly affect take-home', 'Overtime can push income to $120K+'],
+    faq: [
+      { question: 'How much is $50/hour annually?', answer: '$104,000/year full-time—six figures.' },
+      { question: 'Is $50/hour a good wage?', answer: 'Excellent—$104,000/year is above the U.S. median household income.' },
+      { question: 'What is overtime for $50/hour?', answer: '$75/hour.' },
     ],
-    "freshnessSignal": "December 2025"
-  }
+    relatedCalculators: [
+      { title: '$48 an Hour', href: '/usa/48-dollars-an-hour' },
+      { title: 'Hourly to Salary Calculator', href: '/usa/hourly-to-salary-calculator' },
+      { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' },
+    ],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;

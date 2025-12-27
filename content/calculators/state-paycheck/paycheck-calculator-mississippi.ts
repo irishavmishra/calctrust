@@ -1,56 +1,23 @@
 import type { BlogContent } from '@/lib/types/blog-content';
 
 const content: BlogContent = {
-  "slug": "paycheck-calculator-mississippi",
-  "category": "state-paycheck",
-  "title": "Mississippi Paycheck Calculator",
-  "subheading": "Calculate your Mississippi take-home pay with our comprehensive paycheck calculator. Mississippi uses a flat 4.7% income tax rate, providing simple and predictable taxation. See exactly what you'll receive after federal taxes, Mississippi state taxes, and FICA deductions.",
-  "sections": {
-    "whatThisHelps": [
-      "Mississippi flat tax: See how the 4.7% rate applies",
-      "Net pay calculation: Determine actual take-home after all deductions",
-      "Southeast comparison: Compare to neighboring states"
-    ],
-    "whoUsefulFor": [
-      "Mississippi employees verifying paychecks: Confirm withholding accuracy",
-      "Jackson metro workers: Calculate net pay for state capital",
-      "Workers considering Mississippi: Low cost of living state",
-      "Tennessee border workers: Compare to no-tax TN"
-    ],
-    "deepDive": [
-      "Mississippi implemented a flat 4.7% rate in 2023, replacing the previous graduated system.",
-      "| State | Tax Rate | Notes | |-------|----------|-------| | Tennessee | 0% | No income tax | | Alabama | 5% | Graduated | | Louisiana | 3% | Flat | | Mississippi | 4.7% | Flat |"
-    ],
-    "examples": [
-      "Entry-Level Worker - Annual salary: $38,000 - Net biweekly: ~$1,195** (81.6% of gross)",
-      "Jackson Professional - Annual salary: $70,000 - Net biweekly: ~$2,080** (77.2% of gross)"
-    ],
-    "faq": [
-      {
-        "question": "What is Mississippi's income tax rate?",
-        "answer": "Mississippi has a flat 4.7% income tax rate for all taxpayers."
-      },
-      {
-        "question": "Does Mississippi have local income taxes?",
-        "answer": "No, Mississippi has no local income taxes."
-      }
-    ],
-    "relatedCalculators": [
-      {
-        "title": "Paycheck Calculator Tennessee",
-        "href": "/usa/paycheck-calculator-tennessee"
-      },
-      {
-        "title": "Paycheck Calculator Alabama",
-        "href": "/usa/paycheck-calculator-alabama"
-      },
-      {
-        "title": "Take Home Pay Calculator",
-        "href": "/usa/take-home-pay-calculator"
-      }
-    ],
-    "freshnessSignal": "December 2025. Tax rates reflect current Mississippi and federal guidelines"
-  }
+  slug: 'paycheck-calculator-mississippi',
+  category: 'state-paycheck',
+  title: 'Mississippi Paycheck Calculator',
+  subheading: 'Calculate your Mississippi take-home pay. Mississippi uses a flat 4.7% income tax (phasing down).',
+  sections: {
+    whatThisHelps: ['Mississippi flat 4.7% tax', 'Net pay calculation', 'Regional comparison'],
+    whoUsefulFor: ['Mississippi employees', 'Jackson metro workers', 'Gulf Coast area employees'],
+    howItWorks: ['Enter your gross salary', 'MS flat 4.7% rate applied', 'FICA deducted'],
+    deepDive: ['Mississippi recently moved to a flat 4.7% rate, phasing down. Previously had graduated rates.'],
+    examples: ['Entry-Level: Annual $38,000, Net biweekly ~$1,210', 'Jackson Professional: Annual $65,000, Net biweekly ~$1,980'],
+    expertTips: ['MS is transitioning to lower flat tax', 'Low cost of living stretches income'],
+    assumptions: ['Based on 2025 Mississippi 4.7% flat rate'],
+    commonMistakes: ['Using old graduated rate structure'],
+    faq: [{ question: 'What is Mississippi income tax rate?', answer: 'Flat 4.7% (phasing down).' }],
+    relatedCalculators: [{ title: 'Paycheck Calculator Alabama', href: '/usa/paycheck-calculator-alabama' }, { title: 'Take Home Pay Calculator', href: '/usa/take-home-pay-calculator' }],
+    freshnessSignal: 'December 2025',
+  },
 };
 
 export default content;
