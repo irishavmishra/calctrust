@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header, Footer } from "@/components/layout";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({
   variable: "--font-inter",
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     default: "CalcTrust | Free Salary & Paycheck Calculators",
     template: "%s | CalcTrust",
   },
-  description: "Free, accurate salary, paycheck, and tax calculators. Calculate your take-home pay, hourly rate, overtime, and more with our trusted financial tools.",
+  description: "Free, accurate salary calculators for all 50 US states. Calculate take-home pay, hourly rates, overtime, and taxes instantly. No signup required. Updated for 2025.",
   keywords: ["salary calculator", "paycheck calculator", "take home pay calculator", "hourly to salary", "overtime calculator"],
   authors: [{ name: "CalcTrust" }],
   creator: "CalcTrust",
@@ -68,6 +69,7 @@ export default function RootLayout({
           <Footer />
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-HB944F2PYG" />
     </html>
   );
 }

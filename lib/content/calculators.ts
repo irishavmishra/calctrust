@@ -234,7 +234,6 @@ function generateHourlyBreakdowns(): CalculatorPageData[] {
         const annualSalary = rate * 40 * 52;
         const annualFormatted = annualSalary.toLocaleString();
         const monthlyPay = (annualSalary / 12).toFixed(0);
-        const weeklyPay = (rate * 40).toFixed(0);
 
         return {
             slug: `${rate}-dollars-an-hour`,

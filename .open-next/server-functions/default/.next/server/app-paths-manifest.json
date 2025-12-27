@@ -1,0 +1,20 @@
+{
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/icon.png/route": "app/icon.png/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/opengraph-image.png/route": "app/opengraph-image.png/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/usa/page": "app/usa/page.js",
+  "/usa/calculators/page": "app/usa/calculators/page.js",
+  "/about/page": "app/about/page.js",
+  "/disclaimer/page": "app/disclaimer/page.js",
+  "/how-calculations-work/page": "app/how-calculations-work/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/privacy-policy/page": "app/privacy-policy/page.js",
+  "/methodology/page": "app/methodology/page.js",
+  "/usa/[slug]/page": "app/usa/[slug]/page.js",
+  "/terms-of-service/page": "app/terms-of-service/page.js"
+}

@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Static export for Cloudflare Pages / Netlify
-  output: "export",
+  // Standalone output for OpenNext Cloudflare Workers
+  output: "standalone",
 
   // Disable image optimization for static export
   images: {

@@ -2,7 +2,8 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { Calculator, Menu, ChevronDown, Globe } from 'lucide-react';
+import { Menu, ChevronDown } from 'lucide-react';
+import { Logo } from '@/components/logo';
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -63,7 +64,7 @@ export function Header() {
             <div className="container max-w-5xl mx-auto h-16 flex items-center justify-between px-4 md:px-6">
                 <div className="flex items-center gap-3">
                     <Link href="/" className="flex items-center gap-2 group transition-opacity hover:opacity-80">
-                        <Calculator className="h-5 w-5 text-primary" />
+                        <Logo className="h-6 w-6" />
                         <span className="font-medium text-lg tracking-tight text-foreground">
                             CalcTrust
                         </span>
@@ -185,7 +186,7 @@ export function Header() {
                         <SheetContent side="right" className="w-[300px] sm:w-[350px] pr-0 border-l border-border/40 shadow-2xl">
                             <SheetHeader className="px-6 text-left border-b pb-4">
                                 <SheetTitle className="flex items-center gap-2 text-xl font-bold tracking-tight text-primary">
-                                    <Calculator className="h-6 w-6" />
+                                    <Logo className="h-6 w-6" />
                                     CalcTrust
                                 </SheetTitle>
                             </SheetHeader>

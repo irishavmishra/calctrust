@@ -21,7 +21,7 @@ export default function DisclaimerPage() {
                         <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Disclaimer</h1>
                     </div>
                     <p className="text-xl text-muted-foreground leading-relaxed max-w-3xl">
-                        Important information about CalcTrust's calculators, limitations, and terms of use.
+                        Important information about CalcTrust&apos;s calculators, limitations, and terms of use.
                     </p>
                 </div>
             </div>
@@ -34,7 +34,7 @@ export default function DisclaimerPage() {
                         <h2 className="text-2xl font-semibold tracking-tight mb-4">General Disclaimer</h2>
                         <div className="prose prose-zinc dark:prose-invert max-w-none">
                             <p className="text-muted-foreground leading-relaxed">
-                                CalcTrust ("the Site") provides financial calculators and educational tools for informational purposes only. <strong>The calculators and content on this site are NOT a substitute for professional financial, tax, or legal advice.</strong>
+                                CalcTrust (&quot;the Site&quot;) provides financial calculators and educational tools for informational purposes only. <strong>The calculators and content on this site are NOT a substitute for professional financial, tax, or legal advice.</strong>
                             </p>
                             <p className="text-muted-foreground leading-relaxed">
                                 While we strive to ensure the accuracy and reliability of our calculators, we make no warranties, express or implied, regarding the completeness, accuracy, or suitability of the information provided. Your use of this site and its tools is entirely at your own risk.
@@ -69,9 +69,9 @@ export default function DisclaimerPage() {
                             <ul className="space-y-2 text-muted-foreground">
                                 <li><strong>Estimates Only:</strong> Results are approximations. Your actual paycheck, tax liability, or financial outcomes may differ.</li>
                                 <li><strong>Standard Assumptions:</strong> We use common scenarios (e.g., standard W-4 withholding). Complex situations like multiple jobs, investment income, or itemized deductions require professional analysis.</li>
-                                <li><strong>State/Local Variations:</strong> Some municipalities have additional taxes or unique rules we don't model.</li>
+                                <li><strong>State/Local Variations:</strong> Some municipalities have additional taxes or unique rules we don&apos;t model.</li>
                                 <li><strong>No Guarantee of Accuracy:</strong> Tax laws change frequently. While we update our data regularly, there may be delays or errors.</li>
-                                <li><strong>No Employer-Specific Data:</strong> We don't account for employer-specific benefits, union dues, or other custom deductions.</li>
+                                <li><strong>No Employer-Specific Data:</strong> We don&apos;t account for employer-specific benefits, union dues, or other custom deductions.</li>
                             </ul>
                         </div>
                     </section>
@@ -93,19 +93,6 @@ export default function DisclaimerPage() {
                         </div>
                     </section>
 
-                    {/* Privacy */}
-                    <section>
-                        <h2 className="text-2xl font-semibold tracking-tight mb-4">Privacy & Data</h2>
-                        <div className="prose prose-zinc dark:prose-invert max-w-none">
-                            <p className="text-muted-foreground leading-relaxed">
-                                All calculations are performed in your browser. <strong>We do not collect, store, or transmit your financial data</strong> to our servers. Your privacy is important to us.
-                            </p>
-                            <p className="text-muted-foreground leading-relaxed mt-4">
-                                We may use cookies and analytics to improve site performance, but we do not link this data to your calculator inputs or personal information.
-                            </p>
-                        </div>
-                    </section>
-
                     {/* Third-Party Links */}
                     <section>
                         <h2 className="text-2xl font-semibold tracking-tight mb-4">Third-Party Links & Resources</h2>
@@ -124,19 +111,23 @@ export default function DisclaimerPage() {
                                 We reserve the right to update or modify this disclaimer at any time without prior notice. Continued use of CalcTrust after changes constitutes acceptance of the updated terms.
                             </p>
                             <p className="text-sm text-muted-foreground/80 mt-4">
-                                <strong>Last Updated:</strong> December 2025
+                                <strong>Last Updated:</strong> December 2024
                             </p>
                         </div>
                     </section>
 
-                    {/* CTA */}
+                    {/* Related Pages */}
                     <section className="border-t pt-12">
                         <div className="bg-card border border-border rounded-xl p-8">
-                            <h3 className="text-xl font-semibold mb-3">Questions About Our Terms?</h3>
+                            <h3 className="text-xl font-semibold mb-3">Related Policies</h3>
                             <p className="text-muted-foreground leading-relaxed mb-4">
-                                If you have questions about this disclaimer or our practices, please reach out.
+                                For more information about how we handle your data and our terms of service:
                             </p>
-                            <TextLink href="/contact">Contact Us</TextLink>
+                            <div className="flex flex-wrap gap-4">
+                                <TextLink href="/privacy-policy">Privacy Policy</TextLink>
+                                <TextLink href="/terms-of-service">Terms of Service</TextLink>
+                                <TextLink href="/contact">Contact Us</TextLink>
+                            </div>
                         </div>
                     </section>
                 </div>

@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Search, Calculator, ChevronDown, MapPin, Sparkles, TrendingUp, DollarSign, Clock, PiggyBank, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { SectionHeader } from '@/components/ui/section-header';
 import { getSearchIndex, searchCalculators, type SearchItem } from '@/lib/search';
 
 // Category configuration with icons and labels

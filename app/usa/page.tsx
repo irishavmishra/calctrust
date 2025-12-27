@@ -86,7 +86,7 @@ export default function UsaHubPage() {
                 <div className="container max-w-6xl mx-auto">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         <StatCard iconName="MapPin" value="50" label="States Covered" delay={0} />
-                        <StatCard iconName="Calculator" value="274+" label="Calculators" delay={0.1} />
+                        <StatCard iconName="Calculator" value="262+" label="Calculators" delay={0.1} />
                         <StatCard iconName="CheckCircle" value="100%" label="Free to Use" delay={0.2} />
                         <StatCard iconName="Shield" value="0" label="Ads or Tracking" delay={0.3} />
                     </div>
@@ -335,7 +335,7 @@ export default function UsaHubPage() {
             {/* ============================================ */}
             <section className="py-24 border-t border-border/40 px-6">
                 <div className="container max-w-4xl mx-auto">
-                    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-foreground via-foreground/90 to-foreground/80 p-12 md:p-16 text-center">
+                    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900 p-12 md:p-16 text-center">
                         {/* Decorative Elements */}
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl" />
                         <div className="absolute bottom-0 left-0 w-48 h-48 bg-white/10 rounded-full blur-3xl" />
@@ -344,12 +344,12 @@ export default function UsaHubPage() {
                             <h2 className="text-4xl md:text-5xl font-semibold text-white tracking-tight">
                                 Start with the calculator you need
                             </h2>
-                            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+                            <p className="text-xl text-white/80 max-w-2xl mx-auto">
                                 No signup. No ads. Just accurate calculations you can trust.
                             </p>
 
                             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-                                <Button asChild size="lg" variant="secondary" className="h-14 px-8 text-base font-semibold rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
+                                <Button asChild size="lg" className="h-14 px-8 text-base font-semibold rounded-full bg-white text-zinc-900 hover:bg-white/90 shadow-xl hover:shadow-2xl hover:scale-105 transition-all">
                                     <Link href="/usa/take-home-pay-calculator">
                                         <Calculator className="h-5 w-5 mr-2" />
                                         Try Paycheck Calculator

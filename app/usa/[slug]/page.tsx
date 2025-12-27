@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ChevronRight, CheckCircle, Shield, Clock } from 'lucide-react';
-import { CalculatorShell } from '@/components/calculator/CalculatorShell';
+import { CalculatorShell, CalculatorErrorBoundary } from '@/components/calculator';
 import { FAQSchema, BreadcrumbSchema, WebPageSchema, HowToSchema } from '@/components/seo/Schema';
 import {
     ContextualLink,
@@ -52,6 +52,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             description: pageData.description,
             type: 'website',
             url: `https://calctrust.com/usa/${slug}`,
+            siteName: 'CalcTrust',
+            images: [
+                {
+                    url: 'https://calctrust.com/og-calculator.png',
+                    width: 1200,
+                    height: 630,
+                    alt: `${pageData.title} - CalcTrust`,
+                },
+            ],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: pageData.title,
+            description: pageData.description,
+            images: ['https://calctrust.com/og-calculator.png'],
         },
     };
 }
@@ -149,14 +164,16 @@ export default async function CalculatorPage({ params }: PageProps) {
                         )}
                     </div>
 
-                    {/* Calculator */}
+                    {/* Calculator with Error Boundary */}
                     <div className="mt-8">
-                        <CalculatorShell
-                            calculatorType={calculatorType}
-                            inputs={inputs}
-                            outputs={outputs}
-                            stateCode={stateCode}
-                        />
+                        <CalculatorErrorBoundary>
+                            <CalculatorShell
+                                calculatorType={calculatorType}
+                                inputs={inputs}
+                                outputs={outputs}
+                                stateCode={stateCode}
+                            />
+                        </CalculatorErrorBoundary>
                     </div>
                 </div>
             </div>
@@ -342,8 +359,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 title={`How to calculate ${h1.toLowerCase()}`}
                 description={content.howItWorks}
                 steps={[
-                    'Input your current financial details into the calculator fields.',
-                    'Instantly view your calculated results and tax breakdown.'
+                    `Enter your ${inputs[0]?.label?.toLowerCase() || 'financial information'} in the calculator above.`,
+                    inputs.length > 1 ? `Fill in additional details like ${inputs.slice(1, 3).map(i => i.label?.toLowerCase()).filter(Boolean).join(', ')}.` : 'Adjust any optional settings as needed.',
+                    `Review your ${outputs[0]?.label?.toLowerCase() || 'calculation results'} in the results panel.`,
+                    'See the full breakdown of taxes and deductions applied.',
+                    'Use the results to make informed financial decisions.'
                 ]}
             />
         </main>

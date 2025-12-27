@@ -137,7 +137,7 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
                 >
                     {results.length === 0 && query.trim() && (
                         <div className="px-4 py-8 text-center text-muted-foreground">
-                            <p>No calculators found for "{query}"</p>
+                            <p>No calculators found for &quot;{query}&quot;</p>
                             <p className="text-sm mt-2">Try searching by state, salary amount, or calculator type</p>
                         </div>
                     )}
@@ -156,8 +156,8 @@ export function SearchModal({ open, onOpenChange }: SearchModalProps) {
                                     aria-selected={index === selectedIndex}
                                     onClick={() => navigateTo(item)}
                                     className={`w-full flex items-center gap-3 px-3 py-3 rounded-lg text-left transition-colors ${index === selectedIndex
-                                            ? 'bg-muted text-foreground'
-                                            : 'hover:bg-muted/50'
+                                        ? 'bg-muted text-foreground'
+                                        : 'hover:bg-muted/50'
                                         }`}
                                 >
                                     <Calculator className="h-4 w-4 text-muted-foreground shrink-0" />

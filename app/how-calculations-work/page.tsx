@@ -34,7 +34,7 @@ export default function HowCalculationsWorkPage() {
                         </div>
                         <div className="prose prose-zinc dark:prose-invert max-w-none">
                             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                                Using CalcTrust calculators is straightforward. Here's the general workflow:
+                                Using CalcTrust calculators is straightforward. Here&apos;s the general workflow:
                             </p>
                             <ol className="space-y-4 text-muted-foreground">
                                 <li className="flex gap-3">
@@ -67,7 +67,7 @@ export default function HowCalculationsWorkPage() {
                             <div className="bg-card border border-border rounded-xl p-6">
                                 <h3 className="text-xl font-semibold mb-3">Paycheck Calculators</h3>
                                 <p className="text-muted-foreground leading-relaxed mb-4">
-                                    When you use a paycheck or salary calculator, you'll see:
+                                    When you use a paycheck or salary calculator, you&apos;ll see:
                                 </p>
                                 <ul className="space-y-2 text-muted-foreground">
                                     <li><strong>Gross Pay:</strong> Your total earnings before any deductions</li>
@@ -110,11 +110,11 @@ export default function HowCalculationsWorkPage() {
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground mb-2">✓ Choose the right filing status</h4>
-                                    <p className="text-muted-foreground">Single, married, or head of household affects your federal withholding. Use what's on your W-4.</p>
+                                    <p className="text-muted-foreground">Single, married, or head of household affects your federal withholding. Use what&apos;s on your W-4.</p>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground mb-2">✓ Include pre-tax deductions</h4>
-                                    <p className="text-muted-foreground">401(k), health insurance, and HSA contributions reduce your taxable income  don't forget to add them.</p>
+                                    <p className="text-muted-foreground">401(k), health insurance, and HSA contributions reduce your taxable income  don&apos;t forget to add them.</p>
                                 </div>
                                 <div>
                                     <h4 className="font-semibold text-foreground mb-2">✓ Enter gross pay accurately</h4>
@@ -132,16 +132,16 @@ export default function HowCalculationsWorkPage() {
                         </div>
                         <div className="space-y-6">
                             <div className="border-l-4 border-primary/30 pl-6 py-2">
-                                <h3 className="font-semibold mb-2">Why doesn't my result match my actual paycheck exactly?</h3>
+                                <h3 className="font-semibold mb-2">Why doesn&apos;t my result match my actual paycheck exactly?</h3>
                                 <p className="text-muted-foreground leading-relaxed">
-                                    Our calculators provide estimates based on standard assumptions. Your actual paycheck may include employer-specific deductions (health insurance premiums, union dues, garnishments), different withholding elections, or local taxes we don't model.
+                                    Our calculators provide estimates based on standard assumptions. Your actual paycheck may include employer-specific deductions (health insurance premiums, union dues, garnishments), different withholding elections, or local taxes we don&apos;t model.
                                 </p>
                             </div>
 
                             <div className="border-l-4 border-primary/30 pl-6 py-2">
                                 <h3 className="font-semibold mb-2">Do you account for state and local taxes?</h3>
                                 <p className="text-muted-foreground leading-relaxed">
-                                    Yes for state income taxes  each state calculator uses that state's specific tax tables. However, we don't currently model city or county taxes (e.g., NYC, San Francisco) as they vary widely and often depend on employer location vs. residence.
+                                    Yes for state income taxes  each state calculator uses that state&apos;s specific tax tables. However, we don&apos;t currently model city or county taxes (e.g., NYC, San Francisco) as they vary widely and often depend on employer location vs. residence.
                                 </p>
                             </div>
 
@@ -155,7 +155,7 @@ export default function HowCalculationsWorkPage() {
                             <div className="border-l-4 border-primary/30 pl-6 py-2">
                                 <h3 className="font-semibold mb-2">Can I save my calculations?</h3>
                                 <p className="text-muted-foreground leading-relaxed">
-                                    Currently, we don't save your data (for privacy reasons). You can bookmark specific calculator pages or take a screenshot of your results for reference.
+                                    Currently, we don&apos;t save your data (for privacy reasons). You can bookmark specific calculator pages or take a screenshot of your results for reference.
                                 </p>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ export default function HowCalculationsWorkPage() {
                         <div className="bg-primary/5 border border-primary/20 rounded-xl p-8">
                             <h3 className="text-xl font-semibold mb-3">Still Have Questions?</h3>
                             <p className="text-muted-foreground leading-relaxed mb-4">
-                                If something isn't clear or you'd like help with a specific scenario, we're here to help.
+                                If something isn&apos;t clear or you&apos;d like help with a specific scenario, we&apos;re here to help.
                             </p>
                             <div className="flex flex-wrap gap-4">
                                 <Link href="/methodology" className="text-primary font-semibold hover:underline">

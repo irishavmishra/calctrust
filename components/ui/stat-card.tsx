@@ -31,6 +31,27 @@ function StatCard({ iconName, value, label, delay = 0 }: StatCardProps) {
     const suffix = numericMatch ? numericMatch[2] : '';
 
     React.useEffect(() => {
+        const animateCount = () => {
+            const duration = 1500; // 1.5s
+            const steps = 40;
+            const stepDuration = duration / steps;
+            let currentStep = 0;
+
+            const timer = setInterval(() => {
+                currentStep++;
+                const progress = currentStep / steps;
+                // Ease out curve
+                const easeOut = 1 - Math.pow(1 - progress, 3);
+                const currentValue = Math.round(targetNumber * easeOut);
+                setDisplayValue(currentValue.toString());
+
+                if (currentStep >= steps) {
+                    clearInterval(timer);
+                    setDisplayValue(targetNumber.toString());
+                }
+            }, stepDuration);
+        };
+
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
@@ -51,28 +72,7 @@ function StatCard({ iconName, value, label, delay = 0 }: StatCardProps) {
         }
 
         return () => observer.disconnect();
-    }, [hasAnimated, delay]);
-
-    const animateCount = () => {
-        const duration = 1500; // 1.5s
-        const steps = 40;
-        const stepDuration = duration / steps;
-        let currentStep = 0;
-
-        const timer = setInterval(() => {
-            currentStep++;
-            const progress = currentStep / steps;
-            // Ease out curve
-            const easeOut = 1 - Math.pow(1 - progress, 3);
-            const currentValue = Math.round(targetNumber * easeOut);
-            setDisplayValue(currentValue.toString());
-
-            if (currentStep >= steps) {
-                clearInterval(timer);
-                setDisplayValue(targetNumber.toString());
-            }
-        }, stepDuration);
-    };
+    }, [hasAnimated, delay, targetNumber]);
 
     return (
         <div

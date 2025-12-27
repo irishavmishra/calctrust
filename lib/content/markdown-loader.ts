@@ -186,7 +186,7 @@ export function getMarkdownContent(slug: string): MarkdownContent | null {
 
     try {
         const fileContents = fs.readFileSync(filePath, 'utf8');
-        const { data: frontmatter, content } = matter(fileContents);
+        const { content } = matter(fileContents);
 
         // Extract title from first H1
         const titleMatch = content.match(/^# (.+)$/m);

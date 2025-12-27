@@ -11,21 +11,10 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select';
-import { ArrowRight, RotateCcw } from 'lucide-react';
+import { RotateCcw } from 'lucide-react';
 import type { CalculatorInputConfig, CalculatorOutputConfig, CalculatorType } from '@/lib/content/calculators';
-import {
-    calculateSalaryToHourly,
-    calculateHourlyToSalary,
-    calculatePaycheck,
-    calculate401kImpact,
-    calculateBonusTax,
-    calculateOvertime,
-    calculatePayRaise,
-    calculateFreelanceRate,
-    getStatesList,
-    type FilingStatus,
-    type PayFrequency,
-} from '@/lib/calculators';
+import { getStatesList } from '@/lib/calculators';
+import { executeCalculation } from '@/lib/calculators/strategies';
 
 interface CalculatorShellProps {
     calculatorType: CalculatorType;
@@ -48,102 +37,21 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
         return initial;
     });
     const [result, setResult] = useState<Record<string, number> | null>(null);
+    const [isCalculating, setIsCalculating] = useState(true);
 
     const handleInputChange = (id: string, value: string | number) => {
         setValues((prev) => ({ ...prev, [id]: value }));
     };
 
     const calculate = useCallback(() => {
-        let output: Record<string, number> = {};
-
-        switch (calculatorType) {
-            case 'salaryToHourly': {
-                const res = calculateSalaryToHourly({
-                    annualSalary: Number(values.annualSalary) || 0,
-                    hoursPerWeek: Number(values.hoursPerWeek) || 40,
-                    weeksPerYear: Number(values.weeksPerYear) || 52,
-                });
-                output = { ...res };
-                break;
-            }
-            case 'hourlyToSalary': {
-                const res = calculateHourlyToSalary(
-                    Number(values.hourlyRate) || 0,
-                    Number(values.hoursPerWeek) || 40,
-                    Number(values.weeksPerYear) || 52
-                );
-                output = { ...res };
-                break;
-            }
-            case 'paycheck':
-            case 'paycheckState': {
-                const res = calculatePaycheck({
-                    grossPay: Number(values.grossPay) || 0,
-                    payFrequency: (values.payFrequency as PayFrequency) || 'biweekly',
-                    filingStatus: (values.filingStatus as FilingStatus) || 'single',
-                    state: stateCode || (values.state as string) || 'CA',
-                    preTaxDeductions: {
-                        retirement401k: Number(values.retirement401k) || 0,
-                    },
-                });
-                output = { ...res };
-                break;
-            }
-            case 'overtime':
-            case 'timeAndHalf':
-            case 'doubleTime': {
-                const res = calculateOvertime({
-                    regularHourlyRate: Number(values.regularHourlyRate) || 0,
-                    overtimeHours: Number(values.overtimeHours) || 0,
-                    multiplier: Number(values.multiplier) || 1.5,
-                });
-                output = { ...res };
-                break;
-            }
-            case 'payRaise': {
-                const res = calculatePayRaise(
-                    Number(values.currentSalary) || 0,
-                    Number(values.raisePercentage) || 0
-                );
-                output = { ...res };
-                break;
-            }
-            case '401k': {
-                const res = calculate401kImpact(
-                    Number(values.grossPay) || 0,
-                    (values.payFrequency as PayFrequency) || 'biweekly',
-                    (values.filingStatus as FilingStatus) || 'single',
-                    (values.state as string) || 'CA',
-                    Number(values.contributionPercent) || 0
-                );
-                output = { ...res };
-                break;
-            }
-            case 'bonusTax': {
-                const res = calculateBonusTax(
-                    Number(values.bonusAmount) || 0,
-                    (values.filingStatus as FilingStatus) || 'single',
-                    (values.state as string) || 'CA',
-                    Number(values.annualSalary) || 0
-                );
-                output = { ...res };
-                break;
-            }
-            case 'freelanceRate': {
-                const res = calculateFreelanceRate(
-                    Number(values.desiredAnnualIncome) || 0,
-                    Number(values.billableHoursPerWeek) || 25,
-                    Number(values.weeksWorkedPerYear) || 48,
-                    Number(values.overheadPercentage) || 30
-                );
-                output = { ...res };
-                break;
-            }
-            default:
-                console.warn(`Unknown calculator type: ${calculatorType}`);
-        }
+        // Use strategy pattern for clean, maintainable calculations
+        const output = executeCalculation(calculatorType, {
+            values,
+            stateCode,
+        });
 
         setResult(output);
+        setIsCalculating(false);
     }, [calculatorType, values, stateCode]);
 
     // Initial and real-time calculation
@@ -281,7 +189,21 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
                                         Overview
                                     </h3>
                                 </div>
-                                {result ? (
+                                {isCalculating ? (
+                                    /* Skeleton Loading State */
+                                    <div className="grid gap-3 animate-pulse">
+                                        <div className="p-4 md:p-5 rounded-xl border border-primary/20 bg-primary/5">
+                                            <div className="h-3 w-24 bg-muted rounded mb-2" />
+                                            <div className="h-8 w-32 bg-muted rounded" />
+                                        </div>
+                                        {[1, 2, 3].map((i) => (
+                                            <div key={i} className="p-4 md:p-5 rounded-xl border border-border bg-card">
+                                                <div className="h-3 w-20 bg-muted rounded mb-2" />
+                                                <div className="h-7 w-28 bg-muted rounded" />
+                                            </div>
+                                        ))}
+                                    </div>
+                                ) : result ? (
                                     <div className="grid gap-3">
                                         {outputs.map((output, idx) => {
                                             const value = result[output.id];

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Calculator } from 'lucide-react';
+import { Logo } from '@/components/logo';
 
 const footerLinks = {
     calculators: [
@@ -35,7 +35,7 @@ export function Footer() {
                     {/* Brand */}
                     <div className="space-y-4">
                         <Link href="/" className="flex items-center gap-2 group transition-opacity hover:opacity-80">
-                            <Calculator className="h-5 w-5 text-primary" />
+                            <Logo className="h-6 w-6" />
                             <span className="font-medium tracking-tight">
                                 CalcTrust
                             </span>
@@ -76,7 +76,8 @@ export function Footer() {
                         <p>Tax rules last reviewed: December 2025</p>
                     </div>
                     <div className="flex items-center gap-4">
-                        <Link href="/disclaimer" className="hover:text-foreground transition-colors">Terms</Link>
+                        <Link href="/terms-of-service" className="hover:text-foreground transition-colors">Terms</Link>
+                        <Link href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy</Link>
                         <Link href="/methodology" className="hover:text-foreground transition-colors">Methodology</Link>
                         <Link href="/contact" className="hover:text-foreground transition-colors">Contact</Link>
                     </div>

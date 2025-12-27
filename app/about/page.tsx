@@ -7,7 +7,7 @@ import { ChecklistItem } from '@/components/ui/checklist-item';
 
 export const metadata: Metadata = {
     title: 'About CalcTrust - Accurate Financial Calculators You Can Trust',
-    description: 'Learn about CalcTrust\'s mission to provide accurate, transparent, and accessible financial calculators for salary, paycheck, and tax calculations.',
+    description: 'Learn about CalcTrust&apos;s mission to provide accurate, transparent, and accessible financial calculators for salary, paycheck, and tax calculations.',
     alternates: {
         canonical: 'https://calctrust.com/about',
     },
@@ -36,10 +36,10 @@ export default function AboutPage() {
                         <h2 className="text-3xl font-semibold tracking-tight mb-6">Our Mission</h2>
                         <div className="prose prose-zinc dark:prose-invert max-w-none">
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                At CalcTrust, we believe everyone deserves access to accurate financial information. Whether you're evaluating a job offer, planning your budget, or understanding your paycheck, our calculators provide instant, reliable answers.
+                                At CalcTrust, we believe everyone deserves access to accurate financial information. Whether you&apos;re evaluating a job offer, planning your budget, or understanding your paycheck, our calculators provide instant, reliable answers.
                             </p>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                We've built <strong>268+ specialized calculators</strong> covering every U.S. state, salary range, and common financial scenario. Each tool is designed with transparency, using publicly available tax data and proven calculation methods.
+                                We&apos;ve built <strong>262+ specialized calculators</strong> covering every U.S. state, salary range, and common financial scenario. Each tool is designed with transparency, using publicly available tax data and proven calculation methods.
                             </p>
                         </div>
                     </section>
@@ -77,16 +77,16 @@ export default function AboutPage() {
 
                     {/* How We're Different */}
                     <section>
-                        <h2 className="text-3xl font-semibold tracking-tight mb-6">How We're Different</h2>
+                        <h2 className="text-3xl font-semibold tracking-tight mb-6">How We&apos;re Different</h2>
                         <ul className="space-y-3">
                             <ChecklistItem>
-                                <strong>State-Specific Accuracy:</strong> We don't use generic estimates. Each state calculator reflects that state's actual tax laws, including local variations.
+                                <strong>State-Specific Accuracy:</strong> We don&apos;t use generic estimates. Each state calculator reflects that state&apos;s actual tax laws, including local variations.
                             </ChecklistItem>
                             <ChecklistItem>
                                 <strong>Real-Time Results:</strong> No waiting, no email signup. Enter your data and get instant, accurate calculations.
                             </ChecklistItem>
                             <ChecklistItem>
-                                <strong>Educational Context:</strong> We explain the "why" behind every number, helping you understand your finances better.
+                                <strong>Educational Context:</strong> We explain the &quot;why&quot; behind every number, helping you understand your finances better.
                             </ChecklistItem>
                             <ChecklistItem>
                                 <strong>Regular Updates:</strong> Tax laws change. We monitor federal and state updates to keep our calculators current.
@@ -138,7 +138,7 @@ export default function AboutPage() {
                         </div>
                     </section>
                 </div>
-            </div>
-        </main>
+            </div >
+        </main >
     );
 }

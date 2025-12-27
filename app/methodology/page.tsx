@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
-import { CheckCircle2, RefreshCw, Shield, Database } from 'lucide-react';
-import { ChecklistItem } from '@/components/ui/checklist-item';
 import { TextLink } from '@/components/ui/text-link';
+import { Database, CheckCircle2, RefreshCw, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
     title: 'Our Methodology - How CalcTrust Ensures Accuracy',
@@ -98,7 +96,7 @@ export default function MethodologyPage() {
                         </div>
                         <div className="prose prose-zinc dark:prose-invert max-w-none">
                             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                                Tax laws and regulations change. Here's how we stay current:
+                                Tax laws and regulations change. Here&apos;s how we stay current:
                             </p>
                             <div className="grid gap-4">
                                 <div className="flex gap-4 items-start p-4 bg-muted/30 rounded-lg">
@@ -145,7 +143,7 @@ export default function MethodologyPage() {
                         <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                             <li>Comparing results to your actual paycheck stub</li>
                             <li>Using IRS withholding calculators for federal tax cross-reference</li>
-                            <li>Consulting your state's department of revenue tax calculator</li>
+                            <li>Consulting your state&apos;s department of revenue tax calculator</li>
                             <li>Reviewing the formulas and explanations provided on each calculator page</li>
                         </ul>
                     </section>
@@ -155,7 +153,7 @@ export default function MethodologyPage() {
                         <div className="bg-primary/5 border border-primary/20 rounded-xl p-8">
                             <h3 className="text-xl font-semibold mb-3">Questions About Our Methodology?</h3>
                             <p className="text-muted-foreground leading-relaxed mb-4">
-                                We're committed to transparency. If you have questions about how a specific calculator works or notice an issue, we want to hear from you.
+                                We&apos;re committed to transparency. If you have questions about how a specific calculator works or notice an issue, we want to hear from you.
                             </p>
                             <TextLink href="/contact">Contact Us</TextLink>
                         </div>

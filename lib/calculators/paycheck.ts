@@ -5,8 +5,10 @@ import type {
     FilingStatus,
     TaxBracket
 } from './types';
+import { TAX_YEAR } from '../config';
 import federalTaxBrackets from '../data/federalTaxBrackets.json';
 import stateTaxRatesData from '../data/stateTaxRates.json';
+import progressiveStateTaxBrackets from '../data/progressiveStateTaxBrackets.json';
 import ficaRates from '../data/ficaRates.json';
 
 // Type for state tax data
@@ -16,9 +18,27 @@ interface StateTaxInfo {
     hasNoIncomeTax?: boolean;
 }
 
-const stateTaxRates = stateTaxRatesData as Record<string, StateTaxInfo>;
+// Type for progressive state brackets
+interface ProgressiveStateBracket {
+    min: number;
+    max: number | null;
+    rate: number;
+}
 
-const taxYear = '2025';
+interface ProgressiveStateData {
+    name: string;
+    year: number;
+    brackets: {
+        single: ProgressiveStateBracket[];
+        married: ProgressiveStateBracket[];
+    };
+}
+
+const stateTaxRates = stateTaxRatesData as Record<string, StateTaxInfo>;
+const progressiveStates = progressiveStateTaxBrackets as Record<string, ProgressiveStateData>;
+
+// Use centralized tax year from config
+const taxYear = TAX_YEAR;
 
 
 /**
@@ -64,17 +84,63 @@ function calculateFederalTax(annualIncome: number, filingStatus: FilingStatus): 
 }
 
 /**
- * Calculate state income tax
+ * Calculate progressive state tax for states with graduated brackets (CA, NY, NJ)
  */
-function calculateStateTax(annualIncome: number, stateCode: string): number {
+function calculateProgressiveStateTax(
+    annualIncome: number,
+    stateCode: string,
+    filingStatus: FilingStatus
+): number {
+    const stateData = progressiveStates[stateCode];
+    if (!stateData || annualIncome <= 0) {
+        return 0;
+    }
+
+    // Use single brackets for non-married statuses
+    const status = filingStatus === 'married' ? 'married' : 'single';
+    const brackets = stateData.brackets[status];
+
+    let totalTax = 0;
+    let remainingIncome = annualIncome;
+
+    for (const bracket of brackets) {
+        if (remainingIncome <= 0) break;
+
+        const bracketMax = bracket.max ?? Infinity;
+        const bracketRange = bracketMax - bracket.min;
+        const taxableInBracket = Math.min(remainingIncome, bracketRange);
+
+        if (annualIncome > bracket.min) {
+            totalTax += taxableInBracket * (bracket.rate / 100);
+            remainingIncome -= taxableInBracket;
+        }
+    }
+
+    return round(totalTax);
+}
+
+/**
+ * Calculate state income tax - uses progressive brackets for CA, NY, NJ
+ * and flat rates for other states
+ */
+function calculateStateTax(
+    annualIncome: number,
+    stateCode: string,
+    filingStatus: FilingStatus = 'single'
+): number {
     const stateData = stateTaxRates[stateCode];
 
     if (!stateData || stateData.hasNoIncomeTax) {
         return 0;
     }
 
-    // Simplified flat rate calculation (many states have progressive brackets)
-    return annualIncome * (stateData.rate / 100);
+    // Use progressive calculation for states with graduated brackets
+    if (progressiveStates[stateCode]) {
+        return calculateProgressiveStateTax(annualIncome, stateCode, filingStatus);
+    }
+
+    // Flat rate for other states
+    return round(annualIncome * (stateData.rate / 100));
 }
 
 /**
@@ -147,7 +213,7 @@ export function calculatePaycheck(input: PaycheckInput): PaycheckOutput {
 
     // Calculate all taxes on annual basis, then convert to per-period
     const annualFederalTax = calculateFederalTax(taxableIncome, filingStatus);
-    const annualStateTax = calculateStateTax(taxableIncome, state);
+    const annualStateTax = calculateStateTax(taxableIncome, state, filingStatus);
     const annualSocialSecurity = calculateSocialSecurity(annualGross); // FICA is on gross, not reduced by 401k etc
     const annualMedicare = calculateMedicare(annualGross);
 
@@ -282,12 +348,37 @@ export function calculateBonusTax(
     netBonus: number;
     effectiveRate: number;
 } {
+    if (bonusAmount <= 0) {
+        return {
+            bonusAmount: 0,
+            federalWithholding: 0,
+            stateWithholding: 0,
+            socialSecurity: 0,
+            medicare: 0,
+            netBonus: 0,
+            effectiveRate: 0,
+        };
+    }
+
     // Federal bonus withholding is typically 22% flat for supplemental wages under $1M
     const federalWithholding = bonusAmount * 0.22;
 
-    // State tax on bonus
+    // State tax on bonus - use progressive calculation for CA, NY, NJ
     const stateData = stateTaxRates[state];
-    const stateWithholding = !stateData || stateData.hasNoIncomeTax ? 0 : bonusAmount * (stateData.rate / 100);
+    let stateWithholding = 0;
+
+    if (stateData && !stateData.hasNoIncomeTax) {
+        // For progressive states, calculate marginal tax on bonus
+        if (progressiveStates[state]) {
+            // Calculate tax on combined income minus tax on regular salary
+            const taxOnTotal = calculateProgressiveStateTax(regularAnnualSalary + bonusAmount, state, filingStatus);
+            const taxOnSalary = calculateProgressiveStateTax(regularAnnualSalary, state, filingStatus);
+            stateWithholding = taxOnTotal - taxOnSalary;
+        } else {
+            // Flat rate for other states
+            stateWithholding = bonusAmount * (stateData.rate / 100);
+        }
+    }
 
     // FICA taxes (check if already hit SS cap)
     const rates = ficaRates[taxYear];
