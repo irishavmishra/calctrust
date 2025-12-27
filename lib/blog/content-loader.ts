@@ -16,7 +16,7 @@ export function getCategoryFromSlug(slug: string): string {
     if (slug.match(/^\d+-weekly-to-annual$/)) return 'weekly-conversions';
     if (slug.match(/^\d+-monthly-to-annual$/)) return 'monthly-conversions';
     if (slug.match(/^\d+-percent-raise-calculator$/)) return 'raise-calculators';
-    if (slug.match(/^\d+-salary-[a-z-]+$/)) return 'state-salary';
+    if (slug.match(/^\d+-salary-in-[a-z-]+$/)) return 'state-salary';
     return 'core';
 }
 
@@ -25,10 +25,8 @@ export function getCategoryFromSlug(slug: string): string {
  * Handles mapping between SEO-friendly URL slugs and internal filenames
  */
 export function getFilenameFromSlug(slug: string): string {
-    // State Salary: 75000-salary-in-illinois -> 75000-salary-illinois
-    if (slug.match(/^\d+-salary-in-[a-z-]+$/)) {
-        return slug.replace('-in-', '-');
-    }
+    // State Salary: Files now match the slug directly with 'in' included
+    // e.g., 75000-salary-in-illinois -> 75000-salary-in-illinois
 
     // Weekly: 1000-a-week-is-how-much-a-year -> 1000-weekly-to-annual
     if (slug.match(/^\d+-a-week-is-how-much-a-year$/)) {
