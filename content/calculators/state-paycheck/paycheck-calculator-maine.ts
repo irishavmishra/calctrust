@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Maine Paycheck Calculator',
   subheading: 'Calculate your Maine take-home pay. Maine uses graduated income tax from 5.8% to 7.15%.',
+  metaTitle: 'Maine Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Maine take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: [
       'Maine graduated tax: 5.8-7.15% rates',

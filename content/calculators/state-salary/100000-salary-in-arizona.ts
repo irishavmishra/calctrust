@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$100,000 Salary in Arizona',
   subheading: 'Calculate your take-home pay on a $100,000 salary in Arizona. Low flat tax.',
+  metaTitle: '$100K Salary in Arizona | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $100K salary in Arizona. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $100K in AZ', 'Calculate AZ flat 2.5% tax'],
     whoUsefulFor: ['Arizona workers', 'Phoenix tech employees'],

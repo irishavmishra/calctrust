@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$45,000 Salary Breakdown',
   subheading: 'Understand what a $45,000 annual salary means—approximately $21.63/hour.',
+  metaTitle: '$45K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $45K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $45K hourly rate ($21.63/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning ~$45K'],

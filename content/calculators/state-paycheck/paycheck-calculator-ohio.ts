@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Ohio Paycheck Calculator',
   subheading: 'Calculate your Ohio take-home pay. Ohio uses graduated income tax from 0% to 3.5%.',
+  metaTitle: 'Ohio Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Ohio take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Ohio graduated tax: 0-3.5% rates', 'Local taxes in many cities', 'Net pay calculation'],
     whoUsefulFor: ['Ohio employees', 'Columbus/Cleveland/Cincinnati workers', 'Cities with local taxes'],

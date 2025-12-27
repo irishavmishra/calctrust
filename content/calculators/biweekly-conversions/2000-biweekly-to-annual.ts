@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$2,000 Biweekly is How Much a Year?',
   subheading: '$2,000 biweekly equals $52,000 per year ($25/hour)—exceeding $50K annually.',
+  metaTitle: '$2,000 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $2,000 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $2,000 biweekly to $52,000/year', 'Hourly: $25', 'Monthly: $4,333'],
     whoUsefulFor: ['Employees paid $2,000 biweekly', 'Workers at $25/hour equivalent'],

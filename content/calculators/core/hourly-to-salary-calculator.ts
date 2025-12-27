@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Hourly to Salary Calculator",
   "subheading": "Transform your hourly wage into an annual salary equivalent to understand your true yearly earning potential, compare job offers, and make informed career decisions. Whether you're transitioning from hourly work to a salaried position or evaluating what your current hourly rate means in annual terms, this calculator delivers instant clarity.",
+  "metaTitle": "Hourly to Salary Calculator | USA 2025",
+  "metaDescription": "Convert hourly wage to annual salary. This calculator estimates yearly income based on standard 40-hour work weeks. Educational estimates only.",
   "sections": {
     "whatThisHelps": [
       "Annual salary from hourly wage: Converts your hourly rate into a yearly figure based on your specific work schedule",

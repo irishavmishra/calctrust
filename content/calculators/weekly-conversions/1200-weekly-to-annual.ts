@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,200 Weekly is How Much a Year?',
   subheading: '$1,200 weekly equals $62,400 per year ($30/hour)—exceeding $60K.',
+  metaTitle: '$1,200 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,200 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,200 weekly to $62,400/year', 'Hourly: $30', 'Monthly: $5,200'],
     whoUsefulFor: ['Workers paid $1,200/week'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Freelance Hourly Rate Calculator",
   "subheading": "Determine the hourly rate you need to charge as a freelancer to match or exceed your previous salaried compensation. Freelancing requires accounting for self-employment taxes, lost benefits, business expenses, and non-billable time—this calculator helps you set rates that truly sustain your income goals rather than accidentally taking a pay cut.",
+  "metaTitle": "Freelance Hourly Rate Calculator | USA 2025",
+  "metaDescription": "Calculate the hourly rate freelancers need to match salaried income. Estimates account for self-employment taxes and expenses. Educational only.",
   "sections": {
     "whatThisHelps": [
       "Target hourly rate: Calculate the minimum rate needed to match your previous salary after accounting for freelance expenses",

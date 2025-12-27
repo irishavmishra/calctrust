@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'North Dakota Paycheck Calculator',
   subheading: 'Calculate your North Dakota take-home pay. ND uses graduated income tax from 1.1% to 2.5%—among lowest.',
+  metaTitle: 'North Dakota Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your North Dakota take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['ND graduated tax: 1.1-2.5% rates', 'Net pay calculation', 'Low-tax state advantage'],
     whoUsefulFor: ['ND employees', 'Fargo metro workers', 'Energy sector employees'],

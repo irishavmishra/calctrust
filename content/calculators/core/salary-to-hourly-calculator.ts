@@ -5,6 +5,8 @@ const content: BlogContent = {
     category: 'core',
     title: 'Salary to Hourly Calculator',
     subheading: 'Convert your annual salary into an equivalent hourly rate to compare job offers, evaluate freelance opportunities, or understand your true earning power per hour worked. Whether you\'re negotiating a new position, considering a career change, or simply curious about what your time is worth, this calculator provides the clarity you need.',
+    metaTitle: 'Salary to Hourly Calculator | USA 2025',
+    metaDescription: 'Convert annual salary to hourly rate. This calculator shows hourly equivalent based on standard 40-hour weeks. Educational estimates only.',
     sections: {
         whatThisHelps: [
             'Hourly rate from annual salary: Converts your yearly compensation into an hourly equivalent based on your actual work schedule',

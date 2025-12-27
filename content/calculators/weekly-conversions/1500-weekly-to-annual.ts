@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,500 Weekly is How Much a Year?',
   subheading: '$1,500 weekly equals $78,000 per year (~$37.50/hour).',
+  metaTitle: '$1,500 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,500 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,500 weekly to $78,000/year', 'Hourly: ~$37.50', 'Monthly: $6,500'],
     whoUsefulFor: ['Workers paid $1,500/week'],

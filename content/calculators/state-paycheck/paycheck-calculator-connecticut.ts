@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Connecticut Paycheck Calculator',
   subheading: 'Calculate your Connecticut take-home pay. Connecticut uses graduated income tax from 2% to 6.99%.',
+  metaTitle: 'Connecticut Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Connecticut take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['CT graduated tax: 2-6.99% rates', 'Net pay calculation', 'NYC metro comparison'],
     whoUsefulFor: ['Connecticut employees', 'Hartford/Stamford workers', 'NYC commuters in CT'],

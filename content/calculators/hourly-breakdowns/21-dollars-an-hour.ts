@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$21 an Hour is How Much a Year?',
   subheading: '$21 an hour equals $43,680 per year working full-time. This wage exceeds the individual median and provides comfortable middle-class living in most U.S. regions.',
+  metaTitle: '$21/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $21 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $21/hour to annual salary ($43,680/year)',

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Nebraska Paycheck Calculator',
   subheading: 'Calculate your Nebraska take-home pay. Nebraska uses graduated income tax from 2.46% to 5.84%.',
+  metaTitle: 'Nebraska Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Nebraska take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Nebraska graduated tax: 2.46-5.84% rates', 'Net pay calculation'],
     whoUsefulFor: ['Nebraska employees', 'Omaha metro workers', 'Lincoln area employees'],

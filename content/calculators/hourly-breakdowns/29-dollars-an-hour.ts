@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$29 an Hour is How Much a Year?',
   subheading: '$29 an hour equals $60,320 per year working full-time. This wage crosses the $60K threshold and provides strong earning power.',
+  metaTitle: '$29/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $29 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $29/hour to annual salary ($60,320/year)',

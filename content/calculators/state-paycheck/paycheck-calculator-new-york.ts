@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'New York Paycheck Calculator',
   subheading: 'Calculate your New York take-home pay. NY uses graduated income tax from 4% to 10.9% plus NYC local tax.',
+  metaTitle: 'New York Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your New York take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['NY graduated tax: 4-10.9% rates', 'NYC local tax: Additional 3.078-3.876%', 'Net pay calculation'],
     whoUsefulFor: ['New York employees', 'NYC residents', 'Upstate NY workers'],

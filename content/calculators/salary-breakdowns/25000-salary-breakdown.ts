@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$25,000 Salary Breakdown',
   subheading: 'Understanding what a $25,000 annual salary means for your daily life is crucial for budget planning. At this income level, careful financial management is essential.',
+  metaTitle: '$25K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $25K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $25K hourly rate ($12.02/hour)', 'Calculate monthly take-home (~$1,750-1,833)', 'Understand tax implications at this level'],
     whoUsefulFor: ['Entry-level workers', 'Part-time workers', 'Budget planners'],

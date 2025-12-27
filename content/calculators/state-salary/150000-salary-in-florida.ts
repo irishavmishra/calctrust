@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$150,000 Salary in Florida',
   subheading: 'Calculate your take-home pay on a $150,000 salary in Florida. No state income tax.',
+  metaTitle: '$150K Salary in Florida | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $150K salary in Florida. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $150K in FL', 'No state tax advantage'],
     whoUsefulFor: ['Florida executives', 'High-income FL professionals'],

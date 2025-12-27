@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Washington Paycheck Calculator',
   subheading: 'Calculate your WA take-home pay. Washington has NO state income tax on wages—keep more of your paycheck.',
+  metaTitle: 'Washington Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Washington take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['WA: No state income tax', 'Full federal + FICA only', 'Pacific NW tax advantage'],
     whoUsefulFor: ['Washington employees', 'Seattle workers', 'Tacoma/Spokane area employees'],

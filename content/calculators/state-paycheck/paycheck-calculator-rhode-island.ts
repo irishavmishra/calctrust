@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Rhode Island Paycheck Calculator',
   subheading: 'Calculate your RI take-home pay. Rhode Island uses graduated income tax from 3.75% to 5.99%.',
+  metaTitle: 'Rhode Island Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Rhode Island take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['RI graduated tax: 3.75-5.99% rates', 'Net pay calculation', 'New England comparison'],
     whoUsefulFor: ['Rhode Island employees', 'Providence metro workers'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Indiana Paycheck Calculator',
   subheading: 'Calculate your Indiana take-home pay. Indiana uses a flat 3.05% income tax plus county taxes.',
+  metaTitle: 'Indiana Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Indiana take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Indiana flat 3.05% state tax', 'County taxes 0.5-3%', 'Net pay calculation'],
     whoUsefulFor: ['Indiana employees', 'Indianapolis workers', 'Fort Wayne/Evansville employees'],

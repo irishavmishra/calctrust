@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'North Carolina Paycheck Calculator',
   subheading: 'Calculate your NC take-home pay. North Carolina uses a flat 4.75% income tax (phasing down).',
+  metaTitle: 'North Carolina Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your North Carolina take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['NC flat 4.75% tax', 'Net pay calculation', 'Compare to no-tax neighbors'],
     whoUsefulFor: ['NC employees', 'Charlotte metro workers', 'Raleigh-Durham area employees'],

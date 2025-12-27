@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,750 Weekly is How Much a Year?',
   subheading: '$1,750 weekly equals $91,000 per year (~$43.75/hour)—approaching $100K.',
+  metaTitle: '$1,750 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,750 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,750 weekly to $91,000/year', 'Hourly: ~$43.75', 'Monthly: $7,583'],
     whoUsefulFor: ['Workers paid $1,750/week'],

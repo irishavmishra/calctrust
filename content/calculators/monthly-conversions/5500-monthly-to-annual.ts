@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$5,500 Monthly is How Much a Year?',
   subheading: '$5,500 monthly equals $66,000 per year (~$31.73/hour).',
+  metaTitle: '$5,500 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $5,500 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $5,500 monthly to $66,000/year', 'Hourly: ~$31.73'],
     whoUsefulFor: ['Workers earning $5,500/month'],

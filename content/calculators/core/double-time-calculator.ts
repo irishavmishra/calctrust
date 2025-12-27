@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Double Time Calculator",
   "subheading": "Calculate your earnings at double your regular hourly rate for premium overtime situations. Double time pay—2x your standard wage—applies in specific circumstances like extended daily hours, seventh consecutive workdays, or holiday work depending on your state and employer policies. This calculator helps you understand exactly what you'll earn in these premium pay scenarios.",
+  "metaTitle": "Double Time Calculator | USA 2025",
+  "metaDescription": "Calculate double time overtime pay (2x regular rate). This calculator estimates earnings for premium overtime scenarios. Educational estimates only.",
   "sections": {
     "whatThisHelps": [
       "2x rate calculation: Instantly determine your double-time hourly rate from your regular wage",

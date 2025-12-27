@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Delaware Paycheck Calculator',
   subheading: 'Calculate your Delaware take-home pay. Delaware uses graduated income tax from 2.2% to 6.6%.',
+  metaTitle: 'Delaware Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Delaware take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['DE graduated tax: 2.2-6.6% rates', 'No sales tax benefit', 'Net pay calculation'],
     whoUsefulFor: ['Delaware employees', 'Wilmington workers', 'Philadelphia commuters in DE'],

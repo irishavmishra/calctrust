@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$3,500 Monthly is How Much a Year?',
   subheading: '$3,500 monthly equals $42,000 per year (~$20.19/hour).',
+  metaTitle: '$3,500 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $3,500 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $3,500 monthly to $42,000/year', 'Hourly: ~$20.19', 'Biweekly: ~$1,615'],
     whoUsefulFor: ['Workers earning $3,500/month'],

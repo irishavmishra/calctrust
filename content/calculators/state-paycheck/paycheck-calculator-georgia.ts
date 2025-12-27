@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Georgia Paycheck Calculator',
   subheading: 'Calculate your Georgia take-home pay. Georgia uses graduated income tax from 1% to 5.49%.',
+  metaTitle: 'Georgia Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Georgia take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['GA graduated tax: 1-5.49% rates', 'Net pay calculation', 'Southeast comparison'],
     whoUsefulFor: ['Georgia employees', 'Atlanta metro workers', 'Savannah/Augusta employees'],

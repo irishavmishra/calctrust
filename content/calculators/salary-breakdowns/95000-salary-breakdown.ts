@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$95,000 Salary Breakdown',
   subheading: 'Understand what a $95,000 annual salary means—approximately $45.67/hour, nearly $100K.',
+  metaTitle: '$95K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $95K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $95K hourly rate ($45.67/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $95K'],

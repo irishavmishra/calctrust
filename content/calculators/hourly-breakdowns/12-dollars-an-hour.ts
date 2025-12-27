@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$12 an Hour is How Much a Year?',
   subheading: 'Earning $12 per hour translates to approximately $24,960 annually if you work full-time. This wage is common for entry-level positions in retail, food service, and hospitality. Understanding what $12/hour means for your annual income, monthly budget, and long-term financial planning helps you make informed career and lifestyle decisions.',
+  metaTitle: '$12/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $12 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $12/hour to annual salary ($24,960/year)',

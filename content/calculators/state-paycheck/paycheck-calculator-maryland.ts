@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Maryland Paycheck Calculator',
   subheading: 'Calculate your Maryland take-home pay. Maryland uses graduated income tax from 2% to 5.75% plus local county taxes.',
+  metaTitle: 'Maryland Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Maryland take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Maryland graduated tax: 2-5.75% rates', 'County taxes: Additional 2.25-3.2% depending on county', 'Net pay calculation'],
     whoUsefulFor: ['Maryland employees', 'DC metro workers in Maryland', 'Baltimore area employees'],

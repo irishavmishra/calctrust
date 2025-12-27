@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$15 an Hour is How Much a Year?',
   subheading: '$15 an hour equals $31,200 per year working full-time. Often cited as the target minimum wage, $15/hour represents a key benchmark for worker advocacy and is now the minimum in many states. See your complete income breakdown and what this wage means for your finances.',
+  metaTitle: '$15/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $15 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $15/hour to annual salary ($31,200/year)',

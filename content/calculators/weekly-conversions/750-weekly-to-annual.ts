@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$750 Weekly is How Much a Year?',
   subheading: '$750 weekly equals $39,000 per year (~$18.75/hour).',
+  metaTitle: '$750 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $750 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $750 weekly to $39,000/year', 'Hourly: ~$18.75', 'Monthly: $3,250'],
     whoUsefulFor: ['Workers paid $750/week'],

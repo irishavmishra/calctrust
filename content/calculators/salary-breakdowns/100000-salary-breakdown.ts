@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "salary-breakdowns",
   "title": "$100,000 Salary Breakdown",
   "subheading": "Earning a six-figure salary is a milestone many workers aspire to, and $100,000 represents the threshold where you're firmly in upper-middle-class territory in most of America. This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly—plus the reality of take-home pay after substantial tax obligations at this income level.",
+  "metaTitle": "$100K Salary Breakdown | Hourly, Monthly 2025",
+  "metaDescription": "Break down a $100,000 annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations. Actual results may vary.",
   "sections": {
     "deepDive": [
       "At $100,000, single filers are in the 22% marginal bracket (24% for some):",

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$16 an Hour is How Much a Year?',
   subheading: '$16 an hour equals $33,280 per year working full-time. This wage exceeds minimum wage in most states and is common for skilled retail, healthcare support, and entry-level technical roles. See your complete income breakdown.',
+  metaTitle: '$16/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $16 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $16/hour to annual salary ($33,280/year)',

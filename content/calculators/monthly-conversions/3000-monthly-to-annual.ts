@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$3,000 Monthly is How Much a Year?',
   subheading: '$3,000 monthly equals $36,000 per year (~$17.31/hour).',
+  metaTitle: '$3,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $3,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $3,000 monthly to $36,000/year', 'Hourly: ~$17.31', 'Biweekly: ~$1,385'],
     whoUsefulFor: ['Workers earning $3,000/month'],

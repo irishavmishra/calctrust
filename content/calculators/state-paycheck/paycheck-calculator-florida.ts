@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Florida Paycheck Calculator",
   "subheading": "Calculate your Florida take-home pay and enjoy the substantial advantage of living in a state with no income tax. Florida is one of only nine states with no state income tax, making it a premier destination for workers seeking to maximize take-home pay. Whether you're relocating from a high-tax state, evaluating job offers, or planning your financial future, this calculator shows exactly how much more you keep in Florida compared to income-tax states.",
+  "metaTitle": "Florida Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Florida take-home pay. Florida has no state income tax. Calculator shows net income after federal taxes only. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "No state tax advantage: See how eliminating state income tax boosts your take-home pay significantly",

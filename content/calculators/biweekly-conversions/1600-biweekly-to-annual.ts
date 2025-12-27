@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$1,600 Biweekly is How Much a Year?',
   subheading: '$1,600 biweekly equals $41,600 per year (~$20/hour)—exceeding $40K.',
+  metaTitle: '$1,600 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,600 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,600 biweekly to $41,600/year', 'Hourly: $20', 'Monthly: $3,467'],
     whoUsefulFor: ['Employees paid $1,600 biweekly', 'Workers at $20/hour equivalent'],

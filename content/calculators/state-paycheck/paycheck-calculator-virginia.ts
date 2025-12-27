@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Virginia Paycheck Calculator',
   subheading: 'Calculate your Virginia take-home pay. Virginia uses graduated income tax from 2% to 5.75%.',
+  metaTitle: 'Virginia Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Virginia take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['VA graduated tax: 2-5.75% rates', 'Net pay calculation', 'DC metro comparison'],
     whoUsefulFor: ['Virginia employees', 'Northern VA (DC metro) workers', 'Richmond/Hampton Roads employees'],

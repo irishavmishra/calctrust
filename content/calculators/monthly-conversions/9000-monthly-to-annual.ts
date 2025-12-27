@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$9,000 Monthly is How Much a Year?',
   subheading: '$9,000 monthly equals $108,000 per year (~$51.92/hour)—exceeding six figures.',
+  metaTitle: '$9,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $9,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $9,000 monthly to $108,000/year', 'Hourly: ~$51.92'],
     whoUsefulFor: ['Workers earning $9,000/month'],

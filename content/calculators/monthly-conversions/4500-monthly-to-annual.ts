@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$4,500 Monthly is How Much a Year?',
   subheading: '$4,500 monthly equals $54,000 per year (~$25.96/hour).',
+  metaTitle: '$4,500 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $4,500 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $4,500 monthly to $54,000/year', 'Hourly: ~$25.96'],
     whoUsefulFor: ['Workers earning $4,500/month'],

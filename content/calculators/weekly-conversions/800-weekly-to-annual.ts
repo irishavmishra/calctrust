@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$800 Weekly is How Much a Year?',
   subheading: '$800 weekly equals $41,600 per year ($20/hour)—exceeding $40K.',
+  metaTitle: '$800 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $800 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $800 weekly to $41,600/year', 'Hourly: $20', 'Monthly: $3,467'],
     whoUsefulFor: ['Workers paid $800/week'],

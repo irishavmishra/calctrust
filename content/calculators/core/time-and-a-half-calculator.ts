@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Time and a Half Calculator",
   "subheading": "Calculate your overtime earnings at 1.5 times your regular hourly rate quickly and accurately. Time and a half is the standard overtime premium mandated by federal law for most hourly workers in the United States. Whether you're estimating upcoming overtime pay, verifying your paycheck, or planning your budget around expected extra hours, this calculator delivers instant answers.",
+  "metaTitle": "Time and a Half Calculator | USA 2025",
+  "metaDescription": "Calculate time and a half overtime pay (1.5x rate). This calculator estimates OT earnings based on standard FLSA rules. Educational estimates only.",
   "sections": {
     "whatThisHelps": [
       "1.5x rate calculation: Instantly see what your regular hourly wage becomes when multiplied by the time-and-a-half premium",

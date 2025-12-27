@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$100,000 Salary in Texas',
   subheading: 'Calculate your take-home pay on a $100,000 salary in Texas. No state income tax.',
+  metaTitle: '$100K Salary in Texas | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $100K salary in Texas. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $100K in TX', 'No state tax advantage'],
     whoUsefulFor: ['Texas professionals', 'Dallas/Houston/Austin tech workers'],

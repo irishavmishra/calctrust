@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$40,000 Salary in California',
   subheading: 'Calculate your take-home pay on a $40,000 salary in California. See federal and state tax withholdings.',
+  metaTitle: '$40K Salary in California | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $40K salary in California. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $40K in CA', 'Calculate federal and CA state taxes', 'See monthly/biweekly breakdowns'],
     whoUsefulFor: ['Job seekers evaluating CA offers', 'Entry-level workers in California', 'Budgeters planning finances'],

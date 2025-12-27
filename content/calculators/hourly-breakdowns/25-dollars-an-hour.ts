@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$25 an Hour is How Much a Year?',
   subheading: '$25 an hour equals $52,000 per year working full-time. This round number exceeds $50K annually and represents a significant earning milestone for many workers.',
+  metaTitle: '$25/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $25 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $25/hour to annual salary ($52,000/year)',

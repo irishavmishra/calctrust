@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$75,000 Salary in Massachusetts',
   subheading: 'Calculate your take-home pay on a $75,000 salary in Massachusetts.',
+  metaTitle: '$75K Salary in Massachusetts | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $75K salary in Massachusetts. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $75K in MA', 'Calculate MA flat 5% tax'],
     whoUsefulFor: ['Massachusetts workers', 'Boston metro employees'],

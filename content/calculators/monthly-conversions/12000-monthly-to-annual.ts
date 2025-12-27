@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$12,000 Monthly is How Much a Year?',
   subheading: '$12,000 monthly equals $144,000 per year (~$69.23/hour)—high earner territory.',
+  metaTitle: '$12,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $12,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $12,000 monthly to $144,000/year', 'Hourly: ~$69.23'],
     whoUsefulFor: ['Workers earning $12,000/month'],

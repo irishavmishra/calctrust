@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$17 an Hour is How Much a Year?',
   subheading: '$17 an hour equals $35,360 per year working full-time. This wage is above minimum in all states and typical for skilled positions in healthcare, logistics, and customer service. See your complete income breakdown.',
+  metaTitle: '$17/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $17 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $17/hour to annual salary ($35,360/year)',

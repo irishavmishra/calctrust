@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$850 Weekly is How Much a Year?',
   subheading: '$850 weekly equals $44,200 per year (~$21.25/hour).',
+  metaTitle: '$850 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $850 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $850 weekly to $44,200/year', 'Hourly: ~$21.25', 'Monthly: $3,683'],
     whoUsefulFor: ['Workers paid $850/week'],

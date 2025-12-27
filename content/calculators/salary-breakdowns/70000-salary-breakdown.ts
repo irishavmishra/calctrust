@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$70,000 Salary Breakdown',
   subheading: 'Understand what a $70,000 annual salary means—approximately $33.65/hour, exceeding $70K.',
+  metaTitle: '$70K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $70K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $70K hourly rate ($33.65/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $70K'],

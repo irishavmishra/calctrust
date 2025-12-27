@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$40,000 Salary in New York',
   subheading: 'Calculate your take-home pay on a $40,000 salary in New York. See state + NYC local taxes.',
+  metaTitle: '$40K Salary in New York | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $40K salary in New York. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $40K in NY', 'Calculate NY state + NYC local taxes', 'See monthly breakdowns'],
     whoUsefulFor: ['Entry-level NYC workers', 'Upstate NY employees', 'Job seekers evaluating NY offers'],

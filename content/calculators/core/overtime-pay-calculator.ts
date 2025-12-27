@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Overtime Pay Calculator",
   "subheading": "Calculate your overtime earnings accurately based on your regular hourly rate, overtime hours worked, and applicable overtime multiplier. Whether you're planning for extra income, verifying your paycheck accuracy, or understanding overtime regulations, this calculator provides the clarity you need to know exactly what your extra hours are worth.",
+  "metaTitle": "Overtime Pay Calculator | USA 2025",
+  "metaDescription": "Calculate overtime earnings at 1.5x or 2x rate. This calculator estimates OT pay based on hours worked and multiplier. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Overtime earnings calculation: Determine exactly how much additional income you'll receive for hours worked beyond your regular schedule",

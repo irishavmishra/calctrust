@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Utah Paycheck Calculator',
   subheading: 'Calculate your Utah take-home pay. Utah uses a flat 4.65% income tax.',
+  metaTitle: 'Utah Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Utah take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Utah flat 4.65% tax', 'Net pay calculation'],
     whoUsefulFor: ['Utah employees', 'Salt Lake City workers', 'Provo/Park City area employees'],

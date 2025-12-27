@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "salary-breakdowns",
   "title": "$50,000 Salary Breakdown",
   "subheading": "Wondering what a $50,000 salary really means for your take-home pay? This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly—plus how much you'll actually keep after federal taxes, state taxes, and FICA deductions. At $50,000, you're earning slightly above the U.S. median individual income, putting you in a solid middle-class position in most parts of the country.",
+  "metaTitle": "$50K Salary Breakdown | Hourly, Monthly 2025",
+  "metaDescription": "Break down a $50,000 annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations. Actual results may vary.",
   "sections": {
     "deepDive": [
       "At $50,000, a single filer falls primarily in the 22% marginal tax bracket, but the effective rate is much lower due to progressive taxation:",

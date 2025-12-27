@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$140,000 Salary Breakdown',
   subheading: 'Understand what a $140,000 annual salary means—approximately $67.31/hour.',
+  metaTitle: '$140K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $140K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $140K hourly rate ($67.31/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $140K'],

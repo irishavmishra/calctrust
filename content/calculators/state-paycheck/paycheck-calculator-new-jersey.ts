@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'New Jersey Paycheck Calculator',
   subheading: 'Calculate your New Jersey take-home pay. NJ uses graduated income tax from 1.4% to 10.75%.',
+  metaTitle: 'New Jersey Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your New Jersey take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['NJ graduated tax: 1.4-10.75% rates', 'Net pay calculation', 'NYC metro comparison'],
     whoUsefulFor: ['New Jersey employees', 'NYC commuters in NJ', 'Newark/Jersey City workers'],

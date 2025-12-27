@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'South Dakota Paycheck Calculator',
   subheading: 'Calculate your SD take-home pay. South Dakota has NO state income tax—keep more of your paycheck.',
+  metaTitle: 'South Dakota Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your South Dakota take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['SD: No state income tax', 'Full federal + FICA only', 'Midwest tax advantage'],
     whoUsefulFor: ['SD employees', 'Sioux Falls workers', 'Remote workers relocating'],

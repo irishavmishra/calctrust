@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-salary",
   "title": "$70,000 Salary in New York",
   "subheading": "Calculate your take-home pay on a $70,000 salary in New York. See federal and state tax withholdings, FICA deductions, and monthly breakdowns.",
+  "metaTitle": "$70K Salary in New York | Take-Home Pay 2025",
+  "metaDescription": "Calculate take-home pay for a $70K salary in New York. Estimates net income after federal and state taxes. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Understand your take-home pay on a $70,000 salary in New York",

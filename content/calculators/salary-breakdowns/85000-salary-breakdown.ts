@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$85,000 Salary Breakdown',
   subheading: 'Understand what an $85,000 annual salary means—approximately $40.87/hour.',
+  metaTitle: '$85K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $85K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $85K hourly rate ($40.87/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $85K'],

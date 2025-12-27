@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$24 an Hour is How Much a Year?',
   subheading: '$24 an hour equals $49,920 per year working full-time. This wage is just under $50,000 and common for skilled technicians, experienced administrative professionals, and junior analysts.',
+  metaTitle: '$24/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $24 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $24/hour to annual salary ($49,920/year)',

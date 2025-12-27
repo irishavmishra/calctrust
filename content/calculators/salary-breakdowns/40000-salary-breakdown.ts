@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$40,000 Salary Breakdown',
   subheading: 'Understand what a $40,000 annual salary means—approximately $19.23/hour, approaching $20/hour.',
+  metaTitle: '$40K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $40K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $40K hourly rate ($19.23/hour)', 'Calculate monthly take-home', 'Plan budget'],
     whoUsefulFor: ['Workers earning ~$40K', 'Near $20/hour earners'],

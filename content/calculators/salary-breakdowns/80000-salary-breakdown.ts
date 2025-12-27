@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$80,000 Salary Breakdown',
   subheading: 'Understand what an $80,000 annual salary means—approximately $38.46/hour, exceeding $80K.',
+  metaTitle: '$80K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $80K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $80K hourly rate ($38.46/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $80K'],

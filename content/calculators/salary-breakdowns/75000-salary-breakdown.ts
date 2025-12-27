@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "salary-breakdowns",
   "title": "$75,000 Salary Breakdown",
   "subheading": "Wondering what a $75,000 salary really means for your finances? This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly—plus your actual take-home after taxes. At $75,000, you're earning significantly above the median individual income and approaching household median levels, positioning you solidly in the middle class across most of America.",
+  "metaTitle": "$75K Salary Breakdown | Hourly, Monthly 2025",
+  "metaDescription": "Break down a $75,000 annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations. Actual results may vary.",
   "sections": {
     "deepDive": [
       "At $75,000, single filers fall into the 22% marginal bracket:",

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Idaho Paycheck Calculator',
   subheading: 'Calculate your Idaho take-home pay. Idaho uses a flat 5.8% income tax.',
+  metaTitle: 'Idaho Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Idaho take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Idaho flat 5.8% tax', 'Net pay calculation', 'Mountain West comparison'],
     whoUsefulFor: ['Idaho employees', 'Boise workers', 'Coeur d Alene area employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$175,000 Salary Breakdown',
   subheading: 'Understand what a $175,000 annual salary means—approximately $84.13/hour.',
+  metaTitle: '$175K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $175K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $175K hourly rate ($84.13/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $175K'],

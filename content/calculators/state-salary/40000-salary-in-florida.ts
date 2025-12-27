@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$40,000 Salary in Florida',
   subheading: 'Calculate your take-home pay on a $40,000 salary in Florida. No state income tax means more take-home.',
+  metaTitle: '$40K Salary in Florida | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $40K salary in Florida. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $40K in FL', 'Compare to states with income tax', 'See monthly breakdowns'],
     whoUsefulFor: ['Job seekers considering Florida', 'FL workers budgeting', 'Relocators from high-tax states'],

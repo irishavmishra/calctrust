@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$36 an Hour is How Much a Year?',
   subheading: '$36 an hour equals $74,880 per year working full-time—approaching $75K annually.',
+  metaTitle: '$36/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $36 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $36/hour to annual salary ($74,880/year)', 'Calculate overtime at $54/hour'],
     whoUsefulFor: ['Workers earning $36/hour', 'Job seekers targeting $75K positions'],

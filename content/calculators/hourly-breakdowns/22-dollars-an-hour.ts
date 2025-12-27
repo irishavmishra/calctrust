@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$22 an Hour is How Much a Year?',
   subheading: '$22 an hour equals $45,760 per year working full-time. This wage is common for skilled trades, healthcare technicians, and experienced administrative professionals.',
+  metaTitle: '$22/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $22 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $22/hour to annual salary ($45,760/year)',

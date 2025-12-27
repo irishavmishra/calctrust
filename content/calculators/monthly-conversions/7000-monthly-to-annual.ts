@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$7,000 Monthly is How Much a Year?',
   subheading: '$7,000 monthly equals $84,000 per year (~$40.38/hour).',
+  metaTitle: '$7,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $7,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $7,000 monthly to $84,000/year', 'Hourly: ~$40.38'],
     whoUsefulFor: ['Workers earning $7,000/month'],

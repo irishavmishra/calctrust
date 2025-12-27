@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$1,100 Biweekly is How Much a Year?',
   subheading: '$1,100 biweekly equals $28,600 per year. See your annual, monthly, and hourly equivalents.',
+  metaTitle: '$1,100 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,100 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: [
       'Convert $1,100 biweekly to annual salary ($28,600/year)',

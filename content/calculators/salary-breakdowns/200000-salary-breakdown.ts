@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$200,000 Salary Breakdown',
   subheading: 'Understand what a $200,000 annual salary means—approximately $96.15/hour, nearly $100/hour.',
+  metaTitle: '$200K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $200K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $200K hourly rate ($96.15/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $200K', 'Executive-level earners'],

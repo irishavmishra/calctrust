@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$5,000 Monthly is How Much a Year?',
   subheading: '$5,000 monthly equals $60,000 per year (~$28.85/hour)—exceeding $60K.',
+  metaTitle: '$5,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $5,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $5,000 monthly to $60,000/year', 'Hourly: ~$28.85', 'Biweekly: ~$2,308'],
     whoUsefulFor: ['Workers earning $5,000/month', 'Workers at $60K salary equivalent'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Biweekly Paycheck Calculator",
   "subheading": "Calculate your take-home pay for each biweekly paycheck after federal taxes, state taxes, Social Security, Medicare, and other deductions. Biweekly pay—26 paychecks per year—is the most common pay schedule in America. This calculator helps you understand exactly what lands in your bank account every two weeks.",
+  "metaTitle": "Biweekly Paycheck Calculator | USA 2025",
+  "metaDescription": "Calculate biweekly take-home pay after taxes and deductions. This calculator estimates net income based on standard withholding. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Net biweekly pay: See your actual take-home amount each pay period after all deductions",

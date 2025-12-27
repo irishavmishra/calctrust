@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Nevada Paycheck Calculator',
   subheading: 'Calculate your Nevada take-home pay. Nevada has NO state income tax—keep more of your paycheck.',
+  metaTitle: 'Nevada Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Nevada take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Nevada: No state income tax', 'Full federal + FICA only', 'Compare to high-tax states'],
     whoUsefulFor: ['Nevada employees', 'Las Vegas metro workers', 'Reno area employees', 'Remote workers relocating'],

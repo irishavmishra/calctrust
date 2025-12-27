@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$35,000 Salary Breakdown',
   subheading: 'Understand what a $35,000 annual salary means—approximately $16.83/hour.',
+  metaTitle: '$35K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $35K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $35K hourly rate ($16.83/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $35K annually'],

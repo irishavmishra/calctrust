@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$1,400 Biweekly is How Much a Year?',
   subheading: '$1,400 biweekly equals $36,400 per year (~$17.50/hour).',
+  metaTitle: '$1,400 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,400 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,400 biweekly to $36,400/year', 'Hourly: ~$17.50', 'Monthly: $3,033'],
     whoUsefulFor: ['Employees paid $1,400 biweekly'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$4,000 Monthly is How Much a Year?',
   subheading: '$4,000 monthly equals $48,000 per year (~$23.08/hour).',
+  metaTitle: '$4,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $4,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $4,000 monthly to $48,000/year', 'Hourly: ~$23.08', 'Biweekly: ~$1,846'],
     whoUsefulFor: ['Workers earning $4,000/month'],

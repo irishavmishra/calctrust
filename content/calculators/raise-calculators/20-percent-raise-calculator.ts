@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'raise-calculators',
   title: '20% Raise Calculator',
   subheading: 'Calculate what a 20% pay raise means for your salary—an exceptional increase.',
+  metaTitle: '20% Raise Calculator | Estimate New Salary 2025',
+  metaDescription: 'Calculate your salary after a 20% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
     whatThisHelps: ['Calculate salary after 20% raise'],
     whoUsefulFor: ['Employees receiving exceptional raises', 'Job changers comparing offers'],

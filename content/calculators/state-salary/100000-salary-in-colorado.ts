@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$100,000 Salary in Colorado',
   subheading: 'Calculate your take-home pay on a $100,000 salary in Colorado.',
+  metaTitle: '$100K Salary in Colorado | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $100K salary in Colorado. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $100K in CO', 'Calculate CO flat 4.4% tax'],
     whoUsefulFor: ['Colorado workers', 'Denver tech employees'],

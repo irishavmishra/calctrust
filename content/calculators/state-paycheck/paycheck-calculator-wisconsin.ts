@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Wisconsin Paycheck Calculator',
   subheading: 'Calculate your Wisconsin take-home pay. Wisconsin uses graduated income tax from 3.5% to 7.65%.',
+  metaTitle: 'Wisconsin Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Wisconsin take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['WI graduated tax: 3.5-7.65% rates', 'Net pay calculation', 'Midwest comparison'],
     whoUsefulFor: ['Wisconsin employees', 'Milwaukee workers', 'Madison area employees'],

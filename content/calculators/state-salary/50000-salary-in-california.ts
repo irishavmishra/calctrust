@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$50,000 Salary in California',
   subheading: 'Calculate your take-home pay on a $50,000 salary in California.',
+  metaTitle: '$50K Salary in California | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $50K salary in California. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $50K in CA', 'Calculate CA taxes', 'See monthly breakdowns'],
     whoUsefulFor: ['California workers', 'Bay Area/LA employees', 'Job seekers'],

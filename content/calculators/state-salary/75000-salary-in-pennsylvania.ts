@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$75,000 Salary in Pennsylvania',
   subheading: 'Calculate your take-home pay on a $75,000 salary in Pennsylvania.',
+  metaTitle: '$75K Salary in Pennsylvania | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $75K salary in Pennsylvania. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $75K in PA', 'Calculate PA flat 3.07% + local taxes'],
     whoUsefulFor: ['PA workers', 'Philadelphia/Pittsburgh employees'],

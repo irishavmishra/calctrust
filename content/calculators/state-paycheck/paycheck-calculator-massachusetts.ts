@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Massachusetts Paycheck Calculator',
   subheading: 'Calculate your Massachusetts take-home pay. Massachusetts uses a flat 5% income tax plus 4% millionaire tax.',
+  metaTitle: 'Massachusetts Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Massachusetts take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Massachusetts flat 5% tax', 'Millionaire tax: Additional 4% on income over $1M', 'Net pay calculation'],
     whoUsefulFor: ['Massachusetts employees', 'Boston metro workers', 'Cambridge/biotech sector employees'],

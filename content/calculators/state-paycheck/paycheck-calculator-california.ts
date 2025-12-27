@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "California Paycheck Calculator",
   "subheading": "Calculate your California take-home pay and understand why California has the highest state income tax burden in America. With rates reaching 13.3% for top earners and significant taxes even for middle-income workers, accurate paycheck calculation is essential for California residents. This calculator shows exactly what you'll receive after federal taxes, California's steep state taxes, and FICA deductions—helping you budget realistically and evaluate whether California compensation truly meets your needs.",
+  "metaTitle": "California Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your California take-home pay. Calculator shows net income after federal and CA state taxes (up to 13.3%). Standard withholding assumptions.",
   "sections": {
     "whatThisHelps": [
       "California's high tax impact: See how rates from 1% to 13.3% significantly reduce your take-home pay",

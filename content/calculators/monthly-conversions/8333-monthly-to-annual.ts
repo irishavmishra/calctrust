@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$8,333 Monthly is How Much a Year?',
   subheading: '$8,333 monthly equals $100,000 per year (~$48/hour)—exactly six figures.',
+  metaTitle: '$8,333 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $8,333 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $8,333 monthly to $100,000/year', 'Hourly: ~$48'],
     whoUsefulFor: ['Workers earning $8,333/month', 'Six-figure earners'],

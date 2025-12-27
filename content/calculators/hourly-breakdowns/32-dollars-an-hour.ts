@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$32 an Hour is How Much a Year?',
   subheading: '$32 an hour equals $66,560 per year working full-time, approaching the $70K milestone.',
+  metaTitle: '$32/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $32 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $32/hour to annual salary ($66,560/year)', 'Calculate overtime at $48/hour'],
     whoUsefulFor: ['Workers earning $32/hour', 'Job seekers targeting $65-70K positions'],

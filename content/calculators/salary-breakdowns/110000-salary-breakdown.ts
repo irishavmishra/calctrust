@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$110,000 Salary Breakdown',
   subheading: 'Understand what a $110,000 annual salary means—approximately $52.88/hour, exceeding six figures.',
+  metaTitle: '$110K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $110K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $110K hourly rate ($52.88/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $110K', 'Six-figure earners'],

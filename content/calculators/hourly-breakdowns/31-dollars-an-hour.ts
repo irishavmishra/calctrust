@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$31 an Hour is How Much a Year?',
   subheading: '$31 an hour equals $64,480 per year working full-time. This wage provides strong upper-middle class income.',
+  metaTitle: '$31/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $31 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $31/hour to annual salary ($64,480/year)', 'Calculate overtime at $46.50/hour'],
     whoUsefulFor: ['Workers earning $31/hour', 'Job seekers targeting $65K positions'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$3,200 Biweekly is How Much a Year?',
   subheading: '$3,200 biweekly equals $83,200 per year ($40/hour)—exceeding $80K.',
+  metaTitle: '$3,200 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $3,200 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $3,200 biweekly to $83,200/year', 'Hourly: $40', 'Monthly: $6,933'],
     whoUsefulFor: ['Employees paid $3,200 biweekly', 'Workers at $40/hour equivalent'],

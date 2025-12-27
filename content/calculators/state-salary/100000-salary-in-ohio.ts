@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$100,000 Salary in Ohio',
   subheading: 'Calculate your take-home pay on a $100,000 salary in Ohio.',
+  metaTitle: '$100K Salary in Ohio | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $100K salary in Ohio. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $100K in OH', 'Calculate OH state + local taxes'],
     whoUsefulFor: ['Ohio professionals', 'Columbus/Cleveland/Cincinnati workers'],

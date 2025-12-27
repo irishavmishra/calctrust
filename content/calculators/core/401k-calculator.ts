@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "401(k) Calculator",
   "subheading": "Estimate how your 401(k) contributions will grow over time and understand the tax advantages of retirement savings. This calculator helps you visualize the power of compound growth, employer matching, and tax-deferred investing to build long-term wealth. Whether you're just starting your career or optimizing an existing retirement strategy, see exactly how your contributions translate to future security.",
+  "metaTitle": "401(k) Calculator | Retirement Savings Estimator 2025",
+  "metaDescription": "Estimate 401(k) growth over time. This calculator shows contributions, employer matching, and compound growth based on standard assumptions. Educational estimates only.",
   "sections": {
     "whatThisHelps": [
       "Future account value projection: Estimate your 401(k) balance at retirement based on contributions, employer match, and investment returns",

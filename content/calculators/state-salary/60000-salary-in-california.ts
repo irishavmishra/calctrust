@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-salary",
   "title": "$60,000 Salary in California",
   "subheading": "Calculate your take-home pay on a $60,000 salary in California. See federal and state tax withholdings, FICA deductions, and monthly breakdowns.",
+  "metaTitle": "$60K Salary in California | Take-Home Pay 2025",
+  "metaDescription": "Calculate take-home pay for a $60K salary in California. Estimates net income after federal and state taxes. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Understand your take-home pay on a $60,000 salary in California",

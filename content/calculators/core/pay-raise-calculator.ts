@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Pay Raise Calculator",
   "subheading": "Calculate exactly what a salary increase means for your earnings across all pay periods. Whether you've received a raise, are negotiating for one, or evaluating a job offer with higher compensation, this calculator transforms percentage increases into real dollar amounts. See your new annual salary, monthly income, and hourly rate after the raise takes effect.",
+  "metaTitle": "Pay Raise Calculator | USA 2025",
+  "metaDescription": "Calculate new salary after a pay raise. This calculator shows annual, monthly, and hourly increases based on your raise percentage. Educational only.",
   "sections": {
     "whatThisHelps": [
       "New salary after raise: See your updated annual income when a percentage increase is applied to your current salary",

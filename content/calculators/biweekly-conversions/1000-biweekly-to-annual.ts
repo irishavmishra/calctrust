@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$1,000 Biweekly is How Much a Year?',
   subheading: '$1,000 biweekly equals $26,000 per year. This biweekly paycheck is common for entry-level and part-time positions. Understand your annual, monthly, and hourly equivalents.',
+  metaTitle: '$1,000 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,000 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: [
       'Convert $1,000 biweekly to annual salary ($26,000/year)',

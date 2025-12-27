@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$500 Weekly is How Much a Year?',
   subheading: '$500 weekly equals $26,000 per year (~$12.50/hour). See your complete annual, monthly, and hourly equivalents.',
+  metaTitle: '$500 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $500 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $500 weekly to $26,000/year', 'Hourly: ~$12.50', 'Monthly: ~$2,167'],
     whoUsefulFor: ['Workers paid $500/week', 'Budgeters planning weekly income'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$13 an Hour is How Much a Year?',
   subheading: '$13 an hour equals $27,040 per year working full-time. This wage is common for retail associates, warehouse workers, and entry-level administrative positions. See your complete income breakdown including weekly, monthly, and overtime calculations.',
+  metaTitle: '$13/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $13 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $13/hour to annual salary ($27,040/year)',

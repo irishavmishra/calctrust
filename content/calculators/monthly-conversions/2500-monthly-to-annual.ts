@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$2,500 Monthly is How Much a Year?',
   subheading: '$2,500 monthly equals $30,000 per year (~$14.42/hour).',
+  metaTitle: '$2,500 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $2,500 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $2,500 monthly to $30,000/year', 'Hourly: ~$14.42', 'Biweekly: ~$1,154'],
     whoUsefulFor: ['Workers earning $2,500/month'],

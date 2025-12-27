@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Alaska Paycheck Calculator",
   "subheading": "Calculate your Alaska take-home pay and discover the significant advantage of living in a state with no income tax. Alaska is one of only nine states with no state income tax on wages, meaning your paycheck is only reduced by federal taxes and FICA. This calculator shows exactly how much more you take home compared to workers in income tax states, making Alaska particularly attractive for high earners seeking to maximize their net pay.",
+  "metaTitle": "Alaska Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Alaska take-home pay. Alaska has no state income tax. Calculator shows net income after federal taxes only. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "No state tax advantage: See how eliminating state income tax boosts your take-home pay compared to other states",

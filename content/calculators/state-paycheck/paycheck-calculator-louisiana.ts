@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Louisiana Paycheck Calculator',
   subheading: 'Calculate your Louisiana take-home pay. Louisiana uses graduated income tax from 1.85% to 4.25%.',
+  metaTitle: 'Louisiana Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Louisiana take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: [
       'Louisiana graduated tax: 1.85-4.25% rates',

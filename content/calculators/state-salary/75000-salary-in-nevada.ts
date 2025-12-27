@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$75,000 Salary in Nevada',
   subheading: 'Calculate your take-home pay on a $75,000 salary in Nevada. No state income tax.',
+  metaTitle: '$75K Salary in Nevada | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $75K salary in Nevada. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $75K in NV', 'No state tax advantage'],
     whoUsefulFor: ['Nevada workers', 'Las Vegas/Reno employees'],

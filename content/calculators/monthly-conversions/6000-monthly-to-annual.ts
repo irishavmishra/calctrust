@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'monthly-conversions',
   title: '$6,000 Monthly is How Much a Year?',
   subheading: '$6,000 monthly equals $72,000 per year (~$34.62/hour).',
+  metaTitle: '$6,000 Monthly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $6,000 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {
     whatThisHelps: ['Convert $6,000 monthly to $72,000/year', 'Hourly: ~$34.62'],
     whoUsefulFor: ['Workers earning $6,000/month'],

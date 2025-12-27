@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$900 Weekly is How Much a Year?',
   subheading: '$900 weekly equals $46,800 per year (~$22.50/hour).',
+  metaTitle: '$900 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $900 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $900 weekly to $46,800/year', 'Hourly: ~$22.50', 'Monthly: $3,900'],
     whoUsefulFor: ['Workers paid $900/week'],

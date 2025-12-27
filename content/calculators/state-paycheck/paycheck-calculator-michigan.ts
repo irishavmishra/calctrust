@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Michigan Paycheck Calculator',
   subheading: 'Calculate your Michigan take-home pay. Michigan uses a flat 4.25% income tax.',
+  metaTitle: 'Michigan Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Michigan take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Michigan flat 4.25% tax', 'Local taxes in some cities', 'Net pay calculation'],
     whoUsefulFor: ['Michigan employees', 'Detroit metro workers', 'Grand Rapids area employees'],

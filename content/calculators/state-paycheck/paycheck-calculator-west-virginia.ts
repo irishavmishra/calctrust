@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'West Virginia Paycheck Calculator',
   subheading: 'Calculate your WV take-home pay. West Virginia uses graduated income tax from 2.36% to 5.12%.',
+  metaTitle: 'West Virginia Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your West Virginia take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['WV graduated tax: 2.36-5.12% rates', 'Net pay calculation'],
     whoUsefulFor: ['WV employees', 'Charleston workers', 'Morgantown area employees'],

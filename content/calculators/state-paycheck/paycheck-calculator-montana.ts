@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Montana Paycheck Calculator',
   subheading: 'Calculate your Montana take-home pay. Montana uses graduated income tax from 4.7% to 5.9%.',
+  metaTitle: 'Montana Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Montana take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Montana graduated tax: 4.7-5.9% rates', 'Net pay calculation', 'Regional comparison to WY'],
     whoUsefulFor: ['Montana employees', 'Billings and Missoula workers', 'Remote workers in Montana'],

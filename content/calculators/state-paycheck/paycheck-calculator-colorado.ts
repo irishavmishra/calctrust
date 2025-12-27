@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Colorado Paycheck Calculator',
   subheading: 'Calculate your Colorado take-home pay. Colorado uses a flat 4.4% income tax.',
+  metaTitle: 'Colorado Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Colorado take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Colorado flat 4.4% tax', 'Net pay calculation', 'Mountain West comparison'],
     whoUsefulFor: ['Colorado employees', 'Denver workers', 'Colorado Springs/Boulder employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$4,000 Biweekly is How Much a Year?',
   subheading: '$4,000 biweekly equals $104,000 per year ($50/hour)—exceeding six figures.',
+  metaTitle: '$4,000 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $4,000 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $4,000 biweekly to $104,000/year', 'Hourly: $50', 'Monthly: $8,667'],
     whoUsefulFor: ['Employees paid $4,000 biweekly', 'High earners at $50/hour equivalent'],

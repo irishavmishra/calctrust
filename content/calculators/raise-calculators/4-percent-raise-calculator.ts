@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'raise-calculators',
   title: '4% Raise Calculator',
   subheading: 'Calculate what a 4% pay raise means for your salary—above average annual increase.',
+  metaTitle: '4% Raise Calculator | Estimate New Salary 2025',
+  metaDescription: 'Calculate your salary after a 4% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
     whatThisHelps: ['Calculate salary after 4% raise', 'See monthly impact'],
     whoUsefulFor: ['Employees receiving above-average raises'],

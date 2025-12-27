@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$50 an Hour is How Much a Year?',
   subheading: '$50 an hour equals $104,000 per year working full-time—a six-figure income providing excellent financial position.',
+  metaTitle: '$50/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $50 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $50/hour to annual salary ($104,000/year)',

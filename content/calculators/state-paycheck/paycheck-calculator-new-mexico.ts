@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'New Mexico Paycheck Calculator',
   subheading: 'Calculate your New Mexico take-home pay. NM uses graduated income tax from 1.7% to 5.9%.',
+  metaTitle: 'New Mexico Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your New Mexico take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['NM graduated tax: 1.7-5.9% rates', 'Net pay calculation'],
     whoUsefulFor: ['New Mexico employees', 'Albuquerque metro workers', 'Santa Fe area employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Iowa Paycheck Calculator',
   subheading: 'Calculate your Iowa take-home pay. Iowa uses graduated income tax from 4.4% to 6% and uniquely allows deducting federal tax paid from state taxable income.',
+  metaTitle: 'Iowa Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Iowa take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: [
       'Iowa graduated tax: See how 4.4-6% rates apply based on income',

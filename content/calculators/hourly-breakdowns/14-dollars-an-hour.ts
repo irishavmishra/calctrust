@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$14 an Hour is How Much a Year?',
   subheading: '$14 an hour equals $29,120 per year working full-time. This wage is typical for skilled retail, customer service, and entry-level technical positions. See your complete income breakdown including weekly, monthly, and overtime calculations.',
+  metaTitle: '$14/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $14 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $14/hour to annual salary ($29,120/year)',

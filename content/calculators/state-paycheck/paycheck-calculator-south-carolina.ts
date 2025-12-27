@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'South Carolina Paycheck Calculator',
   subheading: 'Calculate your SC take-home pay. South Carolina uses graduated income tax from 0% to 6.2%.',
+  metaTitle: 'South Carolina Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your South Carolina take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['SC graduated tax: 0-6.2% rates', 'Net pay calculation'],
     whoUsefulFor: ['SC employees', 'Charleston workers', 'Greenville/Columbia area employees'],

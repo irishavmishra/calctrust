@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$50,000 Salary in Florida',
   subheading: 'Calculate your take-home pay on a $50,000 salary in Florida. No state income tax.',
+  metaTitle: '$50K Salary in Florida | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $50K salary in Florida. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $50K in FL', 'No state tax advantage', 'See monthly breakdowns'],
     whoUsefulFor: ['Florida workers', 'Miami/Orlando employees', 'Relocators'],

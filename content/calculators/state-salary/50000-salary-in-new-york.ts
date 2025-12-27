@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$50,000 Salary in New York',
   subheading: 'Calculate your take-home pay on a $50,000 salary in New York.',
+  metaTitle: '$50K Salary in New York | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $50K salary in New York. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $50K in NY', 'Calculate NY state + NYC taxes'],
     whoUsefulFor: ['NY workers', 'NYC employees', 'Upstate NY'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,300 Weekly is How Much a Year?',
   subheading: '$1,300 weekly equals $67,600 per year (~$32.50/hour).',
+  metaTitle: '$1,300 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,300 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,300 weekly to $67,600/year', 'Hourly: ~$32.50', 'Monthly: $5,633'],
     whoUsefulFor: ['Workers paid $1,300/week'],

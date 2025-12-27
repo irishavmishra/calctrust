@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$600 Weekly is How Much a Year?',
   subheading: '$600 weekly equals $31,200 per year ($15/hour equivalent).',
+  metaTitle: '$600 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $600 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $600 weekly to $31,200/year', 'Hourly: $15', 'Monthly: $2,600'],
     whoUsefulFor: ['Workers paid $600/week'],

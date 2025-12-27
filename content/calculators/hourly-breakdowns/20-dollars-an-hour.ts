@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$20 an Hour is How Much a Year?',
   subheading: '$20 an hour equals $41,600 per year working full-time. This round number marks a significant milestone—approximately the U.S. individual median income and a common target for wage negotiations.',
+  metaTitle: '$20/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $20 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $20/hour to annual salary ($41,600/year)',

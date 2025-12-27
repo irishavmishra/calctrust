@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$130,000 Salary Breakdown',
   subheading: 'Understand what a $130,000 annual salary means—approximately $62.50/hour.',
+  metaTitle: '$130K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $130K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $130K hourly rate ($62.50/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $130K'],

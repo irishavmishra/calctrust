@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$1,300 Biweekly is How Much a Year?',
   subheading: '$1,300 biweekly equals $33,800 per year (~$16.25/hour).',
+  metaTitle: '$1,300 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,300 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,300 biweekly to $33,800/year', 'Hourly: ~$16.25', 'Monthly: $2,817'],
     whoUsefulFor: ['Employees paid $1,300 biweekly'],

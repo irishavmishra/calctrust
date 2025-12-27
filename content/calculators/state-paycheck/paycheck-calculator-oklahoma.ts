@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Oklahoma Paycheck Calculator',
   subheading: 'Calculate your Oklahoma take-home pay. Oklahoma uses graduated income tax from 0.25% to 4.75%.',
+  metaTitle: 'Oklahoma Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Oklahoma take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Oklahoma graduated tax: 0.25-4.75% rates', 'Net pay calculation'],
     whoUsefulFor: ['Oklahoma employees', 'Oklahoma City workers', 'Tulsa area employees'],

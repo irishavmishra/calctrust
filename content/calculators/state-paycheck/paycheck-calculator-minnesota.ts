@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Minnesota Paycheck Calculator',
   subheading: 'Calculate your Minnesota take-home pay. Minnesota uses graduated income tax from 5.35% to 9.85%.',
+  metaTitle: 'Minnesota Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Minnesota take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Minnesota graduated tax: 5.35-9.85% rates', 'Net pay calculation', 'Midwest comparison'],
     whoUsefulFor: ['Minnesota employees', 'Minneapolis-St. Paul metro workers', 'Duluth area employees'],

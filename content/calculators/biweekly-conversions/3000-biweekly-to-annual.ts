@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$3,000 Biweekly is How Much a Year?',
   subheading: '$3,000 biweekly equals $78,000 per year ($37.50/hour).',
+  metaTitle: '$3,000 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $3,000 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $3,000 biweekly to $78,000/year', 'Hourly: $37.50', 'Monthly: $6,500'],
     whoUsefulFor: ['Employees paid $3,000 biweekly'],

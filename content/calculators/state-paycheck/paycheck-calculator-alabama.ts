@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Alabama Paycheck Calculator",
   "subheading": "Calculate your Alabama take-home pay with precision using our comprehensive paycheck calculator. Alabama uses a graduated income tax system with rates ranging from 2% to 5%, making accurate calculation essential for financial planning. Whether you're budgeting for monthly expenses, comparing job offers, or verifying your paycheck accuracy, this calculator shows exactly what you'll receive after federal taxes, Alabama state taxes, and FICA deductions.",
+  "metaTitle": "Alabama Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Alabama take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.",
   "sections": {
     "whatThisHelps": [
       "Alabama state tax impact: See how Alabama's 2-5% graduated income tax affects your paycheck compared to states with flat rates or no income tax",

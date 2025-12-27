@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$100,000 Salary in Tennessee',
   subheading: 'Calculate your take-home pay on a $100,000 salary in Tennessee. No state income tax.',
+  metaTitle: '$100K Salary in Tennessee | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $100K salary in Tennessee. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $100K in TN', 'No state tax advantage'],
     whoUsefulFor: ['Tennessee professionals', 'Nashville tech workers'],

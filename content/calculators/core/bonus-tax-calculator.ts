@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Bonus Tax Calculator",
   "subheading": "Calculate the taxes on your bonus, commission, or supplemental income to understand your actual take-home amount. Bonuses are often taxed differently than regular wages, with many employers using a flat withholding rate. This calculator helps you anticipate the tax hit on your bonus and plan accordingly for your windfall.",
+  "metaTitle": "Bonus Tax Calculator | USA 2025",
+  "metaDescription": "Estimate bonus tax withholding and take-home amount. This calculator shows supplemental income taxes based on standard withholding. Educational estimates only.",
   "sections": {
     "whatThisHelps": [
       "Bonus tax withholding: See how much federal tax will be withheld from your bonus using supplemental wage rates",

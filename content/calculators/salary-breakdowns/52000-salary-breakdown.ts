@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$52,000 Salary Breakdown',
   subheading: 'Understand what a $52,000 annual salary means—exactly $25/hour, exceeding $50K.',
+  metaTitle: '$52K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $52K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $52K hourly rate ($25/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $52K', 'Those at $25/hour'],

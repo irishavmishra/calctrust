@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$700 Weekly is How Much a Year?',
   subheading: '$700 weekly equals $36,400 per year (~$17.50/hour).',
+  metaTitle: '$700 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $700 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $700 weekly to $36,400/year', 'Hourly: ~$17.50', 'Monthly: $3,033'],
     whoUsefulFor: ['Workers paid $700/week'],

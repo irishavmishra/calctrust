@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$33 an Hour is How Much a Year?',
   subheading: '$33 an hour equals $68,640 per year working full-time, nearing $70K annually.',
+  metaTitle: '$33/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $33 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $33/hour to annual salary ($68,640/year)', 'Calculate overtime at $49.50/hour'],
     whoUsefulFor: ['Workers earning $33/hour', 'Job seekers targeting $70K positions'],

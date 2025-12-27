@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Arizona Paycheck Calculator",
   "subheading": "Calculate your Arizona take-home pay with our comprehensive paycheck calculator. Arizona now features a flat 2.5% income tax rate—one of the lowest in the nation among states that tax income. This simplified tax structure makes Arizona particularly attractive for workers relocating from high-tax states. See exactly what you'll receive after federal taxes, Arizona state taxes, and FICA deductions.",
+  "metaTitle": "Arizona Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Arizona take-home pay. This calculator shows net income after federal and Arizona state taxes. 2.5% flat rate. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Arizona's flat tax benefit: See how Arizona's simple 2.5% flat tax impacts your paycheck",

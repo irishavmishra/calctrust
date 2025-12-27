@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$650 Weekly is How Much a Year?',
   subheading: '$650 weekly equals $33,800 per year (~$16.25/hour).',
+  metaTitle: '$650 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $650 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $650 weekly to $33,800/year', 'Hourly: ~$16.25', 'Monthly: $2,817'],
     whoUsefulFor: ['Workers paid $650/week'],

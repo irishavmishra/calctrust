@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Wyoming Paycheck Calculator',
   subheading: 'Calculate your Wyoming take-home pay. Wyoming has NO state income tax—keep more of your paycheck.',
+  metaTitle: 'Wyoming Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Wyoming take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['WY: No state income tax', 'Full federal + FICA only', 'Mountain West tax advantage'],
     whoUsefulFor: ['Wyoming employees', 'Cheyenne workers', 'Energy sector employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Missouri Paycheck Calculator',
   subheading: 'Calculate your Missouri take-home pay. Missouri uses graduated income tax from 2% to 4.8%.',
+  metaTitle: 'Missouri Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Missouri take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Missouri graduated tax: 2-4.8% rates', 'Net pay calculation', 'KC metro comparison'],
     whoUsefulFor: ['Missouri employees', 'St. Louis metro workers', 'Kansas City (MO side) employees'],

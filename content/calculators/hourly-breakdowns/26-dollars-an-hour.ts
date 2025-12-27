@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$26 an Hour is How Much a Year?',
   subheading: '$26 an hour equals $54,080 per year working full-time. This wage is above the median and typical for experienced skilled workers and mid-level professionals.',
+  metaTitle: '$26/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $26 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $26/hour to annual salary ($54,080/year)',

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'raise-calculators',
   title: '3% Raise Calculator',
   subheading: 'Calculate what a 3% pay raise means for your salary—the typical annual merit increase.',
+  metaTitle: '3% Raise Calculator | Estimate New Salary 2025',
+  metaDescription: 'Calculate your salary after a 3% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
     whatThisHelps: ['Calculate salary after 3% raise', 'See monthly impact'],
     whoUsefulFor: ['Employees receiving merit increases'],

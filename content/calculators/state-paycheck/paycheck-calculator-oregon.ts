@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Oregon Paycheck Calculator',
   subheading: 'Calculate your Oregon take-home pay. Oregon uses graduated income tax from 4.75% to 9.9%—among highest.',
+  metaTitle: 'Oregon Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Oregon take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Oregon graduated tax: 4.75-9.9% rates', 'No sales tax benefit', 'Net pay calculation'],
     whoUsefulFor: ['Oregon employees', 'Portland metro workers', 'Eugene/Salem employees'],

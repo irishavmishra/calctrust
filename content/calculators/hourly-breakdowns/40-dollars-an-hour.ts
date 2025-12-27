@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$40 an Hour is How Much a Year?',
   subheading: '$40 an hour equals $83,200 per year working full-time—exceeding median household income and providing strong financial position.',
+  metaTitle: '$40/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $40 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $40/hour to annual salary ($83,200/year)', 'Calculate overtime at $60/hour'],
     whoUsefulFor: ['Workers earning $40/hour', 'Job seekers targeting $80K+ positions'],

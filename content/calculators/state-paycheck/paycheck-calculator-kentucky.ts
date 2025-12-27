@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Kentucky Paycheck Calculator',
   subheading: 'Calculate your Kentucky take-home pay. Kentucky uses a flat 4% income tax rate.',
+  metaTitle: 'Kentucky Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Kentucky take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: [
       'Kentucky flat 4% tax: Simple calculation',

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$18 an Hour is How Much a Year?',
   subheading: '$18 an hour equals $37,440 per year working full-time. This wage is common for experienced service workers, skilled trades apprentices, and mid-level administrative roles. See your complete income breakdown.',
+  metaTitle: '$18/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $18 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $18/hour to annual salary ($37,440/year)',

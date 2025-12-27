@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$23 an Hour is How Much a Year?',
   subheading: '$23 an hour equals $47,840 per year working full-time. This wage approaches $50,000 and is typical for experienced technicians, office managers, and junior professional roles.',
+  metaTitle: '$23/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $23 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $23/hour to annual salary ($47,840/year)',

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,000 Weekly is How Much a Year?',
   subheading: '$1,000 weekly equals $52,000 per year ($25/hour)—exceeding $50K milestone.',
+  metaTitle: '$1,000 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,000 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,000 weekly to $52,000/year', 'Hourly: $25', 'Monthly: $4,333'],
     whoUsefulFor: ['Workers paid $1,000/week', 'Milestone income earners'],

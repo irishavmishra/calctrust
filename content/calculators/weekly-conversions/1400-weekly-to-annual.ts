@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,400 Weekly is How Much a Year?',
   subheading: '$1,400 weekly equals $72,800 per year ($35/hour)—exceeding $70K.',
+  metaTitle: '$1,400 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,400 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,400 weekly to $72,800/year', 'Hourly: $35', 'Monthly: $6,067'],
     whoUsefulFor: ['Workers paid $1,400/week'],

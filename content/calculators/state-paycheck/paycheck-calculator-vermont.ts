@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Vermont Paycheck Calculator',
   subheading: 'Calculate your Vermont take-home pay. Vermont uses graduated income tax from 3.35% to 8.75%.',
+  metaTitle: 'Vermont Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Vermont take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['VT graduated tax: 3.35-8.75% rates', 'Net pay calculation', 'New England comparison'],
     whoUsefulFor: ['Vermont employees', 'Burlington workers', 'NH border workers'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'biweekly-conversions',
   title: '$2,400 Biweekly is How Much a Year?',
   subheading: '$2,400 biweekly equals $62,400 per year ($30/hour)—exceeding $60K.',
+  metaTitle: '$2,400 Biweekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $2,400 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {
     whatThisHelps: ['Convert $2,400 biweekly to $62,400/year', 'Hourly: $30', 'Monthly: $5,200'],
     whoUsefulFor: ['Employees paid $2,400 biweekly', 'Workers at $30/hour equivalent'],

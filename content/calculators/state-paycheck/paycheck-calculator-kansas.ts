@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Kansas Paycheck Calculator',
   subheading: 'Calculate your Kansas take-home pay. Kansas uses graduated income tax from 3.1% to 5.7%.',
+  metaTitle: 'Kansas Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Kansas take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: [
       'Kansas graduated tax: See how 3.1-5.7% rates apply',

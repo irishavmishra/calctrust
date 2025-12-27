@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$75,000 Salary in Washington',
   subheading: 'Calculate your take-home pay on a $75,000 salary in Washington. No state income tax.',
+  metaTitle: '$75K Salary in Washington | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $75K salary in Washington. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $75K in WA', 'No state tax advantage'],
     whoUsefulFor: ['Washington workers', 'Seattle metro employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Arkansas Paycheck Calculator",
   "subheading": "Calculate your Arkansas take-home pay with precision using our comprehensive paycheck calculator. Arkansas features a graduated income tax system with rates ranging from 2% to 4.7%, placing it in the moderate range among states. This calculator shows exactly what you'll receive after federal taxes, Arkansas state taxes, and FICA deductions, helping you budget accurately and compare compensation packages.",
+  "metaTitle": "Arkansas Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Arkansas take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.",
   "sections": {
     "whatThisHelps": [
       "Arkansas graduated tax impact: See how Arkansas's 2-4.7% rates affect your paycheck based on income level",

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'raise-calculators',
   title: '1% Raise Calculator',
   subheading: 'Calculate what a 1% pay raise means for your salary. See your new annual, monthly, and hourly income after a 1% increase.',
+  metaTitle: '1% Raise Calculator | Estimate New Salary 2025',
+  metaDescription: 'Calculate your salary after a 1% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
     whatThisHelps: ['Calculate salary after 1% raise', 'See monthly and hourly impact', 'Compare new vs old income'],
     whoUsefulFor: ['Employees receiving cost-of-living adjustments', 'Workers evaluating raise offers'],

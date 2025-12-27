@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Hawaii Paycheck Calculator',
   subheading: 'Calculate your Hawaii take-home pay. Hawaii uses graduated income tax from 1.4% to 11%—among highest.',
+  metaTitle: 'Hawaii Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Hawaii take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['HI graduated tax: 1.4-11% rates', 'Net pay calculation', 'High cost of living context'],
     whoUsefulFor: ['Hawaii employees', 'Honolulu workers', 'All islands employees'],

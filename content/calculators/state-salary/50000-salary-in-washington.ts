@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$50,000 Salary in Washington',
   subheading: 'Calculate your take-home pay on a $50,000 salary in Washington. No state income tax.',
+  metaTitle: '$50K Salary in Washington | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $50K salary in Washington. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $50K in WA', 'No state tax advantage'],
     whoUsefulFor: ['Washington workers', 'Seattle metro employees'],

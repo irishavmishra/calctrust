@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-salary",
   "title": "$60,000 Salary in Florida",
   "subheading": "Calculate your take-home pay on a $60,000 salary in Florida. See federal and state tax withholdings, FICA deductions, and monthly breakdowns.",
+  "metaTitle": "$60K Salary in Florida | Take-Home Pay 2025",
+  "metaDescription": "Calculate take-home pay for a $60K salary in Florida. Estimates net income after federal taxes. No state income tax. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Understand your take-home pay on a $60,000 salary in Florida",

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$2,000 Weekly is How Much a Year?',
   subheading: '$2,000 weekly equals $104,000 per year ($50/hour)—six-figure income.',
+  metaTitle: '$2,000 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $2,000 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $2,000 weekly to $104,000/year', 'Hourly: $50', 'Monthly: $8,667'],
     whoUsefulFor: ['Workers paid $2,000/week', 'Six-figure earners'],

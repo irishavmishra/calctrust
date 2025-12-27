@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Pennsylvania Paycheck Calculator',
   subheading: 'Calculate your PA take-home pay. Pennsylvania uses a flat 3.07% income tax plus local taxes.',
+  metaTitle: 'Pennsylvania Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Pennsylvania take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['PA flat 3.07% tax', 'Local taxes vary by municipality', 'Net pay calculation'],
     whoUsefulFor: ['Pennsylvania employees', 'Philadelphia workers', 'Pittsburgh area employees'],

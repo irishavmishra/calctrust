@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$34 an Hour is How Much a Year?',
   subheading: '$34 an hour equals $70,720 per year working full-time, exceeding the $70K milestone.',
+  metaTitle: '$34/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $34 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: ['Convert $34/hour to annual salary ($70,720/year)', 'Calculate overtime at $51/hour'],
     whoUsefulFor: ['Workers earning $34/hour', 'Job seekers targeting $70K+ positions'],

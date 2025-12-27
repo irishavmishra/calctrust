@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'hourly-breakdowns',
   title: '$30 an Hour is How Much a Year?',
   subheading: '$30 an hour equals $62,400 per year working full-time. This round number is a key milestone wage that exceeds the median household income for single earners.',
+  metaTitle: '$30/Hour is How Much a Year? | 2025 Calculator',
+  metaDescription: 'Convert $30 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
     whatThisHelps: [
       'Convert $30/hour to annual salary ($62,400/year)',

@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-salary',
   title: '$120,000 Salary in California',
   subheading: 'Calculate your take-home pay on a $120,000 salary in California.',
+  metaTitle: '$120K Salary in California | Take-Home Pay 2025',
+  metaDescription: 'Calculate take-home pay for a $120K salary in California. Estimates net income after federal and state taxes. Actual results may vary.',
   sections: {
     whatThisHelps: ['Understand take-home pay on $120K in CA', 'Calculate CA graduated taxes'],
     whoUsefulFor: ['California tech professionals', 'Bay Area/LA senior workers'],

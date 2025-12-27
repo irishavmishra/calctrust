@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'weekly-conversions',
   title: '$1,100 Weekly is How Much a Year?',
   subheading: '$1,100 weekly equals $57,200 per year (~$27.50/hour).',
+  metaTitle: '$1,100 Weekly to Annual Salary | 2025 Calculator',
+  metaDescription: 'Convert $1,100 weekly pay to annual salary. This calculator estimates yearly and monthly income based on standard 52-week assumptions.',
   sections: {
     whatThisHelps: ['Convert $1,100 weekly to $57,200/year', 'Hourly: ~$27.50', 'Monthly: $4,767'],
     whoUsefulFor: ['Workers paid $1,100/week'],

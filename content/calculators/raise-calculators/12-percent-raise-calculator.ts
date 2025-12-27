@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'raise-calculators',
   title: '12% Raise Calculator',
   subheading: 'Calculate what a 12% pay raise means for your salary.',
+  metaTitle: '12% Raise Calculator | Estimate New Salary 2025',
+  metaDescription: 'Calculate your salary after a 12% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
     whatThisHelps: ['Calculate salary after 12% raise'],
     whoUsefulFor: ['Employees receiving major compensation changes'],

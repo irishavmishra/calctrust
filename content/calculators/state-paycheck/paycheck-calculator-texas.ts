@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "state-paycheck",
   "title": "Texas Paycheck Calculator",
   "subheading": "Calculate your Texas take-home pay and enjoy the significant advantage of living in America's largest no-income-tax state. Texas is one of only nine states with no state income tax, making it a premier destination for workers seeking to maximize take-home pay. With major cities like Houston, Dallas, Austin, and San Antonio, Texas offers abundant opportunity without the tax penalty seen in coastal states.",
+  "metaTitle": "Texas Paycheck Calculator 2025 | CalcTrust",
+  "metaDescription": "Estimate your Texas take-home pay. Texas has no state income tax. Calculator shows net income after federal taxes only. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "No state tax advantage: Texas has no state income tax on any income",

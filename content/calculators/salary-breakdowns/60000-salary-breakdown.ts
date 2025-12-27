@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'salary-breakdowns',
   title: '$60,000 Salary Breakdown',
   subheading: 'Understand what a $60,000 annual salary means—approximately $28.85/hour, exceeding $60K.',
+  metaTitle: '$60K Salary Breakdown | Hourly, Monthly 2025',
+  metaDescription: 'Break down a $60K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {
     whatThisHelps: ['See $60K hourly rate ($28.85/hour)', 'Calculate monthly take-home'],
     whoUsefulFor: ['Workers earning $60K', 'Milestone earners'],

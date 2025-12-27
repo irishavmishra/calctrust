@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Illinois Paycheck Calculator',
   subheading: 'Calculate your Illinois take-home pay. Illinois uses a flat 4.95% income tax.',
+  metaTitle: 'Illinois Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Illinois take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Illinois flat 4.95% tax', 'Net pay calculation', 'Midwest comparison'],
     whoUsefulFor: ['Illinois employees', 'Chicago metro workers', 'Suburban IL employees'],

@@ -5,6 +5,8 @@ const content: BlogContent = {
   "category": "core",
   "title": "Take Home Pay Calculator",
   "subheading": "Calculate your actual net pay after federal taxes, state taxes, Social Security, Medicare, and other deductions are taken from your gross earnings. Understanding your take-home pay is essential for budgeting, financial planning, and evaluating whether a salary truly meets your needs. This calculator transforms your gross income into the real amount that hits your bank account.",
+  "metaTitle": "Take Home Pay Calculator | USA 2025",
+  "metaDescription": "Calculate net pay after taxes and deductions. This calculator estimates take-home income based on standard withholding assumptions. Actual results may vary.",
   "sections": {
     "whatThisHelps": [
       "Net pay from gross income: See exactly how much of your paycheck you actually receive after all mandatory deductions",

@@ -222,7 +222,7 @@ const monthlyAmounts = [
 ];
 
 // Raise percentages for raise calculator pages
-const raisePercentages = [2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25];
+const raisePercentages = [1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 15, 20, 25];
 
 // Top states for state+salary combination pages
 const topStatesForSalary = ['CA', 'TX', 'FL', 'NY', 'IL', 'PA', 'OH', 'GA', 'NC', 'WA'];
@@ -1213,6 +1213,66 @@ export const calculatorPages: CalculatorPageData[] = ([
             { slug: 'time-and-a-half-calculator', title: 'Time and a Half Calculator' },
             { slug: 'hourly-to-salary-calculator', title: 'Hourly to Salary Calculator' },
             { slug: 'take-home-pay-calculator', title: 'Take Home Pay Calculator' },
+        ],
+        lastUpdated: "2025-12-23",
+    },
+    {
+        slug: 'double-time-calculator',
+        title: 'Double Time Calculator | Calculate 2x Overtime Pay',
+        description: 'Calculate your double time pay (2x regular rate). Free calculator for premium overtime earning situations.',
+        h1: 'Double Time Calculator',
+        keywords: ['double time calculator', '2x overtime calculator', 'double time pay calculator', 'double overtime'],
+        calculatorType: 'doubleTime',
+        category: 'overtime',
+        priority: 8,
+        inputs: [
+            {
+                id: 'regularHourlyRate',
+                label: 'Regular Hourly Rate',
+                type: 'currency',
+                placeholder: '25.00',
+                defaultValue: 25,
+                required: true,
+            },
+            {
+                id: 'doubleTimeHours',
+                label: 'Double Time Hours',
+                type: 'number',
+                placeholder: '8',
+                defaultValue: 8,
+                min: 0,
+                required: true,
+            },
+        ],
+        outputs: [
+            { id: 'doubleTimePay', label: 'Total Double Time Pay', format: 'currency', highlight: true },
+            { id: 'doubleTimeRate', label: 'Double Time Rate (2x)', format: 'currency' },
+            { id: 'regularRate', label: 'Regular Rate', format: 'currency' },
+        ],
+        content: {
+            intro: 'Double time pay is 2x your regular hourly rate, typically applied for extended overtime hours, 7th consecutive workdays, or holiday work depending on state law and employer policy.',
+            howItWorks: 'This calculator multiplies your regular hourly rate by 2 and then by the number of double time hours worked to calculate your premium overtime earnings.',
+            formula: 'Double Time Pay = Regular Rate × 2 × Double Time Hours',
+            example: {
+                description: 'If you earn $25/hour and work 8 hours of double time:',
+                inputs: { regularHourlyRate: 25, doubleTimeHours: 8 },
+                result: 'Your double time rate is $50/hour, earning you $400 in double time pay.',
+            },
+        },
+        faq: [
+            {
+                question: 'When do I get double time?',
+                answer: 'Double time is required in some states (like California for hours over 12 in a day or on the 7th consecutive workday) and may be offered by employers for holidays.',
+            },
+            {
+                question: 'What is double time pay?',
+                answer: 'Double time means you earn 2 times your regular hourly rate. If you make $25/hour, your double time rate is $50/hour.',
+            },
+        ],
+        relatedCalculators: [
+            { slug: 'overtime-pay-calculator', title: 'Overtime Pay Calculator' },
+            { slug: 'time-and-a-half-calculator', title: 'Time and a Half Calculator' },
+            { slug: 'hourly-to-salary-calculator', title: 'Hourly to Salary Calculator' },
         ],
         lastUpdated: "2025-12-23",
     },

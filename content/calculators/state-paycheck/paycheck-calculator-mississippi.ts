@@ -5,6 +5,8 @@ const content: BlogContent = {
   category: 'state-paycheck',
   title: 'Mississippi Paycheck Calculator',
   subheading: 'Calculate your Mississippi take-home pay. Mississippi uses a flat 4.7% income tax (phasing down).',
+  metaTitle: 'Mississippi Paycheck Calculator 2025 | CalcTrust',
+  metaDescription: 'Estimate your Mississippi take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {
     whatThisHelps: ['Mississippi flat 4.7% tax', 'Net pay calculation', 'Regional comparison'],
     whoUsefulFor: ['Mississippi employees', 'Jackson metro workers', 'Gulf Coast area employees'],
