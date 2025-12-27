@@ -19,7 +19,7 @@ import {
 } from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
 import { getCalculatorPage, calculatorPages } from '@/lib/content/calculators';
-import { getMarkdownContent } from '@/lib/content/markdown-loader';
+import { getBlogContent } from '@/lib/blog/content-loader';
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -89,14 +89,14 @@ export default async function CalculatorPage({ params }: PageProps) {
         stateCode,
     } = pageData;
 
-    // Load markdown content if available (YMYL-compliant content)
-    const markdownContent = getMarkdownContent(slug);
+    // Load TypeScript content if available (YMYL-compliant content)
+    const blogContent = await getBlogContent(slug);
 
-    // Use markdown FAQ if available, otherwise fallback to default
-    const faq = markdownContent?.sections?.faq || defaultFaq;
+    // Use blog content FAQ if available, otherwise fallback to default
+    const faq = blogContent?.sections?.faq || defaultFaq;
 
-    // Use markdown subheading if available
-    const intro = markdownContent?.subheading || content.intro;
+    // Use blog content subheading if available
+    const intro = blogContent?.subheading || content.intro;
 
     // Get automated linking data for SEO
     const linkingData = getPageLinkingData(pageData);
@@ -182,11 +182,11 @@ export default async function CalculatorPage({ params }: PageProps) {
             <div className="w-full max-w-5xl mx-auto px-6 py-16 lg:py-24 space-y-16">
 
                 {/* What This Calculator Helps You Understand */}
-                {markdownContent?.sections?.whatThisHelps && markdownContent.sections.whatThisHelps.length > 0 && (
+                {blogContent?.sections?.whatThisHelps && blogContent.sections.whatThisHelps.length > 0 && (
                     <section className="max-w-3xl mx-auto">
                         <h2 className="text-2xl font-semibold tracking-tight mb-6">What This Calculator Helps You Understand</h2>
                         <ul className="space-y-3 text-muted-foreground">
-                            {markdownContent.sections.whatThisHelps.map((item, index) => (
+                            {blogContent.sections.whatThisHelps.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3">
                                     <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                                     <span>{item}</span>
@@ -197,11 +197,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 )}
 
                 {/* Who This Calculator Is Useful For */}
-                {markdownContent?.sections?.whoUsefulFor && markdownContent.sections.whoUsefulFor.length > 0 && (
+                {blogContent?.sections?.whoUsefulFor && blogContent.sections.whoUsefulFor.length > 0 && (
                     <section className="max-w-3xl mx-auto">
                         <h2 className="text-2xl font-semibold tracking-tight mb-6">Who This Calculator Is Useful For</h2>
                         <ul className="space-y-3 text-muted-foreground">
-                            {markdownContent.sections.whoUsefulFor.map((item, index) => (
+                            {blogContent.sections.whoUsefulFor.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3">
                                     <span className="text-primary font-semibold">→</span>
                                     <span>{item}</span>
@@ -214,9 +214,9 @@ export default async function CalculatorPage({ params }: PageProps) {
                 {/* How the Calculation Works */}
                 <article className="prose prose-zinc dark:prose-invert max-w-3xl mx-auto">
                     <h2 className="text-2xl font-semibold tracking-tight mb-6">How It Works</h2>
-                    {markdownContent?.sections?.howItWorks && markdownContent.sections.howItWorks.length > 0 ? (
+                    {blogContent?.sections?.howItWorks && blogContent.sections.howItWorks.length > 0 ? (
                         <ol className="space-y-3 text-muted-foreground list-decimal list-inside">
-                            {markdownContent.sections.howItWorks.map((step, index) => (
+                            {blogContent.sections.howItWorks.map((step, index) => (
                                 <li key={index}>{step}</li>
                             ))}
                         </ol>
@@ -242,11 +242,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 </article>
 
                 {/* Assumptions Used */}
-                {markdownContent?.sections?.assumptions && markdownContent.sections.assumptions.length > 0 && (
+                {blogContent?.sections?.assumptions && blogContent.sections.assumptions.length > 0 && (
                     <section className="max-w-3xl mx-auto bg-muted/30 rounded-2xl p-8 border border-border/50">
                         <h2 className="text-xl font-semibold tracking-tight mb-6">Assumptions Used</h2>
                         <ul className="space-y-3 text-muted-foreground text-sm">
-                            {markdownContent.sections.assumptions.map((item, index) => (
+                            {blogContent.sections.assumptions.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3">
                                     <span className="text-muted-foreground/60">•</span>
                                     <span>{item}</span>
@@ -257,11 +257,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 )}
 
                 {/* Common Mistakes People Make */}
-                {markdownContent?.sections?.commonMistakes && markdownContent.sections.commonMistakes.length > 0 && (
+                {blogContent?.sections?.commonMistakes && blogContent.sections.commonMistakes.length > 0 && (
                     <section className="max-w-3xl mx-auto">
                         <h2 className="text-2xl font-semibold tracking-tight mb-6">Common Mistakes to Avoid</h2>
                         <ul className="space-y-4 text-muted-foreground">
-                            {markdownContent.sections.commonMistakes.map((item, index) => (
+                            {blogContent.sections.commonMistakes.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3 p-4 bg-destructive/5 rounded-lg border border-destructive/10">
                                     <span className="text-destructive font-bold">!</span>
                                     <span>{item}</span>
@@ -272,11 +272,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 )}
 
                 {/* Why Results Can Vary */}
-                {markdownContent?.sections?.whyResultsVary && markdownContent.sections.whyResultsVary.length > 0 && (
+                {blogContent?.sections?.whyResultsVary && blogContent.sections.whyResultsVary.length > 0 && (
                     <section className="max-w-3xl mx-auto">
                         <h2 className="text-2xl font-semibold tracking-tight mb-6">Why Results Can Vary by Situation</h2>
                         <ul className="space-y-3 text-muted-foreground">
-                            {markdownContent.sections.whyResultsVary.map((item, index) => (
+                            {blogContent.sections.whyResultsVary.map((item, index) => (
                                 <li key={index} className="flex items-start gap-3">
                                     <span className="text-amber-500">⚡</span>
                                     <span>{item}</span>
@@ -287,12 +287,12 @@ export default async function CalculatorPage({ params }: PageProps) {
                 )}
 
                 {/* Related Calculators Grid */}
-                {(markdownContent?.sections?.relatedCalculators && markdownContent.sections.relatedCalculators.length > 0) || linkingData.related.length > 0 ? (
+                {(blogContent?.sections?.relatedCalculators && blogContent.sections.relatedCalculators.length > 0) || linkingData.related.length > 0 ? (
                     <section className="max-w-3xl mx-auto border-t pt-16">
                         <h2 className="text-2xl font-semibold tracking-tight mb-8">Related Calculators</h2>
-                        {markdownContent?.sections?.relatedCalculators ? (
+                        {blogContent?.sections?.relatedCalculators ? (
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                {markdownContent.sections.relatedCalculators.map((link, index) => (
+                                {blogContent.sections.relatedCalculators.map((link, index) => (
                                     <Link
                                         key={index}
                                         href={link.href}

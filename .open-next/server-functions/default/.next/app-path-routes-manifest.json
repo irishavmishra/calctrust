@@ -1,20 +1,20 @@
 {
-  "/apple-icon.png/route": "/apple-icon.png",
-  "/icon.png/route": "/icon.png",
   "/favicon.ico/route": "/favicon.ico",
-  "/icon.svg/route": "/icon.svg",
+  "/icon.png/route": "/icon.png",
+  "/apple-icon.png/route": "/apple-icon.png",
   "/opengraph-image.png/route": "/opengraph-image.png",
+  "/icon.svg/route": "/icon.svg",
   "/sitemap.xml/route": "/sitemap.xml",
   "/_not-found/page": "/_not-found",
   "/page": "/",
-  "/usa/page": "/usa",
   "/usa/calculators/page": "/usa/calculators",
-  "/about/page": "/about",
+  "/usa/page": "/usa",
   "/disclaimer/page": "/disclaimer",
-  "/how-calculations-work/page": "/how-calculations-work",
+  "/about/page": "/about",
   "/contact/page": "/contact",
+  "/how-calculations-work/page": "/how-calculations-work",
+  "/terms-of-service/page": "/terms-of-service",
   "/privacy-policy/page": "/privacy-policy",
-  "/methodology/page": "/methodology",
   "/usa/[slug]/page": "/usa/[slug]",
-  "/terms-of-service/page": "/terms-of-service"
+  "/methodology/page": "/methodology"
 }

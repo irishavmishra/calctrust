@@ -49,7 +49,7 @@ export default function UsaHubPage() {
                         {/* CTA Buttons */}
                         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 reveal-up" style={{ animationDelay: '0.4s' }}>
                             <Button asChild size="lg" className="h-14 px-8 text-base font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-                                <Link href="#calculators">
+                                <Link href="/usa/calculators">
                                     <Sparkles className="h-5 w-5 mr-2" />
                                     Explore Calculators
                                 </Link>
