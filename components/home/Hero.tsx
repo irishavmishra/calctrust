@@ -5,6 +5,7 @@ import { Award, Sparkles, CheckCircle, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { TextLink } from '@/components/ui/text-link';
+import { TOTAL_CALCULATORS } from '@/lib/config';
 
 export function Hero() {
     return (
@@ -67,7 +68,7 @@ export function Hero() {
                         </div>
                         <div className="flex items-center gap-2 text-sm font-medium">
                             <TrendingUp className="h-4 w-4 text-accent" />
-                            <span className="text-muted-foreground">274+ Calculators</span>
+                            <span className="text-muted-foreground">{TOTAL_CALCULATORS}+ Calculators</span>
                         </div>
                     </div>
                 </div>

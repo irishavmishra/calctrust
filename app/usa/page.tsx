@@ -7,6 +7,7 @@ import { StatCard } from '@/components/ui/stat-card';
 import { FeatureCard } from '@/components/ui/feature-card';
 import { TextLink } from '@/components/ui/text-link';
 import { ChecklistItem } from '@/components/ui/checklist-item';
+import { TOTAL_CALCULATORS } from '@/lib/config';
 
 export default function UsaHubPage() {
     return (
@@ -86,7 +87,7 @@ export default function UsaHubPage() {
                 <div className="container max-w-6xl mx-auto">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         <StatCard iconName="MapPin" value="50" label="States Covered" delay={0} />
-                        <StatCard iconName="Calculator" value="262+" label="Calculators" delay={0.1} />
+                        <StatCard iconName="Calculator" value={`${TOTAL_CALCULATORS}+`} label="Calculators" delay={0.1} />
                         <StatCard iconName="CheckCircle" value="100%" label="Free to Use" delay={0.2} />
                         <StatCard iconName="Shield" value="0" label="Ads or Tracking" delay={0.3} />
                     </div>

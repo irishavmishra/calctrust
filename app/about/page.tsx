@@ -4,6 +4,7 @@ import { Calculator, Shield, Users, TrendingUp } from 'lucide-react';
 import { FeatureCard } from '@/components/ui/feature-card';
 import { LinkCard } from '@/components/ui/link-card';
 import { ChecklistItem } from '@/components/ui/checklist-item';
+import { TOTAL_CALCULATORS } from '@/lib/config';
 
 export const metadata: Metadata = {
     title: 'About CalcTrust - Accurate Financial Calculators You Can Trust',
@@ -39,7 +40,7 @@ export default function AboutPage() {
                                 At CalcTrust, we believe everyone deserves access to accurate financial information. Whether you&apos;re evaluating a job offer, planning your budget, or understanding your paycheck, our calculators provide instant, reliable answers.
                             </p>
                             <p className="text-lg text-muted-foreground leading-relaxed">
-                                We&apos;ve built <strong>262+ specialized calculators</strong> covering every U.S. state, salary range, and common financial scenario. Each tool is designed with transparency, using publicly available tax data and proven calculation methods.
+                                We&apos;ve built <strong>{TOTAL_CALCULATORS}+ specialized calculators</strong> covering every U.S. state, salary range, and common financial scenario. Each tool is designed with transparency, using publicly available tax data and proven calculation methods.
                             </p>
                         </div>
                     </section>
@@ -132,7 +133,7 @@ export default function AboutPage() {
                             <LinkCard
                                 href="/"
                                 title="Browse Calculators"
-                                description="Explore all 268+ financial tools"
+                                description={`Explore all ${TOTAL_CALCULATORS}+ financial tools`}
                                 showArrow={false}
                             />
                         </div>
