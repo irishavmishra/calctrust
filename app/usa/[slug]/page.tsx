@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { ChevronRight, CheckCircle, Shield, Clock } from 'lucide-react';
+import { ChevronRight, CheckCircle, Shield, Clock, Lightbulb, AlertTriangle, Users, BookOpen, Calculator, TrendingUp, Info, ArrowRight, Sparkles, FileText } from 'lucide-react';
 import { CalculatorShell, CalculatorErrorBoundary } from '@/components/calculator';
 import { FAQSchema, BreadcrumbSchema, WebPageSchema, HowToSchema } from '@/components/seo/Schema';
 import {
@@ -184,56 +184,92 @@ export default async function CalculatorPage({ params }: PageProps) {
                 {/* What This Calculator Helps You Understand */}
                 {blogContent?.sections?.whatThisHelps && blogContent.sections.whatThisHelps.length > 0 && (
                     <section className="max-w-3xl mx-auto">
-                        <h2 className="text-2xl font-semibold tracking-tight mb-6">What This Calculator Helps You Understand</h2>
-                        <ul className="space-y-3 text-muted-foreground">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Lightbulb className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">What This Calculator Helps You Understand</h2>
+                        </div>
+                        <div className="grid gap-3">
                             {blogContent.sections.whatThisHelps.map((item, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <CheckCircle className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
-                                    <span>{item}</span>
-                                </li>
+                                <div 
+                                    key={index} 
+                                    className="flex items-start gap-4 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/30 hover:bg-muted/30 transition-all duration-200 group"
+                                >
+                                    <div className="p-1.5 rounded-md bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
+                                        <CheckCircle className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-0.5">{item}</p>
+                                </div>
                             ))}
-                        </ul>
+                        </div>
                     </section>
                 )}
 
                 {/* Who This Calculator Is Useful For */}
                 {blogContent?.sections?.whoUsefulFor && blogContent.sections.whoUsefulFor.length > 0 && (
                     <section className="max-w-3xl mx-auto">
-                        <h2 className="text-2xl font-semibold tracking-tight mb-6">Who This Calculator Is Useful For</h2>
-                        <ul className="space-y-3 text-muted-foreground">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Users className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Who This Calculator Is Useful For</h2>
+                        </div>
+                        <div className="grid gap-3">
                             {blogContent.sections.whoUsefulFor.map((item, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <span className="text-primary font-semibold">→</span>
-                                    <span>{item}</span>
-                                </li>
+                                <div 
+                                    key={index} 
+                                    className="flex items-start gap-4 p-4 rounded-xl bg-gradient-to-r from-card to-muted/20 border border-border/50 hover:border-primary/30 hover:shadow-sm transition-all duration-200 group"
+                                >
+                                    <div className="p-1.5 rounded-md bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
+                                        <ArrowRight className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-0.5">{item}</p>
+                                </div>
                             ))}
-                        </ul>
+                        </div>
                     </section>
                 )}
 
                 {/* How the Calculation Works */}
-                <article className="prose prose-zinc dark:prose-invert max-w-3xl mx-auto">
-                    <h2 className="text-2xl font-semibold tracking-tight mb-6">How It Works</h2>
+                <article className="max-w-3xl mx-auto">
+                    <div className="flex items-center gap-3 mb-6">
+                        <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                            <Calculator className="h-5 w-5 text-primary" />
+                        </div>
+                        <h2 className="text-2xl font-semibold tracking-tight">How It Works</h2>
+                    </div>
                     {blogContent?.sections?.howItWorks && blogContent.sections.howItWorks.length > 0 ? (
-                        <ol className="space-y-3 text-muted-foreground list-decimal list-inside">
+                        <div className="space-y-4">
                             {blogContent.sections.howItWorks.map((step, index) => (
-                                <li key={index}>{step}</li>
+                                <div 
+                                    key={index} 
+                                    className="flex gap-4 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-200 group"
+                                >
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors flex items-center justify-center font-semibold text-primary text-sm">
+                                        {index + 1}
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-1">{step}</p>
+                                </div>
                             ))}
-                        </ol>
+                        </div>
                     ) : (
-                        <div className="text-lg text-muted-foreground leading-relaxed whitespace-pre-wrap">
+                        <div className="p-6 rounded-xl bg-card border border-border/50 text-lg text-foreground/90 leading-relaxed whitespace-pre-wrap">
                             {content.howItWorks}
                         </div>
                     )}
 
                     {content.formula && (
-                        <div className="my-12 p-8 bg-muted/50 rounded-2xl border border-border/50 not-prose">
-                            <h3 className="text-sm font-medium uppercase tracking-wide text-muted-foreground mb-4">Calculation Formula</h3>
-                            <div className="font-mono text-sm md:text-base overflow-x-auto">
+                        <div className="mt-8 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/20 border border-border/50 shadow-sm">
+                            <div className="flex items-center gap-2 mb-4">
+                                <FileText className="h-4 w-4 text-primary" />
+                                <h3 className="text-sm font-semibold uppercase tracking-wide text-primary">Calculation Formula</h3>
+                            </div>
+                            <div className="p-4 rounded-lg bg-background/50 dark:bg-background/30 border border-border/30 font-mono text-sm md:text-base overflow-x-auto text-foreground/90">
                                 {content.formula}
                             </div>
                             {content.formulaExplanation && (
-                                <p className="mt-4 text-sm text-muted-foreground">
+                                <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
                                     {content.formulaExplanation}
                                 </p>
                             )}
@@ -243,62 +279,169 @@ export default async function CalculatorPage({ params }: PageProps) {
 
                 {/* Assumptions Used */}
                 {blogContent?.sections?.assumptions && blogContent.sections.assumptions.length > 0 && (
-                    <section className="max-w-3xl mx-auto bg-muted/30 rounded-2xl p-8 border border-border/50">
-                        <h2 className="text-xl font-semibold tracking-tight mb-6">Assumptions Used</h2>
-                        <ul className="space-y-3 text-muted-foreground text-sm">
-                            {blogContent.sections.assumptions.map((item, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <span className="text-muted-foreground/60">•</span>
-                                    <span>{item}</span>
-                                </li>
-                            ))}
-                        </ul>
+                    <section className="max-w-3xl mx-auto">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Info className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Assumptions Used</h2>
+                        </div>
+                        <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-muted/40 to-muted/20 dark:from-muted/30 dark:to-muted/10 border border-border/50 shadow-sm">
+                            <ul className="space-y-3">
+                                {blogContent.sections.assumptions.map((item, index) => (
+                                    <li key={index} className="flex items-start gap-3 text-foreground/80">
+                                        <span className="text-primary mt-1.5 flex-shrink-0">•</span>
+                                        <span className="leading-relaxed">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </section>
                 )}
 
                 {/* Common Mistakes People Make */}
                 {blogContent?.sections?.commonMistakes && blogContent.sections.commonMistakes.length > 0 && (
                     <section className="max-w-3xl mx-auto">
-                        <h2 className="text-2xl font-semibold tracking-tight mb-6">Common Mistakes to Avoid</h2>
-                        <ul className="space-y-4 text-muted-foreground">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-destructive/10 dark:bg-destructive/20">
+                                <AlertTriangle className="h-5 w-5 text-destructive" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Common Mistakes to Avoid</h2>
+                        </div>
+                        <div className="grid gap-4">
                             {blogContent.sections.commonMistakes.map((item, index) => (
-                                <li key={index} className="flex items-start gap-3 p-4 bg-destructive/5 rounded-lg border border-destructive/10">
-                                    <span className="text-destructive font-bold">!</span>
-                                    <span>{item}</span>
-                                </li>
+                                <div 
+                                    key={index} 
+                                    className="flex items-start gap-4 p-5 rounded-xl bg-destructive/5 dark:bg-destructive/10 border border-destructive/20 dark:border-destructive/30 hover:border-destructive/40 dark:hover:border-destructive/50 transition-all duration-200 group"
+                                >
+                                    <div className="p-1.5 rounded-md bg-destructive/20 dark:bg-destructive/30 group-hover:bg-destructive/30 dark:group-hover:bg-destructive/40 transition-colors mt-0.5 flex-shrink-0">
+                                        <AlertTriangle className="h-4 w-4 text-destructive" />
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-0.5">{item}</p>
+                                </div>
                             ))}
-                        </ul>
+                        </div>
                     </section>
                 )}
 
                 {/* Why Results Can Vary */}
                 {blogContent?.sections?.whyResultsVary && blogContent.sections.whyResultsVary.length > 0 && (
                     <section className="max-w-3xl mx-auto">
-                        <h2 className="text-2xl font-semibold tracking-tight mb-6">Why Results Can Vary by Situation</h2>
-                        <ul className="space-y-3 text-muted-foreground">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <TrendingUp className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Why Results Can Vary by Situation</h2>
+                        </div>
+                        <div className="grid gap-3">
                             {blogContent.sections.whyResultsVary.map((item, index) => (
-                                <li key={index} className="flex items-start gap-3">
-                                    <span className="text-amber-500">⚡</span>
-                                    <span>{item}</span>
-                                </li>
+                                <div 
+                                    key={index} 
+                                    className="flex items-start gap-4 p-4 rounded-xl bg-card border border-border/50 hover:border-primary/30 hover:bg-muted/30 transition-all duration-200 group"
+                                >
+                                    <div className="p-1.5 rounded-md bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
+                                        <Sparkles className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-0.5">{item}</p>
+                                </div>
                             ))}
-                        </ul>
+                        </div>
+                    </section>
+                )}
+
+                {/* Deep Dive */}
+                {blogContent?.sections?.deepDive && blogContent.sections.deepDive.length > 0 && (
+                    <section className="max-w-3xl mx-auto">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <BookOpen className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Deep Dive</h2>
+                        </div>
+                        <div className="space-y-4">
+                            {blogContent.sections.deepDive.map((paragraph, index) => (
+                                <div 
+                                    key={index} 
+                                    className="p-5 rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-all duration-200"
+                                >
+                                    <p className="text-foreground/90 leading-relaxed">{paragraph}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
+                {/* Practical Examples */}
+                {blogContent?.sections?.examples && blogContent.sections.examples.length > 0 && (
+                    <section className="max-w-3xl mx-auto">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <FileText className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Practical Examples</h2>
+                        </div>
+                        <div className="grid gap-4">
+                            {blogContent.sections.examples.map((example, index) => (
+                                <div 
+                                    key={index} 
+                                    className="p-5 rounded-xl bg-gradient-to-br from-card to-muted/20 border border-border/50 hover:border-primary/30 hover:shadow-sm transition-all duration-200 group"
+                                >
+                                    <div className="flex items-start gap-3">
+                                        <div className="flex-shrink-0 w-6 h-6 rounded-md bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors flex items-center justify-center font-semibold text-primary text-xs mt-0.5">
+                                            {index + 1}
+                                        </div>
+                                        <p className="text-foreground/90 leading-relaxed">{example}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </section>
+                )}
+
+                {/* Expert Tips */}
+                {blogContent?.sections?.expertTips && blogContent.sections.expertTips.length > 0 && (
+                    <section className="max-w-3xl mx-auto">
+                        <div className="flex items-center gap-3 mb-6">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Lightbulb className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Expert Tips & Considerations</h2>
+                        </div>
+                        <div className="grid gap-3">
+                            {blogContent.sections.expertTips.map((tip, index) => (
+                                <div 
+                                    key={index} 
+                                    className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-r from-primary/5 to-primary/10 dark:from-primary/10 dark:to-primary/20 border border-primary/20 dark:border-primary/30 hover:border-primary/40 dark:hover:border-primary/50 transition-all duration-200 group"
+                                >
+                                    <div className="p-1.5 rounded-md bg-primary/20 dark:bg-primary/30 group-hover:bg-primary/30 dark:group-hover:bg-primary/40 transition-colors mt-0.5 flex-shrink-0">
+                                        <Lightbulb className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <p className="text-foreground/90 leading-relaxed pt-0.5">{tip}</p>
+                                </div>
+                            ))}
+                        </div>
                     </section>
                 )}
 
                 {/* Related Calculators Grid */}
                 {(blogContent?.sections?.relatedCalculators && blogContent.sections.relatedCalculators.length > 0) || linkingData.related.length > 0 ? (
-                    <section className="max-w-3xl mx-auto border-t pt-16">
-                        <h2 className="text-2xl font-semibold tracking-tight mb-8">Related Calculators</h2>
+                    <section className="max-w-3xl mx-auto border-t border-border/50 pt-16">
+                        <div className="flex items-center gap-3 mb-8">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Calculator className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-2xl font-semibold tracking-tight">Related Calculators</h2>
+                        </div>
                         {blogContent?.sections?.relatedCalculators ? (
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 {blogContent.sections.relatedCalculators.map((link, index) => (
                                     <Link
                                         key={index}
                                         href={link.href}
-                                        className="p-4 rounded-xl border border-border/60 hover:border-primary/50 hover:bg-muted/50 transition-colors"
+                                        className="group flex items-center justify-between p-5 rounded-xl border border-border/50 bg-card hover:border-primary/50 hover:bg-muted/50 dark:hover:bg-muted/30 transition-all duration-200"
                                     >
-                                        <span className="font-medium">{link.title}</span>
+                                        <span className="font-medium text-foreground/90 group-hover:text-primary transition-colors">{link.title}</span>
+                                        <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all" />
                                     </Link>
                                 ))}
                             </div>
@@ -317,20 +460,31 @@ export default async function CalculatorPage({ params }: PageProps) {
 
                 {/* FAQ Section */}
                 {faq.length > 0 && (
-                    <div className="max-w-3xl mx-auto border-t pt-16">
-                        <h2 className="text-3xl font-semibold tracking-tight mb-8">Frequently Asked Questions</h2>
-                        <Accordion type="single" collapsible className="w-full">
-                            {faq.map((item, index) => (
-                                <AccordionItem key={index} value={`item-${index}`} className="border-b-border/60">
-                                    <AccordionTrigger className="text-lg hover:no-underline hover:text-primary py-6">
-                                        {item.question}
-                                    </AccordionTrigger>
-                                    <AccordionContent className="text-muted-foreground text-base leading-relaxed pb-6">
-                                        {item.answer}
-                                    </AccordionContent>
-                                </AccordionItem>
-                            ))}
-                        </Accordion>
+                    <div className="max-w-3xl mx-auto border-t border-border/50 pt-16">
+                        <div className="flex items-center gap-3 mb-8">
+                            <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20">
+                                <Info className="h-5 w-5 text-primary" />
+                            </div>
+                            <h2 className="text-3xl font-semibold tracking-tight">Frequently Asked Questions</h2>
+                        </div>
+                        <div className="rounded-xl border border-border/50 bg-card overflow-hidden">
+                            <Accordion type="single" collapsible className="w-full">
+                                {faq.map((item, index) => (
+                                    <AccordionItem 
+                                        key={index} 
+                                        value={`item-${index}`} 
+                                        className="border-b border-border/50 last:border-b-0"
+                                    >
+                                        <AccordionTrigger className="text-lg hover:no-underline hover:text-primary py-6 px-6 transition-colors">
+                                            {item.question}
+                                        </AccordionTrigger>
+                                        <AccordionContent className="text-foreground/80 text-base leading-relaxed pb-6 px-6">
+                                            {item.answer}
+                                        </AccordionContent>
+                                    </AccordionItem>
+                                ))}
+                            </Accordion>
+                        </div>
                     </div>
                 )}
 
