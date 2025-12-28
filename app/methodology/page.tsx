@@ -115,6 +115,63 @@ export default function MethodologyPage() {
                         </div>
                     </section>
 
+                    {/* Tax Data Compliance */}
+                    <section>
+                        <div className="flex items-center gap-3 mb-6">
+                            <Shield className="h-7 w-7 text-primary" />
+                            <h2 className="text-3xl font-semibold tracking-tight">Tax Data Compliance</h2>
+                        </div>
+                        <div className="prose prose-zinc dark:prose-invert max-w-none">
+                            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                                We maintain strict compliance with current tax year requirements. All tax data is verified against official sources and regularly audited for accuracy.
+                            </p>
+                            
+                            <div className="bg-card border border-border rounded-xl p-6 mb-6">
+                                <div className="flex items-center gap-2 mb-4">
+                                    <CheckCircle2 className="h-5 w-5 text-green-600 dark:text-green-400" />
+                                    <h3 className="text-xl font-semibold">Current Compliance Status</h3>
+                                </div>
+                                <p className="text-muted-foreground leading-relaxed mb-4">
+                                    All tax data files are updated to reflect the latest tax year values. Our configuration is properly aligned with official IRS and state revenue department publications.
+                                </p>
+                                <ul className="space-y-2 text-muted-foreground">
+                                    <li>• Federal tax brackets verified against IRS Publication 15 and annual tax tables</li>
+                                    <li>• FICA rates (Social Security and Medicare) confirmed with SSA guidelines</li>
+                                    <li>• State income tax brackets cross-referenced with state department of revenue publications</li>
+                                    <li>• Progressive state tax brackets validated for accuracy</li>
+                                </ul>
+                            </div>
+
+                            <div className="bg-card border border-border rounded-xl p-6 mb-6">
+                                <h3 className="text-xl font-semibold mb-4">Data Verification Process</h3>
+                                <p className="text-muted-foreground leading-relaxed mb-4">
+                                    Our compliance process includes comprehensive validation across all tax data files:
+                                </p>
+                                <ul className="space-y-2 text-muted-foreground">
+                                    <li>• <strong>Configuration Compliance:</strong> Centralized tax year configuration ensures consistency across all calculators</li>
+                                    <li>• <strong>Federal Tax Brackets:</strong> All brackets verified for single filers and married filing jointly</li>
+                                    <li>• <strong>FICA Rates:</strong> Social Security wage cap and Medicare rates validated annually</li>
+                                    <li>• <strong>State Tax Rates:</strong> All 50 states plus DC verified, including flat rates and progressive brackets</li>
+                                    <li>• <strong>Code Implementation:</strong> All calculations use centralized tax year configuration (no hardcoded values)</li>
+                                    <li>• <strong>Data Consistency:</strong> Cross-file verification ensures alignment between configuration and data files</li>
+                                </ul>
+                            </div>
+
+                            <div className="bg-card border border-border rounded-xl p-6">
+                                <h3 className="text-xl font-semibold mb-4">Ongoing Monitoring</h3>
+                                <p className="text-muted-foreground leading-relaxed mb-4">
+                                    We continuously monitor for tax law changes and maintain a rigorous update schedule:
+                                </p>
+                                <ul className="space-y-2 text-muted-foreground">
+                                    <li>• Annual updates in November-December for the following tax year</li>
+                                    <li>• Quarterly reviews of state tax law changes</li>
+                                    <li>• Real-time monitoring for mid-year IRS announcements</li>
+                                    <li>• Regular validation against official government calculators</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
                     {/* Limitations */}
                     <section>
                         <div className="flex items-center gap-3 mb-6">
