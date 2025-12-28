@@ -25,14 +25,14 @@ const content: BlogContent = {
     ],
     deepDive: [
       'Kentucky simplified to a flat 4% rate. Some cities like Louisville have additional local taxes.',
-      'Tennessee has no income tax on wages—significant for border workers.',
+      'Tennessee has no income tax on wages significant for border workers.',
     ],
     examples: [
       'Entry-Level: Annual $40,000, Net biweekly ~$1,270',
       'Louisville Professional: Annual $70,000, Net biweekly ~$2,100',
     ],
     expertTips: [
-      'Louisville has local taxes—factor into net pay',
+      'Louisville has local taxes factor into net pay',
       'Tennessee border workers can save significantly living across state line',
     ],
     assumptions: ['Based on 2025 Kentucky 4% flat rate', 'Single filer status'],

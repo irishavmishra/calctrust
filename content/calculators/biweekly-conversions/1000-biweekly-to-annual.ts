@@ -26,7 +26,7 @@ const content: BlogContent = {
       'Hourly: $1,000 ÷ 80 hours = $12.50/hour',
     ],
     deepDive: [
-      'Biweekly pay means receiving a paycheck every two weeks—26 times per year, not 24. This is important for budgeting as two months each year will have three paychecks instead of two.',
+      'Biweekly pay means receiving a paycheck every two weeks 26 times per year, not 24. This is important for budgeting as two months each year will have three paychecks instead of two.',
       'At $26,000 annually, this income level qualifies for various tax credits including the Earned Income Tax Credit (EITC) which can add $500-$3,000+ depending on filing status.',
     ],
     examples: [

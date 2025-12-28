@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $3,500 monthly to $42,000/year', 'Hourly: ~$20.19', 'Biweekly: ~$1,615'],
     whoUsefulFor: ['Workers earning $3,500/month'],
     howItWorks: ['$3,500 × 12 = $42,000/year', 'Hourly: $42,000 ÷ 2,080 = ~$20.19'],
-    deepDive: ['$3,500 monthly provides $42,000 annually—exceeding $40K and near $20/hour.'],
+    deepDive: ['$3,500 monthly provides $42,000 annually exceeding $40K and near $20/hour.'],
     examples: ['Annual: $42,000. Hourly: ~$20.19.'],
     expertTips: ['At ~$20/hour equivalent, prioritize retirement contributions'],
     assumptions: ['12 months/year', '40 hours/week, 52 weeks'],

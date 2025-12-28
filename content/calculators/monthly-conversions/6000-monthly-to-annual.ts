@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $6,000 monthly to $72,000/year', 'Hourly: ~$34.62'],
     whoUsefulFor: ['Workers earning $6,000/month'],
     howItWorks: ['$6,000 × 12 = $72,000/year', 'Hourly: ~$34.62'],
-    deepDive: ['$6,000 monthly provides $72,000 annually—excellent income surpassing most regional medians.'],
+    deepDive: ['$6,000 monthly provides $72,000 annually excellent income surpassing most regional medians.'],
     examples: ['Annual: $72,000.'],
     expertTips: ['At ~$35/hour equivalent, consider tax optimization strategies'],
     assumptions: ['12 months/year'],

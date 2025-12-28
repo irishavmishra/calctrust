@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $1,800 biweekly to $46,800/year', 'Hourly: ~$22.50', 'Monthly: $3,900'],
     whoUsefulFor: ['Employees paid $1,800 biweekly'],
     howItWorks: ['$1,800 × 26 = $46,800/year', 'Monthly: $3,900', 'Hourly: ~$22.50'],
-    deepDive: ['$1,800 biweekly provides nearly $47K annually—comfortable income in most regions.'],
+    deepDive: ['$1,800 biweekly provides nearly $47K annually comfortable income in most regions.'],
     examples: ['Annual: $46,800. Monthly: $3,900.'],
     expertTips: ['At this level, maximize tax-advantaged accounts'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

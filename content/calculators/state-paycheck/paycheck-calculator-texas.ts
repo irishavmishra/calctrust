@@ -23,9 +23,8 @@ const content: BlogContent = {
       "Remote workers choosing Texas: Evaluate no-tax residency"
     ],
     "deepDive": [
-      "Texas constitutionally prohibits personal income tax. The state funds operations through: - Sales tax (6.25% state + local additions) - Property taxes (among highest in nation) - Oil and gas severance taxes - Business franchise taxes",
-      "California has the highest income tax (13.3%). Comparisons:",
-      "| Salary | California Tax | Texas Tax | Annual Savings | |--------|----------------|-----------|----------------| | $75,000 | ~$3,500 | $0 | $3,500 | | $100,000 | ~$5,500 | $0 | $5,500 | | $200,000 | ~$14,500 | $0 | $14,500 | | $500,000 | ~$47,000 | $0 | $47,000 |",
+      "Texas constitutionally prohibits personal income tax. The state funds operations through sales tax (6.25% state plus local additions), property taxes (among the highest in the nation), oil and gas severance taxes, and business franchise taxes.",
+      "California has the highest income tax (13.3%). The savings from moving to Texas are substantial: a $75,000 earner saves about $3,500 annually, a $100,000 earner saves roughly $5,500, someone earning $200,000 keeps an extra $14,500, and at $500,000 the savings balloon to around $47,000 per year.",
       "Texas has become the top destination for California migrants: - Lower taxes - Lower housing costs - Business-friendly environment - No state income tax"
     ],
     "examples": [

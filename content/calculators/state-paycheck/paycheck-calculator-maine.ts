@@ -25,7 +25,7 @@ const content: BlogContent = {
     ],
     deepDive: [
       '2025 Maine rates: 5.8% on first $26,050, 6.75% on $26,051-$61,600, 7.15% over $61,600.',
-      'New Hampshire has no income tax on wages—significant savings for border workers.',
+      'New Hampshire has no income tax on wages significant savings for border workers.',
     ],
     examples: [
       'Entry-Level: Annual $42,000, Net biweekly ~$1,300',

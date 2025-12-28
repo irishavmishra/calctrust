@@ -4,16 +4,16 @@ const content: BlogContent = {
   "slug": "75000-salary-breakdown",
   "category": "salary-breakdowns",
   "title": "$75,000 Salary Breakdown",
-  "subheading": "Wondering what a $75,000 salary really means for your finances? This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly—plus your actual take-home after taxes. At $75,000, you're earning significantly above the median individual income and approaching household median levels, positioning you solidly in the middle class across most of America.",
+  "subheading": "Wondering what a $75,000 salary really means for your finances? This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly plus your actual take-home after taxes. At $75,000, you're earning significantly above the median individual income and approaching household median levels, positioning you solidly in the middle class across most of America.",
   "metaTitle": "$75K Salary Breakdown | Hourly, Monthly 2025",
   "metaDescription": "Break down a $75,000 annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations. Actual results may vary.",
   "sections": {
     "deepDive": [
       "At $75,000, single filers fall into the 22% marginal bracket:",
       "After standard deduction ($15,000): Taxable income = $60,000",
-      "| State | Annual State Tax | Monthly Impact | |-------|------------------|----------------| | Texas (0%) | $0 | +$0 | | Florida (0%) | $0 | +$0 | | Arizona (2.5%) | ~$1,500 | -$125 | | Colorado (4.4%) | ~$2,640 | -$220 | | California (6-8%) | ~$3,500 | -$292 | | New York (5-6%) | ~$3,800 | -$317 | | Oregon (8-9%) | ~$5,600 | -$467 |",
-      "- Social Security: $4,650 (6.2%) - Medicare: $1,088 (1.45%) - Total FICA: $5,738",
-      "| State | Annual Net | Monthly Net | Biweekly Net | |-------|------------|-------------|--------------| | Texas | ~$61,500 | ~$5,125 | ~$2,365 | | Florida | ~$61,500 | ~$5,125 | ~$2,365 | | Arizona | ~$60,000 | ~$5,000 | ~$2,308 | | Colorado | ~$58,800 | ~$4,900 | ~$2,262 | | California | ~$57,000 | ~$4,750 | ~$2,192 | | New York | ~$56,500 | ~$4,708 | ~$2,173 |"
+      "State taxes create significant differences at this income level. Texas and Florida residents pay nothing to the state. Arizona's 2.5% flat rate costs about $1,500 annually ($125/month). Colorado at 4.4% takes $2,640 ($220/month). California and New York both hit around $3,500-3,800 per year ($292-317/month). Oregon's aggressive rates cost roughly $5,600 that's $467/month going to state taxes alone.",
+      "FICA deductions apply universally: $4,650 to Social Security (6.2%) and $1,088 to Medicare (1.45%), totaling $5,738.",
+      "Your actual take-home varies widely by location. Texas and Florida residents net about $61,500 annually ($5,125/month or $2,365 biweekly). Arizona drops to $60,000. Colorado sits at $58,800 ($4,900/month). California leaves you with roughly $57,000 ($4,750/month), while New York residents keep about $56,500 ($4,708/month). The gap between Texas and New York is nearly $5,000 per year."
     ],
     "examples": [
       "Texas (No State Tax)** - Net annual: ~$61,500 - Monthly take-home: ~$5,125 - Hourly equivalent (net): ~$29.57",

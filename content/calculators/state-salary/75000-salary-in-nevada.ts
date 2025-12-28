@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $75K in NV', 'No state tax advantage'],
     whoUsefulFor: ['Nevada workers', 'Las Vegas/Reno employees'],
     howItWorks: ['$75K salary entered', 'No NV state tax', 'Only federal + FICA'],
-    deepDive: ['$75,000 in Nevada—no state income tax = ~$4,000+ more per year vs. CA. Las Vegas has good cost of living.'],
+    deepDive: ['$75,000 in Nevada no state income tax = ~$4,000+ more per year vs. CA. Las Vegas has good cost of living.'],
     examples: ['Annual: $75,000. Take-home: ~$4,900-5,100/month (no state tax).'],
     expertTips: ['NV no income tax = significant savings vs CA', 'Cost of living is lower than CA'],
     assumptions: ['2025 federal rates', 'No state tax'],

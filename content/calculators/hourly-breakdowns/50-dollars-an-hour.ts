@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '50-dollars-an-hour',
   category: 'hourly-breakdowns',
   title: '$50 an Hour is How Much a Year?',
-  subheading: '$50 an hour equals $104,000 per year working full-time—a six-figure income providing excellent financial position.',
+  subheading: '$50 an hour equals $104,000 per year working full-time a six-figure income providing excellent financial position.',
   metaTitle: '$50/Hour is How Much a Year? | 2025 Calculator',
   metaDescription: 'Convert $50 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
@@ -36,8 +36,8 @@ const content: BlogContent = {
     commonMistakes: ['Lifestyle inflation at six-figure income', 'Not optimizing tax strategies'],
     whyResultsVary: ['State taxes significantly affect take-home', 'Overtime can push income to $120K+'],
     faq: [
-      { question: 'How much is $50/hour annually?', answer: '$104,000/year full-time—six figures.' },
-      { question: 'Is $50/hour a good wage?', answer: 'Excellent—$104,000/year is above the U.S. median household income.' },
+      { question: 'How much is $50/hour annually?', answer: '$104,000/year full-time six figures.' },
+      { question: 'Is $50/hour a good wage?', answer: 'Excellent $104,000/year is above the U.S. median household income.' },
       { question: 'What is overtime for $50/hour?', answer: '$75/hour.' },
     ],
     relatedCalculators: [

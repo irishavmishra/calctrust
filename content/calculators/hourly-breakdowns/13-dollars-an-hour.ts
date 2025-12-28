@@ -41,7 +41,7 @@ const content: BlogContent = {
       'With Shift Differential (+$1/hour nights): Base becomes $14/hour → $29,120/year.',
     ],
     expertTips: [
-      'Maximize overtime opportunities—5 weekly OT hours adds $5,070 annually',
+      'Maximize overtime opportunities 5 weekly OT hours adds $5,070 annually',
       'Ask about shift differentials for nights, weekends, or holidays',
       'Explore employer-sponsored certifications that lead to wage increases',
       'Consider positions with tip potential that can significantly boost hourly earnings',

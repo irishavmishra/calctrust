@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '5-percent-raise-calculator',
   category: 'raise-calculators',
   title: '5% Raise Calculator',
-  subheading: 'Calculate what a 5% pay raise means for your salary—a strong annual increase.',
+  subheading: 'Calculate what a 5% pay raise means for your salary a strong annual increase.',
   metaTitle: '5% Raise Calculator | Estimate New Salary 2025',
   metaDescription: 'Calculate your salary after a 5% raise. This calculator estimates annual, monthly, and hourly income changes. Educational estimates only.',
   sections: {
@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['New Salary = Current × 1.05', '$50,000 × 1.05 = $52,500 (+$2,500/year)'],
     deepDive: ['A 5% raise signals excellent performance or market adjustment. This provides meaningful real wage growth.'],
     examples: ['$40,000 + 5% = $42,000', '$60,000 + 5% = $63,000', '$100,000 + 5% = $105,000'],
-    expertTips: ['5% is excellent—ensure responsibilities match compensation growth'],
+    expertTips: ['5% is excellent ensure responsibilities match compensation growth'],
     assumptions: ['Based on annual salary'],
     faq: [{ question: 'What is a 5% raise on $50,000?', answer: '$52,500 (+$2,500/year).' }],
     relatedCalculators: [{ title: '4% Raise', href: '/usa/4-percent-raise-calculator' }, { title: '6% Raise', href: '/usa/6-percent-raise-calculator' }],

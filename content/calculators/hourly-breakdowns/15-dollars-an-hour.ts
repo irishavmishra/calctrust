@@ -37,11 +37,11 @@ const content: BlogContent = {
     examples: [
       'Full-Time Worker: $15/hour × 40 hours × 52 weeks = $31,200/year. Monthly take-home after taxes: approximately $2,300-$2,450.',
       'Part-Time Worker (25 hours/week): $15 × 25 × 52 = $19,500/year.',
-      'With Regular Overtime (10 hours/week): Regular $600 + OT $225 = $825/week = $42,900/year—a 37% increase.',
+      'With Regular Overtime (10 hours/week): Regular $600 + OT $225 = $825/week = $42,900/year a 37% increase.',
       'Dual Income Household: Two $15/hour earners = $62,400/year combined, near U.S. median household income.',
     ],
     expertTips: [
-      'At $15/hour, overtime is worth $22.50—10 weekly OT hours adds $11,700 annually',
+      'At $15/hour, overtime is worth $22.50 10 weekly OT hours adds $11,700 annually',
       'Research if your city has a higher local minimum wage than state level',
       'Consider employers like Costco that start at $15+ with benefits worth $5,000+ annually',
       'Build an emergency fund of $2,600-$5,200 (1-2 months expenses) as a buffer',
@@ -59,7 +59,7 @@ const content: BlogContent = {
       'Not accounting for unpaid time off reducing annual earnings',
       'Comparing hourly to salary without considering benefits',
       'Overlooking overtime potential for hourly workers',
-      'Assuming $15/hour provides the same lifestyle everywhere—location matters enormously',
+      'Assuming $15/hour provides the same lifestyle everywhere location matters enormously',
     ],
     whyResultsVary: [
       'State and local tax rates create $1,500-$3,000 annual take-home differences',

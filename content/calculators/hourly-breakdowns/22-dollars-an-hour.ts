@@ -34,7 +34,7 @@ const content: BlogContent = {
     ],
     expertTips: [
       'Overtime at $33/hour can push income past $60,000 annually',
-      'Consider homeownership—$45K income qualifies for ~$150K mortgage in many areas',
+      'Consider homeownership $45K income qualifies for ~$150K mortgage in many areas',
       'Maximize retirement contributions at this income level',
     ],
     assumptions: [

@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$100K salary entered', 'NY state + NYC local if applicable'],
     deepDive: ['$100,000 in NYC is competitive. NYC adds local tax (3-4%) on top of state (up to 6.85% at this level).'],
     examples: ['Annual: $100,000. Take-home: ~$5,700-6,200/month (varies by location).'],
-    expertTips: ['NYC local tax is significant—NJ/CT residence can save thousands', 'Upstate more affordable'],
+    expertTips: ['NYC local tax is significant NJ/CT residence can save thousands', 'Upstate more affordable'],
     assumptions: ['2025 NY state rates'],
     faq: [{ question: 'What is $100K take-home in NY?', answer: '~$5,700-6,200/month.' }],
     relatedCalculators: [{ title: '$120K New York', href: '/usa/120000-salary-in-new-york' }],

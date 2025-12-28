@@ -41,12 +41,12 @@ const content: BlogContent = {
       "With 5% annual raises: - Year 1: $50,000 - Year 5: $63,814 - Year 10: $81,445 - Year 20: $132,665",
       "The difference between consistent 3% and 5% raises over 20 years: $42,359 per year by year 20. Early-career negotiation and job changes that maximize raise percentages pay dividends for decades.",
       "A raise isn't truly a raise unless it exceeds inflation. With inflation running 2-4% in typical years:",
-      "- 3% raise with 3% inflation: Your purchasing power stays flat—effectively no raise - 4% raise with 3% inflation: Real raise of only 1% - 5% raise with 3% inflation: Real raise of 2%",
+      "- 3% raise with 3% inflation: Your purchasing power stays flat effectively no raise - 4% raise with 3% inflation: Real raise of only 1% - 5% raise with 3% inflation: Real raise of 2%",
       "The Bureau of Labor Statistics Consumer Price Index (CPI) tracks inflation, helping you assess whether your raise represents genuine improvement or merely keeping pace with rising costs.",
       "Understanding the difference helps set appropriate expectations:",
       "Merit increases (annual performance-based): - Typically 2-5% of base salary - Based on performance review ratings - Applied to current role - Common timing: annual review cycle",
       "Promotional raises (role advancement): - Typically 10-20% of base salary - Based on assuming greater responsibility - Moves you to a new job level - Timing varies based on opportunity",
-      "A worker expecting a \"raise\" should clarify which type is under discussion—the dollar implications differ substantially.",
+      "A worker expecting a \"raise\" should clarify which type is under discussion the dollar implications differ substantially.",
       "- 70% of workers who ask for raises receive them - The average negotiation results in 4-5% above the initial offer - Most employees who receive below-average raises didn't ask for more - Counter-offers when leaving average 10-20% above current compensation",
       "However, the approach matters. Successful negotiations typically: - Present market data supporting the requested amount - Highlight specific accomplishments and contributions - Time requests appropriately (after project successes, during review cycles) - Frame asks positively rather than ultimatums",
       "Raises are taxed at your marginal rate, not your average rate. Understanding this prevents disappointment:",
@@ -64,9 +64,9 @@ const content: BlogContent = {
       "Negotiate before accepting offers: It's easier to negotiate a raise into an offer than to ask for one after starting",
       "Document achievements quarterly: Build your case throughout the year, not just at review time",
       "Know your market value: Research comparable salaries using Glassdoor, Levels.fyi, PayScale, and Bureau of Labor Statistics data",
-      "Consider total compensation: Raises aren't just salary—equity, bonuses, benefits, and flexible work have value",
+      "Consider total compensation: Raises aren't just salary equity, bonuses, benefits, and flexible work have value",
       "Time requests strategically: After successful project deliveries, strong quarterly results, or during favorable budget cycles",
-      "Prepare to walk: The strongest negotiating position comes from genuine alternatives—always know your options",
+      "Prepare to walk: The strongest negotiating position comes from genuine alternatives always know your options",
       "Put it in writing: Once agreed, get the raise confirmation documented to avoid misunderstandings",
       "Review your tax withholding: A significant raise may require W-4 adjustments to avoid over- or under-withholding"
     ],
@@ -79,12 +79,12 @@ const content: BlogContent = {
       "Base salary only: Doesn't factor in bonuses, equity, or other compensation elements"
     ],
     "commonMistakes": [
-      "Comparing gross to net: A $5,000 raise doesn't add $5,000 to your bank account—taxes take 25-40%",
+      "Comparing gross to net: A $5,000 raise doesn't add $5,000 to your bank account taxes take 25-40%",
       "Ignoring inflation: A 3% raise with 3% inflation means zero real improvement in purchasing power",
-      "Not negotiating at hire: Starting salaries compound over your career—$5,000 more at hire means much more over time",
+      "Not negotiating at hire: Starting salaries compound over your career $5,000 more at hire means much more over time",
       "Accepting first offers: Most offers have negotiation room; asking doesn't typically result in rescinded offers",
-      "Focusing only on percentage: Context matters—4% on $50,000 differs vastly from 4% on $150,000",
-      "Forgetting full compensation: Base salary is only part of the picture—evaluate benefits, equity, and bonuses too",
+      "Focusing only on percentage: Context matters 4% on $50,000 differs vastly from 4% on $150,000",
+      "Forgetting full compensation: Base salary is only part of the picture evaluate benefits, equity, and bonuses too",
       "Timing requests poorly: Asking after company layoffs or missed targets reduces success probability"
     ],
     "whyResultsVary": [

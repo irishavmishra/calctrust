@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $7,000 monthly to $84,000/year', 'Hourly: ~$40.38'],
     whoUsefulFor: ['Workers earning $7,000/month'],
     howItWorks: ['$7,000 × 12 = $84,000/year'],
-    deepDive: ['$7,000 monthly provides $84,000 annually—exceeding $80K and $40/hour equivalent.'],
+    deepDive: ['$7,000 monthly provides $84,000 annually exceeding $80K and $40/hour equivalent.'],
     examples: ['Annual: $84,000.'],
     expertTips: ['At ~$40/hour, maximize retirement and consider backdoor Roth'],
     assumptions: ['12 months/year'],

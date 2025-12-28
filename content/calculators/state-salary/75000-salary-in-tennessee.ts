@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $75K in TN', 'No state tax advantage'],
     whoUsefulFor: ['Tennessee workers', 'Nashville/Memphis employees'],
     howItWorks: ['$75K salary entered', 'No TN state tax', 'Only federal + FICA'],
-    deepDive: ['$75,000 in Tennessee—no state income tax = ~$4,000+ more per year vs. comparable tax states.'],
+    deepDive: ['$75,000 in Tennessee no state income tax = ~$4,000+ more per year vs. comparable tax states.'],
     examples: ['Annual: $75,000. Take-home: ~$4,900-5,100/month (no state tax).'],
     expertTips: ['TN no income tax is significant advantage', 'Nashville has booming economy'],
     assumptions: ['2025 federal rates', 'No state tax'],

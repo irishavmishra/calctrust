@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '48-dollars-an-hour',
   category: 'hourly-breakdowns',
   title: '$48 an Hour is How Much a Year?',
-  subheading: '$48 an hour equals $99,840 per year working full-time—nearly $100K annually.',
+  subheading: '$48 an hour equals $99,840 per year working full-time nearly $100K annually.',
   metaTitle: '$48/Hour is How Much a Year? | 2025 Calculator',
   metaDescription: 'Convert $48 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {

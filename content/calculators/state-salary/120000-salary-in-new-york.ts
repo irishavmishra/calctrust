@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$120K salary entered', 'NY state + NYC local if applicable'],
     deepDive: ['$120,000 in NYC is competitive. NYC adds local tax (3-4%) on top of state (6.85%+).'],
     examples: ['Annual: $120,000. Take-home: ~$6,800-7,400/month (varies by location).'],
-    expertTips: ['NYC local tax is significant—NJ/CT can save thousands', 'Consider NJ residence'],
+    expertTips: ['NYC local tax is significant NJ/CT can save thousands', 'Consider NJ residence'],
     assumptions: ['2025 NY state rates'],
     faq: [{ question: 'What is $120K take-home in NY?', answer: '~$6,800-7,400/month.' }],
     relatedCalculators: [{ title: '$150K New York', href: '/usa/150000-salary-in-new-york' }],

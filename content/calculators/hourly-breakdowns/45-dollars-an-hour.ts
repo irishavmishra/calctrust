@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '45-dollars-an-hour',
   category: 'hourly-breakdowns',
   title: '$45 an Hour is How Much a Year?',
-  subheading: '$45 an hour equals $93,600 per year working full-time—approaching $100K annually.',
+  subheading: '$45 an hour equals $93,600 per year working full-time approaching $100K annually.',
   metaTitle: '$45/Hour is How Much a Year? | 2025 Calculator',
   metaDescription: 'Convert $45 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {

@@ -30,18 +30,17 @@ const content: BlogContent = {
       "Alabama imposes a graduated income tax with three brackets for 2025:",
       "Single Filers: - 2% on income up to $500 - 4% on income from $501 to $3,000 - 5% on income over $3,000",
       "Married Filing Jointly: - 2% on income up to $1,000 - 4% on income from $1,001 to $6,000 - 5% on income over $6,000",
-      "These thresholds are notably lower than federal brackets, meaning most workers quickly reach the top 5% rate. A worker earning $40,000 pays 5% on the vast majority of their income—effectively creating a near-flat tax for middle and higher earners.",
+      "These thresholds are notably lower than federal brackets, meaning most workers quickly reach the top 5% rate. A worker earning $40,000 pays 5% on the vast majority of their income effectively creating a near-flat tax for middle and higher earners.",
       "Alabama is one of only three states (along with Iowa and Louisiana) that allows taxpayers to deduct federal income taxes from state taxable income. This unique provision reduces your effective Alabama tax burden:",
       "Example: $60,000 salary, single filer - Estimated federal tax: ~$5,500 - Alabama taxable income: $60,000 - $5,500 = $54,500 - This deduction saves approximately $275 in Alabama taxes",
       "This federal tax deductibility partially offsets Alabama's otherwise moderate tax rates.",
       "Several Alabama cities and counties impose local occupational taxes:",
       "- Birmingham: 1% occupational tax - Gadsden: 2% occupational tax - Bessemer: 1% occupational tax - Many other municipalities have local taxes ranging from 0.5% to 2%",
       "These local taxes aren't included in standard state calculations but can significantly impact take-home pay for workers in affected areas. Always verify your specific locality's requirements.",
-      "Alabama's tax structure falls in the middle range compared to neighbors:",
-      "| State | Top Income Tax Rate | Notes | |-------|---------------------|-------| | Tennessee | 0% | No income tax on wages | | Florida | 0% | No income tax | | Georgia | 5.49% | Flat rate (decreasing to 4.99% by 2029) | | Mississippi | 4.7% | Flat rate | | Alabama | 5% | Graduated, with federal deductibility |",
+      "Alabama's tax structure falls in the middle compared to neighbors. Tennessee and Florida have no income tax on wages, making them significantly more tax-friendly for earners. Georgia charges a flat 5.49% that's decreasing to 4.99% by 2029. Mississippi's flat 4.7% is slightly lower than Alabama. Alabama's 5% top graduated rate with federal deductibility creates a competitive overall picture.",
       "For high earners, Tennessee and Florida offer significant tax savings. However, Alabama's federal tax deduction and relatively low cost of living create competitive overall economics.",
       "- Social Security: 6.2% on wages up to $176,100 (2025) - Medicare: 1.45% on all wages - Additional Medicare: 0.9% on wages exceeding $200,000 (single)",
-      "For a worker earning $50,000, FICA totals $3,825 annually—a significant and unavoidable deduction."
+      "For a worker earning $50,000, FICA totals $3,825 annually a significant and unavoidable deduction."
     ],
     "examples": [
       "Entry-Level Worker in Alabama - Annual salary: $38,000 - Filing status: Single - 401(k) contribution: 0% - Gross biweekly: $1,461.54 - Federal tax: ~$115 - Alabama tax: ~$55 (after federal deduction benefit) - FICA: $112 - Net biweekly: ~$1,180** (80.7% of gross)",
@@ -51,11 +50,11 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Maximize pre-tax deductions: Alabama taxes are calculated after pre-tax deductions, compounding savings",
-      "Understand the federal deduction: Alabama's federal tax deductibility reduces your state burden—factor this when comparing states",
+      "Understand the federal deduction: Alabama's federal tax deductibility reduces your state burden factor this when comparing states",
       "Check for local taxes: If working in Birmingham, Gadsden, or other localities, budget for additional occupational taxes",
       "Consider Alabama's low cost of living: While not tax-free, Alabama's overall economics are favorable with median home prices well below national average",
       "Military income rules: Active-duty military pay is fully exempt from Alabama income tax for qualifying service members",
-      "Review withholding annually: Life changes affect tax liability—update W-4 and state forms accordingly"
+      "Review withholding annually: Life changes affect tax liability update W-4 and state forms accordingly"
     ],
     "assumptions": [
       "2025 tax rates: Federal brackets, Alabama rates, and FICA limits reflect current year",
@@ -67,8 +66,8 @@ const content: BlogContent = {
     ],
     "commonMistakes": [
       "Ignoring local occupational taxes: Birmingham, Gadsden, and other municipalities add 1-2% to tax burden",
-      "Forgetting federal deductibility: Alabama allows federal tax deduction—your state tax is lower than rate alone suggests",
-      "Using wrong filing status: Married thresholds are double single thresholds—verify correct status selection",
+      "Forgetting federal deductibility: Alabama allows federal tax deduction your state tax is lower than rate alone suggests",
+      "Using wrong filing status: Married thresholds are double single thresholds verify correct status selection",
       "Not adjusting for pre-tax benefits: 401(k) and health insurance reduce both federal and Alabama taxable income",
       "Comparing to no-tax states incorrectly: Factor cost of living, not just tax rates, when evaluating relocations"
     ],
@@ -91,7 +90,7 @@ const content: BlogContent = {
       },
       {
         "question": "Can I deduct federal taxes on my Alabama return?",
-        "answer": "Yes. Alabama allows taxpayers to deduct federal income taxes paid from their Alabama taxable income—one of only three states with this provision."
+        "answer": "Yes. Alabama allows taxpayers to deduct federal income taxes paid from their Alabama taxable income one of only three states with this provision."
       },
       {
         "question": "How does Alabama compare to Tennessee for taxes?",

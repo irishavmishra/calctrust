@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $50K in NV', 'No state tax advantage'],
     whoUsefulFor: ['Nevada workers', 'Las Vegas/Reno employees'],
     howItWorks: ['$50K salary entered', 'No NV state tax', 'Only federal + FICA'],
-    deepDive: ['$50,000 in Nevada goes further than CA—no state income tax. Las Vegas has moderate cost of living.'],
+    deepDive: ['$50,000 in Nevada goes further than CA no state income tax. Las Vegas has moderate cost of living.'],
     examples: ['Annual: $50,000. Take-home: ~$3,400-3,600/month (no state tax).'],
     expertTips: ['NV no income tax = significant savings vs CA', 'Cost of living is lower than CA'],
     assumptions: ['2025 federal rates', 'No state tax'],

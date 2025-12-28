@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $600 weekly to $31,200/year', 'Hourly: $15', 'Monthly: $2,600'],
     whoUsefulFor: ['Workers paid $600/week'],
     howItWorks: ['$600 × 52 = $31,200/year', 'Monthly: $2,600', 'Hourly: $15'],
-    deepDive: ['$600 weekly equals $15/hour—the "Fight for $15" benchmark and minimum in many states.'],
+    deepDive: ['$600 weekly equals $15/hour the "Fight for $15" benchmark and minimum in many states.'],
     examples: ['Annual: $31,200. Monthly: $2,600.'],
     expertTips: ['At $15/hour equivalent, build emergency fund'],
     assumptions: ['52 weeks/year', '40 hours/week'],

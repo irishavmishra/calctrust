@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Utah flat 4.65% tax', 'Net pay calculation'],
     whoUsefulFor: ['Utah employees', 'Salt Lake City workers', 'Provo/Park City area employees'],
     howItWorks: ['Enter your gross salary', 'UT flat 4.65% rate applied', 'FICA deducted'],
-    deepDive: ['Utah has a flat 4.65% rate—simple to calculate. Salt Lake City is a growing tech hub.'],
+    deepDive: ['Utah has a flat 4.65% rate simple to calculate. Salt Lake City is a growing tech hub.'],
     examples: ['Entry-Level: Annual $45,000, Net biweekly ~$1,400', 'SLC Professional: Annual $85,000, Net biweekly ~$2,520'],
     expertTips: ['Utah flat tax is straightforward', 'Booming tech scene in Salt Lake'],
     assumptions: ['Based on 2025 Utah 4.65% flat rate'],

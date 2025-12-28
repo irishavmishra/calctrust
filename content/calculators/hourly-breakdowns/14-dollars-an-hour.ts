@@ -44,7 +44,7 @@ const content: BlogContent = {
       'Regular overtime at $14/hour can push annual income past $35,000',
       'Negotiate for quarterly performance bonuses common at this level',
       'Consider employers offering tuition reimbursement for career advancement',
-      'Track hours carefully—$14/hour x 5 miscounted hours monthly = $840/year lost',
+      'Track hours carefully $14/hour x 5 miscounted hours monthly = $840/year lost',
       'Explore roles offering tip income alongside hourly base pay',
     ],
     assumptions: [
@@ -59,7 +59,7 @@ const content: BlogContent = {
       'Not accounting for unpaid time off reducing annual earnings',
       'Comparing hourly to salary without considering benefits',
       'Overlooking overtime potential for hourly workers',
-      'Assuming $14/hour is the same everywhere—state minimums vary',
+      'Assuming $14/hour is the same everywhere state minimums vary',
     ],
     whyResultsVary: [
       'Overtime hours can increase annual income by 20-30%',

@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-minnesota",
   "category": "state-paycheck",
   "title": "Minnesota Paycheck Calculator",
-  "subheading": "Calculate your Minnesota take-home pay under the North Star State's progressive income tax ranging from 5.35% to 9.85%—among the highest in the nation. Minnesota combines steep taxation with excellent public services, a strong economy, and high quality of life. This calculator shows your actual take-home pay after federal taxes, Minnesota's graduated state rates, and FICA deductions—essential for Twin Cities professionals, healthcare workers, and those comparing Minnesota to neighboring states.",
+  "subheading": "Calculate your Minnesota take-home pay under the North Star State's progressive income tax ranging from 5.35% to 9.85% among the highest in the nation. Minnesota combines steep taxation with excellent public services, a strong economy, and high quality of life. This calculator shows your actual take-home pay after federal taxes, Minnesota's graduated state rates, and FICA deductions essential for Twin Cities professionals, healthcare workers, and those comparing Minnesota to neighboring states.",
   "metaTitle": "Minnesota Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Minnesota take-home pay. Calculator shows net income after federal and MN state taxes (5.35-9.85%). Standard withholding assumptions.",
   "sections": {
@@ -32,8 +32,7 @@ const content: BlogContent = {
       "Single Filers: - 5.35% on income up to $30,070 - 6.80% on income $30,071 to $98,760 - 7.85% on income $98,761 to $183,340 - 9.85% on income over $183,340",
       "Married Filing Jointly: - 5.35% on income up to $43,950 - 6.80% on income $43,951 to $174,610 - 7.85% on income $174,611 to $304,970 - 9.85% on income over $304,970",
       "Minnesota's 9.85% top rate is the 4th highest in the nation (after California, Hawaii, New York), and kicks in at relatively modest income levels.",
-      "Minnesota vs. neighboring states for $100,000 earner:",
-      "| State | State Tax | Notable Features | |----------------|-----------|----------------------------------| | Minnesota | ~$6,200 | Progressive, excellent services | | Wisconsin | ~$5,500 | Graduated, lower than MN | | Iowa | ~$5,200 | Phasing to flat 3.9% by 2026 | | South Dakota | $0 | No income tax | | North Dakota | ~$2,300 | Low graduated rates |",
+      "Compared to neighboring states for a $100,000 earner: Minnesota takes roughly $6,200 in state tax while offering excellent public services. Wisconsin takes about $5,500. Iowa takes around $5,200 and is phasing to a flat 3.9% by 2026. South Dakota has no income tax at all. North Dakota's low graduated rates take only about $2,300.",
       "For Minnesota residents, the high taxes fund exceptional public services:",
       "- Top-ranked public schools and universities - Excellent healthcare system (Mayo Clinic, UMN Health) - Strong infrastructure and transit - High quality of life and low crime rates - Robust social safety net",
       "Twin Cities economic strength:",
@@ -54,7 +53,7 @@ const content: BlogContent = {
       "High Earner (Top Bracket) - Annual salary: $220,000 - Filing status: Married Filing Jointly - Annual Minnesota tax: ~$15,200 (6.9% effective) - Top 9.85% rate applies above $305K for couples - Combined effective rate substantial but services strong"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Minnesota taxes calculated after 401(k)/HSA—save 6.8-9.85% on top bracket dollars",
+      "Maximize pre-tax contributions: Minnesota taxes calculated after 401(k)/HSA save 6.8-9.85% on top bracket dollars",
       "Factor quality of life: Minnesota's taxes fund services that create high-ranking livability",
       "Border comparison: South Dakota has no tax but Twin Cities offers far superior job opportunities and salaries",
       "Winter reality: Factor Minnesota's harsh winters into quality-of-life assessment beyond taxes",

@@ -16,7 +16,7 @@ const content: BlogContent = {
     whoUsefulFor: ['Workers earning $29/hour', 'Job seekers targeting $60K+ positions'],
     howItWorks: ['$29 × 40 × 52 = $60,320/year', 'Monthly: $5,027', 'Overtime: $43.50/hour'],
     deepDive: [
-      '$29/hour crosses the $60,000 annual threshold—a significant milestone. At this income, comfortable living is achievable nationwide.',
+      '$29/hour crosses the $60,000 annual threshold a significant milestone. At this income, comfortable living is achievable nationwide.',
       'Common roles include experienced RNs, senior technicians, and mid-level professionals.',
     ],
     examples: ['Full-Time: $60,320/year. Take-home: ~$4,400-$4,600/month.'],

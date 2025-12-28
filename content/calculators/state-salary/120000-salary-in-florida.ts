@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $120K in FL', 'No state tax advantage'],
     whoUsefulFor: ['Florida professionals', 'Miami/Orlando executives'],
     howItWorks: ['$120K salary entered', 'No FL state tax', 'Only federal + FICA'],
-    deepDive: ['$120,000 in Florida—no state income tax = ~$6,000-8,000+ more per year vs. CA/NY.'],
+    deepDive: ['$120,000 in Florida no state income tax = ~$6,000-8,000+ more per year vs. CA/NY.'],
     examples: ['Annual: $120,000. Take-home: ~$7,700-8,100/month (no state tax).'],
     expertTips: ['FL no income tax is huge at $120K', 'Compare to CA for dramatic savings'],
     assumptions: ['2025 federal rates', 'No state tax'],

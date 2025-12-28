@@ -29,7 +29,7 @@ const content: BlogContent = {
     "howItWorks": [],
     "deepDive": [
       "Many people believe bonuses are \"taxed higher\" than regular income. This is a misconception about withholding versus actual tax liability.",
-      "The reality: Bonuses are taxed at your marginal rate—the same as any other income. However, they're often withheld at a flat rate for convenience, which may differ from your actual tax rate. Any over-withholding is refunded when you file taxes.",
+      "The reality: Bonuses are taxed at your marginal rate the same as any other income. However, they're often withheld at a flat rate for convenience, which may differ from your actual tax rate. Any over-withholding is refunded when you file taxes.",
       "Example: You earn $60,000 salary (22% bracket) and receive a $10,000 bonus. - Flat-rate withholding: 22% = $2,200 withheld - Your actual marginal rate: 22% - Result: Withholding matches actual liability (no refund or additional payment due to bonus taxation)",
       "But if you earn $40,000 salary (12% bracket) with a $5,000 bonus: - Flat-rate withholding: 22% = $1,100 withheld - Your actual marginal rate: 12% - Result: You've overpaid; expect a $500 refund",
       "The IRS specifies withholding methods for supplemental wages:",

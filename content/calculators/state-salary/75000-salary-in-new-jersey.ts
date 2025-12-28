@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $75K in NJ', 'Calculate NJ graduated taxes'],
     whoUsefulFor: ['NJ workers', 'NYC commuters in NJ'],
     howItWorks: ['$75K salary entered', 'NJ graduated rates applied'],
-    deepDive: ['$75,000 in NJ—many NYC commuters live in NJ to avoid NYC local tax.'],
+    deepDive: ['$75,000 in NJ many NYC commuters live in NJ to avoid NYC local tax.'],
     examples: ['Annual: $75,000. Take-home: ~$4,600-4,800/month.'],
     expertTips: ['NJ residence avoids NYC local tax', 'Compare to PA/CT for NYC commute'],
     assumptions: ['2025 NJ tax brackets'],

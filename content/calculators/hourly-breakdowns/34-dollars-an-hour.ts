@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $34/hour to annual salary ($70,720/year)', 'Calculate overtime at $51/hour'],
     whoUsefulFor: ['Workers earning $34/hour', 'Job seekers targeting $70K+ positions'],
     howItWorks: ['$34 × 40 × 52 = $70,720/year', 'Monthly: $5,893', 'Overtime: $51/hour'],
-    deepDive: ['$34/hour crosses $70K annually—strong upper-middle income providing excellent financial flexibility.'],
+    deepDive: ['$34/hour crosses $70K annually strong upper-middle income providing excellent financial flexibility.'],
     examples: ['Full-Time: $70,720/year. Take-home: ~$5,150-$5,400/month.'],
     expertTips: ['OT at $51/hour is highly lucrative', 'Maximize all tax-advantaged accounts'],
     assumptions: ['Based on 40 hours/week, 52 weeks/year'],

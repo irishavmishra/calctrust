@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$50K salary entered', 'CA graduated rates applied', 'Net pay displayed'],
     deepDive: ['$50,000 in California is challenging in coastal metros but manageable in Central Valley. ~$24/hour equivalent.'],
     examples: ['Annual: $50,000. Take-home: ~$3,200-3,400/month.'],
-    expertTips: ['$50K is tight in SF/LA—consider inland areas', 'Claim all eligible credits'],
+    expertTips: ['$50K is tight in SF/LA consider inland areas', 'Claim all eligible credits'],
     assumptions: ['2025 CA tax brackets'],
     commonMistakes: ['Underestimating CA cost of living'],
     faq: [{ question: 'What is $50K take-home in CA?', answer: '~$3,200-3,400/month.' }],

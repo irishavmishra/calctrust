@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$25,000 ÷ 2,080 = $12.02/hour', 'Monthly gross: $2,083', 'Weekly: $481'],
     deepDive: ['$25,000 annually is near minimum wage in many regions. At ~$12/hour, this income level often qualifies for significant tax credits including EITC.'],
     examples: ['Hourly: $12.02/hour', 'Monthly: $2,083 gross, ~$1,750-1,833 net', 'Weekly: $481 gross'],
-    expertTips: ['Claim EITC if eligible—could add $500-3,000+ to annual income', 'Seek advancement to $15+/hour positions'],
+    expertTips: ['Claim EITC if eligible could add $500-3,000+ to annual income', 'Seek advancement to $15+/hour positions'],
     assumptions: ['Based on 2,080 hours/year', 'Pre-tax figures'],
     faq: [
       { question: 'How much is $25K per hour?', answer: '$25,000 ÷ 2,080 = $12.02/hour' },

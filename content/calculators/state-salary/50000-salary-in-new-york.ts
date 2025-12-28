@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$50K salary entered', 'NY state + NYC local if applicable'],
     deepDive: ['$50,000 in NYC is challenging. Upstate NY is more affordable. $50K is ~$24/hour.'],
     examples: ['Annual: $50,000. Take-home: ~$3,000-3,200/month (varies by location).'],
-    expertTips: ['NYC adds local tax—consider NJ residence', 'Upstate more affordable'],
+    expertTips: ['NYC adds local tax consider NJ residence', 'Upstate more affordable'],
     assumptions: ['2025 NY state rates'],
     faq: [{ question: 'What is $50K take-home in NY?', answer: '~$3,000-3,200/month.' }],
     relatedCalculators: [{ title: '$75K New York', href: '/usa/75000-salary-in-new-york' }],

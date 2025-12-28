@@ -35,11 +35,9 @@ const content: BlogContent = {
     ],
     "deepDive": [
       "Illinois uses a flat 4.95% income tax rate on all taxable income, regardless of income level. This creates a simple calculation but means lower earners pay the same rate as millionaires.",
-      "Comparison to neighboring states:",
-      "| State | Tax Structure | Top Rate | Notes | |-------|---------------|----------|-------| | Illinois | Flat | 4.95% | Same rate for all income | | Indiana | Flat | 3.05% | Lower than Illinois | | Wisconsin | Graduated | 7.65% | Higher top rate but lower for low earners | | Iowa | Graduated | 6% | Lower top rate than IL | | Missouri | Graduated | 4.95% | Same top rate, graduated structure",
-      "For a $100,000 earner: - Illinois: $4,950 state tax (4.95%) - Indiana: $3,050 state tax (3.05%) - Annual savings in Indiana: $1,900",
-      "The flat rate structure means Illinois taxes are regressive—lower earners pay the same percentage as high earners:",
-      "| Income | Illinois Tax | Effective Rate | |--------|--------------|-----------------| | $30,000 | $1,485 | 4.95% | | $75,000 | $3,713 | 4.95% | | $150,000 | $7,425 | 4.95% | | $500,000 | $24,750 | 4.95% |",
+      "Compared to neighboring states, Illinois sits in the middle. Indiana's flat 3.05% is noticeably lower. Wisconsin uses a graduated system topping at 7.65% higher for top earners but lower for lower incomes. Iowa's graduated system reaches 6% at the top. Missouri has the same 4.95% top rate but uses a graduated structure. Moving from Illinois to Indiana would save a $100,000 earner about $1,900 annually.",
+      "For a $100,000 earner specifically: Illinois takes $4,950 in state tax, while Indiana takes only $3,050. That's $1,900 per year difference.",
+      "The flat rate structure means Illinois taxes are regressive lower earners pay the same percentage as high earners. Someone making $30,000 pays $1,485 (4.95%). At $75,000, it's $3,713. At $150,000, you're paying $7,425. And at $500,000, the state takes $24,750. Same 4.95% across the board.",
       "Compare this to graduated-rate states where higher earners pay higher rates, making Illinois less favorable for lower-income workers but potentially better for high earners than some graduated states.",
       "Chicago is America's third-largest city and a major economic hub, but Illinois's flat tax and high property taxes create a significant tax burden:",
       "Chicago area tax considerations: - Illinois state income tax: 4.95% flat - Cook County property taxes: Among highest in nation - Chicago sales tax: 10.25% (state + county + city)",
@@ -56,9 +54,9 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Compare to Indiana: Living just across the border in Indiana saves 1.9% in state tax (3.05% vs. 4.95%)",
-      "Maximize pre-tax deductions: Illinois tax is calculated after pre-tax deductions—every 401(k) dollar saves 4.95% in state tax",
+      "Maximize pre-tax deductions: Illinois tax is calculated after pre-tax deductions every 401(k) dollar saves 4.95% in state tax",
       "Consider property tax impact: Illinois has among the highest property taxes in the nation, partially offsetting income tax considerations",
-      "Understand flat tax implications: Lower earners pay the same rate as high earners—this is regressive compared to graduated systems",
+      "Understand flat tax implications: Lower earners pay the same rate as high earners this is regressive compared to graduated systems",
       "Evaluate relocation seriously: Moving to no-tax states (Florida, Texas) or lower-tax states (Indiana) can save thousands annually",
       "Factor in sales tax: Chicago's 10.25% sales tax is among the highest in America",
       "Remote work considerations: If working remotely for out-of-state employer, understand Illinois's tax nexus rules"
@@ -71,7 +69,7 @@ const content: BlogContent = {
       "Single employer: Standard W-4 withholding assumed"
     ],
     "commonMistakes": [
-      "Comparing gross salaries: A $100,000 Illinois salary ≠ $100,000 Indiana salary—factor in $1,900 tax difference",
+      "Comparing gross salaries: A $100,000 Illinois salary ≠ $100,000 Indiana salary factor in $1,900 tax difference",
       "Forgetting property taxes: Illinois has among the highest property taxes, affecting total tax burden",
       "Not comparing to neighbors: Indiana's 3.05% rate saves significant money for border workers",
       "Underestimating total burden: Combined federal + state + FICA can exceed 30% for many workers",

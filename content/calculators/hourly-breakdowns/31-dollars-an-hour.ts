@@ -12,7 +12,7 @@ const content: BlogContent = {
     whoUsefulFor: ['Workers earning $31/hour', 'Job seekers targeting $65K positions'],
     howItWorks: ['$31 × 40 × 52 = $64,480/year', 'Monthly: $5,373', 'Overtime: $46.50/hour'],
     deepDive: [
-      '$31/hour provides $64,480 annually—well above median. Comfortable living is achievable in all U.S. markets.',
+      '$31/hour provides $64,480 annually well above median. Comfortable living is achievable in all U.S. markets.',
       'Common roles include senior technicians, experienced nurses, and skilled trades masters.',
     ],
     examples: ['Full-Time: $64,480/year. Take-home: ~$4,700-$4,950/month.'],

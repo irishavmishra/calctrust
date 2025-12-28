@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $1,500 weekly to $78,000/year', 'Hourly: ~$37.50', 'Monthly: $6,500'],
     whoUsefulFor: ['Workers paid $1,500/week'],
     howItWorks: ['$1,500 × 52 = $78,000/year', 'Monthly: $6,500', 'Hourly: ~$37.50'],
-    deepDive: ['$1,500 weekly provides $78,000 annually—excellent income well above median.'],
+    deepDive: ['$1,500 weekly provides $78,000 annually excellent income well above median.'],
     examples: ['Annual: $78,000. Monthly: $6,500.'],
     expertTips: ['At ~$38/hour, maximize all tax optimization strategies'],
     assumptions: ['52 weeks/year', '40 hours/week'],

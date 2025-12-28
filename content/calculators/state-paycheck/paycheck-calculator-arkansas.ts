@@ -29,7 +29,7 @@ const content: BlogContent = {
     "deepDive": [
       "All Filers: - 2% on income up to $4,999 - 4% on income from $5,000 to $24,999   - 4.7% on income over $25,000",
       "Arkansas has been progressively lowering its top rate, which was 5.9% as recently as 2022. The state continues to move toward a flatter, lower tax structure.",
-      "| State | Top Tax Rate | Type | |-------|--------------|------| | Texas | 0% | No income tax | | Tennessee | 0% | No income tax | | Oklahoma | 4.75% | Graduated | | Missouri | 4.95% | Graduated | | Arkansas | 4.7% | Graduated |",
+      "Arkansas competes favorably with neighboring states. Texas and Tennessee have no income tax at all. Oklahoma's graduated system tops at 4.75%, Missouri reaches 4.95%, and Arkansas sits right at 4.7%.",
       "Arkansas's proximity to no-tax Texas makes cross-border employment decisions relevant. A $75,000 salary keeps approximately $2,500 more annually in Texas than Arkansas.",
       "Arkansas allows a standard deduction: - Single: $2,340 - Married filing jointly: $4,680",
       "These are lower than federal deductions, so most Arkansas taxpayers itemize or simply apply the state standard.",
@@ -41,7 +41,7 @@ const content: BlogContent = {
       "Walmart Corporate Employee - Annual salary: $95,000 - Filing status: Single - 401(k) contribution: 10% - Gross biweekly: $3,653.85 - Federal tax: ~$310 - Arkansas tax: ~$130 - FICA: $280 - Net biweekly: ~$2,568** (70.3% of gross)"
     ],
     "expertTips": [
-      "Track rate reductions: Arkansas continues lowering rates—check current rates annually",
+      "Track rate reductions: Arkansas continues lowering rates check current rates annually",
       "Compare to Texas opportunities: With Dallas just across the border, no-tax Texas positions may offer significant savings",
       "Maximize 401(k): Pre-tax contributions reduce both federal and Arkansas burden",
       "Review withholding annually: Arkansas's changing rates may require W-4 updates"
@@ -54,7 +54,7 @@ const content: BlogContent = {
       "Single employer: Standard withholding assumed"
     ],
     "commonMistakes": [
-      "Using outdated Arkansas rates: Rates have changed significantly—verify current year",
+      "Using outdated Arkansas rates: Rates have changed significantly verify current year",
       "Ignoring Texas comparison: No-tax Texas is a short drive for many Arkansas workers",
       "Forgetting FICA: 7.65% applies regardless of state"
     ],

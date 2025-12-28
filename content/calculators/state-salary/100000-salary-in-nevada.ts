@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $100K in NV', 'No state tax advantage'],
     whoUsefulFor: ['Nevada professionals', 'Las Vegas workers'],
     howItWorks: ['$100K salary entered', 'No NV state tax', 'Only federal + FICA'],
-    deepDive: ['$100,000 in Nevada—no state income tax = ~$5,000-6,000+ more per year vs. CA.'],
+    deepDive: ['$100,000 in Nevada no state income tax = ~$5,000-6,000+ more per year vs. CA.'],
     examples: ['Annual: $100,000. Take-home: ~$6,500-6,800/month (no state tax).'],
     expertTips: ['NV no income tax = huge savings vs CA', 'Vegas has moderate cost of living'],
     assumptions: ['2025 federal rates', 'No state tax'],

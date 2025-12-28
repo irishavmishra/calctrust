@@ -40,8 +40,7 @@ const content: BlogContent = {
       "New York City adds local income tax for city residents:",
       "- 3.078% on income up to $12,000 - 3.762% on income $12,001 to $25,000 - 3.819% on income $25,001 to $50,000 - 3.876% on income over $50,000",
       "For a $200,000 earner in NYC: - New York State tax: ~$12,500 - NYC local tax: ~$7,750 - Combined state + city: ~$20,250 (10.1% effective rate)",
-      "The combined state and city tax burden creates one of the highest effective rates in America:",
-      "| Salary | NY State Tax | NYC Local Tax | Total NY Tax | |--------|--------------|---------------|--------------| | $75,000 | ~$4,200 | ~$2,900 | ~$7,100 | | $100,000 | ~$5,800 | ~$3,880 | ~$9,680 | | $150,000 | ~$9,200 | ~$5,810 | ~$15,010 | | $300,000 | ~$20,000 | ~$11,630 | ~$31,630 |",
+      "The combined state and city tax burden creates one of the highest effective rates in America. At $75,000, you're paying about $4,200 to the state and $2,900 to the city roughly $7,100 total. A $100,000 earner faces $5,800 state plus $3,880 city, totaling $9,680. At $150,000, you're looking at $9,200 state and $5,810 city, combining to $15,010. And a $300,000 earner sends about $20,000 to the state and $11,630 to the city over $31,600 in combined state and local taxes.",
       "Many high earners live in New Jersey or Connecticut to avoid NYC local tax:",
       "A $200,000 earner working in Manhattan: - Living in NYC: ~$20,250 NY tax - Living in NJ: ~$12,500 NY tax (no NYC tax) - Annual savings: ~$7,750",
       "Yonkers residents face an additional 16.75% surcharge on their New York State tax, creating an even higher burden.",
@@ -58,9 +57,9 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Consider New Jersey/Connecticut residence: Living across state lines eliminates NYC local tax while maintaining access to NYC jobs",
-      "Maximize pre-tax deductions: NYC local tax is calculated after pre-tax deductions—every 401(k) dollar saves 3.876% in city tax",
-      "Understand residency rules: New York aggressively pursues former residents—genuine relocation requires physical presence elsewhere",
-      "Yonkers surcharge awareness: Yonkers residents pay 16.75% surcharge on state tax—factor this into calculations",
+      "Maximize pre-tax deductions: NYC local tax is calculated after pre-tax deductions every 401(k) dollar saves 3.876% in city tax",
+      "Understand residency rules: New York aggressively pursues former residents genuine relocation requires physical presence elsewhere",
+      "Yonkers surcharge awareness: Yonkers residents pay 16.75% surcharge on state tax factor this into calculations",
       "Remote work considerations: If working remotely for out-of-state employer, understand New York's tax nexus rules",
       "Time income carefully: Stock option exercises or RSU vests can spike you into higher brackets",
       "Compare to no-tax states: A $200,000 earner saves ~$20,000+ annually moving to Florida or Texas"
@@ -74,7 +73,7 @@ const content: BlogContent = {
     ],
     "commonMistakes": [
       "Forgetting NYC local tax: Many workers don't realize city tax adds 3-4% on top of state tax",
-      "Comparing gross salaries: A $150,000 NYC salary ≠ $150,000 Texas salary—factor in $15,000+ tax difference",
+      "Comparing gross salaries: A $150,000 NYC salary ≠ $150,000 Texas salary factor in $15,000+ tax difference",
       "Underestimating total burden: Combined state + city + federal can exceed 40% for high earners",
       "Not considering NJ/CT residence: Living across state lines can save thousands annually",
       "Assuming remote work eliminates NY tax: New York pursues former residents aggressively",

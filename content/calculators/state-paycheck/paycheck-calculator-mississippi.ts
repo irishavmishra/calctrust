@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-mississippi",
   "category": "state-paycheck",
   "title": "Mississippi Paycheck Calculator",
-  "subheading": "Calculate your Mississippi take-home pay under the Magnolia State's flat 4.7% income tax, which is being phased down toward elimination. Mississippi offers low taxes combined with the nation's lowest cost of living, though also lower average wages. This calculator shows your actual take-home pay after federal taxes, Mississippi's 4.7% flat rate, and FICA deductions—essential for Gulf Coast workers, Jackson professionals, and those comparing Mississippi to neighboring Southern states.",
+  "subheading": "Calculate your Mississippi take-home pay under the Magnolia State's flat 4.7% income tax, which is being phased down toward elimination. Mississippi offers low taxes combined with the nation's lowest cost of living, though also lower average wages. This calculator shows your actual take-home pay after federal taxes, Mississippi's 4.7% flat rate, and FICA deductions essential for Gulf Coast workers, Jackson professionals, and those comparing Mississippi to neighboring Southern states.",
   "metaTitle": "Mississippi Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Mississippi take-home pay. Calculator shows net income after federal and MS state taxes (4.7% flat, phasing down). Standard withholding assumptions.",
   "sections": {
@@ -31,8 +31,7 @@ const content: BlogContent = {
       "Mississippi recently transitioned to a flat 4.7% income tax with plans to phase it down:",
       "- 4.7% flat rate on all taxable income (2025) - Previously had graduated brackets up to 5% - Legislature plans gradual reduction toward eventual elimination - Timeline depends on state revenue performance",
       "Mississippi's goal: Join Tennessee, Florida, and Texas as no-income-tax Southern states to attract residents and businesses.",
-      "Mississippi vs. neighboring states for $70,000 earner:",
-      "| State | State Tax | Notable Features | |-------------|-----------|----------------------------------| | Mississippi | ~$3,290 | 4.7% flat, phasing down | | Tennessee | $0 | No income tax | | Alabama | ~$3,500 | 5% top graduated rate | | Louisiana | ~$3,150 | 4.25% top graduated rate | | Arkansas | ~$3,640 | Progressive, reducing rates |",
+      "For a $70,000 earner, Mississippi's 4.7% flat rate takes roughly $3,290 annually with the rate phasing down over time. Tennessee has zero income tax, making it the obvious neighbor for tax-conscious residents. Alabama takes about $3,500 with its 5% top graduated rate. Louisiana's 4.25% top rate results in about $3,150. Arkansas's progressive but reducing rates cost around $3,640.",
       "Mississippi offers the nation's lowest cost of living:",
       "Cost of Living Advantages: - Median home price: ~$180,000 (lowest in nation) - Apartment rent: ~$900-1,100/mo - Groceries: 10-15% below national average - Gas, utilities: Among nation's lowest - Property taxes: Very low",
       "For a $60,000 earner in Mississippi:",
@@ -53,8 +52,8 @@ const content: BlogContent = {
       "Manufacturing Manager - Annual salary: $95,000 - Filing status: Married Filing Jointly - Annual Mississippi tax: ~$4,465 - Extremely low housing costs make high earners very comfortable - $200K-300K homes in excellent areas"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Mississippi taxes calculated after 401(k)/HSA—save 4.7% on every pre-tax dollar",
-      "Track phase-down: Monitor Mississippi's income tax reduction timeline—eventual elimination possible",
+      "Maximize pre-tax contributions: Mississippi taxes calculated after 401(k)/HSA save 4.7% on every pre-tax dollar",
+      "Track phase-down: Monitor Mississippi's income tax reduction timeline eventual elimination possible",
       "Factor purchasing power: Lower wages often offset by 40-50% lower housing and living costs",
       "Gulf Coast opportunities: Casinos, tourism, naval facilities offer better wages than interior",
       "Remote work advantage: Maintain higher salary from elsewhere while enjoying Mississippi's low costs and taxes",
@@ -62,15 +61,15 @@ const content: BlogContent = {
     ],
     "assumptions": [
       "2025 tax rates: Current 4.7% flat rate",
-      "Phase-down: Future reductions not included—check current law for updates",
+      "Phase-down: Future reductions not included check current law for updates",
       "Standard deduction: Mississippi standard deduction applied",
       "Full-year residency: Assumes Mississippi resident entire year",
       "No local income taxes: Mississippi municipalities levy no local income taxes"
     ],
     "commonMistakes": [
-      "Comparing only wages: Mississippi's low wages balanced by nation's lowest cost of living—compare total purchasing power",
+      "Comparing only wages: Mississippi's low wages balanced by nation's lowest cost of living compare total purchasing power",
       "Ignoring cost advantage: $60,000 in Mississippi often provides lifestyle comparable to $80,000-90,000 in expensive states",
-      "Not tracking phase-down: Mississippi is gradually reducing/eliminating income tax—stay informed on timeline",
+      "Not tracking phase-down: Mississippi is gradually reducing/eliminating income tax stay informed on timeline",
       "Assuming Tennessee is always better: MS's 4.7% tax offset by sometimes lower housing costs than popular TN metros",
       "Overlooking quality-of-life factors: Lower costs come with tradeoffs in services, education rankings, and amenities"
     ],

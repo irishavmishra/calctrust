@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "double-time-calculator",
   "category": "core",
   "title": "Double Time Calculator",
-  "subheading": "Calculate your earnings at double your regular hourly rate for premium overtime situations. Double time pay—2x your standard wage—applies in specific circumstances like extended daily hours, seventh consecutive workdays, or holiday work depending on your state and employer policies. This calculator helps you understand exactly what you'll earn in these premium pay scenarios.",
+  "subheading": "Calculate your earnings at double your regular hourly rate for premium overtime situations. Double time pay 2x your standard wage applies in specific circumstances like extended daily hours, seventh consecutive workdays, or holiday work depending on your state and employer policies. This calculator helps you understand exactly what you'll earn in these premium pay scenarios.",
   "metaTitle": "Double Time Calculator | USA 2025",
   "metaDescription": "Calculate double time overtime pay (2x regular rate). This calculator estimates earnings for premium overtime scenarios. Educational estimates only.",
   "sections": {
@@ -13,17 +13,17 @@ const content: BlogContent = {
       "Premium overtime earnings: Calculate total income for hours compensated at the double-time rate",
       "Comparison with time and a half: See the difference between 1.5x and 2x overtime for the same hours worked",
       "California overtime compliance: Understand double-time requirements for hours over 12 and seventh workday rules",
-      "Holiday pay estimation: Many employers offer double time for holidays—calculate your holiday earnings",
+      "Holiday pay estimation: Many employers offer double time for holidays calculate your holiday earnings",
       "Extended shift analysis: Evaluate the financial benefit of working very long shifts in double-time jurisdictions",
       "Union contract verification: Confirm correct calculation of contractual double-time provisions"
     ],
     "whoUsefulFor": [
-      "California workers with long shifts: If you work more than 12 hours in a day, double time kicks in—know what you're earning",
+      "California workers with long shifts: If you work more than 12 hours in a day, double time kicks in know what you're earning",
       "Hourly employees on seven-day schedules: Working seven consecutive days often triggers double time after the first 8 hours on day seven",
-      "Holiday workers: Many employers (though not required by federal law) pay double time on major holidays—calculate your premium",
+      "Holiday workers: Many employers (though not required by federal law) pay double time on major holidays calculate your premium",
       "Union members with contractual double time: Verify your paycheck matches collective bargaining agreement provisions",
-      "Weekend shift workers: Some industries provide double-time Sunday premiums—understand your enhanced compensation",
-      "Workers in hazardous conditions: Certain roles earn double time for exceptional circumstances—confirm accurate payment",
+      "Weekend shift workers: Some industries provide double-time Sunday premiums understand your enhanced compensation",
+      "Workers in hazardous conditions: Certain roles earn double time for exceptional circumstances confirm accurate payment",
       "Managers budgeting for extended operations: Estimate labor costs for scenarios requiring double-time pay"
     ],
     "howItWorks": [],
@@ -37,11 +37,11 @@ const content: BlogContent = {
       "Example: A California worker earning $22/hour works a 14-hour day: - Hours 1-8: $22 × 8 = $176 (regular) - Hours 9-12: $33 × 4 = $132 (1.5x) - Hours 13-14: $44 × 2 = $88 (2x) - Total: $396 for 14 hours (effective rate: $28.29/hour)",
       "Many collective bargaining agreements include double-time provisions exceeding legal minimums:",
       "- Construction unions: Often double time for Sundays and holidays - Longshoremen: Extensive double-time provisions for night work and weekends - Entertainment industry: Union rules frequently specify double time for extended call times - Healthcare unions: May include double-time provisions for extended shifts or emergency callouts",
-      "If you're a union member, your contract likely specifies exactly when double time applies—consult your agreement or union representative.",
+      "If you're a union member, your contract likely specifies exactly when double time applies consult your agreement or union representative.",
       "While no federal or state law requires premium pay for holiday work, many employers provide it:",
       "Common employer policies: - Double time for Thanksgiving, Christmas, New Year's Day - Time and a half for other federal holidays - Double time plus regular day's pay (\"triple time\" effect)",
       "Example: Working Christmas at $20/hour with double-time policy: - 8-hour shift = $40/hour × 8 = $320 - If also receiving regular day's pay: $160 additional - Total Christmas Day earnings: $480",
-      "Always check your employer's specific holiday policy—there's significant variation.",
+      "Always check your employer's specific holiday policy there's significant variation.",
       "Certain sectors frequently provide double-time compensation:",
       "Healthcare: Extended shifts, callouts, crisis staffing often trigger double time",
       "Oil & Gas: Offshore rotations and emergency response frequently include double-time provisions",
@@ -60,11 +60,11 @@ const content: BlogContent = {
       "Union Construction Worker Sunday - Regular rate: $35.00 - Contract: Double time for all Sunday hours - Sunday shift: 8 hours - Earnings: $70 × 8 = $560** - This single Sunday equals nearly 1.5 regular workdays"
     ],
     "expertTips": [
-      "Know your jurisdiction: Double time is legally required in California but not federally—understand what law governs your situation",
+      "Know your jurisdiction: Double time is legally required in California but not federally understand what law governs your situation",
       "Review union contracts carefully: Collective bargaining agreements often contain double-time provisions that exceed legal minimums",
-      "Track daily hours in California: Daily overtime (not just weekly) triggers enhanced pay—accurate tracking is essential",
+      "Track daily hours in California: Daily overtime (not just weekly) triggers enhanced pay accurate tracking is essential",
       "Understand consecutive workday rules: California's seventh-day provisions require working prior six days for the same employer",
-      "Verify holiday policies annually: Employer holiday pay policies can change—confirm current provisions each year",
+      "Verify holiday policies annually: Employer holiday pay policies can change confirm current provisions each year",
       "Calculate blended rates carefully: Complex schedules mixing regular, 1.5x, and 2x hours require careful calculation",
       "Consider tax implications: Double-time earnings accelerate income, potentially pushing you into higher brackets faster"
     ],
@@ -78,11 +78,11 @@ const content: BlogContent = {
       "Direct calculation: Uses your regular rate without integrating bonuses or shift differentials"
     ],
     "commonMistakes": [
-      "Assuming federal double-time requirements exist: Federal law requires only 1.5x overtime—double time comes from state law, contracts, or policies",
+      "Assuming federal double-time requirements exist: Federal law requires only 1.5x overtime double time comes from state law, contracts, or policies",
       "Misunderstanding California daily rules: Double time is for hours 13+ in a day, not hours 9+; hours 9-12 are time and a half",
-      "Forgetting consecutive workday requirements: California's seventh-day double time requires working all prior six days—a gap resets the count",
+      "Forgetting consecutive workday requirements: California's seventh-day double time requires working all prior six days a gap resets the count",
       "Confusing policy with legal requirement: Even if an employer \"always\" paid double time, they may change the policy if not legally mandated",
-      "Not tracking hours precisely: Double time often triggers after specific hour thresholds—accurate daily tracking prevents missed wages",
+      "Not tracking hours precisely: Double time often triggers after specific hour thresholds accurate daily tracking prevents missed wages",
       "Assuming all holidays qualify: Not all employers offer holiday premiums, and those that do may not include all holidays"
     ],
     "whyResultsVary": [

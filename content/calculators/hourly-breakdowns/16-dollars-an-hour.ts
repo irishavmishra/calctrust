@@ -31,7 +31,7 @@ const content: BlogContent = {
     ],
     deepDive: [
       '$16/hour is now the minimum wage in California and Washington state as of 2025, making it the baseline rather than a premium in high-cost West Coast cities. In other regions, $16/hour represents a modest step above minimum wage that provides slightly more financial flexibility.',
-      'At $33,280 annually, a single earner can more comfortably afford housing in lower-cost markets. Following the 30% rule, this allows for rent up to $832/month—achievable in cities like Phoenix, Dallas, Atlanta, or many Midwest metros.',
+      'At $33,280 annually, a single earner can more comfortably afford housing in lower-cost markets. Following the 30% rule, this allows for rent up to $832/month achievable in cities like Phoenix, Dallas, Atlanta, or many Midwest metros.',
       'The $16/hour wage is common for certified nursing assistants (CNAs), pharmacy technicians, bank tellers, and administrative coordinators. Many of these roles offer clear advancement paths to $20+/hour positions with additional experience or certifications.',
     ],
     examples: [
@@ -41,10 +41,10 @@ const content: BlogContent = {
       'Night Shift Differential (+$2/hour): Effective $18/hour = $37,440/year.',
     ],
     expertTips: [
-      'At $16/hour overtime is worth $24/hour—significant boost for weekend shifts',
+      'At $16/hour overtime is worth $24/hour significant boost for weekend shifts',
       'Pursue industry certifications that commonly add $2-4/hour to base pay',
       'Consider healthcare roles offering tuition assistance for RN or LPN credentials',
-      'Track hours meticulously—lost time disputes are common in service industries',
+      'Track hours meticulously lost time disputes are common in service industries',
       'Negotiate annual reviews with documented performance metrics',
     ],
     assumptions: [

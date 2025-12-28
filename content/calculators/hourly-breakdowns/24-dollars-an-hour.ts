@@ -24,7 +24,7 @@ const content: BlogContent = {
       'Overtime: $24 × 1.5 = $36/hour',
     ],
     deepDive: [
-      '$24/hour puts you at the threshold of $50,000—a significant psychological milestone. At $49,920 annually, you exceed the median individual income and have strong financial foundation.',
+      '$24/hour puts you at the threshold of $50,000 a significant psychological milestone. At $49,920 annually, you exceed the median individual income and have strong financial foundation.',
       'This wage allows housing up to $1,248/month, enabling comfortable living in most U.S. markets and home ownership potential in moderate-cost regions.',
       'Common $24/hour roles include journeyman trades workers, experienced medical coders, HR specialists, and network technicians.',
     ],

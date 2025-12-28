@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Calculate salary after 7% raise'],
     whoUsefulFor: ['Employees receiving large raises'],
     howItWorks: ['New Salary = Current × 1.07', '$50,000 × 1.07 = $53,500'],
-    deepDive: ['A 7% raise is exceptional—often tied to promotions or retention offers.'],
+    deepDive: ['A 7% raise is exceptional often tied to promotions or retention offers.'],
     examples: ['$40,000 + 7% = $42,800', '$60,000 + 7% = $64,200', '$100,000 + 7% = $107,000'],
     expertTips: ['7% raises typically accompany title or role changes'],
     assumptions: ['Based on annual salary'],

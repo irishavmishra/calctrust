@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '40-dollars-an-hour',
   category: 'hourly-breakdowns',
   title: '$40 an Hour is How Much a Year?',
-  subheading: '$40 an hour equals $83,200 per year working full-time—exceeding median household income and providing strong financial position.',
+  subheading: '$40 an hour equals $83,200 per year working full-time exceeding median household income and providing strong financial position.',
   metaTitle: '$40/Hour is How Much a Year? | 2025 Calculator',
   metaDescription: 'Convert $40 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['$40 × 40 × 52 = $83,200/year', 'Monthly: $6,933', 'Overtime: $60/hour'],
     deepDive: [
       '$40/hour is a milestone wage representing $83,200 annually. This exceeds the U.S. median household income and provides excellent financial flexibility.',
-      'At this income, following the 30% housing guideline allows $2,080/month—comfortable housing in any U.S. market.',
+      'At this income, following the 30% housing guideline allows $2,080/month comfortable housing in any U.S. market.',
     ],
     examples: [
       'Full-Time: $40 × 40 × 52 = $83,200/year. Take-home: ~$6,050-$6,350/month.',
@@ -23,7 +23,7 @@ const content: BlogContent = {
     assumptions: ['Based on 40 hours/week, 52 weeks/year'],
     faq: [
       { question: 'How much is $40/hour annually?', answer: '$83,200/year full-time.' },
-      { question: 'Is $40/hour a good wage?', answer: 'Yes—$83,200/year exceeds median household income significantly.' },
+      { question: 'Is $40/hour a good wage?', answer: 'Yes $83,200/year exceeds median household income significantly.' },
       { question: 'What is overtime for $40/hour?', answer: '$60/hour.' },
     ],
     relatedCalculators: [

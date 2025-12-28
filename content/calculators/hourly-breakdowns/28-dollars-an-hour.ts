@@ -20,7 +20,7 @@ const content: BlogContent = {
       'Overtime: $28 × 1.5 = $42/hour',
     ],
     deepDive: [
-      '$28/hour approaches $60K annually—a significant income level. At $58,240/year, comfortable lifestyle and meaningful wealth building are achievable.',
+      '$28/hour approaches $60K annually a significant income level. At $58,240/year, comfortable lifestyle and meaningful wealth building are achievable.',
       'Common roles include master trades workers, experienced nurses, and senior technical specialists.',
     ],
     examples: [

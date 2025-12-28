@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '30000-salary-breakdown',
   category: 'salary-breakdowns',
   title: '$30,000 Salary Breakdown',
-  subheading: 'Understand what a $30,000 annual salary means for your finances—approximately $14.42/hour.',
+  subheading: 'Understand what a $30,000 annual salary means for your finances approximately $14.42/hour.',
   metaTitle: '$30K Salary Breakdown | Hourly, Monthly 2025',
   metaDescription: 'Break down a $30K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {

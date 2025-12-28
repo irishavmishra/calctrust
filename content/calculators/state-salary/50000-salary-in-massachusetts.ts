@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $50K in MA', 'Calculate MA flat 5% tax'],
     whoUsefulFor: ['Massachusetts workers', 'Boston metro employees'],
     howItWorks: ['$50K salary entered', 'MA flat 5% rate applied'],
-    deepDive: ['$50,000 in Massachusetts with flat 5% tax. Boston is expensive—suburbs or NH residence can help.'],
+    deepDive: ['$50,000 in Massachusetts with flat 5% tax. Boston is expensive suburbs or NH residence can help.'],
     examples: ['Annual: $50,000. Take-home: ~$3,200-3,350/month.'],
     expertTips: ['Compare to NH for border workers (no income tax)', 'MA flat tax is simple'],
     assumptions: ['2025 MA 5% flat rate'],

@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-indiana",
   "category": "state-paycheck",
   "title": "Indiana Paycheck Calculator",
-  "subheading": "Calculate your Indiana take-home pay under the Hoosier State's low flat 3.05% state income tax plus county taxes ranging from 0.5% to 3%. Indiana offers one of the nation's lowest state tax rates combined with business-friendly policies and moderate cost of living. This calculator shows your actual take-home pay after federal taxes, Indiana's 3.05% state rate, county taxes, and FICA deductions—essential for Indianapolis professionals, manufacturing workers, and those comparing Indiana to higher-tax neighboring states.",
+  "subheading": "Calculate your Indiana take-home pay under the Hoosier State's low flat 3.05% state income tax plus county taxes ranging from 0.5% to 3%. Indiana offers one of the nation's lowest state tax rates combined with business-friendly policies and moderate cost of living. This calculator shows your actual take-home pay after federal taxes, Indiana's 3.05% state rate, county taxes, and FICA deductions essential for Indianapolis professionals, manufacturing workers, and those comparing Indiana to higher-tax neighboring states.",
   "metaTitle": "Indiana Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Indiana take-home pay. Calculator shows net income after federal and IN state taxes (3.05% flat + county taxes). Standard withholding assumptions.",
   "sections": {
@@ -32,11 +32,9 @@ const content: BlogContent = {
       "- State income tax: 3.05% on all taxable income - County income tax: 0.5% to 3.0% depending on county - Total: Typically 3.5% to 6.0% combined",
       "Major county tax rates in Indiana:",
       "- Marion County (Indianapolis): ~2.02% county tax → ~5.07% total - Lake County (Gary, near Chicago): ~2.35% → ~5.4% total - Allen County (Fort Wayne): ~1.41% → ~4.46% total - St. Joseph County (South Bend): ~2.0% → ~5.05% total - Hamilton County (Carmel, Fishers): ~1.94% → ~4.99% total",
-      "Note: Calculator uses standard assumptions—consult specific county rates for precision.",
-      "Indiana's low tax burden compared to Midwest neighbors:",
-      "| State | State Rate | Local Tax | Combined | |-----------|------------|-----------|----------| | Indiana | 3.05% | ~0.5-3% | ~3.5-6% | | Illinois | 4.95% | 0-3% | ~5-8% | | Ohio | 0-3.75% | ~0-3% | ~2-6% | | Michigan | 4.25% | 0% | 4.25% | | Kentucky | 4.5% | 0% | 4.5% |",
-      "Indiana offers significant tax savings compared to Illinois:",
-      "Annual Tax Comparison for Chicago-Indianapolis Corridor: | Salary | Indiana Tax | Illinois Tax | Annual Savings | |---------|-------------|--------------|----------------| | $50,000 | ~$2,535 | ~$2,475 | Roughly similar | | $75,000 | ~$3,800 | ~$3,713 | Slight advantage | | $100,000 | ~$5,070 | ~$4,950 | Comparable |",
+      "Note: Calculator uses standard assumptions consult specific county rates for precision.",
+      "Indiana's low tax burden compared to Midwest neighbors is compelling. Indiana's 3.05% state rate plus 0.5-3% county tax brings the combined total to roughly 3.5-6%. Illinois charges a flat 4.95% with some areas adding local taxes, pushing totals to 5-8%. Ohio's graduated rates run 0-3.75% state-level, plus local taxes of 0-3%, landing at 2-6% combined. Michigan's flat 4.25% has no county taxes. Kentucky's 4.5% likewise stands alone without locals.",
+      "Indiana offers significant tax savings compared to Illinois, though the gap isn't as wide as some expect. For the Chicago-Indianapolis corridor, a $50,000 earner pays about $2,535 in Indiana versus $2,475 in Illinois roughly similar. At $75,000, it's $3,800 Indiana versus $3,713 Illinois. At $100,000, you're looking at $5,070 in Indiana compared to $4,950 in Illinois.",
       "While state taxes are similar, Indiana's lower cost of living (especially housing) creates the real advantage.",
       "Indiana's economic strengths:",
       "- Manufacturing hub: Automotive (Subaru, Honda, Toyota), steel, pharmaceuticals - Logistics: Central US location makes Indiana a distribution center - Life sciences: Eli Lilly, Cook Medical, Zimmer Biomet - Motorsports: Indianapolis 500, IndyCar headquarters - Growing tech: Salesforce, Infosys, local startups in Indianapolis",
@@ -54,11 +52,11 @@ const content: BlogContent = {
       "Tech Professional - Annual salary: $115,000 - Filing status: Married Filing Jointly - County: Hamilton (Carmel) - Annual Indiana taxes: ~$5,735 (4.99% combined) - Lower taxes + lower housing = strong financial position"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Indiana taxes calculated after 401(k)/HSA—save ~5% combined on every pre-tax dollar",
+      "Maximize pre-tax contributions: Indiana taxes calculated after 401(k)/HSA save ~5% combined on every pre-tax dollar",
       "Know your county: Marion, Lake, and St. Joseph have higher county taxes (~2%) than rural counties",
-      "Chicago commuters: Compare total tax + housing costs—Indiana residence often wins despite county taxes",
+      "Chicago commuters: Compare total tax + housing costs Indiana residence often wins despite county taxes",
       "Manufacturing sector: Indiana's industrial base offers stable employment with good benefits",
-      "Indianapolis growth: Indy's tech scene is growing—career opportunities improving rapidly",
+      "Indianapolis growth: Indy's tech scene is growing career opportunities improving rapidly",
       "Factor total costs: Indiana's low housing and living costs often matter more than small tax differences"
     ],
     "assumptions": [
@@ -69,7 +67,7 @@ const content: BlogContent = {
       "Combined state + county: Total Indiana tax typically 4-6%"
     ],
     "commonMistakes": [
-      "Forgetting county taxes: Indiana's 3.05% state rate is only part—add 0.5-3% county tax",
+      "Forgetting county taxes: Indiana's 3.05% state rate is only part add 0.5-3% county tax",
       "Not comparing total costs: Indiana's lower housing often saves more than any tax difference with neighbors",
       "Assuming Illinois is cheaper: Chicago metro taxes + costs typically exceed Indiana despite similar rates",
       "Ignoring manufacturing opportunities: Indiana's industrial base offers strong middle-class careers",

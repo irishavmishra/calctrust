@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '20-dollars-an-hour',
   category: 'hourly-breakdowns',
   title: '$20 an Hour is How Much a Year?',
-  subheading: '$20 an hour equals $41,600 per year working full-time. This round number marks a significant milestone—approximately the U.S. individual median income and a common target for wage negotiations.',
+  subheading: '$20 an hour equals $41,600 per year working full-time. This round number marks a significant milestone approximately the U.S. individual median income and a common target for wage negotiations.',
   metaTitle: '$20/Hour is How Much a Year? | 2025 Calculator',
   metaDescription: 'Convert $20 hourly wage to annual salary. This calculator estimates yearly, monthly, and weekly income based on standard 40-hour work weeks.',
   sections: {
@@ -29,16 +29,16 @@ const content: BlogContent = {
     ],
     deepDive: [
       '$20/hour is a psychological benchmark wage that many workers target in negotiations. At $41,600 annually, this wage is near the U.S. individual median income and represents solid middle-class footing in most regions.',
-      'Housing affordability expands significantly at $20/hour. The 30% guideline allows for $1,040/month in rent—enough for comfortable one-bedroom apartments in most cities and two-bedroom options in moderate-cost areas.',
+      'Housing affordability expands significantly at $20/hour. The 30% guideline allows for $1,040/month in rent enough for comfortable one-bedroom apartments in most cities and two-bedroom options in moderate-cost areas.',
       'This wage is common for experienced trades workers, dental hygienists in training, IT technicians, and skilled manufacturing roles. Many $20/hour positions are stepping stones to $25-30/hour with experience and certifications.',
     ],
     examples: [
       'Full-Time: $20 × 40 × 52 = $41,600/year. Take-home: ~$3,050-$3,250/month.',
       'With Overtime (10 hours/week): $800 + $300 = $1,100/week = $57,200/year.',
-      'Dual Income Household: Two $20/hour earners = $83,200/year—above median household income.',
+      'Dual Income Household: Two $20/hour earners = $83,200/year above median household income.',
     ],
     expertTips: [
-      '$20/hour overtime at $30/hour is significant—10 weekly hours adds $15,600 annually',
+      '$20/hour overtime at $30/hour is significant 10 weekly hours adds $15,600 annually',
       'This wage qualifies for most conventional mortgage programs',
       'Aim to save 10-15% for retirement at this income level',
       'Negotiate for skill-based raises that push toward $25/hour',
@@ -60,7 +60,7 @@ const content: BlogContent = {
     ],
     faq: [
       { question: 'How much is $20/hour annually?', answer: '$20/hour equals $41,600/year full-time.' },
-      { question: 'Is $20/hour a good wage?', answer: 'Yes—$41,600/year is near the U.S. individual median and comfortable in most areas.' },
+      { question: 'Is $20/hour a good wage?', answer: 'Yes $41,600/year is near the U.S. individual median and comfortable in most areas.' },
       { question: 'What is overtime for $20/hour?', answer: '$30/hour (time and a half).' },
     ],
     relatedCalculators: [

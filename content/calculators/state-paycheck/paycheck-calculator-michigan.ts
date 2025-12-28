@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-michigan",
   "category": "state-paycheck",
   "title": "Michigan Paycheck Calculator",
-  "subheading": "Calculate your Michigan take-home pay under the Great Lake State's flat 4.25% income tax. Michigan offers moderate taxation combined with a diverse economy spanning automotive manufacturing, tech growth in Detroit/Grand Rapids, and affordable cost of living. This calculator shows your actual take-home pay after federal taxes, Michigan's 4.25% flat rate, and FICA deductions—essential for auto industry workers, Detroit revitalization participants, and Midwest professionals comparing Michigan to neighboring states.",
+  "subheading": "Calculate your Michigan take-home pay under the Great Lake State's flat 4.25% income tax. Michigan offers moderate taxation combined with a diverse economy spanning automotive manufacturing, tech growth in Detroit/Grand Rapids, and affordable cost of living. This calculator shows your actual take-home pay after federal taxes, Michigan's 4.25% flat rate, and FICA deductions essential for auto industry workers, Detroit revitalization participants, and Midwest professionals comparing Michigan to neighboring states.",
   "metaTitle": "Michigan Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Michigan take-home pay. Calculator shows net income after federal and MI state taxes (4.25% flat). Standard withholding assumptions.",
   "sections": {
@@ -34,8 +34,7 @@ const content: BlogContent = {
       "Major Cities with Income Taxes: - Detroit: 2.4% residents / 1.2% non-residents - Grand Rapids: 1.5% residents / 0.75% non-residents - Lansing: 1.0% residents / 0.5% non-residents - Flint: 1.0% residents / 0.5% non-residents - Ann Arbor: 1.0% residents / 0.5% non-residents",
       "Combined effective tax rates:",
       "- Detroit resident: 6.65% total (4.25% state + 2.4% city) - Grand Rapids resident: 5.75% (4.25% + 1.5%) - Most of Michigan (no city tax): 4.25% state only",
-      "Michigan vs. neighboring states for $100,000 earner:",
-      "| State | State Tax | Local Tax | Combined | |----------|-----------|-----------|----------| | Michigan | ~$4,250 | ~$0-2,400 | ~$4,250-6,650 | | Ohio | ~$3,500 | ~$0-2,000 | ~$3,500-5,500 | | Indiana | ~$3,050 | ~$1,500-2,000 | ~$4,550-5,050 | | Illinois | ~$4,950 | ~$0 | ~$4,950 |",
+      "Comparing Michigan to neighboring states on a $100,000 salary: Michigan's state tax takes about $4,250, and there's no local tax unless you're in a city that levies one Detroit adds $2,400 for residents, bringing the total to $6,650. Ohio takes roughly $3,500 in state tax plus local taxes of $0-2,000 depending on city, totaling $3,500-5,500. Indiana's combined state and county taxes run $4,550-5,050. Illinois takes about $4,950 with no local taxes in most areas.",
       "Michigan is competitive but Detroit's 2.4% city tax creates higher burden for city residents.",
       "Michigan's economic landscape:",
       "- Automotive: GM, Ford, Stellantis (Chrysler) headquarters and manufacturing - Suppliers: Hundreds of tier-1 and tier-2 automotive suppliers - Tech growth: Quicken Loans (Rocket), StockX, emerging Detroit tech scene - Healthcare: Beaumont, Henry Ford Health, University of Michigan - Furniture: Grand Rapids furniture manufacturing legacy",
@@ -46,7 +45,7 @@ const content: BlogContent = {
       "For a $75,000 earner in suburban Michigan (no city tax):",
       "- Michigan tax: ~$3,188 (4.25%) - Federal + FICA: ~$15,500 - Net annual: ~$56,312 (75.1% of gross) - Housing: $1,000-1,500/mo for quality apartment - Strong purchasing power vs. comparable coastal positions",
       "Auto industry considerations:",
-      "- Union wages often include strong benefits packages - Cyclical industry—recessions impact Michigan heavily - Shift toward electric vehicles creating new opportunities - Supplier network offers diverse manufacturing careers"
+      "- Union wages often include strong benefits packages - Cyclical industry recessions impact Michigan heavily - Shift toward electric vehicles creating new opportunities - Supplier network offers diverse manufacturing careers"
     ],
     "examples": [
       "Entry-Level Worker - Annual salary: $48,000 - Filing status: Single - Location: Suburbs (no city tax) - Gross biweekly: $1,846.15 - Federal tax: ~$155 - Michigan tax: ~$80 - FICA: $141 - Net biweekly: ~$1,470 (79.6% of gross)",
@@ -55,23 +54,23 @@ const content: BlogContent = {
       "Grand Rapids Professional - Annual salary: $95,000 - Filing status: Married Filing Jointly - Location: Grand Rapids (1.5% city tax) - Annual combined taxes: ~$5,465 (5.75% total) - Lower housing costs make GR attractive despite city tax"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Michigan taxes calculated after 401(k)/HSA—save 4.25% on every pre-tax dollar",
+      "Maximize pre-tax contributions: Michigan taxes calculated after 401(k)/HSA save 4.25% on every pre-tax dollar",
       "Suburban vs. city: Living outside Detroit/Grand Rapids saves 1.5-2.4% in city taxes",
-      "Auto industry cycles: Build emergency savings—Michigan economy tied to automotive fortunes",
+      "Auto industry cycles: Build emergency savings Michigan economy tied to automotive fortunes",
       "Consider Grand Rapids: Growing economy, lower costs than Detroit, moderate city tax (1.5%)",
-      "Factor benefits: Auto industry union jobs often include excellent healthcare/pension—worth more than salary alone",
+      "Factor benefits: Auto industry union jobs often include excellent healthcare/pension worth more than salary alone",
       "Detroit opportunity: Revitalization creates opportunities, but factor 6.65% combined tax vs. 4.25% in suburbs"
     ],
     "assumptions": [
       "2025 tax rates: Current federal and Michigan 4.25% flat rate",
-      "City taxes: Included only where specified—check your specific municipality",
+      "City taxes: Included only where specified check your specific municipality",
       "Standard deduction: Michigan standard deduction applied",
       "Full-year residency: Assumes Michigan resident entire year",
       "No county taxes: Michigan has no county-level income taxes"
     ],
     "commonMistakes": [
       "Forgetting Detroit city tax: Detroit's 2.4% resident (1.2% non-resident) tax significantly impacts paychecks",
-      "Not considering suburban alternatives: Living outside Detroit saves 2.4% annually—$2,400 on $100K salary",
+      "Not considering suburban alternatives: Living outside Detroit saves 2.4% annually $2,400 on $100K salary",
       "Ignoring cost of living advantage: Michigan's lower housing often saves more than any tax difference with neighbors",
       "Assuming all Michigan equal: Grand Rapids, Ann Arbor, Lansing, Detroit all have different city tax structures",
       "Not factoring auto industry volatility: Build larger emergency fund given cyclical industry exposure"

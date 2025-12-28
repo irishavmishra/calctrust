@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $100K in TX', 'No state tax advantage'],
     whoUsefulFor: ['Texas professionals', 'Dallas/Houston/Austin tech workers'],
     howItWorks: ['$100K salary entered', 'No TX state tax', 'Only federal + FICA'],
-    deepDive: ['$100,000 in Texas—no state income tax = ~$5,000-6,000+ more per year vs. CA. Major tech hub growth.'],
+    deepDive: ['$100,000 in Texas no state income tax = ~$5,000-6,000+ more per year vs. CA. Major tech hub growth.'],
     examples: ['Annual: $100,000. Take-home: ~$6,500-6,800/month (no state tax).'],
     expertTips: ['TX no income tax is massive at $100K', 'Austin/Dallas are major tech hubs'],
     assumptions: ['2025 federal rates', 'No state tax'],

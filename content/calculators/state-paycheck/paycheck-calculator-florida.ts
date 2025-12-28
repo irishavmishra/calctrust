@@ -13,7 +13,7 @@ const content: BlogContent = {
       "Federal tax focus: Your only income taxes are federal and FICA",
       "Net pay maximization: Florida workers keep substantially more of their gross pay",
       "Pay frequency options: Calculate take-home for any pay schedule",
-      "Effective tax rate: See your total burden—lower than most states",
+      "Effective tax rate: See your total burden lower than most states",
       "Relocation quantification: Calculate exact savings from moving to Florida",
       "Budget planning: Establish accurate income for Florida's cost of living"
     ],
@@ -31,7 +31,7 @@ const content: BlogContent = {
       "Florida's constitution prohibits a personal income tax. The state funds operations through:",
       "- Sales tax: 6% state rate plus local additions (often 7-8% total) - Tourism taxes: Hotel, rental car, and entertainment taxes - Property taxes: Higher than many states - Business taxes: Various corporate and commercial taxes",
       "This structure shifts tax burden from income to consumption, benefiting high earners significantly.",
-      "| Salary | California Tax | New York Tax | Florida Tax | Annual Savings | |--------|----------------|--------------|-------------|----------------| | $75,000 | ~$3,500 | ~$4,000 | $0 | $3,500-4,000 | | $100,000 | ~$5,500 | ~$5,500 | $0 | $5,500 | | $150,000 | ~$10,500 | ~$9,500 | $0 | $9,500-10,500 | | $300,000 | ~$26,000 | ~$22,000 | $0 | $22,000-26,000 |",
+      "The savings compared to high-tax states are dramatic. A $75,000 earner pays about $3,500 to California or $4,000 to New York but zero to Florida. At $100,000, you're keeping an extra $5,500. A $150,000 salary means $9,500-10,500 in annual savings. And at $300,000, the difference is staggering: you're saving $22,000-26,000 per year by living in Florida instead of California or New York.",
       "A $200,000 earner moving from California to Florida saves approximately $14,000 annually in state income tax alone.",
       "Florida has experienced massive population growth from remote workers fleeing high-tax states:",
       "Top source states for Florida migration: 1. New York 2. California 3. New Jersey 4. Illinois 5. Massachusetts",
@@ -47,7 +47,7 @@ const content: BlogContent = {
       "Tampa Executive - Annual salary: $250,000 - Filing status: Married Filing Jointly - 401(k): Maximum contribution - Gross biweekly: $9,615.38 - Federal tax: ~$1,350 - State tax: $0 - FICA: $692 - Net biweekly: ~$6,670** (69.4% of gross)"
     ],
     "expertTips": [
-      "Establish genuine residency: Florida residency requires physical presence, driver's license, voter registration—not just a mailing address",
+      "Establish genuine residency: Florida residency requires physical presence, driver's license, voter registration not just a mailing address",
       "Consider total cost of living: Florida's no income tax may be offset by higher property taxes, insurance, and utility costs",
       "Hurricane insurance factor: Homeowner's insurance in Florida can be extremely expensive",
       "Property tax comparison: Research specific county property tax rates when relocating",

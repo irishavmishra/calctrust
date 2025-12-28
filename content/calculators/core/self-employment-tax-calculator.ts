@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "self-employment-tax-calculator",
   "category": "core",
   "title": "Self-Employment Tax Calculator",
-  "subheading": "Calculate your self-employment tax obligation for 2025. Self-employed individuals pay both the employer and employee portions of Social Security and Medicare taxes—a combined 15.3% on net earnings. This calculator helps freelancers, contractors, and independent business owners understand their SE tax liability and plan for quarterly estimated tax payments.",
+  "subheading": "Calculate your self-employment tax obligation for 2025. Self-employed individuals pay both the employer and employee portions of Social Security and Medicare taxes a combined 15.3% on net earnings. This calculator helps freelancers, contractors, and independent business owners understand their SE tax liability and plan for quarterly estimated tax payments.",
   "metaTitle": "Self-Employment Tax Calculator | USA 2025",
   "metaDescription": "Calculate self-employment tax on net earnings. Estimate SE tax for Social Security (12.4%) and Medicare (2.9%) for freelancers and contractors. Educational estimates only.",
   "sections": {
@@ -113,7 +113,7 @@ const content: BlogContent = {
       },
       {
         "question": "Can I deduct self-employment tax?",
-        "answer": "Yes, you can deduct 50% of the self-employment tax you pay as an above-the-line deduction on Form 1040. This reduces your adjusted gross income and income tax liability. The deduction is automatic—you don't need to itemize to claim it."
+        "answer": "Yes, you can deduct 50% of the self-employment tax you pay as an above-the-line deduction on Form 1040. This reduces your adjusted gross income and income tax liability. The deduction is automatic you don't need to itemize to claim it."
       },
       {
         "question": "Do I pay SE tax on all my income?",
@@ -133,11 +133,11 @@ const content: BlogContent = {
       },
       {
         "question": "Can business expenses reduce SE tax?",
-        "answer": "Yes, every dollar of legitimate business expense reduces your net self-employment income, which reduces both SE tax and income tax. This creates a double benefit—business expenses save you on both taxes."
+        "answer": "Yes, every dollar of legitimate business expense reduces your net self-employment income, which reduces both SE tax and income tax. This creates a double benefit business expenses save you on both taxes."
       },
       {
         "question": "What's the difference between SE tax and income tax?",
-        "answer": "SE tax (15.3%) is calculated on net self-employment income and funds Social Security and Medicare. Income tax (10-37%) is calculated on taxable income after all deductions. They are separate taxes—you must pay both. However, 50% of SE tax paid is deductible from income tax."
+        "answer": "SE tax (15.3%) is calculated on net self-employment income and funds Social Security and Medicare. Income tax (10-37%) is calculated on taxable income after all deductions. They are separate taxes you must pay both. However, 50% of SE tax paid is deductible from income tax."
       },
       {
         "question": "What is the additional Medicare tax for high earners?",

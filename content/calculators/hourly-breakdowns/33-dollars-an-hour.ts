@@ -12,7 +12,7 @@ const content: BlogContent = {
     whoUsefulFor: ['Workers earning $33/hour', 'Job seekers targeting $70K positions'],
     howItWorks: ['$33 × 40 × 52 = $68,640/year', 'Monthly: $5,720', 'Overtime: $49.50/hour'],
     deepDive: [
-      '$33/hour nears $70K annually—a significant income milestone providing strong financial position.',
+      '$33/hour nears $70K annually a significant income milestone providing strong financial position.',
     ],
     examples: ['Full-Time: $68,640/year. Take-home: ~$5,000-$5,250/month.'],
     expertTips: ['OT at $49.50/hour accelerates financial goals'],

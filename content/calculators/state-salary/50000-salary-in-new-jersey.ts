@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $50K in NJ', 'Calculate NJ taxes'],
     whoUsefulFor: ['NJ workers', 'NYC commuters in NJ'],
     howItWorks: ['$50K salary entered', 'NJ graduated rates applied'],
-    deepDive: ['$50,000 in NJ—many NYC commuters live in NJ to avoid NYC local tax.'],
+    deepDive: ['$50,000 in NJ many NYC commuters live in NJ to avoid NYC local tax.'],
     examples: ['Annual: $50,000. Take-home: ~$3,200-3,350/month.'],
     expertTips: ['NJ residence avoids NYC local tax', 'Compare to PA for commuters'],
     assumptions: ['2025 NJ tax brackets'],

@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-california",
   "category": "state-paycheck",
   "title": "California Paycheck Calculator",
-  "subheading": "Calculate your California take-home pay and understand why California has the highest state income tax burden in America. With rates reaching 13.3% for top earners and significant taxes even for middle-income workers, accurate paycheck calculation is essential for California residents. This calculator shows exactly what you'll receive after federal taxes, California's steep state taxes, and FICA deductions—helping you budget realistically and evaluate whether California compensation truly meets your needs.",
+  "subheading": "Calculate your California take-home pay and understand why California has the highest state income tax burden in America. With rates reaching 13.3% for top earners and significant taxes even for middle-income workers, accurate paycheck calculation is essential for California residents. This calculator shows exactly what you'll receive after federal taxes, California's steep state taxes, and FICA deductions helping you budget realistically and evaluate whether California compensation truly meets your needs.",
   "metaTitle": "California Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your California take-home pay. Calculator shows net income after federal and CA state taxes (up to 13.3%). Standard withholding assumptions.",
   "sections": {
@@ -30,18 +30,17 @@ const content: BlogContent = {
     "deepDive": [
       "California imposes the nation's highest income taxes with 10 brackets for 2025:",
       "Single Filers: - 1% on income up to $10,412 - 2% on income $10,413 to $24,684 - 4% on income $24,685 to $38,959 - 6% on income $38,960 to $54,081 - 8% on income $54,082 to $68,350 - 9.3% on income $68,351 to $349,137 - 10.3% on income $349,138 to $418,961 - 11.3% on income $418,962 to $698,271 - 12.3% on income $698,272 to $1,000,000 - 13.3% on income over $1,000,000 (includes 1% mental health surcharge)",
-      "California's top 13.3% rate—the highest in America—combined with federal taxes creates massive marginal rates:",
+      "California's top 13.3% rate the highest in America combined with federal taxes creates massive marginal rates:",
       "Marginal Rate for $600,000 Earner in California: - Federal: 37% - California: 11.3% - Medicare: 2.35% (including additional Medicare) - Total marginal rate: 50.65%",
       "The government takes more than half of each additional dollar for high earners.",
       "California requires State Disability Insurance (SDI) contributions:",
       "- Rate: 1.1% of wages (2025) - Wage cap: $153,164 - Maximum annual SDI: $1,684.80",
-      "This additional deduction—not present in most states—further reduces take-home pay.",
-      "The California exodus to Texas, Florida, Nevada, and Arizona is well-documented:",
-      "| Salary | California Tax | Texas Tax | Annual Savings | |--------|----------------|-----------|----------------| | $75,000 | ~$3,500 | $0 | $3,500 | | $150,000 | ~$10,500 | $0 | $10,500 | | $300,000 | ~$26,000 | $0 | $26,000 | | $500,000 | ~$50,000 | $0 | $50,000 |",
-      "For a $200,000 earner, leaving California for Texas saves approximately $14,000 annually—enough to fund a luxury car payment or max out retirement contributions.",
+      "This additional deduction not present in most states further reduces take-home pay.",
+      "The California exodus to Texas, Florida, Nevada, and Arizona is well-documented. At $75,000, you're paying roughly $3,500 to California that you'd keep entirely in Texas. A $150,000 earner loses about $10,500 to California's state tax. At $300,000, the damage is around $26,000. And if you're earning $500,000, California takes approximately $50,000 in state taxes alone money that stays in your pocket if you move to a no-tax state.",
+      "For a $200,000 earner, leaving California for Texas saves approximately $14,000 annually enough to fund a luxury car payment or max out retirement contributions.",
       "Silicon Valley salaries appear high but California taxes erode the advantage:",
       "$200,000 Tech Salary in San Francisco: - Federal tax: ~$38,000 - California tax: ~$14,500 - SDI: ~$1,685 - FICA: ~$12,400 - Net pay: ~$133,400 (66.7% of gross)",
-      "The same net pay in Texas requires only ~$165,000 salary—a $35,000 \"California premium\" required just to break even."
+      "The same net pay in Texas requires only ~$165,000 salary a $35,000 \"California premium\" required just to break even."
     ],
     "examples": [
       "Entry-Level California Worker - Annual salary: $55,000 - Filing status: Single - Gross biweekly: $2,115.38 - Federal tax: ~$185 - California tax: ~$75 - SDI: ~$23 - FICA: $162 - Net biweekly: ~$1,670** (79.0% of gross)",
@@ -50,9 +49,9 @@ const content: BlogContent = {
       "High Earner - Annual salary: $400,000 - Filing status: Single - Annual California tax alone: ~$36,000 - Relocating to Texas saves: $36,000/year**"
     ],
     "expertTips": [
-      "Maximize pre-tax deductions: California taxes are calculated after pre-tax deductions—every 401(k) dollar saves 9.3%+ in state tax for many workers",
+      "Maximize pre-tax deductions: California taxes are calculated after pre-tax deductions every 401(k) dollar saves 9.3%+ in state tax for many workers",
       "Evaluate relocation seriously: If remote work is possible, no-tax states offer life-changing savings",
-      "Understand the SDI benefit: You're paying in—understand that SDI provides disability income if needed",
+      "Understand the SDI benefit: You're paying in understand that SDI provides disability income if needed",
       "Plan for quarterly estimates: High earners and self-employed must make quarterly payments",
       "Watch the $1M threshold: Income over $1M faces the additional 1% mental health surcharge",
       "Time income carefully: Stock option exercises or RSU vests can spike you into higher brackets"
@@ -86,7 +85,7 @@ const content: BlogContent = {
       },
       {
         "question": "What is SDI on my California paycheck?",
-        "answer": "State Disability Insurance—a mandatory 1.1% deduction that funds short-term disability benefits."
+        "answer": "State Disability Insurance a mandatory 1.1% deduction that funds short-term disability benefits."
       },
       {
         "question": "Does California have the highest taxes?",

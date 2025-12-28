@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $4,000 monthly to $48,000/year', 'Hourly: ~$23.08', 'Biweekly: ~$1,846'],
     whoUsefulFor: ['Workers earning $4,000/month'],
     howItWorks: ['$4,000 × 12 = $48,000/year', 'Hourly: $48,000 ÷ 2,080 = ~$23.08'],
-    deepDive: ['$4,000 monthly provides $48,000 annually—near the median wage and approaching $50K.'],
+    deepDive: ['$4,000 monthly provides $48,000 annually near the median wage and approaching $50K.'],
     examples: ['Annual: $48,000. Hourly: ~$23.08.'],
     expertTips: ['At median wage equivalent, focus on wealth building'],
     assumptions: ['12 months/year', '40 hours/week, 52 weeks'],

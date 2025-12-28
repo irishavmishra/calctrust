@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-georgia",
   "category": "state-paycheck",
   "title": "Georgia Paycheck Calculator",
-  "subheading": "Calculate your Georgia take-home pay and navigate the Peach State's moderate graduated income tax from 1% to 5.49%. Georgia offers a business-friendly environment with relatively low taxes compared to high-tax states, but still levies income tax unlike neighboring Florida and Tennessee. This calculator shows your actual take-home pay after federal taxes, Georgia's graduated state tax, and FICA deductions—essential for Atlanta professionals, military personnel, and workers comparing Georgia to no-tax Southern states.",
+  "subheading": "Calculate your Georgia take-home pay and navigate the Peach State's moderate graduated income tax from 1% to 5.49%. Georgia offers a business-friendly environment with relatively low taxes compared to high-tax states, but still levies income tax unlike neighboring Florida and Tennessee. This calculator shows your actual take-home pay after federal taxes, Georgia's graduated state tax, and FICA deductions essential for Atlanta professionals, military personnel, and workers comparing Georgia to no-tax Southern states.",
   "metaTitle": "Georgia Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Georgia take-home pay. Calculator shows net income after federal and GA state taxes (1-5.49%). Standard withholding assumptions.",
   "sections": {
@@ -31,12 +31,10 @@ const content: BlogContent = {
       "Georgia employs a progressive income tax with 6 brackets for 2025:",
       "Single Filers: - 1% on income up to $750 - 2% on income $751 to $2,250 - 3% on income $2,251 to $3,750 - 4% on income $3,751 to $5,250 - 5% on income $5,251 to $7,000 - 5.49% on income over $7,000 (effectively all income for working professionals)",
       "Married Filing Jointly: - 1% on income up to $1,000 - 2% on income $1,001 to $3,000 - 3% on income $3,001 to $5,000 - 4% on income $5,001 to $7,000 - 5% on income $7,001 to $10,000 - 5.49% on income over $10,000",
-      "Note: For nearly all working professionals, the top 5.49% rate applies to the vast majority of income—making Georgia effectively a near-flat tax state.",
-      "Georgia's 5.49% rate positions it favorably in the Southeast:",
-      "| State | Top Rate | Structure | |--------------|----------|-----------------------------------| | Georgia | 5.49% | Graduated, but effectively flat | | Florida | 0% | No state income tax | | Tennessee | 0% | No state income tax | | North Carolina| 4.75% | Flat rate | | South Carolina| 6.5% | Top graduated rate | | Alabama | 5% | Top graduated rate |",
-      "Georgia vs. neighboring no-tax states—the tax cost of Georgia residence:",
-      "Annual Georgia Income Tax by Salary: | Salary | GA State Tax | FL/TN Tax | Extra Cost of GA | |---------|--------------|-----------|------------------| | $50,000 | ~$2,745 | $0 | $2,745 | | $75,000 | ~$4,118 | $0 | $4,118 | | $100,000 | ~$5,490 | $0 | $5,490 | | $150,000 | ~$8,235 | $0 | $8,235 |",
-      "For a $100,000 earner, Georgia residence costs approximately $5,500 annually compared to Florida or Tennessee—equivalent to $458/month.",
+      "Note: For nearly all working professionals, the top 5.49% rate applies to the vast majority of income making Georgia effectively a near-flat tax state.",
+      "Georgia's 5.49% rate positions it favorably in the Southeast. Florida and Tennessee both have zero income tax, making them attractive alternatives for those prioritizing tax savings. North Carolina uses a flat 4.75% rate lower than Georgia. South Carolina's graduated system tops at 6.5%, while Alabama reaches 5%.",
+      "The tax cost of living in Georgia versus neighboring no-tax states adds up quickly. At $50,000 in salary, you're paying around $2,745 annually to Georgia that you'd keep in Florida or Tennessee. At $75,000, it's $4,118. A $100,000 earner loses roughly $5,490 to Georgia taxes. At $150,000, you're sending about $8,235 to the state.",
+      "For a $100,000 earner, Georgia residence costs approximately $5,500 annually compared to Florida or Tennessee equivalent to $458/month.",
       "Atlanta's economic boom attracts major corporate headquarters:",
       "- Major employers: Delta Air Lines, Coca-Cola, Home Depot, UPS, NCR, SunTrust - Growing tech scene: Salesforce, Google, Microsoft expansion - Film production: Major tax credits attract Hollywood productions - Logistics hub: Hartsfield-Jackson Airport drives employment",
       "Georgia offers military retirement income exclusion:",
@@ -51,8 +49,8 @@ const content: BlogContent = {
       "Senior Corporate Executive - Annual salary: $200,000 - Filing status: Married Filing Jointly - Annual Georgia tax alone: ~$10,980 - Annual savings vs. California: ~$15,000+ - Georgia remains significantly cheaper than high-tax states"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Georgia taxes calculated after 401(k)/HSA deductions—save 5.49% on every pre-tax dollar",
-      "Military retirement: Claim up to $65,000 exemption if you qualify—significant savings",
+      "Maximize pre-tax contributions: Georgia taxes calculated after 401(k)/HSA deductions save 5.49% on every pre-tax dollar",
+      "Military retirement: Claim up to $65,000 exemption if you qualify significant savings",
       "Compare total cost: Georgia's lower housing costs often offset the ~5.49% income tax vs. Florida/Tennessee",
       "Film industry credits: If working in production, understand how Georgia tax credits work",
       "Time income carefully: Georgia's graduated structure means timing bonuses/RSUs has minimal impact",
@@ -66,7 +64,7 @@ const content: BlogContent = {
       "Working-age taxpayer: Special exemptions for military/retirement income not included unless noted"
     ],
     "commonMistakes": [
-      "Not comparing to Florida/Tennessee: Neighboring states have zero income tax—quantify the $3,000-8,000 annual difference",
+      "Not comparing to Florida/Tennessee: Neighboring states have zero income tax quantify the $3,000-8,000 annual difference",
       "Ignoring military exemptions: Qualified retirees can exempt up to $65,000 of retirement income",
       "Focusing only on income tax: Georgia's lower cost of living and property taxes offset some income tax burden",
       "Assuming flat rate: Georgia has brackets, though the top 5.49% rate applies to most income quickly",

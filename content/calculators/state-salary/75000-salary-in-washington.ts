@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $75K in WA', 'No state tax advantage'],
     whoUsefulFor: ['Washington workers', 'Seattle metro employees'],
     howItWorks: ['$75K salary entered', 'No WA state tax', 'Only federal + FICA'],
-    deepDive: ['$75,000 in Washington—no state income tax = huge savings vs OR (9.9%) and CA (13.3%).'],
+    deepDive: ['$75,000 in Washington no state income tax = huge savings vs OR (9.9%) and CA (13.3%).'],
     examples: ['Annual: $75,000. Take-home: ~$4,900-5,100/month (no state tax).'],
     expertTips: ['WA no income tax = huge savings vs OR/CA', 'Seattle has high tech salaries'],
     assumptions: ['2025 federal rates', 'No state tax'],

@@ -28,16 +28,16 @@ const content: BlogContent = {
     "howItWorks": [],
     "deepDive": [
       "The average American worker pays approximately 22-32% of their gross income in combined taxes, though this varies significantly by income level, location, and family situation. According to the Tax Foundation, the average single worker in the United States faces a 29.2% total tax wedge, including both employee and employer portions of payroll taxes.",
-      "However, these averages mask enormous variation. A single filer earning $50,000 in Texas takes home approximately $40,500 annually (81% of gross), while the same salary in California yields roughly $38,200 (76.4% of gross)—a difference of $2,300 per year solely due to state income tax.",
+      "However, these averages mask enormous variation. A single filer earning $50,000 in Texas takes home approximately $40,500 annually (81% of gross), while the same salary in California yields roughly $38,200 (76.4% of gross) a difference of $2,300 per year solely due to state income tax.",
       "The U.S. operates on a progressive tax system, meaning higher portions of income face higher rates. For 2025, the federal tax brackets for single filers are:",
       "- 10% on income up to $11,925 - 12% on income from $11,926 to $48,475 - 22% on income from $48,476 to $103,350 - 24% on income from $103,351 to $197,300 - 32% on income from $197,301 to $250,525 - 35% on income from $250,526 to $626,350 - 37% on income above $626,350",
-      "Key insight: Moving into a higher bracket doesn't mean all your income is taxed at that rate—only the portion above the threshold. Someone earning $60,000 isn't paying 22% on everything; they're paying 10% on the first $11,925, 12% on the next $36,550, and 22% only on the remaining $11,525.",
+      "Key insight: Moving into a higher bracket doesn't mean all your income is taxed at that rate only the portion above the threshold. Someone earning $60,000 isn't paying 22% on everything; they're paying 10% on the first $11,925, 12% on the next $36,550, and 22% only on the remaining $11,525.",
       "Nine states impose no income tax on wages, making them particularly attractive for high earners:",
       "1. Alaska - Also receives oil dividends 2. Florida - Popular retirement destination 3. Nevada - Tourism taxes fund state services 4. New Hampshire - Taxes only interest and dividends 5. South Dakota - Agricultural economy 6. Tennessee - Phased out income tax completely 7. Texas - Higher property and sales taxes offset 8. Washington - Relies on sales tax 9. Wyoming - Mineral extraction taxes",
       "However, these states often compensate through higher property taxes, sales taxes, or reduced public services. A complete financial picture requires analyzing total tax burden, not just income tax.",
       "Every worker pays FICA (Federal Insurance Contributions Act) taxes regardless of income level or location:",
       "- Social Security: 6.2% on wages up to $176,100 (2025 cap). Once you earn above this amount, no additional Social Security tax applies to the excess. - Medicare: 1.45% on all wages with no cap. High earners ($200,000+ single, $250,000+ married) pay an additional 0.9% Medicare surtax.",
-      "These taxes fund retirement benefits and healthcare for seniors. Unlike income tax, there's no standard deduction or exemptions—FICA applies from dollar one. A worker earning $50,000 pays $3,825 in FICA taxes regardless of any other circumstances.",
+      "These taxes fund retirement benefits and healthcare for seniors. Unlike income tax, there's no standard deduction or exemptions FICA applies from dollar one. A worker earning $50,000 pays $3,825 in FICA taxes regardless of any other circumstances.",
       "Contributions to traditional 401(k) plans, health insurance premiums, and Health Savings Accounts (HSAs) reduce your taxable income, effectively giving you a tax discount on these expenses. If you're in the 22% federal bracket and contribute $500/month to your 401(k):",
       "- You save $110/month in federal taxes - Plus applicable state tax savings (e.g., $25/month at 5% rate) - Your actual take-home pay reduction is only $365, not $500 - Yet your retirement account grows by the full $500",
       "This tax-advantaged structure makes pre-tax retirement saving particularly powerful for wealth building."
@@ -50,9 +50,9 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Optimize your W-4: Adjust withholding to avoid large refunds (an interest-free loan to the government) or unexpected tax bills",
-      "Maximize employer 401(k) match: Free money shouldn't be left unclaimed—contribute at least enough to receive the full employer match",
+      "Maximize employer 401(k) match: Free money shouldn't be left unclaimed contribute at least enough to receive the full employer match",
       "Consider state taxes in job searches: A 10% higher salary in California may net less than a lower offer in Texas after taxes",
-      "Review pay stubs regularly: Errors happen—verify deductions match your elections and catch problems before they compound",
+      "Review pay stubs regularly: Errors happen verify deductions match your elections and catch problems before they compound",
       "Plan for Social Security cap: High earners see increased take-home pay mid-year when they exceed the $176,100 wage base",
       "Account for supplemental income differently: Bonuses and commissions often face flat 22% federal withholding, different from regular pay",
       "Use FSA/HSA strategically: Flexible Spending Accounts reduce taxable income for predictable medical and dependent care expenses"
@@ -70,7 +70,7 @@ const content: BlogContent = {
       "Using gross income for budgeting: Planning expenses based on $6,000/month when take-home is $4,500 leads to financial stress",
       "Forgetting about benefit costs: Health insurance premiums can reduce take-home by $200-800/month depending on coverage level and employer contribution",
       "Overlooking the Social Security cap: High earners expecting consistent pay may be surprised when FICA drops mid-year",
-      "Not adjusting W-4 after life changes: Marriage, children, and home purchases change tax liability—update withholding accordingly",
+      "Not adjusting W-4 after life changes: Marriage, children, and home purchases change tax liability update withholding accordingly",
       "Comparing gross salaries directly: A $90,000 salary in Texas isn't equivalent to $90,000 in California; compare take-home amounts instead"
     ],
     "whyResultsVary": [

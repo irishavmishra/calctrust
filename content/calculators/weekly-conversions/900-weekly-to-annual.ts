@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $900 weekly to $46,800/year', 'Hourly: ~$22.50', 'Monthly: $3,900'],
     whoUsefulFor: ['Workers paid $900/week'],
     howItWorks: ['$900 × 52 = $46,800/year', 'Monthly: $3,900', 'Hourly: ~$22.50'],
-    deepDive: ['$900 weekly provides $46,800 annually—approaching median wage.'],
+    deepDive: ['$900 weekly provides $46,800 annually approaching median wage.'],
     examples: ['Annual: $46,800. Monthly: $3,900.'],
     expertTips: ['At ~$23/hour, focus on wealth building'],
     assumptions: ['52 weeks/year', '40 hours/week'],

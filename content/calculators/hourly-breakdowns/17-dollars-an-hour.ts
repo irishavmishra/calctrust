@@ -30,7 +30,7 @@ const content: BlogContent = {
       'Overtime calculated at 1.5× for hours over 40/week',
     ],
     deepDive: [
-      '$17/hour is a comfortable entry-level wage that exceeds minimum wage requirements in all 50 states. At this rate, you earn approximately $35,360 annually—approaching the individual median income and providing reasonable financial stability in moderate-cost regions.',
+      '$17/hour is a comfortable entry-level wage that exceeds minimum wage requirements in all 50 states. At this rate, you earn approximately $35,360 annually approaching the individual median income and providing reasonable financial stability in moderate-cost regions.',
       'Workers at $17/hour can typically afford housing costs up to $885/month following the 30% guideline. This opens up apartment options in most non-coastal metropolitan areas and provides a foundation for saving and building credit.',
       'This wage is common among warehouse team leads, phlebotomists, dental assistants, and help desk technicians. Many of these roles offer clear paths to $20+/hour through experience, certifications, or promotion to supervisory positions.',
     ],
@@ -44,7 +44,7 @@ const content: BlogContent = {
       'At $17/hour, focus on building skills that lead to the $20+/hour tier',
       'Healthcare certifications (CNA → LPN → RN) offer structured wage growth',
       'Technical support roles often provide IT certification opportunities',
-      'Document achievements for annual reviews—specific metrics drive larger raises',
+      'Document achievements for annual reviews specific metrics drive larger raises',
       'Consider roles offering education benefits for degree completion',
     ],
     assumptions: [

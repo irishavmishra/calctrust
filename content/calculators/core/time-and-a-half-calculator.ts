@@ -19,8 +19,8 @@ const content: BlogContent = {
     ],
     "whoUsefulFor": [
       "Hourly employees evaluating overtime: When asked to stay late, instantly calculate whether the extra pay is worth your time commitment",
-      "Healthcare workers managing complex schedules: Nurses, technicians, and hospital staff often work varied shifts with overtime—verify earnings accurately",
-      "Manufacturing and warehouse workers: Production environments frequently offer overtime during busy seasons—plan your finances accordingly",
+      "Healthcare workers managing complex schedules: Nurses, technicians, and hospital staff often work varied shifts with overtime verify earnings accurately",
+      "Manufacturing and warehouse workers: Production environments frequently offer overtime during busy seasons plan your finances accordingly",
       "Retail employees during peak seasons: Holiday, back-to-school, and sale periods bring overtime opportunities worth calculating",
       "Workers disputing pay discrepancies: Calculate what you should have received to identify underpayment issues",
       "Supervisors planning labor costs: Estimate overtime expenses for budgeting and scheduling decisions",
@@ -29,7 +29,7 @@ const content: BlogContent = {
     "howItWorks": [],
     "deepDive": [
       "The Fair Labor Standards Act (FLSA) establishes time and a half as the mandatory minimum overtime premium for covered employees. Enacted in 1938 and continually updated, FLSA requires:",
-      "- Overtime pay at 1.5x the regular rate for hours exceeding 40 in a workweek - Payment regardless of whether overtime was authorized (if the employer knew or should have known it occurred) - Prohibition of waiving overtime rights—you cannot contract away your entitlement - Recordkeeping requirements for employers tracking hours worked",
+      "- Overtime pay at 1.5x the regular rate for hours exceeding 40 in a workweek - Payment regardless of whether overtime was authorized (if the employer knew or should have known it occurred) - Prohibition of waiving overtime rights you cannot contract away your entitlement - Recordkeeping requirements for employers tracking hours worked",
       "The Department of Labor's Wage and Hour Division enforces FLSA provisions and investigates complaints. In fiscal year 2023, the WHD collected over $274 million in back wages for workers, with overtime violations representing a significant portion.",
       "Most hourly workers qualify for time-and-a-half overtime. However, several exemption categories exist:",
       "Typically eligible (non-exempt): - Hourly production workers - Office staff paid hourly - Service industry workers - Construction and manufacturing labor - Healthcare hourly employees - Retail associates - Restaurant workers (except tipped minimum wage rules)",
@@ -57,12 +57,12 @@ const content: BlogContent = {
       "Consistent Overtime Worker - Regular rate: $24.00 - Time-and-a-half rate: $36.00 - Average overtime: 10 hours per week - Weekly overtime earnings: $360 - Annual overtime income: $18,720 - This increases yearly income from $49,920 to $68,640** (37% boost)"
     ],
     "expertTips": [
-      "Confirm your workweek definition: Employers establish a fixed 7-day period that may not coincide with the calendar week—know when your overtime clock resets",
+      "Confirm your workweek definition: Employers establish a fixed 7-day period that may not coincide with the calendar week know when your overtime clock resets",
       "Understand daily vs. weekly overtime: If you're in California, Alaska, or Nevada, daily overtime provides additional protections beyond just weekly calculations",
       "Track hours independently: Maintain your own records; if disputes arise, your contemporaneous notes carry significant weight",
       "Know bonus integration rules: If you receive non-discretionary bonuses, your overtime rate should be higher than base wage × 1.5",
-      "Consider marginal tax impact: Overtime earnings push you further into your tax bracket—budget for approximately 70-75% take-home on overtime",
-      "Negotiate higher base rates: A $1 raise in base pay means $1.50 more per overtime hour—leverage this in negotiations",
+      "Consider marginal tax impact: Overtime earnings push you further into your tax bracket budget for approximately 70-75% take-home on overtime",
+      "Negotiate higher base rates: A $1 raise in base pay means $1.50 more per overtime hour leverage this in negotiations",
       "Review pay stubs methodically: Overtime should appear as a separate line item at 1.5x; if bundled incorrectly, request clarification"
     ],
     "assumptions": [
@@ -75,12 +75,12 @@ const content: BlogContent = {
       "Consistent overtime rate: Applies one rate rather than calculating stepped overtime (1.5x for some hours, 2x for others)"
     ],
     "commonMistakes": [
-      "Forgetting bonus integration: Non-discretionary bonuses must be included in regular rate before calculating overtime—you may be underpaid if this is missed",
-      "Ignoring daily overtime rights: California, Alaska, and Nevada workers have daily overtime—don't forfeit earnings you're legally entitled to",
+      "Forgetting bonus integration: Non-discretionary bonuses must be included in regular rate before calculating overtime you may be underpaid if this is missed",
+      "Ignoring daily overtime rights: California, Alaska, and Nevada workers have daily overtime don't forfeit earnings you're legally entitled to",
       "Accepting comp time in private sector: Private employers cannot substitute time off for overtime pay; only government employers may offer this",
-      "Letting overtime accumulate uncounted: Some employers may try to move hours between weeks to avoid overtime—this is illegal",
+      "Letting overtime accumulate uncounted: Some employers may try to move hours between weeks to avoid overtime this is illegal",
       "Assuming salaried means exempt: Many salaried workers are non-exempt and entitled to overtime; classification depends on job duties, not job title",
-      "Not reporting off-clock work: Emails, prep time, and required training count as work time—you should be paid for all hours worked"
+      "Not reporting off-clock work: Emails, prep time, and required training count as work time you should be paid for all hours worked"
     ],
     "whyResultsVary": [
       "Bonus and commission inclusion: Non-discretionary incentive payments increase your effective regular rate",
@@ -105,7 +105,7 @@ const content: BlogContent = {
       },
       {
         "question": "Is overtime taxed differently than regular pay?",
-        "answer": "Overtime is taxed the same as regular income—it's not subject to special rates. However, additional earnings may push you into higher marginal brackets."
+        "answer": "Overtime is taxed the same as regular income it's not subject to special rates. However, additional earnings may push you into higher marginal brackets."
       },
       {
         "question": "Can my employer refuse to pay time and a half?",

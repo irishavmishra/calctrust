@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $3,000 monthly to $36,000/year', 'Hourly: ~$17.31', 'Biweekly: ~$1,385'],
     whoUsefulFor: ['Workers earning $3,000/month'],
     howItWorks: ['$3,000 × 12 = $36,000/year', 'Hourly: $36,000 ÷ 2,080 = ~$17.31'],
-    deepDive: ['$3,000 monthly provides $36,000 annually—solid middle-class entry point.'],
+    deepDive: ['$3,000 monthly provides $36,000 annually solid middle-class entry point.'],
     examples: ['Annual: $36,000. Hourly: ~$17.31.'],
     expertTips: ['At ~$17/hour equivalent, build emergency savings'],
     assumptions: ['12 months/year', '40 hours/week, 52 weeks'],

@@ -25,7 +25,7 @@ const content: BlogContent = {
     ],
     deepDive: [
       '2025 Kansas rates: 3.1% on first $15,000, 5.25% on $15,001-$30,000, 5.7% over $30,000.',
-      'Kansas City straddles KS/MO border—tax implications differ significantly.',
+      'Kansas City straddles KS/MO border tax implications differ significantly.',
     ],
     examples: [
       'Entry-Level: Annual $42,000, Net biweekly ~$1,320',

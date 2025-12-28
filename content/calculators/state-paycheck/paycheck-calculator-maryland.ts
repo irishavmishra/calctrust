@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-maryland",
   "category": "state-paycheck",
   "title": "Maryland Paycheck Calculator",
-  "subheading": "Calculate your Maryland take-home pay under the Old Line State's two-layer tax system: graduated state income tax from 2% to 5.75% plus mandatory county taxes ranging from 2.25% to 3.2%. Maryland's combined state and local tax burden makes it one of the highest-taxed states in the nation. This calculator shows your actual take-home pay after federal taxes, Maryland's state rates, county taxes, and FICA deductions—essential for DC metro commuters, Baltimore professionals, and those comparing Maryland to Virginia.",
+  "subheading": "Calculate your Maryland take-home pay under the Old Line State's two-layer tax system: graduated state income tax from 2% to 5.75% plus mandatory county taxes ranging from 2.25% to 3.2%. Maryland's combined state and local tax burden makes it one of the highest-taxed states in the nation. This calculator shows your actual take-home pay after federal taxes, Maryland's state rates, county taxes, and FICA deductions essential for DC metro commuters, Baltimore professionals, and those comparing Maryland to Virginia.",
   "metaTitle": "Maryland Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Maryland take-home pay. Calculator shows net income after federal and MD state taxes (2-5.75% + county 2.25-3.2%). Standard withholding assumptions.",
   "sections": {
@@ -35,8 +35,7 @@ const content: BlogContent = {
       "Maryland County Income Tax Rates (2025): - Montgomery County: 3.2% (highest) - Howard County: 3.2% (highest) - Baltimore City: 3.2% (highest) - Baltimore County: 3.2% - Prince George's County: 3.2% - Anne Arundel County: 2.81% - Frederick County: 2.96% - Worcester County: 2.25% (lowest)",
       "Combined effective tax rates in major areas:",
       "For a $100,000 earner: - Montgomery County: ~8.95% total (5.75% state + 3.2% county) - Anne Arundel: ~8.56% (5.75% + 2.81%) - Worcester: ~8.0% (5.75% + 2.25%)",
-      "Maryland vs. Virginia for DC metro workers:",
-      "Annual Tax Comparison for $100,000 DC Commuter: | State | State Tax | County/Local | Combined | Savings | |----------|-----------|--------------|----------|----------| | Maryland | ~$5,000 | ~$3,200 | ~$8,200 | Baseline | | Virginia | ~$5,100 | ~$0 | ~$5,100 | $3,100 |",
+      "For DC metro workers choosing between Maryland and Virginia, the numbers favor Virginia significantly. A $100,000 earner in Maryland pays roughly $5,000 in state tax plus $3,200 in county tax, totaling $8,200. The same earner in Virginia pays about $5,100 in state tax with essentially no local income tax saving over $3,000 annually.",
       "Virginia residence saves approximately $2,500-3,500 annually for most DC commuters due to lack of county/local taxes.",
       "Major employment centers in Maryland:",
       "- Federal government: NIH, Social Security Administration, Fort Meade (NSA/Cyber Command) - Biotech/Life Sciences: I-270 corridor (Gaithersburg/Rockville) - Healthcare: Johns Hopkins, University of Maryland Medical System - Defense contractors: Lockheed Martin, Northrop Grumman - Baltimore finance and services",
@@ -53,8 +52,8 @@ const content: BlogContent = {
       "Senior Federal Worker - Annual salary: $155,000 - Filing status: Married Filing Jointly - County: Howard - Annual Maryland taxes alone: ~$13,000 (state + county) - Virginia alternative: ~$8,100 - Annual savings with VA residence: ~$4,900"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Maryland taxes calculated after 401(k)/HSA—save 8-9% combined on top bracket dollars",
-      "DC commuters: Seriously evaluate Virginia residence—$3,000-5,000 annual savings for most earners",
+      "Maximize pre-tax contributions: Maryland taxes calculated after 401(k)/HSA save 8-9% combined on top bracket dollars",
+      "DC commuters: Seriously evaluate Virginia residence $3,000-5,000 annual savings for most earners",
       "Know your county: Montgomery, Howard, and Baltimore City have the highest county rates at 3.2%",
       "Factor total costs: Maryland's high housing costs in metro counties compound the tax burden",
       "Military at Fort Meade: Maintain home-of-record if stationed temporarily to avoid Maryland taxes",
@@ -62,17 +61,17 @@ const content: BlogContent = {
     ],
     "assumptions": [
       "2025 tax rates: Current federal and Maryland state/county brackets",
-      "County tax: Uses typical county rate unless specified—check your specific county",
+      "County tax: Uses typical county rate unless specified check your specific county",
       "Standard deduction: Maryland standard deduction applied",
       "Full-year residency: Assumes Maryland resident entire year",
       "No city taxes: Assumes no additional municipal taxes beyond county"
     ],
     "commonMistakes": [
-      "Forgetting county taxes: Maryland's state rate is only part—add 2.25-3.2% county tax",
+      "Forgetting county taxes: Maryland's state rate is only part add 2.25-3.2% county tax",
       "Not comparing to Virginia: DC metro workers often save $3,000+ annually with VA residence",
       "Ignoring total costs: High taxes plus expensive housing in metro Maryland create severe budget pressure",
-      "Assuming all Maryland equal: County tax rates vary significantly—Worcester at 2.25% vs. Montgomery at 3.2%",
-      "Not factoring commute: Virginia residence may add commute time—weigh financial savings vs. time"
+      "Assuming all Maryland equal: County tax rates vary significantly Worcester at 2.25% vs. Montgomery at 3.2%",
+      "Not factoring commute: Virginia residence may add commute time weigh financial savings vs. time"
     ],
     "faq": [
       {
@@ -89,7 +88,7 @@ const content: BlogContent = {
       },
       {
         "question": "Does Maryland tax Social Security?",
-        "answer": "Maryland does not tax Social Security benefits, and offers other retirement income exemptions—making it more attractive for retirees despite high working-age taxes."
+        "answer": "Maryland does not tax Social Security benefits, and offers other retirement income exemptions making it more attractive for retirees despite high working-age taxes."
       },
       {
         "question": "What county has the lowest tax in Maryland?",

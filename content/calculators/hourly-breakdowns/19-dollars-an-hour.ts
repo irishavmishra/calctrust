@@ -28,7 +28,7 @@ const content: BlogContent = {
       'Overtime: $19 × 1.5 = $28.50/hour',
     ],
     deepDive: [
-      '$19/hour puts you just under the $40,000 mark—a psychological and practical threshold that many consider entry-level middle class. This wage provides comfortable living in most U.S. regions outside high-cost coastal metros.',
+      '$19/hour puts you just under the $40,000 mark a psychological and practical threshold that many consider entry-level middle class. This wage provides comfortable living in most U.S. regions outside high-cost coastal metros.',
       'At this income level, following the 30% housing guideline allows for rent up to $988/month. This enables one-bedroom apartments in most cities and affordable two-bedroom options in lower-cost markets.',
       'Common $19/hour positions include medical assistants, IT support specialists, bookkeepers, and experienced warehouse supervisors. Many of these roles offer clear paths to $25+/hour with certifications or management experience.',
     ],
@@ -38,10 +38,10 @@ const content: BlogContent = {
       'Part-Time (25 hours/week): $19 × 25 × 52 = $24,700/year.',
     ],
     expertTips: [
-      'At $19/hour, you are within reach of $40K—negotiate for that milestone',
+      'At $19/hour, you are within reach of $40K negotiate for that milestone',
       'Overtime at $28.50/hour adds up quickly for budget goals',
       'Consider positions offering clear promotion to $22-25/hour supervisory roles',
-      'Max employer 401(k) match—even 3% matching adds $1,185/year',
+      'Max employer 401(k) match even 3% matching adds $1,185/year',
     ],
     assumptions: [
       'Based on 40 hours/week, 52 weeks/year',

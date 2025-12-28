@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $40K in TX', 'Compare to states with income tax', 'See monthly breakdowns'],
     whoUsefulFor: ['Job seekers considering Texas', 'TX workers budgeting', 'Relocators from high-tax states'],
     howItWorks: ['$40K salary entered', 'No TX state tax deduction', 'Only federal + FICA deducted'],
-    deepDive: ['$40,000 in Texas provides good value—no state income tax plus moderate cost of living in many areas. Austin/Dallas may be pricier.'],
+    deepDive: ['$40,000 in Texas provides good value no state income tax plus moderate cost of living in many areas. Austin/Dallas may be pricier.'],
     examples: ['Annual: $40,000. Monthly gross: $3,333. Take-home: ~$2,900-3,100/month (no state tax).'],
     expertTips: ['TX no income tax = ~$2,000+ more per year vs. CA', 'Consider smaller metros for best value'],
     assumptions: ['2025 federal rates', 'No state tax'],

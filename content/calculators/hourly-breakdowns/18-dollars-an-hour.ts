@@ -41,10 +41,10 @@ const content: BlogContent = {
       'Trades Apprentice with Training Wage Increases: Year 1: $18 → Year 2: $22 → Year 3: $26/hour.',
     ],
     expertTips: [
-      'At $18/hour, begin building retirement savings—even $50/month grows significantly over time',
+      'At $18/hour, begin building retirement savings even $50/month grows significantly over time',
       'Trades apprenticeships at $18/hour lead to $35-50+/hour journeyman wages',
       'Document all training and certifications for your resume and performance reviews',
-      'Consider positions offering overtime—10 weekly hours adds $14,040 annually',
+      'Consider positions offering overtime 10 weekly hours adds $14,040 annually',
       'Negotiate for benefits like health insurance that add $5,000+ in annual value',
     ],
     assumptions: [
@@ -59,13 +59,13 @@ const content: BlogContent = {
       'Not accounting for unpaid time off reducing annual earnings',
       'Comparing hourly to salary without considering benefits',
       'Overlooking overtime potential for hourly workers',
-      'Not contributing to employer 401(k) match—this is free money',
+      'Not contributing to employer 401(k) match this is free money',
     ],
     whyResultsVary: [
       'Trades apprentices see annual increases as they advance in programs',
       'Overtime availability varies seasonally in many industries',
       'State income tax ranges from 0% to 13%+ affecting take-home',
-      'Benefits costs differ—some employers cover 100%, others 50%',
+      'Benefits costs differ some employers cover 100%, others 50%',
       'Performance bonuses common in sales and customer service roles',
     ],
     faq: [
@@ -79,7 +79,7 @@ const content: BlogContent = {
       },
       {
         question: 'Is $18 an hour a good wage?',
-        answer: '$18/hour provides $37,440 annually—a comfortable wage in most moderate-cost U.S. areas and a solid foundation for saving.',
+        answer: '$18/hour provides $37,440 annually a comfortable wage in most moderate-cost U.S. areas and a solid foundation for saving.',
       },
       {
         question: 'What is time and a half for $18/hour?',

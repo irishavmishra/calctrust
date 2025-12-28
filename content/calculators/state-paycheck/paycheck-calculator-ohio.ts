@@ -41,12 +41,11 @@ const content: BlogContent = {
       "For a $100,000 earner in Columbus: - Ohio state tax: ~$2,750 (2.75% on income over $26,050) - Columbus local tax: $2,500 (2.5%) - Combined state + local: $5,250 (5.25% effective rate)",
       "Compare this to a $100,000 earner in Cincinnati: - Ohio state tax: ~$2,750 - Cincinnati local tax: $1,800 (1.8%) - Combined: $4,550 (4.55% effective rate)",
       "The difference between Columbus and Cincinnati is $700 annually for a $100,000 earner.",
-      "Comparison to neighboring states:",
-      "| Location | State Tax | Local Tax | Combined | |----------|-----------|-----------|----------| | Columbus, OH | 2.75-3.75% | 2.5% | 5.25-6.25% | | Cincinnati, OH | 2.75-3.75% | 1.8% | 4.55-5.55% | | Indianapolis, IN | 3.05% | ~2% | ~5% | | Louisville, KY | 5% | 0% | 5% | | Detroit, MI | 4.25% | 2.4% | 6.65% |",
+      "Compared to neighboring states, Ohio's combined burden is competitive depending on where you live. Columbus and Cleveland's 2.5% local tax pushes the combined rate to 5.25-6.25%. Cincinnati's 1.8% local tax brings the total to 4.55-5.55%. Indianapolis, Indiana offers about 5% combined (3.05% state plus ~2% local). Louisville, Kentucky has a flat 5% state rate with no local tax. Detroit, Michigan hits 6.65% when you add its 2.4% city tax to Michigan's 4.25% state rate.",
       "Ohio's state rates are relatively low, but local taxes can push the total burden higher than some neighboring states.",
       "Many Ohio workers live outside city limits to avoid local income taxes:",
       "A $100,000 earner working in Columbus: - Living in Columbus: $5,250 combined tax - Living outside city: $2,750 state tax only - Annual savings: $2,500",
-      "Ohio's local income tax system is similar to Pennsylvania's—many municipalities levy income taxes, making the total burden vary significantly by location.",
+      "Ohio's local income tax system is similar to Pennsylvania's many municipalities levy income taxes, making the total burden vary significantly by location.",
       "The state's graduated structure means lower earners pay less state tax, but local taxes apply to all income levels, making the system less progressive than it appears."
     ],
     "examples": [
@@ -57,8 +56,8 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Consider living outside city limits: Avoiding local income tax can save 1.8-2.5% annually",
-      "Research local tax rates: Municipal taxes vary significantly—Cincinnati (1.8%) vs. Columbus (2.5%)",
-      "Maximize pre-tax deductions: Both state and local taxes are calculated after pre-tax deductions—401(k) saves on both",
+      "Research local tax rates: Municipal taxes vary significantly Cincinnati (1.8%) vs. Columbus (2.5%)",
+      "Maximize pre-tax deductions: Both state and local taxes are calculated after pre-tax deductions 401(k) saves on both",
       "Compare to neighboring states: Indiana (3.05% flat) and Kentucky (5% graduated) may have lower combined rates",
       "Factor in commute costs: Living outside city limits saves taxes but may increase commute expenses",
       "Understand graduated structure: Lower earners pay 0% state tax on first $26,050, reducing effective rate",
@@ -74,7 +73,7 @@ const content: BlogContent = {
     "commonMistakes": [
       "Forgetting local taxes: Many workers don't realize cities add 1-2.5% on top of state tax",
       "Underestimating city tax impact: Columbus and Cleveland's 2.5% local tax significantly increases total burden",
-      "Comparing gross salaries: A $100,000 Columbus salary ≠ $100,000 suburban salary—factor in local tax differences",
+      "Comparing gross salaries: A $100,000 Columbus salary ≠ $100,000 suburban salary factor in local tax differences",
       "Not considering location: Living outside city limits can save thousands annually",
       "Ignoring local tax variations: Rates vary from 1.8% (Cincinnati) to 2.5% (Columbus, Cleveland)",
       "Assuming low state rate means low total: Combined state + local can exceed 6% in major cities"

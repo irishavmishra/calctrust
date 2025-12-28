@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $4,500 monthly to $54,000/year', 'Hourly: ~$25.96'],
     whoUsefulFor: ['Workers earning $4,500/month'],
     howItWorks: ['$4,500 × 12 = $54,000/year', 'Hourly: ~$25.96'],
-    deepDive: ['$4,500 monthly provides $54,000 annually—above median individual income.'],
+    deepDive: ['$4,500 monthly provides $54,000 annually above median individual income.'],
     examples: ['Annual: $54,000.'],
     expertTips: ['At ~$26/hour equivalent, maximize retirement contributions'],
     assumptions: ['12 months/year'],

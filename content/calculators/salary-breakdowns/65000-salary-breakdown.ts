@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '65000-salary-breakdown',
   category: 'salary-breakdowns',
   title: '$65,000 Salary Breakdown',
-  subheading: 'Understand what a $65,000 annual salary means—approximately $31.25/hour.',
+  subheading: 'Understand what a $65,000 annual salary means approximately $31.25/hour.',
   metaTitle: '$65K Salary Breakdown | Hourly, Monthly 2025',
   metaDescription: 'Break down a $65K annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations.',
   sections: {

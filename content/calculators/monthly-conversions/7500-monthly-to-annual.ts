@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '7500-monthly-to-annual',
   category: 'monthly-conversions',
   title: '$7,500 Monthly is How Much a Year?',
-  subheading: '$7,500 monthly equals $90,000 per year (~$43.27/hour)—approaching $100K.',
+  subheading: '$7,500 monthly equals $90,000 per year (~$43.27/hour) approaching $100K.',
   metaTitle: '$7,500 Monthly to Annual Salary | 2025 Calculator',
   metaDescription: 'Convert $7,500 monthly salary to annual income. This calculator estimates yearly earnings based on 12 monthly pay periods.',
   sections: {

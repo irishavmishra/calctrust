@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $500 weekly to $26,000/year', 'Hourly: ~$12.50', 'Monthly: ~$2,167'],
     whoUsefulFor: ['Workers paid $500/week', 'Budgeters planning weekly income'],
     howItWorks: ['$500 × 52 weeks = $26,000/year', 'Monthly: $2,167', 'Hourly: ~$12.50'],
-    deepDive: ['$500 weekly provides $26,000 annually—entry-level income that may qualify for tax credits like EITC.'],
+    deepDive: ['$500 weekly provides $26,000 annually entry-level income that may qualify for tax credits like EITC.'],
     examples: ['Annual: $26,000. Monthly: $2,167. Hourly: ~$12.50.'],
     expertTips: ['At ~$12.50/hour equivalent, seek advancement opportunities'],
     assumptions: ['52 weeks/year', '40 hours/week'],

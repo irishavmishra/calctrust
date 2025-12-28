@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-massachusetts",
   "category": "state-paycheck",
   "title": "Massachusetts Paycheck Calculator",
-  "subheading": "Calculate your Massachusetts take-home pay under the Bay State's straightforward flat 5% income tax, plus an additional 4% millionaire's surtax on income exceeding $1 million. Massachusetts combines moderate state taxes with a thriving economy, strong job market, and expensive cost of living—especially in Boston metro. This calculator shows your actual take-home pay after federal taxes, Massachusetts' 5% flat rate, and FICA deductions—essential for Boston professionals, biotech workers, and New Hampshire border residents.",
+  "subheading": "Calculate your Massachusetts take-home pay under the Bay State's straightforward flat 5% income tax, plus an additional 4% millionaire's surtax on income exceeding $1 million. Massachusetts combines moderate state taxes with a thriving economy, strong job market, and expensive cost of living especially in Boston metro. This calculator shows your actual take-home pay after federal taxes, Massachusetts' 5% flat rate, and FICA deductions essential for Boston professionals, biotech workers, and New Hampshire border residents.",
   "metaTitle": "Massachusetts Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Massachusetts take-home pay. Calculator shows net income after federal and MA state taxes (5% flat, 9% on $1M+). Standard withholding assumptions.",
   "sections": {
@@ -32,9 +32,7 @@ const content: BlogContent = {
       "- 5% flat rate on all taxable income - Additional 4% surtax on income exceeding $1 million annually - Approved by voters in 2022, effective 2023",
       "The millionaire's surtax creates a two-tier effective structure:",
       "- Income up to $1M: 5% tax rate - Income over $1M: 9% tax rate (5% base + 4% surtax) - Example: $1.5M earner pays 5% on first $1M, 9% on remaining $500K",
-      "Massachusetts vs. New Hampshire for border residents:",
-      "Annual Tax Comparison: | Salary | MA Tax (5%) | NH Tax | Annual Savings with NH | |---------|-------------|--------|------------------------| | $60,000 | ~$3,000 | $0 | $3,000 | | $90,000 | ~$4,500 | $0 | $4,500 | | $120,000 | ~$6,000 | $0 | $6,000 | | $180,000 | ~$9,000 | $0 | $9,000 |",
-      "However, Massachusetts offers significantly more job opportunities and higher average salaries than New Hampshire, often offsetting the tax difference.",
+      "Massachusetts vs. New Hampshire for border residents is a common consideration. At $60,000, Massachusetts takes about $3,000 while New Hampshire takes zero. At $90,000, it's $4,500 to Massachusetts. A $120,000 earner sends $6,000 to the state. And at $180,000, you're paying roughly $9,000 in Massachusetts taxes. However, Massachusetts offers significantly more job opportunities and higher average salaries than New Hampshire, often offsetting the tax difference.",
       "Massachusetts economic strengths:",
       "- Biotech/Life Sciences: Dominant global hub (Moderna, Biogen, Vertex, Takeda) - Technology: Growing sector in Cambridge/Boston (Google, Amazon, HubSpot, Toast) - Healthcare: World-class hospitals (Mass General, Brigham, Dana-Farber) - Education: Harvard, MIT, BU, BC create innovation ecosystem - Financial services: State Street, Fidelity, John Hancock",
       "Cost of living reality:",
@@ -55,10 +53,10 @@ const content: BlogContent = {
       "Senior Executive (Millionaire Surtax) - Annual salary: $1,500,000 - Filing status: Married Filing Jointly - Massachusetts tax: ~$92,500 (5% on first $1M + 9% on $500K) - Additional 4% surtax costs $20,000 vs. old system - Some consider relocating to zero-tax states"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Massachusetts taxes calculated after 401(k)/HSA—save 5% on every pre-tax dollar",
+      "Maximize pre-tax contributions: Massachusetts taxes calculated after 401(k)/HSA save 5% on every pre-tax dollar",
       "NH border strategy: Living in NH saves on investment/retirement income tax, but MA still taxes MA-earned income",
-      "Millionaire earners: Consider timing income to manage surtax—or evaluate Florida/Texas relocation",
-      "Factor total compensation: Boston/Cambridge salaries often 20-40% above national average—offsetting the 5% tax",
+      "Millionaire earners: Consider timing income to manage surtax or evaluate Florida/Texas relocation",
+      "Factor total compensation: Boston/Cambridge salaries often 20-40% above national average offsetting the 5% tax",
       "Career investment: Massachusetts' innovation economy offers long-term earning potential worth the tax cost",
       "Remote work: If working remotely for MA company from NH, clarify tax obligations with professional"
     ],
@@ -70,9 +68,9 @@ const content: BlogContent = {
       "No local income taxes: Massachusetts municipalities levy no local income taxes"
     ],
     "commonMistakes": [
-      "NH border strategy misunderstanding: MA still taxes income earned in Massachusetts—savings limited to investment/passive income",
+      "NH border strategy misunderstanding: MA still taxes income earned in Massachusetts savings limited to investment/passive income",
       "Ignoring cost of living: 5% tax is moderate, but Boston housing costs create severe budget pressure",
-      "Not factoring salary premium: Massachusetts jobs often pay 20-40% more than national average—compare total financial picture",
+      "Not factoring salary premium: Massachusetts jobs often pay 20-40% more than national average compare total financial picture",
       "Millionaires not planning: High earners should model surtax impact and consider strategic timing or relocation",
       "Forgetting benefits: Massachusetts offers strong worker protections, healthcare subsidies, and services"
     ],

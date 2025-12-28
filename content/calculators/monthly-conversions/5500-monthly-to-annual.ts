@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $5,500 monthly to $66,000/year', 'Hourly: ~$31.73'],
     whoUsefulFor: ['Workers earning $5,500/month'],
     howItWorks: ['$5,500 × 12 = $66,000/year', 'Hourly: ~$31.73'],
-    deepDive: ['$5,500 monthly provides $66,000 annually—strong income well above median.'],
+    deepDive: ['$5,500 monthly provides $66,000 annually strong income well above median.'],
     examples: ['Annual: $66,000.'],
     expertTips: ['At ~$32/hour equivalent, max retirement accounts'],
     assumptions: ['12 months/year'],

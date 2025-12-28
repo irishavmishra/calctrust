@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $2,000 monthly to $24,000/year', 'Hourly: ~$11.54', 'Weekly: $461'],
     whoUsefulFor: ['Workers earning $2,000/month', 'Part-time workers calculating annual income'],
     howItWorks: ['$2,000 × 12 = $24,000/year', 'Hourly: $24,000 ÷ 2,080 = ~$11.54'],
-    deepDive: ['$2,000 monthly provides $24,000 annually—entry-level income that may qualify for tax credits like EITC.'],
+    deepDive: ['$2,000 monthly provides $24,000 annually entry-level income that may qualify for tax credits like EITC.'],
     examples: ['Annual: $24,000. Hourly: ~$11.54.'],
     expertTips: ['At ~$11.54/hour equivalent, seek advancement opportunities'],
     assumptions: ['12 months/year', '40 hours/week, 52 weeks'],

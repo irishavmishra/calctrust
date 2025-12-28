@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $2,500 monthly to $30,000/year', 'Hourly: ~$14.42', 'Biweekly: ~$1,154'],
     whoUsefulFor: ['Workers earning $2,500/month'],
     howItWorks: ['$2,500 × 12 = $30,000/year', 'Hourly: $30,000 ÷ 2,080 = ~$14.42'],
-    deepDive: ['$2,500 monthly provides $30,000 annually—approaching $15/hour equivalent.'],
+    deepDive: ['$2,500 monthly provides $30,000 annually approaching $15/hour equivalent.'],
     examples: ['Annual: $30,000. Hourly: ~$14.42.'],
     expertTips: ['Near $15/hour, consider positions with that floor minimum'],
     assumptions: ['12 months/year', '40 hours/week, 52 weeks'],

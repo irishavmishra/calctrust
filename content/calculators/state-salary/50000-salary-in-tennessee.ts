@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $50K in TN', 'No state tax advantage'],
     whoUsefulFor: ['Tennessee workers', 'Nashville/Memphis employees'],
     howItWorks: ['$50K salary entered', 'No TN state tax', 'Only federal + FICA'],
-    deepDive: ['$50,000 in Tennessee—no state income tax means more take-home. Nashville is a booming economy.'],
+    deepDive: ['$50,000 in Tennessee no state income tax means more take-home. Nashville is a booming economy.'],
     examples: ['Annual: $50,000. Take-home: ~$3,400-3,600/month (no state tax).'],
     expertTips: ['TN no income tax is significant advantage', 'Nashville has good job market'],
     assumptions: ['2025 federal rates', 'No state tax'],

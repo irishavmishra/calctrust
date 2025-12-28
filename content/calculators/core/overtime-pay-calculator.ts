@@ -19,27 +19,27 @@ const content: BlogContent = {
     ],
     "whoUsefulFor": [
       "Hourly employees offered overtime: When your supervisor asks if you want extra hours, know exactly what you'll earn before saying yes",
-      "Shift workers managing schedules: Healthcare, manufacturing, and transportation workers often have complex overtime structures—calculate earnings across different shift patterns",
+      "Shift workers managing schedules: Healthcare, manufacturing, and transportation workers often have complex overtime structures calculate earnings across different shift patterns",
       "Employees verifying paycheck accuracy: Confirm your employer correctly calculated overtime at the proper rate; errors are more common than you'd expect",
       "Managers planning labor costs: Estimate overtime expenses when scheduling extra coverage during busy periods or staff shortages",
       "Workers considering exempt vs. non-exempt positions: Understand what you'd lose in overtime eligibility if promoted to a salaried exempt role",
-      "Union members understanding contracts: Many collective bargaining agreements specify unique overtime rates—verify your entitlements",
+      "Union members understanding contracts: Many collective bargaining agreements specify unique overtime rates verify your entitlements",
       "Gig workers comparing opportunities: Convert overtime-eligible hourly positions against flat-rate gig work"
     ],
     "howItWorks": [],
     "deepDive": [
       "The federal Fair Labor Standards Act, established in 1938 and regularly updated, mandates overtime pay for eligible workers. Under FLSA:",
-      "- Non-exempt employees must receive 1.5x their regular rate for hours exceeding 40 in a workweek - Overtime is calculated on a weekly basis, not averaged over multiple weeks - Employers cannot offer \"comp time\" instead of overtime pay in the private sector - There is no federal limit on total hours worked—only a requirement to pay overtime beyond 40",
+      "- Non-exempt employees must receive 1.5x their regular rate for hours exceeding 40 in a workweek - Overtime is calculated on a weekly basis, not averaged over multiple weeks - Employers cannot offer \"comp time\" instead of overtime pay in the private sector - There is no federal limit on total hours worked only a requirement to pay overtime beyond 40",
       "The Department of Labor estimates that approximately 143 million American workers are protected by FLSA overtime provisions. However, certain exemptions apply to executive, administrative, professional, and highly compensated employees meeting specific criteria.",
       "Non-exempt employees: - Must be paid at least minimum wage - Entitled to overtime pay at 1.5x for hours over 40/week - Typically paid hourly, though some are salaried non-exempt - Include most production, maintenance, construction, and service workers",
-      "Exempt employees: - Must meet salary threshold ($58,656/year as of 2025) AND duties tests - Not entitled to overtime pay regardless of hours worked - Generally executive, professional, administrative, or specialized computer employees - Working 60 hours per week at $70,000 salary effectively earns $22.44/hour—less than many hourly workers",
+      "Exempt employees: - Must meet salary threshold ($58,656/year as of 2025) AND duties tests - Not entitled to overtime pay regardless of hours worked - Generally executive, professional, administrative, or specialized computer employees - Working 60 hours per week at $70,000 salary effectively earns $22.44/hour less than many hourly workers",
       "Misclassification is a significant issue. The Economic Policy Institute estimates billions of dollars in unpaid overtime annually due to improper exempt classifications. If you believe you're misclassified, consult the Department of Labor or an employment attorney.",
       "Several states provide stronger overtime protections than FLSA minimums:",
       "California: - Daily overtime after 8 hours (not just weekly) - Double time after 12 hours in a day - Double time on the 7th consecutive workday - The most protective overtime laws in the nation",
       "Nevada: - Daily overtime after 8 hours if working 40+ hours per week",
       "Oregon: - Agricultural workers entitled to overtime (unlike federal exemptions)",
       "Washington: - Agricultural workers entitled to overtime by 2024 phase-in",
-      "Always check your specific state's Department of Labor for applicable rules—state laws providing greater benefits supersede federal minimums.",
+      "Always check your specific state's Department of Labor for applicable rules state laws providing greater benefits supersede federal minimums.",
       "Overtime calculation isn't always as simple as multiplying your hourly rate. The FLSA defines \"regular rate\" to include:",
       "- Base hourly wage - Piece-rate earnings - Non-discretionary bonuses - Commission payments - Shift differentials",
       "Example: You earn $20/hour plus a $200 weekly production bonus. For a 45-hour week: - Regular rate = ($20 × 40 + $200) ÷ 40 = $25/hour - Overtime rate = $25 × 1.5 = $37.50/hour - Total pay = ($25 × 40) + ($37.50 × 5) = $1,000 + $187.50 = $1,187.50",
@@ -53,10 +53,10 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Track your hours independently: Don't rely solely on employer records; maintain your own log of start times, end times, and breaks",
-      "Understand your state's rules: California and other states offer daily overtime—know if your state provides extra protections",
+      "Understand your state's rules: California and other states offer daily overtime know if your state provides extra protections",
       "Review pay stubs carefully: Overtime should be clearly itemized; if it's not, request clarification",
       "Know what counts as \"hours worked\": Time changing into required uniforms, travel between job sites, and mandatory training typically count",
-      "Consider taxes on overtime: Overtime earnings are taxed at your marginal rate—that extra $500 may only net $350 after withholding",
+      "Consider taxes on overtime: Overtime earnings are taxed at your marginal rate that extra $500 may only net $350 after withholding",
       "Negotiate base rate when possible: Higher base rates amplify overtime earnings at 1.5x or 2x the base",
       "Understand comp time limitations: Private employers cannot substitute comp time for overtime pay; only public sector employees have this option"
     ],
@@ -70,10 +70,10 @@ const content: BlogContent = {
       "Standard workweek: Assumes employer uses a consistent 7-day workweek period"
     ],
     "commonMistakes": [
-      "Averaging hours across weeks: Working 30 hours one week and 50 the next doesn't cancel out—you're owed 10 hours overtime for the 50-hour week",
+      "Averaging hours across weeks: Working 30 hours one week and 50 the next doesn't cancel out you're owed 10 hours overtime for the 50-hour week",
       "Accepting comp time illegally: Private employers cannot offer time off instead of overtime pay (with rare exceptions in certain union contracts)",
-      "Ignoring daily overtime rights: California, Alaska, and other states provide overtime after 8 hours per day—don't forfeit those earnings",
-      "Miscalculating the regular rate: Non-discretionary bonuses must be included when computing overtime rate—ensure your employer does this correctly",
+      "Ignoring daily overtime rights: California, Alaska, and other states provide overtime after 8 hours per day don't forfeit those earnings",
+      "Miscalculating the regular rate: Non-discretionary bonuses must be included when computing overtime rate ensure your employer does this correctly",
       "Assuming exempt status without verification: Just because you receive a salary doesn't make you exempt; duties tests matter too",
       "Not reporting off-the-clock work: Checking emails at home, required travel time, and pre-shift preparation often count as compensable hours"
     ],
@@ -100,7 +100,7 @@ const content: BlogContent = {
       },
       {
         "question": "Can my employer force me to work overtime?",
-        "answer": "Generally yes—FLSA doesn't limit employer-mandated overtime. However, employers must pay for all hours worked. Some union contracts, state laws, or employment agreements may provide protections."
+        "answer": "Generally yes FLSA doesn't limit employer-mandated overtime. However, employers must pay for all hours worked. Some union contracts, state laws, or employment agreements may provide protections."
       },
       {
         "question": "Is overtime taxed at a higher rate?",

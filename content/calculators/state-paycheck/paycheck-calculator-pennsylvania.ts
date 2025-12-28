@@ -45,12 +45,11 @@ const content: BlogContent = {
       "Philadelphia's wage tax is particularly significant:",
       "Philadelphia wage tax rates (2025): - Residents: 3.75% - Non-residents working in Philadelphia: 3.44%",
       "This means Philadelphia residents pay nearly 7% in combined state and local income taxes (3.07% + 3.75%), making it one of the highest combined rates in America for a major city.",
-      "Comparison to neighboring states:",
-      "| Location | State Tax | Local Tax | Combined | |----------|-----------|-----------|----------| | Philadelphia, PA | 3.07% | 3.75% | 6.82% | | Pittsburgh, PA | 3.07% | 3.00% | 6.07% | | Low EIT PA | 3.07% | 1.00% | 4.07% | | New Jersey | Graduated | 0% | 1.4-10.75% | | New York | Graduated | 0-3.876% | 4-14.776% | | Ohio | Graduated | 1-2.5% | 1-6% |",
+      "Compared to neighboring states, Pennsylvania's low state rate is appealing, but the local taxes complicate the picture. Philadelphia residents face 6.82% combined (3.07% state plus 3.75% city) one of the highest rates for any major US city. Pittsburgh lands at 6.07% combined. Low-EIT municipalities in Pennsylvania offer about 4.07%. New Jersey's graduated rates run from 1.4% to 10.75% with no local taxes. New York goes from 4% to 14.776% when you include NYC's local tax. Ohio's combined rates typically fall between 1% and 6%.",
       "Pennsylvania's low state rate makes it attractive, but Philadelphia's high local tax creates a significant burden for city residents.",
       "Many Philadelphia workers live in New Jersey to avoid the city wage tax:",
       "A $100,000 earner working in Philadelphia: - Living in Philadelphia: $6,820 combined tax - Living in New Jersey: $3,070 PA tax only (no NJ tax if working in PA) - Annual savings: $3,750",
-      "Pennsylvania's local EIT system is unique—most states don't allow municipalities to levy income taxes, making Pennsylvania's structure more complex."
+      "Pennsylvania's local EIT system is unique most states don't allow municipalities to levy income taxes, making Pennsylvania's structure more complex."
     ],
     "examples": [
       "Entry-Level Philadelphia Worker - Annual salary: $45,000 - Filing status: Single - Gross biweekly: $1,730.77 - Federal tax: ~$140 - PA state tax: ~$53 - Philadelphia wage tax: ~$65 - FICA: $132 - Net biweekly: ~$1,340** (77.4% of gross)",
@@ -60,8 +59,8 @@ const content: BlogContent = {
     ],
     "expertTips": [
       "Consider New Jersey residence: Living in NJ while working in Philadelphia eliminates the 3.75% city wage tax",
-      "Research local EIT rates: EIT varies significantly by municipality—some areas have minimal local taxes",
-      "Maximize pre-tax deductions: Both state and local taxes are calculated after pre-tax deductions—401(k) saves on both",
+      "Research local EIT rates: EIT varies significantly by municipality some areas have minimal local taxes",
+      "Maximize pre-tax deductions: Both state and local taxes are calculated after pre-tax deductions 401(k) saves on both",
       "Understand Philadelphia wage tax: Non-residents working in Philadelphia pay 3.44% (vs. 3.75% for residents)",
       "Compare to neighboring states: New Jersey and New York may have lower combined rates depending on income level",
       "Factor in property taxes: Pennsylvania property taxes vary by county and can be significant",
@@ -77,9 +76,9 @@ const content: BlogContent = {
     "commonMistakes": [
       "Forgetting local EIT: Many workers don't realize municipalities add 1-3.75% on top of state tax",
       "Underestimating Philadelphia burden: The 3.75% city tax nearly doubles the state tax burden",
-      "Comparing gross salaries: A $100,000 Philadelphia salary ≠ $100,000 suburban PA salary—factor in local tax differences",
+      "Comparing gross salaries: A $100,000 Philadelphia salary ≠ $100,000 suburban PA salary factor in local tax differences",
       "Not considering NJ residence: Living in New Jersey can save thousands annually for Philadelphia workers",
-      "Ignoring EIT variations: Local tax rates vary significantly—research your specific municipality",
+      "Ignoring EIT variations: Local tax rates vary significantly research your specific municipality",
       "Assuming low state rate means low total: Combined state + local can exceed 6% in major cities"
     ],
     "whyResultsVary": [

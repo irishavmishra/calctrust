@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Calculate salary after 6% raise'],
     whoUsefulFor: ['Employees receiving significant raises'],
     howItWorks: ['New Salary = Current × 1.06', '$50,000 × 1.06 = $53,000'],
-    deepDive: ['A 6% raise is well above average—typical for promotions or market corrections.'],
+    deepDive: ['A 6% raise is well above average typical for promotions or market corrections.'],
     examples: ['$40,000 + 6% = $42,400', '$60,000 + 6% = $63,600', '$100,000 + 6% = $106,000'],
     expertTips: ['6% raises often accompany increased responsibilities'],
     assumptions: ['Based on annual salary'],

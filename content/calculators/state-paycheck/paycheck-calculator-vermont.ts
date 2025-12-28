@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['VT graduated tax: 3.35-8.75% rates', 'Net pay calculation', 'New England comparison'],
     whoUsefulFor: ['Vermont employees', 'Burlington workers', 'NH border workers'],
     howItWorks: ['Enter your gross salary', 'VT graduated rates applied', 'FICA deducted'],
-    deepDive: ['Vermont has high taxes (8.75% top) but excellent services. NH has no wage tax—significant for border workers.'],
+    deepDive: ['Vermont has high taxes (8.75% top) but excellent services. NH has no wage tax significant for border workers.'],
     examples: ['Entry-Level: Annual $45,000, Net biweekly ~$1,390', 'Burlington Professional: Annual $90,000, Net biweekly ~$2,480'],
     expertTips: ['NH border workers can save ~$4,500 living in NH vs VT at $75K salary', 'VT has high quality of life'],
     assumptions: ['Based on 2025 Vermont tax brackets'],

@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: '3500-biweekly-to-annual',
   category: 'biweekly-conversions',
   title: '$3,500 Biweekly is How Much a Year?',
-  subheading: '$3,500 biweekly equals $91,000 per year (~$43.75/hour)—approaching $100K.',
+  subheading: '$3,500 biweekly equals $91,000 per year (~$43.75/hour) approaching $100K.',
   metaTitle: '$3,500 Biweekly to Annual Salary | 2025 Calculator',
   metaDescription: 'Convert $3,500 biweekly pay to annual salary. This calculator estimates yearly income based on standard 26 pay period assumptions.',
   sections: {

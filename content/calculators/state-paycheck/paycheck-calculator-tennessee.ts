@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: 'paycheck-calculator-tennessee',
   category: 'state-paycheck',
   title: 'Tennessee Paycheck Calculator',
-  subheading: 'Calculate your TN take-home pay. Tennessee has NO state income tax on wages—keep more of your paycheck.',
+  subheading: 'Calculate your TN take-home pay. Tennessee has NO state income tax on wages keep more of your paycheck.',
   metaTitle: 'Tennessee Paycheck Calculator 2025 | CalcTrust',
   metaDescription: 'Estimate your Tennessee take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {

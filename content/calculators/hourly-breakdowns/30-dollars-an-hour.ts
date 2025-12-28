@@ -17,7 +17,7 @@ const content: BlogContent = {
     howItWorks: ['$30 × 40 × 52 = $62,400/year', 'Monthly: $5,200', 'Overtime: $45/hour'],
     deepDive: [
       '$30/hour is a milestone wage representing $62,400 annually. This exceeds the median individual income significantly and provides strong financial foundation for wealth building.',
-      'At 30% of income for housing, this allows $1,560/month—sufficient for comfortable apartments anywhere and home ownership in most markets.',
+      'At 30% of income for housing, this allows $1,560/month sufficient for comfortable apartments anywhere and home ownership in most markets.',
       'Common $30/hour roles include journeyman trades, experienced nurses, mid-level IT professionals, and specialized technicians.',
     ],
     examples: [
@@ -25,7 +25,7 @@ const content: BlogContent = {
       'With Overtime (10 hrs/week): $1,200 + $450 = $1,650/week = $85,800/year.',
     ],
     expertTips: [
-      '$30/hour OT at $45/hour is highly lucrative—10 hrs/week adds $23,400 annually',
+      '$30/hour OT at $45/hour is highly lucrative 10 hrs/week adds $23,400 annually',
       'Consider maxing 401(k) at $23,500/year',
       'This income qualifies for homes up to ~$250K in most markets',
     ],
@@ -34,7 +34,7 @@ const content: BlogContent = {
     whyResultsVary: ['State taxes create $3,000-6,000 take-home differences', 'Overtime can push income past $80K'],
     faq: [
       { question: 'How much is $30/hour annually?', answer: '$62,400/year full-time.' },
-      { question: 'Is $30/hour a good wage?', answer: 'Yes—$62,400/year exceeds median income and provides comfortable living nationwide.' },
+      { question: 'Is $30/hour a good wage?', answer: 'Yes $62,400/year exceeds median income and provides comfortable living nationwide.' },
       { question: 'What is overtime for $30/hour?', answer: '$45/hour.' },
     ],
     relatedCalculators: [

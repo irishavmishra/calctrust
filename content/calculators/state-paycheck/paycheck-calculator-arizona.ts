@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-arizona",
   "category": "state-paycheck",
   "title": "Arizona Paycheck Calculator",
-  "subheading": "Calculate your Arizona take-home pay with our comprehensive paycheck calculator. Arizona now features a flat 2.5% income tax rate—one of the lowest in the nation among states that tax income. This simplified tax structure makes Arizona particularly attractive for workers relocating from high-tax states. See exactly what you'll receive after federal taxes, Arizona state taxes, and FICA deductions.",
+  "subheading": "Calculate your Arizona take-home pay with our comprehensive paycheck calculator. Arizona now features a flat 2.5% income tax rate one of the lowest in the nation among states that tax income. This simplified tax structure makes Arizona particularly attractive for workers relocating from high-tax states. See exactly what you'll receive after federal taxes, Arizona state taxes, and FICA deductions.",
   "metaTitle": "Arizona Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Arizona take-home pay. This calculator shows net income after federal and Arizona state taxes. 2.5% flat rate. Actual results may vary.",
   "sections": {
@@ -29,8 +29,7 @@ const content: BlogContent = {
     "deepDive": [
       "Arizona dramatically simplified its tax code in 2023, implementing a flat 2.5% income tax rate for all taxpayers regardless of income level:",
       "Previous rates (before 2023): 2.59% to 4.5% graduated Current rate (2023+): 2.5% flat for all income levels",
-      "This makes Arizona one of the lowest-tax states among those that impose an income tax:",
-      "| State | Top Tax Rate | Structure | |-------|--------------|-----------| | Arizona | 2.5% | Flat | | Colorado | 4.4% | Flat | | Utah | 4.65% | Flat | | California | 13.3% | Graduated | | Oregon | 9.9% | Graduated |",
+      "This makes Arizona one of the lowest-tax states among those that impose an income tax. Compare that to Colorado's 4.4% flat rate, Utah at 4.65%, or California's steep graduated system that tops out at 13.3%. Oregon reaches 9.9% at the top. Arizona's 2.5% is remarkably competitive.",
       "Arizona has become a top destination for California refugees seeking tax relief:",
       "Comparison for $100,000 salary: - California state tax: ~$5,500 - Arizona state tax: ~$2,500 - Annual savings: ~$3,000",
       "For a $200,000 earner: - California state tax: ~$15,000 - Arizona state tax: ~$5,000 - Annual savings: ~$10,000",
@@ -38,7 +37,7 @@ const content: BlogContent = {
       "Arizona provides standard deductions that reduce taxable income:",
       "- Single filer: $14,600 (2025, indexed to federal) - Married filing jointly: $29,200 - Head of household: $21,900",
       "These deductions mirror federal amounts, simplifying tax preparation.",
-      "Unlike some states, Arizona has no local or municipal income taxes. Your Arizona tax burden is entirely at the state level—no additional city taxes complicate withholding or filing.",
+      "Unlike some states, Arizona has no local or municipal income taxes. Your Arizona tax burden is entirely at the state level no additional city taxes complicate withholding or filing.",
       "Regardless of Arizona's low state rate, all workers pay federal FICA:",
       "- Social Security: 6.2% on wages up to $176,100 (2025) - Medicare: 1.45% on all wages - Additional Medicare: 0.9% on wages exceeding $200,000",
       "For most Arizona workers, FICA (7.65%) exceeds Arizona state tax (2.5%)."
@@ -50,7 +49,7 @@ const content: BlogContent = {
       "Entry-Level Worker - Annual salary: $40,000 - Filing status: Single - No pre-tax contributions - Gross biweekly: $1,538.46 - Federal tax: ~$95 - Arizona tax: ~$30 - FICA: $118 - Net biweekly: ~$1,295** (84.2% of gross)"
     ],
     "expertTips": [
-      "Leverage the flat tax simplicity: Arizona's 2.5% applies equally to all income—no bracket optimization needed",
+      "Leverage the flat tax simplicity: Arizona's 2.5% applies equally to all income no bracket optimization needed",
       "Consider total savings from California: Housing, taxes, and cost of living combine for significant relocation benefits",
       "Maximize pre-tax deductions: Pre-tax contributions reduce both federal and Arizona burden",
       "Part-year residency rules: If relocating mid-year, Arizona taxes only income earned while an Arizona resident",
@@ -66,7 +65,7 @@ const content: BlogContent = {
       "Single employer: Assumes standard W-4 withholding"
     ],
     "commonMistakes": [
-      "Using old graduated rates: Arizona switched to 2.5% flat in 2023—old rate schedules are obsolete",
+      "Using old graduated rates: Arizona switched to 2.5% flat in 2023 old rate schedules are obsolete",
       "Forgetting FICA still applies: 7.65% FICA applies regardless of Arizona's low state rate",
       "Ignoring residency requirements: Arizona taxes require genuine residency, not just a mailing address",
       "Overlooking total relocation math: Factor housing savings alongside tax savings for complete picture",
@@ -90,7 +89,7 @@ const content: BlogContent = {
       },
       {
         "question": "Does Arizona have local income taxes?",
-        "answer": "No. Arizona has no local or municipal income taxes—only the state-level 2.5% rate applies."
+        "answer": "No. Arizona has no local or municipal income taxes only the state-level 2.5% rate applies."
       },
       {
         "question": "How much can I save moving from California to Arizona?",

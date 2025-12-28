@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "freelance-hourly-rate-calculator",
   "category": "core",
   "title": "Freelance Hourly Rate Calculator",
-  "subheading": "Determine the hourly rate you need to charge as a freelancer to match or exceed your previous salaried compensation. Freelancing requires accounting for self-employment taxes, lost benefits, business expenses, and non-billable time—this calculator helps you set rates that truly sustain your income goals rather than accidentally taking a pay cut.",
+  "subheading": "Determine the hourly rate you need to charge as a freelancer to match or exceed your previous salaried compensation. Freelancing requires accounting for self-employment taxes, lost benefits, business expenses, and non-billable time this calculator helps you set rates that truly sustain your income goals rather than accidentally taking a pay cut.",
   "metaTitle": "Freelance Hourly Rate Calculator | USA 2025",
   "metaDescription": "Calculate the hourly rate freelancers need to match salaried income. Estimates account for self-employment taxes and expenses. Educational only.",
   "sections": {
@@ -30,7 +30,7 @@ const content: BlogContent = {
     "deepDive": [
       "Many aspiring freelancers drastically underestimate the difference between employee and freelance economics. A salaried worker earning $80,000 receives more than $80,000 in total compensation:",
       "Employee at $80,000 salary receives: - Base salary: $80,000 - Employer FICA: $6,120 (7.65% they pay for you) - Health insurance: ~$12,000 (average employer contribution) - 401(k) match: ~$3,000 (assuming 50% match on 6%) - Paid time off: ~$6,000 (3 weeks vacation + holidays) - Total compensation value: ~$107,000+",
-      "To achieve equivalent total compensation as a freelancer charging $50/hour for 2,000 billable hours ($100,000 gross), significant deductions apply—you may net considerably less than the employee.",
+      "To achieve equivalent total compensation as a freelancer charging $50/hour for 2,000 billable hours ($100,000 gross), significant deductions apply you may net considerably less than the employee.",
       "As a freelancer, you pay both employee and employer portions of FICA:",
       "- Social Security: 12.4% on first $176,100 (2025) - Medicare: 2.9% on all earnings - Total SE tax rate: 15.3% (though you deduct half from income)",
       "Example: $100,000 freelance income - SE tax: $100,000 × 92.35% × 15.3% = $14,130 - Half deductible from income: $7,065 - Net SE tax cost: ~$14,130 paid to IRS",
@@ -49,13 +49,13 @@ const content: BlogContent = {
       "Conservative practitioners recommend 1.75-2.0x multiples for comprehensive protection."
     ],
     "examples": [
-      "Entry-Level Freelancer - Previous salary: $55,000 - Benefits value: $15,000 - Target total compensation: $70,000 - Self-employment tax: $10,700 - Business expenses: $5,000 - Required gross: $85,700 - Billable hours: 1,400 - Minimum hourly rate: $61.21** - (Previously made $26.44/hour as employee—rate must be 2.3x higher)",
+      "Entry-Level Freelancer - Previous salary: $55,000 - Benefits value: $15,000 - Target total compensation: $70,000 - Self-employment tax: $10,700 - Business expenses: $5,000 - Required gross: $85,700 - Billable hours: 1,400 - Minimum hourly rate: $61.21** - (Previously made $26.44/hour as employee rate must be 2.3x higher)",
       "Mid-Career Consultant - Previous salary: $90,000 - Benefits value: $25,000 - Target total compensation: $115,000 - Self-employment tax: $17,600 - Business expenses: $10,000 - Required gross: $142,600 - Billable hours: 1,500 - Minimum hourly rate: $95.07**",
       "Part-Time Freelancer (Side Hustle) - Target annual freelance income: $20,000 - Already has benefits through spouse - Self-employment tax: $3,060 - Business expenses: $2,000 - Required gross: $25,060 - Billable hours: 500 (part-time) - Minimum hourly rate: $50.12**",
       "Premium Consultant - Previous salary: $150,000 - Benefits value: $35,000 - Target total compensation: $185,000 - Self-employment tax: $28,300 - Business expenses: $15,000 - Required gross: $228,300 - Billable hours: 1,600 - Minimum hourly rate: $142.69**"
     ],
     "expertTips": [
-      "Add profit margin, not just costs: Your rate should include profit for growth, savings, and risk—don't just break even",
+      "Add profit margin, not just costs: Your rate should include profit for growth, savings, and risk don't just break even",
       "Track actual billable hours: After freelancing for a year, recalculate rates based on real data, not estimates",
       "Raise rates annually: At minimum, increase rates to match inflation; experienced freelancers can command 5-10%+ increases",
       "Value-based pricing complements hourly: For high-impact projects, consider fixed or value-based pricing exceeding hourly equivalents",
@@ -67,17 +67,17 @@ const content: BlogContent = {
       "Annual basis: Calculates rates based on yearly income targets and hours",
       "Self-employment structure: Assumes sole proprietor or single-member LLC (S-corp and C-corp have different tax treatment)",
       "Full self-employment tax: Applies 15.3% SE tax without complex deductions",
-      "Estimated benefits costs: Uses industry averages for health insurance and retirement—your actual costs may differ",
+      "Estimated benefits costs: Uses industry averages for health insurance and retirement your actual costs may differ",
       "Consistent billing: Assumes relatively steady billable hour distribution across the year",
       "US tax rules: Calculations reflect US self-employment tax and deduction rules"
     ],
     "commonMistakes": [
       "Using employee hours (2,080): Realistic freelance billable hours are 1,000-1,500 annually; using 2,080 underprices by 30-50%",
       "Forgetting self-employment tax: The 15.3% SE tax is a major cost many new freelancers miss until April 15th arrives",
-      "Ignoring benefits costs: Health insurance alone can be $10,000+ annually—it must be in your rate",
+      "Ignoring benefits costs: Health insurance alone can be $10,000+ annually it must be in your rate",
       "Not raising rates: Inflation erodes purchasing power of stagnant rates; increase at least annually",
       "Undervaluing expertise: Long experience, specialized skills, and strong results justify premium rates; don't undersell",
-      "Pricing based on competition alone: Competitors may be underpricing or have different cost structures—calculate your own needs"
+      "Pricing based on competition alone: Competitors may be underpricing or have different cost structures calculate your own needs"
     ],
     "whyResultsVary": [
       "Health insurance variation: Costs vary dramatically by age, location, family size, and plan selection",
@@ -102,7 +102,7 @@ const content: BlogContent = {
       },
       {
         "question": "Should I include profit in my rate?",
-        "answer": "Yes. Your rate should include profit margin for growth, savings, and risk—not just break-even coverage of expenses. 10-20% profit margin is reasonable."
+        "answer": "Yes. Your rate should include profit margin for growth, savings, and risk not just break-even coverage of expenses. 10-20% profit margin is reasonable."
       },
       {
         "question": "How do I handle clients who say my rate is too high?",

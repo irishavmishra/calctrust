@@ -35,7 +35,7 @@ const content: BlogContent = {
       'Des Moines Professional: Annual salary $85,000, 401(k) 8%, Net biweekly ~$2,410 (73.8% of gross)',
     ],
     expertTips: [
-      'Maximize the federal tax deduction—Iowa is one of three states offering this',
+      'Maximize the federal tax deduction Iowa is one of three states offering this',
       'Compare to South Dakota (no income tax) for border workers',
       'Des Moines cost of living is 15% below national average',
     ],

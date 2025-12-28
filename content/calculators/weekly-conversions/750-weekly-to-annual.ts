@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $750 weekly to $39,000/year', 'Hourly: ~$18.75', 'Monthly: $3,250'],
     whoUsefulFor: ['Workers paid $750/week'],
     howItWorks: ['$750 × 52 = $39,000/year', 'Monthly: $3,250', 'Hourly: ~$18.75'],
-    deepDive: ['$750 weekly approaches $40K annually—solid middle-class income.'],
+    deepDive: ['$750 weekly approaches $40K annually solid middle-class income.'],
     examples: ['Annual: $39,000. Monthly: $3,250.'],
     expertTips: ['At ~$19/hour, maximize tax-advantaged accounts'],
     assumptions: ['52 weeks/year', '40 hours/week'],

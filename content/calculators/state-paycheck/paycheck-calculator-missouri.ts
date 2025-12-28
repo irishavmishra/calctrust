@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-missouri",
   "category": "state-paycheck",
   "title": "Missouri Paycheck Calculator",
-  "subheading": "Calculate your Missouri take-home pay under the Show-Me State's graduated income tax ranging from 2% to 4.8%. Missouri offers relatively low taxation combined with affordable cost of living and a diverse economy spanning St. Louis, Kansas City, and agricultural regions. This calculator shows your actual take-home pay after federal taxes, Missouri's graduated state rates, and FICA deductions—essential for Kansas City professionals, St. Louis workers, and those comparing Missouri to neighboring states.",
+  "subheading": "Calculate your Missouri take-home pay under the Show-Me State's graduated income tax ranging from 2% to 4.8%. Missouri offers relatively low taxation combined with affordable cost of living and a diverse economy spanning St. Louis, Kansas City, and agricultural regions. This calculator shows your actual take-home pay after federal taxes, Missouri's graduated state rates, and FICA deductions essential for Kansas City professionals, St. Louis workers, and those comparing Missouri to neighboring states.",
   "metaTitle": "Missouri Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Missouri take-home pay. Calculator shows net income after federal and MO state taxes (2-4.8%). Standard withholding assumptions.",
   "sections": {
@@ -30,11 +30,9 @@ const content: BlogContent = {
     "deepDive": [
       "Missouri employs a simple graduated income tax for 2025:",
       "Tax Brackets: - 2% on income up to $1,207 - 2.5% on income $1,208 to $2,414 - 3% on income $2,415 to $3,621 - 3.5% on income $3,622 to $4,828 - 4% on income $4,829 to $6,035 - 4.5% on income $6,036 to $7,242 - 4.95% on income $7,243 to $8,449 - 4.8% on income over $8,449 (effectively all working income)",
-      "Note: For nearly all working professionals, the top 4.8% rate applies to the vast majority of income—making Missouri effectively a near-flat low-tax state.",
-      "Missouri's 4.8% top rate is competitive in the Midwest:",
-      "| State | Top Rate | Notable Features | |-----------|----------|----------------------------------| | Missouri | 4.8% | Low, simple graduated | | Kansas | 5.7% | Graduated, border comparison | | Illinois | 4.95% | Flat, slightly higher | | Iowa | 5.7% | Phasing to flat 3.9% | | Arkansas | 4.4% | Phasing down further | | Tennessee | 0% | No income tax |",
-      "Kansas City metro—the border state dynamic:",
-      "Annual Tax Comparison for KC Metro $85,000 Earner: | State | State Tax | Local Tax | Combined | Advantage | |----------|-----------|-----------|----------|-------------| | Missouri | ~$4,080 | ~$0 | ~$4,080 | Baseline | | Kansas | ~$4,845 | ~$0 | ~$4,845 | MO saves $765 |",
+      "Note: For nearly all working professionals, the top 4.8% rate applies to the vast majority of income making Missouri effectively a near-flat low-tax state.",
+      "Missouri's 4.8% top rate is competitive in the Midwest. Kansas sits higher at 5.7%. Illinois charges a flat 4.95%. Iowa is phasing to a flat 3.9% by 2026. Arkansas has already phased down to 4.4%. And Tennessee, of course, has no income tax at all.",
+      "For Kansas City metro workers, the border state choice matters. An $85,000 earner living on the Missouri side pays about $4,080 in state tax with no local tax. On the Kansas side, that same earner faces roughly $4,845 in state tax about $765 more annually. Missouri side generally wins on taxes, though Kansas has its own advantages like schools and services that vary by district.",
       "Missouri side of Kansas City generally offers lower taxes, though Kansas has its own advantages (schools, services vary by district).",
       "Cost of living strengthens Missouri's financial picture:",
       "St. Louis and Kansas City vs. National Average: - Median home price: STL ~$230K, KC ~$280K vs. US ~$400K - Apartment rent: STL/KC ~$1,100-1,400/mo vs. US ~$1,500/mo - Overall: 10-25% below national average - Affordable family-friendly metros",
@@ -54,11 +52,11 @@ const content: BlogContent = {
       "Senior Professional - Annual salary: $120,000 - Filing status: Married Filing Jointly - Annual Missouri tax: ~$5,760 (4.8% effective) - Affordable housing makes high earners very comfortable - $300K-400K buys excellent home in STL/KC"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Missouri taxes calculated after 401(k)/HSA—save 4.8% on every pre-tax dollar",
+      "Maximize pre-tax contributions: Missouri taxes calculated after 401(k)/HSA save 4.8% on every pre-tax dollar",
       "KC metro comparison: Missouri side typically offers lower taxes than Kansas side, though compare schools/services by district",
       "Factor total costs: Missouri's low taxes plus affordable housing create strong financial position vs. coastal states",
       "Central location: Missouri's logistics industry offers stable blue-collar and management careers",
-      "STL vs. KC: Both metros offer good opportunities—STL slightly cheaper, KC slightly warmer/sunnier",
+      "STL vs. KC: Both metros offer good opportunities STL slightly cheaper, KC slightly warmer/sunnier",
       "Remote work advantage: Maintain higher coastal salary while enjoying Missouri's low costs and taxes"
     ],
     "assumptions": [
@@ -69,7 +67,7 @@ const content: BlogContent = {
       "Top rate applies: 4.8% to nearly all working income above ~$8,500"
     ],
     "commonMistakes": [
-      "Kansas City confusion: KC metro straddles MO/KS—residence state matters for taxes",
+      "Kansas City confusion: KC metro straddles MO/KS residence state matters for taxes",
       "Not comparing to Kansas: Missouri generally offers lower taxes for KC metro workers",
       "Ignoring cost advantage: Missouri's affordable housing often saves more than small tax differences with neighbors",
       "Assuming low services: Missouri's taxes are low, but STL/KC offer good urban amenities and culture",

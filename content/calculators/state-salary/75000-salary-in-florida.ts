@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $75K in FL', 'No state tax advantage'],
     whoUsefulFor: ['Florida workers', 'Miami/Orlando employees'],
     howItWorks: ['$75K salary entered', 'No FL state tax', 'Only federal + FICA'],
-    deepDive: ['$75,000 in Florida—no state income tax = ~$3,000+ more per year vs. CA. Growing job market.'],
+    deepDive: ['$75,000 in Florida no state income tax = ~$3,000+ more per year vs. CA. Growing job market.'],
     examples: ['Annual: $75,000. Take-home: ~$4,900-5,100/month (no state tax).'],
     expertTips: ['FL no income tax is significant advantage', 'Compare to CA/NY for major savings'],
     assumptions: ['2025 federal rates', 'No state tax'],

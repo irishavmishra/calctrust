@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $100K in GA', 'Calculate GA graduated taxes'],
     whoUsefulFor: ['Georgia professionals', 'Atlanta tech workers'],
     howItWorks: ['$100K salary entered', 'GA graduated rates applied'],
-    deepDive: ['$100,000 in Georgia is excellent—six figures with moderate taxes and growing Atlanta market.'],
+    deepDive: ['$100,000 in Georgia is excellent six figures with moderate taxes and growing Atlanta market.'],
     examples: ['Annual: $100,000. Take-home: ~$6,200-6,500/month.'],
     expertTips: ['GA has moderate taxes', 'Atlanta is major corporate hub'],
     assumptions: ['2025 GA tax brackets'],

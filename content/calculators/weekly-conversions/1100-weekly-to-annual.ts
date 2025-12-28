@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $1,100 weekly to $57,200/year', 'Hourly: ~$27.50', 'Monthly: $4,767'],
     whoUsefulFor: ['Workers paid $1,100/week'],
     howItWorks: ['$1,100 × 52 = $57,200/year', 'Monthly: $4,767', 'Hourly: ~$27.50'],
-    deepDive: ['$1,100 weekly provides $57,200 annually—strong income above median.'],
+    deepDive: ['$1,100 weekly provides $57,200 annually strong income above median.'],
     examples: ['Annual: $57,200. Monthly: $4,767.'],
     expertTips: ['At ~$28/hour, maximize retirement contributions'],
     assumptions: ['52 weeks/year', '40 hours/week'],

@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $6,500 monthly to $78,000/year', 'Hourly: ~$37.50'],
     whoUsefulFor: ['Workers earning $6,500/month'],
     howItWorks: ['$6,500 × 12 = $78,000/year', 'Hourly: ~$37.50'],
-    deepDive: ['$6,500 monthly provides $78,000 annually—strong upper-middle income.'],
+    deepDive: ['$6,500 monthly provides $78,000 annually strong upper-middle income.'],
     examples: ['Annual: $78,000.'],
     expertTips: ['At ~$38/hour equivalent, maximize all tax-advantaged accounts'],
     assumptions: ['12 months/year'],

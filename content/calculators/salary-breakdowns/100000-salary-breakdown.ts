@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "100000-salary-breakdown",
   "category": "salary-breakdowns",
   "title": "$100,000 Salary Breakdown",
-  "subheading": "Earning a six-figure salary is a milestone many workers aspire to, and $100,000 represents the threshold where you're firmly in upper-middle-class territory in most of America. This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly—plus the reality of take-home pay after substantial tax obligations at this income level.",
+  "subheading": "Earning a six-figure salary is a milestone many workers aspire to, and $100,000 represents the threshold where you're firmly in upper-middle-class territory in most of America. This comprehensive breakdown shows exactly what you'll earn per hour, biweekly, and monthly plus the reality of take-home pay after substantial tax obligations at this income level.",
   "metaTitle": "$100K Salary Breakdown | Hourly, Monthly 2025",
   "metaDescription": "Break down a $100,000 annual salary to hourly, weekly, and monthly amounts. Based on standard 40-hour work week calculations. Actual results may vary.",
   "sections": {
@@ -12,10 +12,10 @@ const content: BlogContent = {
       "At $100,000, single filers are in the 22% marginal bracket (24% for some):",
       "After standard deduction ($15,000): Taxable income = $85,000",
       "Federal tax: ~$12,500-14,000 (12.5-14% effective rate)",
-      "| State | Annual State Tax | Lost to State | |-------|------------------|---------------| | Texas (0%) | $0 | $0 | | Florida (0%) | $0 | $0 | | Arizona (2.5%) | ~$2,125 | $177/mo | | Colorado (4.4%) | ~$3,740 | $312/mo | | California (6-9%) | ~$5,200 | $433/mo | | New York (5-6%) | ~$5,500 | $458/mo | | Oregon (9%) | ~$7,800 | $650/mo |",
-      "At $100K, state tax differences become substantial—$400-650/month between no-tax and high-tax states.",
-      "- Social Security: $6,200 (6.2%) - Medicare: $1,450 (1.45%) - Total FICA: $7,650",
-      "| State | Annual Net | Monthly Net | % of Gross | |-------|------------|-------------|------------| | Texas | ~$78,500 | ~$6,542 | 78.5% | | Florida | ~$78,500 | ~$6,542 | 78.5% | | Arizona | ~$76,400 | ~$6,367 | 76.4% | | Colorado | ~$74,700 | ~$6,225 | 74.7% | | California | ~$72,500 | ~$6,042 | 72.5% | | New York | ~$71,800 | ~$5,983 | 71.8% | | Oregon | ~$69,000 | ~$5,750 | 69.0% |",
+      "Where you live matters a lot at six figures. In Texas or Florida, you pay zero state income tax. Arizona at 2.5% takes about $2,125 annually ($177/month). Move to Colorado at 4.4% and you're losing $312/month. California and New York both hit you for roughly $5,200-5,500 per year, while Oregon's 9% rate costs about $650/month nearly $8,000 annually.",
+      "At $100K, state tax differences become substantial $400-650/month between no-tax and high-tax states.",
+      "FICA taxes are unavoidable regardless of state: $6,200 goes to Social Security (6.2%) and $1,450 to Medicare (1.45%), totaling $7,650.",
+      "After all deductions, your actual take-home depends heavily on location. Texas and Florida residents keep around $78,500 annually (78.5% of gross), bringing home about $6,542 monthly. Arizona residents net about $76,400 (76.4%). Colorado sits at $74,700 (74.7%). California drops you to roughly $72,500 (72.5%), while New York leaves you with about $71,800 (71.8%). Oregon's high taxes leave you with just $69,000 (69% of gross) a full $9,500 less than no-tax states.",
       "The six-figure reality: You earn $100K but take home $69,000-78,500 depending on state."
     ],
     "examples": [
@@ -34,7 +34,7 @@ const content: BlogContent = {
       },
       {
         "question": "Is $100K rich?",
-        "answer": "Not anymore. $100K is upper-middle class—comfortable in most areas but tight in expensive coastal cities."
+        "answer": "Not anymore. $100K is upper-middle class comfortable in most areas but tight in expensive coastal cities."
       },
       {
         "question": "How much should I save earning $100K?",

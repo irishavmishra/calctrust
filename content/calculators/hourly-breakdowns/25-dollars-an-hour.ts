@@ -33,7 +33,7 @@ const content: BlogContent = {
       'With Overtime (8 hours/week): $1,000 + $300 = $1,300/week = $67,600/year.',
     ],
     expertTips: [
-      'At $25/hour, accelerate retirement savings—aim for 15% contribution',
+      'At $25/hour, accelerate retirement savings aim for 15% contribution',
       'Overtime at $37.50/hour can push income to $65K+',
       'This income level qualifies for homes up to ~$200K in many markets',
     ],

@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $650 weekly to $33,800/year', 'Hourly: ~$16.25', 'Monthly: $2,817'],
     whoUsefulFor: ['Workers paid $650/week'],
     howItWorks: ['$650 × 52 = $33,800/year', 'Monthly: $2,817', 'Hourly: ~$16.25'],
-    deepDive: ['$650 weekly provides $33,800 annually—solid middle-class entry point.'],
+    deepDive: ['$650 weekly provides $33,800 annually solid middle-class entry point.'],
     examples: ['Annual: $33,800. Monthly: $2,817.'],
     expertTips: ['At ~$16/hour, prioritize savings'],
     assumptions: ['52 weeks/year', '40 hours/week'],

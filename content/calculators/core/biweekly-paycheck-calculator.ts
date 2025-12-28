@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "biweekly-paycheck-calculator",
   "category": "core",
   "title": "Biweekly Paycheck Calculator",
-  "subheading": "Calculate your take-home pay for each biweekly paycheck after federal taxes, state taxes, Social Security, Medicare, and other deductions. Biweekly pay—26 paychecks per year—is the most common pay schedule in America. This calculator helps you understand exactly what lands in your bank account every two weeks.",
+  "subheading": "Calculate your take-home pay for each biweekly paycheck after federal taxes, state taxes, Social Security, Medicare, and other deductions. Biweekly pay 26 paychecks per year is the most common pay schedule in America. This calculator helps you understand exactly what lands in your bank account every two weeks.",
   "metaTitle": "Biweekly Paycheck Calculator | USA 2025",
   "metaDescription": "Calculate biweekly take-home pay after taxes and deductions. This calculator estimates net income based on standard withholding. Actual results may vary.",
   "sections": {
@@ -28,7 +28,7 @@ const content: BlogContent = {
     ],
     "howItWorks": [],
     "deepDive": [
-      "According to the Bureau of Labor Statistics, approximately 43% of U.S. workers receive biweekly pay—more than any other frequency. This popularity stems from several practical advantages:",
+      "According to the Bureau of Labor Statistics, approximately 43% of U.S. workers receive biweekly pay more than any other frequency. This popularity stems from several practical advantages:",
       "For employers: - Aligns with standard two-week pay periods - Simplifies overtime calculation (each period is exactly 80 hours) - Balances processing frequency against administrative costs",
       "For employees: - Regular, predictable income every 14 days - Two \"extra\" paychecks per year compared to semi-monthly - Easier overtime tracking and verification",
       "These terms are often confused but differ meaningfully:",
@@ -49,7 +49,7 @@ const content: BlogContent = {
       "Regardless of income level or state, FICA applies consistently:",
       "Social Security: 6.2% on wages up to $176,100 (2025) Medicare: 1.45% on all wages Additional Medicare: 0.9% on wages over $200,000",
       "On a $3,000 biweekly gross: - Social Security: $186 - Medicare: $43.50 - Total FICA: $229.50 per check",
-      "FICA applies from dollar one with no deductions or exemptions—it's truly unavoidable."
+      "FICA applies from dollar one with no deductions or exemptions it's truly unavoidable."
     ],
     "examples": [
       "Median Income Worker - Annual salary: $60,000 - Gross biweekly: $2,307.69 - Filing status: Single, Texas (no state tax) - 401(k): 6% pre-tax - Federal tax: ~$192 - FICA: $177 - 401(k) deduction: $138 - Net biweekly: ~$1,801**",
@@ -60,7 +60,7 @@ const content: BlogContent = {
     "expertTips": [
       "Plan around three-paycheck months: Budget as if you receive two checks monthly; save the third for goals or emergencies",
       "Verify your first paycheck carefully: Ensure withholding matches your W-4 elections and deductions are correct",
-      "Adjust W-4 if refund is too large: A refund means you overpaid monthly—adjust withholding to keep more each check",
+      "Adjust W-4 if refund is too large: A refund means you overpaid monthly adjust withholding to keep more each check",
       "Maximize 401(k) match: Ensure contributions are spread across all 26 pay periods to avoid missing match opportunities",
       "Track Social Security cap: High earners see increased net pay after wages exceed $176,100",
       "Consider biweekly mortgage payments: Paying half your mortgage every two weeks equals 13 payments yearly, accelerating payoff",
@@ -78,7 +78,7 @@ const content: BlogContent = {
     "commonMistakes": [
       "Budgeting for 3 checks monthly: Only 2 months have 3 biweekly checks; base budget on 2 checks per month",
       "Confusing biweekly with semi-monthly: 26 vs. 24 paychecks creates meaningful differences in check amounts",
-      "Not adjusting after life changes: Marriage, dependents, and job changes affect withholding—update W-4 accordingly",
+      "Not adjusting after life changes: Marriage, dependents, and job changes affect withholding update W-4 accordingly",
       "Overlooking the FICA cap effect: High earners see net pay increase mid-year when Social Security caps",
       "Spending the \"extra\" checks: Treat bonus-month third checks as savings, not spending money",
       "Ignoring benefit election impacts: Health insurance changes at open enrollment affect net pay immediately"
@@ -114,7 +114,7 @@ const content: BlogContent = {
       },
       {
         "question": "Can I change my pay frequency?",
-        "answer": "No; employers determine pay frequency. However, you can budget differently—treating biweekly income as semi-monthly by reserving extra in 3-check months."
+        "answer": "No; employers determine pay frequency. However, you can budget differently treating biweekly income as semi-monthly by reserving extra in 3-check months."
       }
     ],
     "relatedCalculators": [

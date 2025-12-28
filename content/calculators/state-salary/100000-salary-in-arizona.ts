@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Understand take-home pay on $100K in AZ', 'Calculate AZ flat 2.5% tax'],
     whoUsefulFor: ['Arizona workers', 'Phoenix tech employees'],
     howItWorks: ['$100K salary entered', 'AZ flat 2.5% rate applied'],
-    deepDive: ['$100,000 in Arizona provides excellent value with just 2.5% flat state tax—six-figure take-home.'],
+    deepDive: ['$100,000 in Arizona provides excellent value with just 2.5% flat state tax six-figure take-home.'],
     examples: ['Annual: $100,000. Take-home: ~$6,200-6,500/month.'],
     expertTips: ['AZ has one of lowest state taxes', 'Phoenix is growing tech hub'],
     assumptions: ['2025 AZ 2.5% flat rate'],

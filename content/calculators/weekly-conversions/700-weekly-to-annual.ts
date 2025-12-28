@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $700 weekly to $36,400/year', 'Hourly: ~$17.50', 'Monthly: $3,033'],
     whoUsefulFor: ['Workers paid $700/week'],
     howItWorks: ['$700 × 52 = $36,400/year', 'Monthly: $3,033', 'Hourly: ~$17.50'],
-    deepDive: ['$700 weekly provides $36,400 annually—comfortable middle-class income.'],
+    deepDive: ['$700 weekly provides $36,400 annually comfortable middle-class income.'],
     examples: ['Annual: $36,400. Monthly: $3,033.'],
     expertTips: ['At ~$18/hour equivalent, start retirement contributions'],
     assumptions: ['52 weeks/year', '40 hours/week'],

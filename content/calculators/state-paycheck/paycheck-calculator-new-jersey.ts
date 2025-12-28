@@ -13,7 +13,7 @@ const content: BlogContent = {
     howItWorks: ['Enter your gross salary', 'NJ graduated rates applied', 'FICA deducted'],
     deepDive: ['NJ has high top rates (10.75% on $1M+). NYC commuters often live in NJ to avoid NYC resident tax (3.078-3.876%).'],
     examples: ['Entry-Level: Annual $55,000, Net biweekly ~$1,620', 'NJ Professional: Annual $100,000, Net biweekly ~$2,850'],
-    expertTips: ['NYC commuters: NJ residence avoids NYC local tax', 'NJ has high property taxes—factor into total cost'],
+    expertTips: ['NYC commuters: NJ residence avoids NYC local tax', 'NJ has high property taxes factor into total cost'],
     assumptions: ['Based on 2025 NJ tax brackets'],
     commonMistakes: ['Not comparing NYC resident vs NJ resident total tax burden'],
     faq: [{ question: 'What is NJ income tax rate?', answer: '1.4% to 10.75% graduated.' }],

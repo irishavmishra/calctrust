@@ -4,7 +4,7 @@ const content: BlogContent = {
   "slug": "paycheck-calculator-idaho",
   "category": "state-paycheck",
   "title": "Idaho Paycheck Calculator",
-  "subheading": "Calculate your Idaho take-home pay under the state's recently simplified flat 5.8% income tax. Idaho has transformed from a graduated system to a flat-rate structure, making paycheck calculations straightforward. This calculator shows your actual take-home pay after federal taxes, Idaho's 5.8% flat rate, and FICA deductions—essential for Boise tech workers, agricultural employees, and those comparing Idaho to neighboring Washington's zero income tax.",
+  "subheading": "Calculate your Idaho take-home pay under the state's recently simplified flat 5.8% income tax. Idaho has transformed from a graduated system to a flat-rate structure, making paycheck calculations straightforward. This calculator shows your actual take-home pay after federal taxes, Idaho's 5.8% flat rate, and FICA deductions essential for Boise tech workers, agricultural employees, and those comparing Idaho to neighboring Washington's zero income tax.",
   "metaTitle": "Idaho Paycheck Calculator 2025 | CalcTrust",
   "metaDescription": "Estimate your Idaho take-home pay. Calculator shows net income after federal and ID state taxes (5.8% flat). Standard withholding assumptions.",
   "sections": {
@@ -30,10 +30,8 @@ const content: BlogContent = {
     "deepDive": [
       "Idaho simplified its tax structure to a flat 5.8% rate for 2025:",
       "- All income above the standard deduction taxed at 5.8% - Replaced previous graduated system with multiple brackets - Provides predictability and simplifies paycheck calculations",
-      "Idaho's flat 5.8% positions it competitively in the Mountain West:",
-      "| State | Rate | Structure | Cost of Living | |------------|----------|-----------|----------------| | Idaho | 5.8% | Flat | Low-Moderate | | Washington | 0% | None | Moderate-High | | Oregon | 9.9% top | Graduated | Moderate | | Montana | 6.75% top| Graduated | Low-Moderate | | Utah | 4.95% | Flat | Low-Moderate | | Nevada | 0% | None | Moderate |",
-      "Idaho vs. Washington—the strategic border decision:",
-      "Annual Tax Comparison for Border Residents: | Salary | Idaho Tax (5.8%) | WA Tax | Idaho Extra Cost | |---------|------------------|--------|------------------| | $50,000 | ~$2,900 | $0 | $2,900 | | $75,000 | ~$4,350 | $0 | $4,350 | | $100,000 | ~$5,800 | $0 | $5,800 | | $150,000 | ~$8,700 | $0 | $8,700 |",
+      "Idaho's flat 5.8% positions it competitively in the Mountain West. Washington and Nevada have no income tax at all, though they often have higher costs of living. Oregon reaches 9.9% at the top. Montana tops out at 6.75%. Utah sits at 4.95%. Idaho falls in the middle at 5.8%.",
+      "The border decision between Idaho and Washington matters for Spokane-area residents. At $50,000, you're paying about $2,900 to Idaho versus nothing in Washington. At $75,000, it's $4,350 in Idaho. A $100,000 salary costs $5,800 in Idaho taxes. At $150,000, you're sending $8,700 to the state. However, Idaho often offers lower property taxes and housing costs that partially offset these differences.",
       "However, Idaho often offers lower property taxes and housing costs that partially offset income taxes.",
       "Boise has emerged as a major tech migration destination:",
       "- Major companies: Micron Technology (semiconductor manufacturing), HP, Clearwater Analytics - Tech startups and remote workers fleeing CA/WA costs - Lower cost of living attracts Silicon Valley refugees - 'Silicon Valley North' marketing draws talent",
@@ -53,10 +51,10 @@ const content: BlogContent = {
       "Senior Professional - Annual salary: $140,000 - Filing status: Married Filing Jointly - Annual Idaho tax alone: ~$8,120 - Much lower housing/cost of living vs. coastal alternatives - Net financial advantage often favors Idaho despite income tax"
     ],
     "expertTips": [
-      "Maximize pre-tax contributions: Idaho taxes calculated after 401(k)/HSA—save 5.8% on every pre-tax dollar",
-      "Border strategy: Compare total costs for Spokane/Coeur d'Alene area—Washington has no income tax but higher sales tax",
+      "Maximize pre-tax contributions: Idaho taxes calculated after 401(k)/HSA save 5.8% on every pre-tax dollar",
+      "Border strategy: Compare total costs for Spokane/Coeur d'Alene area Washington has no income tax but higher sales tax",
       "Factor housing costs: Idaho's lower real estate prices often save more than the 5.8% income tax costs",
-      "Grocery exemption: Idaho doesn't tax groceries—factor into total tax burden comparison",
+      "Grocery exemption: Idaho doesn't tax groceries factor into total tax burden comparison",
       "Growth opportunities: Idaho's booming economy offers career advancement worth considering alongside taxes",
       "Remote work advantage: Maintain coastal salary while living in low-cost Idaho (but factor the 5.8% tax)"
     ],
@@ -69,7 +67,7 @@ const content: BlogContent = {
     ],
     "commonMistakes": [
       "Not comparing total costs: Idaho's 5.8% tax often offset by 20-40% lower housing/living costs",
-      "Using old graduated rates: Idaho recently simplified to flat 5.8%—old bracket calculations are obsolete",
+      "Using old graduated rates: Idaho recently simplified to flat 5.8% old bracket calculations are obsolete",
       "Ignoring Washington border option: Coeur d'Alene area residents should compare WA residence (no income tax)",
       "Focusing only on tech salaries: Idaho's agricultural and food processing sectors offer stable employment",
       "Not factoring growth: Idaho's rapid expansion creates opportunities that may outweigh tax considerations"
@@ -81,11 +79,11 @@ const content: BlogContent = {
       },
       {
         "question": "How much do I save living in Washington instead of Idaho?",
-        "answer": "Washington has no income tax, so you save 5.8% of your income—about $5,800 annually on $100,000. However, Idaho often has lower housing costs that offset this."
+        "answer": "Washington has no income tax, so you save 5.8% of your income about $5,800 annually on $100,000. However, Idaho often has lower housing costs that offset this."
       },
       {
         "question": "Is Boise affordable with Idaho taxes?",
-        "answer": "Yes. Despite the 5.8% income tax, Boise's housing costs are 30-40% below Seattle/Portland, typically saving $12,000-18,000/year—more than offsetting the income tax."
+        "answer": "Yes. Despite the 5.8% income tax, Boise's housing costs are 30-40% below Seattle/Portland, typically saving $12,000-18,000/year more than offsetting the income tax."
       },
       {
         "question": "Does Idaho tax groceries?",
@@ -93,7 +91,7 @@ const content: BlogContent = {
       },
       {
         "question": "Why is Boise attracting so many tech workers?",
-        "answer": "Boise offers tech jobs with competitive salaries, 5.8% flat tax (vs. CA/WA/OR higher taxes or costs), and housing 30-50% cheaper than coastal cities—strong total financial package."
+        "answer": "Boise offers tech jobs with competitive salaries, 5.8% flat tax (vs. CA/WA/OR higher taxes or costs), and housing 30-50% cheaper than coastal cities strong total financial package."
       }
     ],
     "relatedCalculators": [

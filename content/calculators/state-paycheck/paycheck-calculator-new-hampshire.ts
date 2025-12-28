@@ -4,7 +4,7 @@ const content: BlogContent = {
   slug: 'paycheck-calculator-new-hampshire',
   category: 'state-paycheck',
   title: 'New Hampshire Paycheck Calculator',
-  subheading: 'Calculate your New Hampshire take-home pay. New Hampshire has NO income tax on wages—only interest/dividends.',
+  subheading: 'Calculate your New Hampshire take-home pay. New Hampshire has NO income tax on wages only interest/dividends.',
   metaTitle: 'New Hampshire Paycheck Calculator 2025 | CalcTrust',
   metaDescription: 'Estimate your New Hampshire take-home pay. This calculator shows net income after federal and state taxes based on standard withholding assumptions.',
   sections: {

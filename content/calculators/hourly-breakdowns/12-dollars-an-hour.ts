@@ -41,7 +41,7 @@ const content: BlogContent = {
       'Seasonal Worker (9 months): $12 × 40 × 39 weeks = $18,720/year.',
     ],
     expertTips: [
-      'Seek overtime when available—5 hours weekly at $18/hour adds $4,680 annually',
+      'Seek overtime when available 5 hours weekly at $18/hour adds $4,680 annually',
       'Consider skill-building certifications to qualify for higher-paying roles',
       'Track all hours worked to ensure accurate pay and avoid wage theft',
       'Look for employers offering benefits like health insurance that add value beyond hourly rate',
