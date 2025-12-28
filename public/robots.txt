@@ -1,14 +1,13 @@
 # CalcTrust Robots.txt
 # https://www.robotstxt.org/robotstxt.html
 
+# Default rules for all crawlers
 User-agent: *
 Allow: /
+Disallow: /api/
 
 # Sitemaps
 Sitemap: https://calctrust.com/sitemap.xml
-
-# Disallow admin and API routes (none currently, but reserved)
-Disallow: /api/
 
 # ============================================
 # AI CRAWLERS - ALLOWED

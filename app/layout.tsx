@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header, Footer } from "@/components/layout";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd"
 
 const inter = Inter({
   variable: "--font-inter",
@@ -14,12 +15,15 @@ export const metadata: Metadata = {
     default: "CalcTrust | Free Salary & Paycheck Calculators",
     template: "%s | CalcTrust",
   },
-  description: "Free, accurate salary calculators for all 50 US states. Calculate take-home pay, hourly rates, overtime, and taxes instantly. No signup required. Updated for 2025.",
+  description: "Free salary calculators for all 50 US states. Calculate take-home pay, hourly rates, overtime, and taxes instantly. No signup required.",
   keywords: ["salary calculator", "paycheck calculator", "take home pay calculator", "hourly to salary", "overtime calculator"],
   authors: [{ name: "CalcTrust" }],
   creator: "CalcTrust",
   publisher: "CalcTrust",
   metadataBase: new URL("https://calctrust.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -55,6 +59,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <OrganizationJsonLd />
+        <WebSiteJsonLd />
+      </head>
       <body className={`${inter.variable} font-sans antialiased min-h-screen flex flex-col`}>
         <ThemeProvider
           attribute="class"
