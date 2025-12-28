@@ -105,6 +105,11 @@ const content: BlogContent = {
             { title: 'Overtime Pay Calculator', href: '/usa/overtime-pay-calculator' },
             { title: 'Pay Raise Calculator', href: '/usa/pay-raise-calculator' },
         ],
+        externalResources: [
+            { title: 'Bureau of Labor Statistics Wage Data', url: 'https://www.bls.gov/bls/wages.htm', description: 'Official US wage statistics and earnings data' },
+            { title: 'DOL Fair Labor Standards Act', url: 'https://www.dol.gov/agencies/whd/flsa', description: 'Federal overtime and minimum wage laws' },
+            { title: 'IRS Publication 15 (Circular E)', url: 'https://www.irs.gov/publications/p15', description: 'Employer tax guide for withholding' },
+        ],
         freshnessSignal: 'December 2025',
     },
 };

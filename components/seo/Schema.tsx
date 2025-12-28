@@ -60,16 +60,29 @@ interface WebPageSchemaProps {
     description: string;
     url: string;
     dateModified: string;
+    datePublished?: string;
+    author?: {
+        name: string;
+        url: string;
+        credentials?: string;
+    };
 }
 
-export function WebPageSchema({ title, description, url, dateModified }: WebPageSchemaProps) {
+export function WebPageSchema({ title, description, url, dateModified, datePublished, author }: WebPageSchemaProps) {
     const schema = {
         '@context': 'https://schema.org',
         '@type': 'WebPage',
         name: title,
         description,
         url,
+        datePublished: datePublished || dateModified,
         dateModified,
+        author: author ? {
+            '@type': 'Person',
+            name: author.name,
+            url: author.url,
+            jobTitle: author.credentials,
+        } : undefined,
         publisher: {
             '@type': 'Organization',
             name: 'CalcTrust',

@@ -47,8 +47,20 @@ export interface BlogContentSections {
     /** Related calculators */
     relatedCalculators?: RelatedCalculator[];
 
+    /** External authority resources (IRS, SSA, state revenue) */
+    externalResources?: ExternalResource[];
+
     /** Freshness signal (e.g., "December 2025") */
     freshnessSignal?: string;
+}
+
+export interface ExternalResource {
+    /** Display title */
+    title: string;
+    /** Full URL to external resource */
+    url: string;
+    /** Optional description */
+    description?: string;
 }
 
 export interface BlogContent {

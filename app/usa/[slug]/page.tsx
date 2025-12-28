@@ -17,9 +17,11 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from '@/components/ui/accordion';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 import { getCalculatorPage, calculatorPages } from '@/lib/content/calculators';
 import { getBlogContent } from '@/lib/blog/content-loader';
+import { AUTHOR } from '@/lib/content/author';
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -98,6 +100,9 @@ export default async function CalculatorPage({ params }: PageProps) {
     // Use blog content subheading if available
     const intro = blogContent?.subheading || content.intro;
 
+    // Extract external resources for authority links
+    const externalResources = blogContent?.sections?.externalResources || [];
+
     // Get automated linking data for SEO
     const linkingData = getPageLinkingData(pageData);
 
@@ -151,6 +156,12 @@ export default async function CalculatorPage({ params }: PageProps) {
                                     View Methodology
                                 </Link>
                             </div>
+                            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+                                <CheckCircle className="h-4 w-4" />
+                                <Link href={AUTHOR.url} className="hover:text-primary transition-colors">
+                                    Reviewed by {AUTHOR.name}
+                                </Link>
+                            </div>
                         </div>
 
                         {/* Contextual Link */}
@@ -179,330 +190,277 @@ export default async function CalculatorPage({ params }: PageProps) {
             </div>
 
             {/* Content Area */}
-            <div className="w-full max-w-5xl mx-auto px-6 py-16 lg:py-24">
+            <div className="w-full max-w-5xl mx-auto px-6 py-12 lg:py-16">
+                <Tabs defaultValue="overview" className="w-full max-w-3xl mx-auto">
+                    <TabsList className="grid w-full grid-cols-4 mb-8">
+                        <TabsTrigger value="overview">Overview</TabsTrigger>
+                        <TabsTrigger value="how-it-works">How It Works</TabsTrigger>
+                        <TabsTrigger value="learn-more">Learn More</TabsTrigger>
+                        <TabsTrigger value="faq">FAQ</TabsTrigger>
+                    </TabsList>
 
-                {/* Primary Information Section */}
-                <div className="space-y-20 mb-20">
-                    {/* What This Calculator Helps You Understand */}
-                    {blogContent?.sections?.whatThisHelps && blogContent.sections.whatThisHelps.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Lightbulb className="h-5 w-5 text-primary" />
+                    {/* Overview Tab */}
+                    <TabsContent value="overview" className="space-y-8">
+                        {/* What This Calculator Helps You Understand */}
+                        {blogContent?.sections?.whatThisHelps && blogContent.sections.whatThisHelps.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <Lightbulb className="h-4 w-4 text-primary" />
                                     </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">What This Calculator Helps You Understand</h2>
+                                    <h2 className="text-xl font-bold tracking-tight">What You&apos;ll Learn</h2>
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Key insights you&apos;ll gain from using this tool</p>
-                            </div>
-                            <div className="grid gap-3">
-                                {blogContent.sections.whatThisHelps.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start gap-4 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:bg-muted/40 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
-                                            <CheckCircle className="h-4 w-4 text-primary" />
+                                <div className="grid gap-2">
+                                    {blogContent.sections.whatThisHelps.map((item, index) => (
+                                        <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border/50">
+                                            <CheckCircle className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{item}</p>
                                         </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-0.5 flex-1">{item}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Who This Calculator Is Useful For */}
-                    {blogContent?.sections?.whoUsefulFor && blogContent.sections.whoUsefulFor.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Users className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Who This Calculator Is Useful For</h2>
-                                </div>
-                                <p className="text-sm text-muted-foreground ml-12">Identify if this tool matches your needs</p>
-                            </div>
-                            <div className="grid gap-3">
-                                {blogContent.sections.whoUsefulFor.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-r from-card to-muted/20 border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
-                                            <ArrowRight className="h-4 w-4 text-primary" />
-                                        </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-0.5 flex-1">{item}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-                </div>
-
-                {/* Divider */}
-                <div className="max-w-3xl mx-auto my-20">
-                    <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-                </div>
-
-                {/* How It Works Section */}
-                <div className="space-y-20 mb-20">
-
-                    {/* How the Calculation Works */}
-                    <article className="max-w-3xl mx-auto">
-                        <div className="mb-8">
-                            <div className="flex items-center gap-3 mb-3">
-                                <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                    <Calculator className="h-5 w-5 text-primary" />
-                                </div>
-                                <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">How It Works</h2>
-                            </div>
-                            <p className="text-sm text-muted-foreground ml-12">Step-by-step breakdown of the calculation process</p>
-                        </div>
-                        {blogContent?.sections?.howItWorks && blogContent.sections.howItWorks.length > 0 ? (
-                            <div className="space-y-4">
-                                {blogContent.sections.howItWorks.map((step, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex gap-5 p-6 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors flex items-center justify-center font-bold text-primary text-base shadow-sm">
-                                            {index + 1}
-                                        </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-2 flex-1">{step}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="p-6 rounded-xl bg-card border border-border/50 text-lg text-foreground/90 leading-relaxed whitespace-pre-wrap">
-                                {content.howItWorks}
-                            </div>
-                        )}
-
-                        {content.formula && (
-                            <div className="mt-10 p-6 md:p-8 rounded-2xl bg-gradient-to-br from-muted/50 to-muted/30 dark:from-muted/30 dark:to-muted/20 border border-border/50 shadow-lg">
-                                <div className="flex items-center gap-2.5 mb-5">
-                                    <FileText className="h-4 w-4 text-primary" />
-                                    <h3 className="text-sm font-bold uppercase tracking-wide text-primary">Calculation Formula</h3>
-                                </div>
-                                <div className="p-5 rounded-xl bg-background/60 dark:bg-background/40 border border-border/40 font-mono text-sm md:text-base overflow-x-auto text-foreground/90 shadow-inner">
-                                    {content.formula}
-                                </div>
-                                {content.formulaExplanation && (
-                                    <p className="mt-5 text-sm text-muted-foreground leading-relaxed">
-                                        {content.formulaExplanation}
-                                    </p>
-                                )}
-                            </div>
-                        )}
-                    </article>
-
-                    {/* Assumptions Used */}
-                    {blogContent?.sections?.assumptions && blogContent.sections.assumptions.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Info className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Assumptions Used</h2>
-                                </div>
-                                <p className="text-sm text-muted-foreground ml-12">Important parameters and defaults in our calculations</p>
-                            </div>
-                            <div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-muted/40 to-muted/20 dark:from-muted/30 dark:to-muted/10 border border-border/50 shadow-lg">
-                                <ul className="space-y-3.5">
-                                    {blogContent.sections.assumptions.map((item, index) => (
-                                        <li key={index} className="flex items-start gap-3.5 text-foreground/85">
-                                            <span className="text-primary mt-2 flex-shrink-0 text-lg font-bold">•</span>
-                                            <span className="leading-relaxed text-base">{item}</span>
-                                        </li>
                                     ))}
-                                </ul>
-                            </div>
-                        </section>
-                    )}
-                </div>
-
-                {/* Divider */}
-                <div className="max-w-3xl mx-auto my-20">
-                    <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-                </div>
-
-                {/* Advanced Information Section */}
-                <div className="space-y-20 mb-20">
-
-                    {/* Common Mistakes People Make */}
-                    {blogContent?.sections?.commonMistakes && blogContent.sections.commonMistakes.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-destructive/10 dark:bg-destructive/20 shadow-sm">
-                                        <AlertTriangle className="h-5 w-5 text-destructive" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Common Mistakes to Avoid</h2>
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Watch out for these frequent errors</p>
-                            </div>
-                            <div className="grid gap-4">
-                                {blogContent.sections.commonMistakes.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start gap-4 p-5 rounded-xl bg-destructive/5 dark:bg-destructive/10 border border-destructive/20 dark:border-destructive/30 hover:border-destructive/40 dark:hover:border-destructive/50 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="p-2 rounded-lg bg-destructive/20 dark:bg-destructive/30 group-hover:bg-destructive/30 dark:group-hover:bg-destructive/40 transition-colors mt-0.5 flex-shrink-0">
-                                            <AlertTriangle className="h-4 w-4 text-destructive" />
+                            </section>
+                        )}
+
+                        {/* Who This Calculator Is Useful For */}
+                        {blogContent?.sections?.whoUsefulFor && blogContent.sections.whoUsefulFor.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <Users className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Who This Is For</h2>
+                                </div>
+                                <div className="grid gap-2">
+                                    {blogContent.sections.whoUsefulFor.map((item, index) => (
+                                        <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-muted/50 border border-border/50">
+                                            <ArrowRight className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{item}</p>
                                         </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-0.5 flex-1">{item}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Why Results Can Vary */}
-                    {blogContent?.sections?.whyResultsVary && blogContent.sections.whyResultsVary.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <TrendingUp className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Why Results Can Vary by Situation</h2>
+                                    ))}
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Factors that influence calculation outcomes</p>
-                            </div>
-                            <div className="grid gap-3">
-                                {blogContent.sections.whyResultsVary.map((item, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start gap-4 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:bg-muted/40 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
-                                            <Sparkles className="h-4 w-4 text-primary" />
-                                        </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-0.5 flex-1">{item}</p>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-                </div>
+                            </section>
+                        )}
+                    </TabsContent>
 
-                {/* Divider */}
-                <div className="max-w-3xl mx-auto my-20">
-                    <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-                </div>
-
-                {/* Extended Content Section */}
-                <div className="space-y-20 mb-20">
-
-                    {/* Deep Dive */}
-                    {blogContent?.sections?.deepDive && blogContent.sections.deepDive.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <BookOpen className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">In-Depth Analysis</h2>
+                    {/* How It Works Tab */}
+                    <TabsContent value="how-it-works" className="space-y-8">
+                        {/* How the Calculation Works */}
+                        <section>
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="p-2 rounded-lg bg-primary/10">
+                                    <Calculator className="h-4 w-4 text-primary" />
                                 </div>
+                                <h2 className="text-xl font-bold tracking-tight">Calculation Steps</h2>
                             </div>
-                            <div className="p-8 rounded-2xl bg-gradient-to-br from-muted/30 to-muted/10 dark:from-muted/20 dark:to-muted/5 border border-border/40">
-                                <p className="text-lg text-foreground/90 leading-relaxed">
-                                    {blogContent.sections.deepDive.join(' ')}
-                                </p>
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Practical Examples */}
-                    {blogContent?.sections?.examples && blogContent.sections.examples.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <FileText className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Practical Examples</h2>
-                                </div>
-                                <p className="text-sm text-muted-foreground ml-12">Real-world scenarios and use cases</p>
-                            </div>
-                            <div className="grid gap-4">
-                                {blogContent.sections.examples.map((example, index) => (
-                                    <div
-                                        key={index}
-                                        className="p-6 rounded-xl bg-gradient-to-br from-card to-muted/20 border border-border/50 hover:border-primary/40 hover:shadow-lg transition-all duration-300 group"
-                                    >
-                                        <div className="flex items-start gap-4">
-                                            <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors flex items-center justify-center font-bold text-primary text-sm shadow-sm">
+                            {blogContent?.sections?.howItWorks && blogContent.sections.howItWorks.length > 0 ? (
+                                <div className="space-y-3">
+                                    {blogContent.sections.howItWorks.map((step, index) => (
+                                        <div key={index} className="flex gap-4 p-4 rounded-lg bg-card border border-border/50">
+                                            <div className="w-7 h-7 rounded-lg bg-primary/10 flex items-center justify-center font-bold text-primary text-sm flex-shrink-0">
                                                 {index + 1}
                                             </div>
-                                            <p className="text-base text-foreground/90 leading-relaxed flex-1">{example}</p>
+                                            <p className="text-sm text-foreground/90 leading-relaxed pt-1">{step}</p>
                                         </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Expert Tips */}
-                    {blogContent?.sections?.expertTips && blogContent.sections.expertTips.length > 0 && (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Lightbulb className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Expert Tips & Considerations</h2>
+                                    ))}
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Professional insights to maximize value</p>
-                            </div>
-                            <div className="grid gap-3">
-                                {blogContent.sections.expertTips.map((tip, index) => (
-                                    <div
-                                        key={index}
-                                        className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-r from-primary/5 to-primary/10 dark:from-primary/10 dark:to-primary/20 border border-primary/20 dark:border-primary/30 hover:border-primary/40 dark:hover:border-primary/50 hover:shadow-sm transition-all duration-300 group"
-                                    >
-                                        <div className="p-2 rounded-lg bg-primary/20 dark:bg-primary/30 group-hover:bg-primary/30 dark:group-hover:bg-primary/40 transition-colors mt-0.5 flex-shrink-0">
-                                            <Lightbulb className="h-4 w-4 text-primary" />
-                                        </div>
-                                        <p className="text-base text-foreground/90 leading-relaxed pt-0.5 flex-1">{tip}</p>
+                            ) : (
+                                <div className="p-4 rounded-lg bg-card border border-border/50 text-sm text-foreground/90 leading-relaxed whitespace-pre-wrap">
+                                    {content.howItWorks}
+                                </div>
+                            )}
+
+                            {content.formula && (
+                                <div className="mt-6 p-5 rounded-xl bg-muted/50 border border-border/50">
+                                    <div className="flex items-center gap-2 mb-3">
+                                        <FileText className="h-4 w-4 text-primary" />
+                                        <h3 className="text-sm font-bold uppercase tracking-wide text-primary">Formula</h3>
                                     </div>
-                                ))}
-                            </div>
+                                    <div className="p-4 rounded-lg bg-background border border-border/40 font-mono text-sm overflow-x-auto">
+                                        {content.formula}
+                                    </div>
+                                    {content.formulaExplanation && (
+                                        <p className="mt-3 text-xs text-muted-foreground leading-relaxed">
+                                            {content.formulaExplanation}
+                                        </p>
+                                    )}
+                                </div>
+                            )}
                         </section>
-                    )}
-                </div>
 
-                {/* Divider */}
-                <div className="max-w-3xl mx-auto my-20">
-                    <div className="h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
-                </div>
+                        {/* Assumptions Used */}
+                        {blogContent?.sections?.assumptions && blogContent.sections.assumptions.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <Info className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Assumptions</h2>
+                                </div>
+                                <div className="p-5 rounded-xl bg-muted/30 border border-border/50">
+                                    <ul className="space-y-2">
+                                        {blogContent.sections.assumptions.map((item, index) => (
+                                            <li key={index} className="flex items-start gap-3 text-sm text-foreground/85">
+                                                <span className="text-primary mt-1 font-bold">•</span>
+                                                <span className="leading-relaxed">{item}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </section>
+                        )}
+                    </TabsContent>
 
-                {/* Related Content Section */}
-                <div className="space-y-20">
+                    {/* Learn More Tab */}
+                    <TabsContent value="learn-more" className="space-y-8">
+                        {/* Common Mistakes */}
+                        {blogContent?.sections?.commonMistakes && blogContent.sections.commonMistakes.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-destructive/10">
+                                        <AlertTriangle className="h-4 w-4 text-destructive" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Common Mistakes</h2>
+                                </div>
+                                <div className="grid gap-2">
+                                    {blogContent.sections.commonMistakes.map((item, index) => (
+                                        <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-destructive/5 border border-destructive/20">
+                                            <AlertTriangle className="h-4 w-4 text-destructive mt-0.5 flex-shrink-0" />
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{item}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
 
+                        {/* Why Results Can Vary */}
+                        {blogContent?.sections?.whyResultsVary && blogContent.sections.whyResultsVary.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <TrendingUp className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Why Results Vary</h2>
+                                </div>
+                                <div className="grid gap-2">
+                                    {blogContent.sections.whyResultsVary.map((item, index) => (
+                                        <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border/50">
+                                            <Sparkles className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{item}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+
+                        {/* Deep Dive */}
+                        {blogContent?.sections?.deepDive && blogContent.sections.deepDive.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <BookOpen className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">In-Depth Analysis</h2>
+                                </div>
+                                <div className="p-5 rounded-xl bg-muted/30 border border-border/50">
+                                    <p className="text-sm text-foreground/90 leading-relaxed">
+                                        {blogContent.sections.deepDive.join(' ')}
+                                    </p>
+                                </div>
+                            </section>
+                        )}
+
+                        {/* Practical Examples */}
+                        {blogContent?.sections?.examples && blogContent.sections.examples.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <FileText className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Examples</h2>
+                                </div>
+                                <div className="grid gap-3">
+                                    {blogContent.sections.examples.map((example, index) => (
+                                        <div key={index} className="flex gap-4 p-4 rounded-lg bg-card border border-border/50">
+                                            <div className="w-6 h-6 rounded-md bg-primary/10 flex items-center justify-center font-bold text-primary text-xs flex-shrink-0">
+                                                {index + 1}
+                                            </div>
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{example}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+
+                        {/* Expert Tips */}
+                        {blogContent?.sections?.expertTips && blogContent.sections.expertTips.length > 0 && (
+                            <section>
+                                <div className="flex items-center gap-3 mb-4">
+                                    <div className="p-2 rounded-lg bg-primary/10">
+                                        <Lightbulb className="h-4 w-4 text-primary" />
+                                    </div>
+                                    <h2 className="text-xl font-bold tracking-tight">Expert Tips</h2>
+                                </div>
+                                <div className="grid gap-2">
+                                    {blogContent.sections.expertTips.map((tip, index) => (
+                                        <div key={index} className="flex items-start gap-3 p-4 rounded-lg bg-primary/5 border border-primary/20">
+                                            <Lightbulb className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                            <p className="text-sm text-foreground/90 leading-relaxed">{tip}</p>
+                                        </div>
+                                    ))}
+                                </div>
+                            </section>
+                        )}
+                    </TabsContent>
+
+                    {/* FAQ Tab */}
+                    <TabsContent value="faq" className="space-y-6">
+                        {faq.length > 0 ? (
+                            <div className="rounded-xl border border-border/50 bg-card overflow-hidden">
+                                <Accordion type="single" collapsible className="w-full">
+                                    {faq.map((item, index) => (
+                                        <AccordionItem
+                                            key={index}
+                                            value={`item-${index}`}
+                                            className="border-b border-border/50 last:border-b-0"
+                                        >
+                                            <AccordionTrigger className="text-base font-semibold hover:no-underline hover:text-primary py-5 px-5 transition-colors text-left">
+                                                {item.question}
+                                            </AccordionTrigger>
+                                            <AccordionContent className="text-foreground/80 text-sm leading-relaxed pb-5 px-5">
+                                                {item.answer}
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    ))}
+                                </Accordion>
+                            </div>
+                        ) : (
+                            <div className="p-8 text-center text-muted-foreground text-sm">
+                                No frequently asked questions available for this calculator.
+                            </div>
+                        )}
+                    </TabsContent>
+                </Tabs>
+
+                {/* Related Content Section - Always Visible */}
+                <div className="max-w-3xl mx-auto mt-12 space-y-8">
                     {/* Related Calculators Grid */}
-                    {(blogContent?.sections?.relatedCalculators && blogContent.sections.relatedCalculators.length > 0) || linkingData.related.length > 0 ? (
-                        <section className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Calculator className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Related Calculators</h2>
+                    {((blogContent?.sections?.relatedCalculators && blogContent.sections.relatedCalculators.length > 0) || linkingData.related.length > 0) && (
+                        <section>
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="p-2 rounded-lg bg-primary/10">
+                                    <Calculator className="h-4 w-4 text-primary" />
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Explore similar tools and resources</p>
+                                <h2 className="text-xl font-bold tracking-tight">Related Calculators</h2>
                             </div>
                             {blogContent?.sections?.relatedCalculators ? (
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                                     {blogContent.sections.relatedCalculators.map((link, index) => (
                                         <Link
                                             key={index}
                                             href={link.href}
-                                            className="group flex items-center justify-between p-5 rounded-xl border border-border/50 bg-card hover:border-primary/50 hover:bg-muted/50 dark:hover:bg-muted/30 hover:shadow-sm transition-all duration-300"
+                                            className="group flex items-center justify-between p-4 rounded-lg border border-border/50 bg-card hover:border-primary/50 hover:bg-muted/50 transition-all"
                                         >
-                                            <span className="font-semibold text-base text-foreground/90 group-hover:text-primary transition-colors">{link.title}</span>
+                                            <span className="font-medium text-sm text-foreground/90 group-hover:text-primary transition-colors">{link.title}</span>
                                             <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
                                         </Link>
                                     ))}
@@ -511,52 +469,48 @@ export default async function CalculatorPage({ params }: PageProps) {
                                 <RelatedCalculatorsGrid links={linkingData.related} />
                             )}
                         </section>
-                    ) : null}
+                    )}
 
                     {/* Variation Pills */}
                     {linkingData.variations.length > 0 && (
-                        <div className="max-w-3xl mx-auto border-t pt-16">
+                        <div className="border-t pt-8">
                             <VariationPills links={linkingData.variations} />
                         </div>
                     )}
 
-                    {/* FAQ Section */}
-                    {faq.length > 0 && (
-                        <div className="max-w-3xl mx-auto">
-                            <div className="mb-8">
-                                <div className="flex items-center gap-3 mb-3">
-                                    <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
-                                        <Info className="h-5 w-5 text-primary" />
-                                    </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Frequently Asked Questions</h2>
-                                </div>
-                                <p className="text-sm text-muted-foreground ml-12">Quick answers to common questions</p>
+                    {/* External Authority Resources */}
+                    {externalResources.length > 0 && (
+                        <section className="border-t pt-8">
+                            <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                                <BookOpen className="h-5 w-5 text-primary" />
+                                Official Resources
+                            </h2>
+                            <div className="grid gap-3">
+                                {externalResources.map((resource, index) => (
+                                    <a
+                                        key={index}
+                                        href={resource.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="group flex items-start gap-3 p-3 rounded-lg border border-border/60 hover:border-primary/40 hover:bg-primary/5 transition-all"
+                                    >
+                                        <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary mt-0.5 flex-shrink-0" />
+                                        <div>
+                                            <span className="font-medium text-sm text-foreground/90 group-hover:text-primary">{resource.title}</span>
+                                            {resource.description && (
+                                                <p className="text-xs text-muted-foreground mt-0.5">{resource.description}</p>
+                                            )}
+                                        </div>
+                                    </a>
+                                ))}
                             </div>
-                            <div className="rounded-xl border border-border/50 bg-card overflow-hidden shadow-sm">
-                                <Accordion type="single" collapsible className="w-full">
-                                    {faq.map((item, index) => (
-                                        <AccordionItem
-                                            key={index}
-                                            value={`item-${index}`}
-                                            className="border-b border-border/50 last:border-b-0"
-                                        >
-                                            <AccordionTrigger className="text-lg font-semibold hover:no-underline hover:text-primary py-6 px-6 transition-colors text-left">
-                                                {item.question}
-                                            </AccordionTrigger>
-                                            <AccordionContent className="text-foreground/80 text-base leading-relaxed pb-6 px-6">
-                                                {item.answer}
-                                            </AccordionContent>
-                                        </AccordionItem>
-                                    ))}
-                                </Accordion>
-                            </div>
-                        </div>
+                        </section>
                     )}
-                </div>
 
-                {/* Authority Links */}
-                <div className="max-w-3xl mx-auto border-t pt-16">
-                    <AuthorityLinks />
+                    {/* Authority Links */}
+                    <div className="border-t pt-8">
+                        <AuthorityLinks />
+                    </div>
                 </div>
             </div>
 
@@ -566,6 +520,11 @@ export default async function CalculatorPage({ params }: PageProps) {
                 description={content.intro}
                 url={`https://calctrust.com/usa/${slug}`}
                 dateModified={pageData.lastUpdated}
+                author={{
+                    name: AUTHOR.name,
+                    url: AUTHOR.url,
+                    credentials: AUTHOR.credentials,
+                }}
             />
             <BreadcrumbSchema
                 items={[

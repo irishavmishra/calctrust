@@ -108,6 +108,42 @@ export default function AboutPage() {
                         </div>
                     </section>
 
+                    {/* Editorial Team */}
+                    <section id="editorial" className="border-t pt-12">
+                        <h2 className="text-3xl font-semibold tracking-tight mb-6">Editorial Team</h2>
+                        <div className="bg-card border border-border rounded-xl p-6">
+                            <div className="flex items-start gap-4">
+                                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                                    <Shield className="h-8 w-8 text-primary" />
+                                </div>
+                                <div>
+                                    <h3 className="text-xl font-semibold">Ravi, CPA</h3>
+                                    <p className="text-sm text-primary font-medium mb-2">Certified Public Accountant</p>
+                                    <p className="text-muted-foreground leading-relaxed">
+                                        Ravi is a licensed CPA with expertise in tax planning and payroll calculations. He oversees all calculator methodology and ensures data accuracy at CalcTrust, verifying tax brackets against official IRS and state revenue publications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <script
+                            type="application/ld+json"
+                            dangerouslySetInnerHTML={{
+                                __html: JSON.stringify({
+                                    '@context': 'https://schema.org',
+                                    '@type': 'Person',
+                                    name: 'Ravi, CPA',
+                                    jobTitle: 'Certified Public Accountant',
+                                    url: 'https://calctrust.com/about#editorial',
+                                    worksFor: {
+                                        '@type': 'Organization',
+                                        name: 'CalcTrust',
+                                        url: 'https://calctrust.com',
+                                    },
+                                }),
+                            }}
+                        />
+                    </section>
+
                     {/* Learn More Links */}
                     <section className="border-t pt-12">
                         <h2 className="text-2xl font-semibold tracking-tight mb-6">Learn More</h2>

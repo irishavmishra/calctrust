@@ -211,7 +211,7 @@
         rgba(0, 0, 0, 0.04) 75%,
         rgba(0, 0, 0, 0.02) 100%);
     background-size: 200% 200%;
-    animation: aurora-shift 15s ease infinite;
+    animation: aurora-shift 30s ease infinite;
   }
 
   @keyframes aurora-shift {

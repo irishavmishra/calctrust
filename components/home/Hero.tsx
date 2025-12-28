@@ -14,10 +14,7 @@ export function Hero() {
             <div className="absolute inset-0 aurora-bg -z-10" />
             <div className="absolute inset-0 dot-pattern -z-10" />
 
-            {/* Floating Gradient Orbs */}
-            <div className="absolute top-20 right-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '0s' }} />
-            <div className="absolute bottom-20 left-1/4 w-80 h-80 bg-accent/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '2s' }} />
-            <div className="absolute top-40 left-10 w-72 h-72 bg-secondary/10 rounded-full blur-3xl float-animation" style={{ animationDelay: '4s' }} />
+
 
             <div className="container max-w-6xl mx-auto relative z-10">
                 <div className="text-center space-y-8">

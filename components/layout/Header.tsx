@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import Link from 'next/link';
-import { Menu, ChevronDown } from 'lucide-react';
+import { Menu, ChevronDown, DollarSign, CreditCard, Percent } from 'lucide-react';
 import { Logo } from '@/components/logo';
 import {
     NavigationMenu,
@@ -24,39 +24,12 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle, SheetClose } from '@/components/ui/sheet';
 import { ModeToggle } from '@/components/mode-toggle';
 import { SearchTrigger } from '@/components/search';
-
-const countries = [
-    { code: 'usa', name: 'USA', flag: '🇺🇸', href: '/usa', active: true },
-    { code: 'uk', name: 'UK', flag: '🇬🇧', href: '#', active: false },
-    { code: 'ca', name: 'Canada', flag: '🇨🇦', href: '#', active: false },
-];
-
-const salaryCalculators = [
-    { href: '/usa/salary-to-hourly-calculator', label: 'Salary to Hourly', description: 'Convert annual salary to hourly wages' },
-    { href: '/usa/hourly-to-salary-calculator', label: 'Hourly to Salary', description: 'Calculate annual income from hourly rate' },
-    { href: '/usa/50000-salary-breakdown', label: '$50k Salary Breakdown', description: 'Detailed analysis of $50,000/year' },
-    { href: '/usa/100000-salary-breakdown', label: '$100k Salary Breakdown', description: 'Tax breakdown for six-figure income' },
-    { href: '/usa/15-dollars-an-hour', label: '$15/Hour Annual', description: 'Annual earnings at minimum wage' },
-    { href: '/usa/20-dollars-an-hour', label: '$20/Hour Annual', description: 'Yearly income for $20 hourly' },
-];
-
-const paycheckCalculators = [
-    { href: '/usa/take-home-pay-calculator', label: 'Take Home Pay', description: 'Net pay calculator' },
-    { href: '/usa/biweekly-paycheck-calculator', label: 'Biweekly Paycheck', description: 'For every two weeks pay' },
-    { href: '/usa/paycheck-calculator-california', label: 'California', description: 'CA state tax calculator' },
-    { href: '/usa/paycheck-calculator-texas', label: 'Texas', description: 'No state income tax' },
-    { href: '/usa/paycheck-calculator-florida', label: 'Florida', description: 'Sunshine state taxes' },
-    { href: '/usa/paycheck-calculator-new-york', label: 'New York', description: 'NY & NYC tax calculator' },
-];
-
-const taxCalculators = [
-    { href: '/usa/bonus-tax-calculator', label: 'Bonus Tax', description: 'Flat 22% rate vs aggregate' },
-    { href: '/usa/self-employment-tax-calculator', label: 'Self-Employment', description: '15.3% SE tax estimation' },
-    { href: '/usa/401k-calculator', label: '401(k) Calculator', description: 'Retirement savings growth' },
-    { href: '/usa/overtime-pay-calculator', label: 'Overtime Pay', description: 'Time and a half & double time' },
-    { href: '/usa/time-and-a-half-calculator', label: 'Time and a Half', description: 'Overtime rate calculator' },
-    { href: '/usa/pay-raise-calculator', label: 'Pay Raise', description: 'Calculate your new salary' },
-];
+import {
+    countries,
+    salaryCalculators,
+    paycheckCalculators,
+    taxCalculators
+} from '@/lib/navigation';
 
 export function Header() {
     return (
@@ -195,6 +168,7 @@ export function Header() {
                                     {/* Salary Section */}
                                     <div className="space-y-4">
                                         <h3 className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase tracking-widest">
+                                            <DollarSign className="h-3.5 w-3.5" />
                                             Salary
                                         </h3>
                                         <div className="flex flex-col space-y-1">
@@ -214,6 +188,7 @@ export function Header() {
                                     {/* Paycheck Section */}
                                     <div className="space-y-4">
                                         <h3 className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase tracking-widest">
+                                            <CreditCard className="h-3.5 w-3.5" />
                                             Paycheck
                                         </h3>
                                         <div className="flex flex-col space-y-1">
@@ -238,6 +213,7 @@ export function Header() {
                                     {/* Tax & Tools Section */}
                                     <div className="space-y-4">
                                         <h3 className="flex items-center gap-2 text-xs font-bold text-muted-foreground uppercase tracking-widest">
+                                            <Percent className="h-3.5 w-3.5" />
                                             Tax & Tools
                                         </h3>
                                         <div className="flex flex-col space-y-1">

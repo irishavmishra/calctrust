@@ -11,10 +11,11 @@ import {
     SelectTrigger,
     SelectValue,
 } from '@/components/ui/select';
-import { RotateCcw } from 'lucide-react';
+import { RotateCcw, AlertCircle } from 'lucide-react';
 import type { CalculatorInputConfig, CalculatorOutputConfig, CalculatorType } from '@/lib/content/calculators';
 import { getStatesList } from '@/lib/calculators';
 import { executeCalculation } from '@/lib/calculators/strategies';
+import { getFieldError } from '@/lib/calculators/validation';
 
 interface CalculatorShellProps {
     calculatorType: CalculatorType;
@@ -38,20 +39,35 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
     });
     const [result, setResult] = useState<Record<string, number> | null>(null);
     const [isCalculating, setIsCalculating] = useState(true);
+    const [calculationError, setCalculationError] = useState<string | null>(null);
+    const [fieldErrors, setFieldErrors] = useState<Record<string, string | null>>({});
 
     const handleInputChange = (id: string, value: string | number) => {
         setValues((prev) => ({ ...prev, [id]: value }));
+        // Validate field on change
+        const numValue = typeof value === 'string' ? parseFloat(value) : value;
+        const error = getFieldError(calculatorType, id, isNaN(numValue) ? 0 : numValue);
+        setFieldErrors((prev) => ({ ...prev, [id]: error }));
     };
 
-    const calculate = useCallback(() => {
-        // Use strategy pattern for clean, maintainable calculations
-        const output = executeCalculation(calculatorType, {
-            values,
-            stateCode,
-        });
 
-        setResult(output);
-        setIsCalculating(false);
+    const calculate = useCallback(() => {
+        try {
+            setCalculationError(null);
+            // Use strategy pattern for clean, maintainable calculations
+            const output = executeCalculation(calculatorType, {
+                values,
+                stateCode,
+            });
+
+            setResult(output);
+            setIsCalculating(false);
+        } catch (err) {
+            console.error('Calculation error:', err);
+            setCalculationError('Unable to calculate. Please check your inputs.');
+            setResult(null);
+            setIsCalculating(false);
+        }
     }, [calculatorType, values, stateCode]);
 
     // Initial and real-time calculation
@@ -127,10 +143,17 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
                         min={input.min}
                         max={input.max}
                         step={input.step || 1}
-                        className={`h-11 bg-background border-input focus:ring-ring transition-shadow tabular-nums rounded-lg text-base md:text-sm ${input.type === 'currency' ? 'pl-7' : ''}`}
+                        className={`h-11 bg-background border-input focus:ring-ring transition-shadow tabular-nums rounded-lg text-base md:text-sm ${input.type === 'currency' ? 'pl-7' : ''} ${fieldErrors[input.id] ? 'border-red-500 focus:ring-red-500' : ''}`}
+                        aria-invalid={!!fieldErrors[input.id]}
+                        aria-describedby={fieldErrors[input.id] ? `${inputId}-error` : undefined}
                     />
                 </div>
-                {input.helperText && (
+                {fieldErrors[input.id] ? (
+                    <p id={`${inputId}-error`} className="text-[11px] text-red-500 flex items-center gap-1">
+                        <AlertCircle className="h-3 w-3" />
+                        {fieldErrors[input.id]}
+                    </p>
+                ) : input.helperText && (
                     <p className="text-[11px] text-muted-foreground">{input.helperText}</p>
                 )}
             </div>
@@ -156,22 +179,17 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
                                 </div>
                             </div>
 
-                            <div className="flex gap-3 pt-4 border-t border-border/50">
-                                <Button
-                                    onClick={calculate}
-                                    variant="outline"
-                                    className="flex-1 h-12 text-base font-semibold rounded-lg border-primary/20 bg-primary/5 text-foreground hover:bg-primary/10 hover:border-primary/30 hover:text-foreground transition-all hover:scale-[1.02] active:scale-[0.98]"
-                                    size="lg"
-                                >
-                                    Calculate Result
-                                </Button>
+                            <div className="flex justify-end pt-4 border-t border-border/50">
                                 <Button
                                     variant="outline"
-                                    onClick={() => setResult(null)}
-                                    className="h-12 px-5 rounded-lg border-border/60 hover:bg-muted/50 transition-colors"
-                                    aria-label="Reset"
+                                    onClick={() => {
+                                        setResult(null);
+                                        setCalculationError(null);
+                                    }}
+                                    className="h-10 px-4 rounded-lg border-border/60 hover:bg-muted/50 transition-colors text-sm font-medium"
                                 >
-                                    <RotateCcw className="h-4 w-4 text-muted-foreground" />
+                                    <RotateCcw className="h-4 w-4 mr-2" />
+                                    Reset
                                 </Button>
                             </div>
                         </div>
@@ -180,6 +198,8 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
 
                 {/* Results Section - Bento Card 2 */}
                 <div className="lg:col-span-5">
+                    {/* Mobile separator */}
+                    <div className="lg:hidden border-t-4 border-primary/20 pt-6 -mt-2" />
                     <div className="lg:sticky lg:top-24">
                         <div className="bg-card border-y border-border md:border md:rounded-xl shadow-sm overflow-hidden">
                             <div className="p-6 md:p-8 space-y-6">
@@ -202,6 +222,16 @@ export function CalculatorShell({ calculatorType, inputs, outputs, stateCode }: 
                                                 <div className="h-7 w-28 bg-muted rounded" />
                                             </div>
                                         ))}
+                                    </div>
+                                ) : calculationError ? (
+                                    <div className="p-5 rounded-xl bg-destructive/10 border border-destructive/20">
+                                        <div className="flex items-start gap-3">
+                                            <AlertCircle className="h-5 w-5 text-destructive flex-shrink-0 mt-0.5" />
+                                            <div className="space-y-1">
+                                                <p className="text-sm font-medium text-destructive">Calculation Error</p>
+                                                <p className="text-sm text-muted-foreground">{calculationError}</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 ) : result ? (
                                     <div className="grid gap-3">
