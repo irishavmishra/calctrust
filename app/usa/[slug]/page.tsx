@@ -193,12 +193,12 @@ export default async function CalculatorPage({ params }: PageProps) {
                                     </div>
                                     <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">What This Calculator Helps You Understand</h2>
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">Key insights you'll gain from using this tool</p>
+                                <p className="text-sm text-muted-foreground ml-12">Key insights you&apos;ll gain from using this tool</p>
                             </div>
                             <div className="grid gap-3">
                                 {blogContent.sections.whatThisHelps.map((item, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex items-start gap-4 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:bg-muted/40 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
@@ -225,8 +225,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="grid gap-3">
                                 {blogContent.sections.whoUsefulFor.map((item, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-r from-card to-muted/20 border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
@@ -262,8 +262,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                         {blogContent?.sections?.howItWorks && blogContent.sections.howItWorks.length > 0 ? (
                             <div className="space-y-4">
                                 {blogContent.sections.howItWorks.map((step, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex gap-5 p-6 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="flex-shrink-0 w-10 h-10 rounded-xl bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors flex items-center justify-center font-bold text-primary text-base shadow-sm">
@@ -345,8 +345,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="grid gap-4">
                                 {blogContent.sections.commonMistakes.map((item, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex items-start gap-4 p-5 rounded-xl bg-destructive/5 dark:bg-destructive/10 border border-destructive/20 dark:border-destructive/30 hover:border-destructive/40 dark:hover:border-destructive/50 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="p-2 rounded-lg bg-destructive/20 dark:bg-destructive/30 group-hover:bg-destructive/30 dark:group-hover:bg-destructive/40 transition-colors mt-0.5 flex-shrink-0">
@@ -373,8 +373,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="grid gap-3">
                                 {blogContent.sections.whyResultsVary.map((item, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex items-start gap-4 p-5 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:bg-muted/40 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="p-2 rounded-lg bg-primary/10 dark:bg-primary/20 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors mt-0.5 flex-shrink-0">
@@ -410,8 +410,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="space-y-5">
                                 {blogContent.sections.deepDive.map((paragraph, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="p-6 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300"
                                     >
                                         <p className="text-base text-foreground/90 leading-relaxed">{paragraph}</p>
@@ -435,8 +435,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="grid gap-4">
                                 {blogContent.sections.examples.map((example, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="p-6 rounded-xl bg-gradient-to-br from-card to-muted/20 border border-border/50 hover:border-primary/40 hover:shadow-lg transition-all duration-300 group"
                                     >
                                         <div className="flex items-start gap-4">
@@ -465,8 +465,8 @@ export default async function CalculatorPage({ params }: PageProps) {
                             </div>
                             <div className="grid gap-3">
                                 {blogContent.sections.expertTips.map((tip, index) => (
-                                    <div 
-                                        key={index} 
+                                    <div
+                                        key={index}
                                         className="flex items-start gap-4 p-5 rounded-xl bg-gradient-to-r from-primary/5 to-primary/10 dark:from-primary/10 dark:to-primary/20 border border-primary/20 dark:border-primary/30 hover:border-primary/40 dark:hover:border-primary/50 hover:shadow-sm transition-all duration-300 group"
                                     >
                                         <div className="p-2 rounded-lg bg-primary/20 dark:bg-primary/30 group-hover:bg-primary/30 dark:group-hover:bg-primary/40 transition-colors mt-0.5 flex-shrink-0">
@@ -519,12 +519,12 @@ export default async function CalculatorPage({ params }: PageProps) {
                         </section>
                     ) : null}
 
-                {/* Variation Pills */}
-                {linkingData.variations.length > 0 && (
-                    <div className="max-w-3xl mx-auto border-t pt-16">
-                        <VariationPills links={linkingData.variations} />
-                    </div>
-                )}
+                    {/* Variation Pills */}
+                    {linkingData.variations.length > 0 && (
+                        <div className="max-w-3xl mx-auto border-t pt-16">
+                            <VariationPills links={linkingData.variations} />
+                        </div>
+                    )}
 
                     {/* FAQ Section */}
                     {faq.length > 0 && (
@@ -541,9 +541,9 @@ export default async function CalculatorPage({ params }: PageProps) {
                             <div className="rounded-xl border border-border/50 bg-card overflow-hidden shadow-sm">
                                 <Accordion type="single" collapsible className="w-full">
                                     {faq.map((item, index) => (
-                                        <AccordionItem 
-                                            key={index} 
-                                            value={`item-${index}`} 
+                                        <AccordionItem
+                                            key={index}
+                                            value={`item-${index}`}
                                             className="border-b border-border/50 last:border-b-0"
                                         >
                                             <AccordionTrigger className="text-lg font-semibold hover:no-underline hover:text-primary py-6 px-6 transition-colors text-left">
