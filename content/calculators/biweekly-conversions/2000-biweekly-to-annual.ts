@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $2,000 biweekly to $52,000/year', 'Hourly: $25', 'Monthly: $4,333'],
     whoUsefulFor: ['Employees paid $2,000 biweekly', 'Workers at $25/hour equivalent'],
     howItWorks: ['$2,000 × 26 = $52,000/year', 'Monthly: $4,333', 'Hourly: $25'],
-    deepDive: ['$2,000 biweekly is a milestone $52K annually exceeds median individual income significantly.'],
+    deepDive: ['Hitting $2,000 every two weeks is a meaningful milestone. That works out to $52,000 a year, which puts you well above the median individual income in America. At the equivalent of $25 per hour, you are earning enough to live comfortably in most cities and have real money left over for saving and investing. This is the income level where serious wealth building becomes possible if you are intentional about it.'],
     examples: ['Annual: $52,000. Monthly: $4,333.'],
     expertTips: ['At $25/hour equivalent, focus on wealth building'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

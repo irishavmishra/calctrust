@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $3,500 biweekly to $91,000/year', 'Hourly: ~$43.75', 'Monthly: $7,583'],
     whoUsefulFor: ['Employees paid $3,500 biweekly'],
     howItWorks: ['$3,500 × 26 = $91,000/year', 'Monthly: $7,583', 'Hourly: ~$43.75'],
-    deepDive: ['$3,500 biweekly approaches six figures at $91K annually.'],
+    deepDive: ['At $3,500 every two weeks, you are knocking on the door of six figures with $91,000 annually. This is the kind of income that provides real financial freedom and options. You can live well, save aggressively, and still have money for the things you enjoy. At about $44 per hour, you have reached a level of compensation that many people spend their entire careers working toward.'],
     examples: ['Annual: $91,000. Monthly: $7,583.'],
     expertTips: ['At this level, maximize all tax-advantaged accounts'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

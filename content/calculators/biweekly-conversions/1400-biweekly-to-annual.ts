@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $1,400 biweekly to $36,400/year', 'Hourly: ~$17.50', 'Monthly: $3,033'],
     whoUsefulFor: ['Employees paid $1,400 biweekly'],
     howItWorks: ['$1,400 × 26 = $36,400/year', 'Monthly: $3,033', 'Hourly: ~$17.50'],
-    deepDive: ['$1,400 biweekly provides comfortable middle-class income at $36,400 annually.'],
+    deepDive: ['At $1,400 every two weeks, your annual income comes out to $36,400. This is a pretty comfortable spot to be in for most of the country. You have enough to pay your bills, keep food on the table, and still put some money into savings or retirement. It is around the $17.50 per hour mark, which is above minimum wage in every state.'],
     examples: ['Annual: $36,400. Monthly: $3,033.'],
     expertTips: ['This income level supports retirement contributions'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

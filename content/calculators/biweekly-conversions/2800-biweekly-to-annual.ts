@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $2,800 biweekly to $72,800/year', 'Hourly: $35', 'Monthly: $6,067'],
     whoUsefulFor: ['Employees paid $2,800 biweekly'],
     howItWorks: ['$2,800 × 26 = $72,800/year', 'Monthly: $6,067', 'Hourly: $35'],
-    deepDive: ['$2,800 biweekly provides excellent income at $72,800 annually.'],
+    deepDive: ['A biweekly paycheck of $2,800 puts you at $72,800 annually, which is excellent income by any measure. At $35 per hour, you are earning significantly above average and approaching the territory where more sophisticated tax planning starts to make sense. This is a comfortable income that allows for both a good lifestyle and aggressive long-term wealth building.'],
     examples: ['Annual: $72,800. Monthly: $6,067.'],
     expertTips: ['At $35/hour equivalent, consider backdoor Roth strategies'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

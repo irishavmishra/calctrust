@@ -15,7 +15,7 @@ const content: BlogContent = {
     ],
     whoUsefulFor: ['Employees paid $1,100 biweekly', 'Job seekers comparing pay schedules'],
     howItWorks: ['$1,100 × 26 = $28,600/year', 'Monthly: $2,383', 'Hourly: ~$13.75'],
-    deepDive: ['$1,100 biweekly provides $28,600 annually approaching $30K and offering more financial flexibility than minimum wage positions.'],
+    deepDive: ['Earning $1,100 every two weeks adds up to about $28,600 a year, which is getting close to that $30,000 threshold. While it is not a huge salary, it does give you noticeably more breathing room than a minimum wage job would. You can cover your basics and maybe start putting a little something aside, especially if you are smart about the months when you get that third paycheck.'],
     examples: ['Annual: $28,600. Monthly: $2,383. Three-paycheck months add extra $1,100.'],
     expertTips: ['Save third paychecks for emergency fund', 'Seek positions with growth to $1,500+/biweekly'],
     assumptions: ['26 pay periods/year', '80 hours per period', 'Gross pay'],

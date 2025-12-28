@@ -25,10 +25,7 @@ const content: BlogContent = {
       'Monthly: $26,000 ÷ 12 = $2,167/month',
       'Hourly: $1,000 ÷ 80 hours = $12.50/hour',
     ],
-    deepDive: [
-      'Biweekly pay means receiving a paycheck every two weeks 26 times per year, not 24. This is important for budgeting as two months each year will have three paychecks instead of two.',
-      'At $26,000 annually, this income level qualifies for various tax credits including the Earned Income Tax Credit (EITC) which can add $500-$3,000+ depending on filing status.',
-    ],
+    deepDive: ['Getting paid biweekly means you receive 26 paychecks throughout the year, not 24 like some people assume. This small difference actually matters quite a bit for budgeting because twice a year you will get three paychecks in a single month instead of the usual two. At $1,000 per paycheck, that works out to $26,000 annually. While this is considered entry-level income, the good news is that at this income level you may qualify for the Earned Income Tax Credit, which could put an extra $500 to $3,000 back in your pocket depending on your filing status and family situation.'],
     examples: [
       'Annual: $1,000 × 26 = $26,000/year. Monthly: $2,167. Hourly: $12.50.',
       'Three-paycheck months: Two months each year provide $3,000 instead of $2,000.',

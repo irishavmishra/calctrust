@@ -11,7 +11,7 @@ const content: BlogContent = {
     whatThisHelps: ['Convert $1,300 biweekly to $33,800/year', 'Hourly: ~$16.25', 'Monthly: $2,817'],
     whoUsefulFor: ['Employees paid $1,300 biweekly'],
     howItWorks: ['$1,300 × 26 = $33,800/year', 'Monthly: $2,817', 'Hourly: ~$16.25'],
-    deepDive: ['$1,300 biweekly provides solid middle-class income approaching $34K annually.'],
+    deepDive: ['With a $1,300 biweekly paycheck, you are looking at nearly $34,000 a year. This is a comfortable middle-class income in many parts of the country, especially outside of major coastal cities. It gives you enough to handle rent, bills, and groceries while still having something left over for savings or occasional extras.'],
     examples: ['Annual: $33,800. Monthly: $2,817.'],
     expertTips: ['Build emergency fund with third-paycheck months'],
     assumptions: ['26 pay periods/year', '80 hours per period'],

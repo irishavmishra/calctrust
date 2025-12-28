@@ -404,19 +404,13 @@ export default async function CalculatorPage({ params }: PageProps) {
                                     <div className="p-2.5 rounded-xl bg-primary/10 dark:bg-primary/20 shadow-sm">
                                         <BookOpen className="h-5 w-5 text-primary" />
                                     </div>
-                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">Deep Dive</h2>
+                                    <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">In-Depth Analysis</h2>
                                 </div>
-                                <p className="text-sm text-muted-foreground ml-12">In-depth analysis and context</p>
                             </div>
-                            <div className="space-y-5">
-                                {blogContent.sections.deepDive.map((paragraph, index) => (
-                                    <div
-                                        key={index}
-                                        className="p-6 rounded-xl bg-card border border-border/50 hover:border-primary/40 hover:shadow-sm transition-all duration-300"
-                                    >
-                                        <p className="text-base text-foreground/90 leading-relaxed">{paragraph}</p>
-                                    </div>
-                                ))}
+                            <div className="p-8 rounded-2xl bg-gradient-to-br from-muted/30 to-muted/10 dark:from-muted/20 dark:to-muted/5 border border-border/40">
+                                <p className="text-lg text-foreground/90 leading-relaxed">
+                                    {blogContent.sections.deepDive.join(' ')}
+                                </p>
                             </div>
                         </section>
                     )}

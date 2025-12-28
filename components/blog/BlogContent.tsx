@@ -76,10 +76,8 @@ export function BlogContent({ content, calculatorSlot }: BlogContentProps) {
 
             {/* Deep Dive */}
             {sections.deepDive && sections.deepDive.length > 0 && (
-                <Section title="Deep Dive">
-                    {sections.deepDive.map((paragraph, i) => (
-                        <p key={i} className="mb-4">{paragraph}</p>
-                    ))}
+                <Section title="In-Depth Analysis">
+                    <p className="text-lg leading-relaxed">{sections.deepDive.join(' ')}</p>
                 </Section>
             )}
 
