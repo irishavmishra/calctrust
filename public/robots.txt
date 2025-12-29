@@ -4,7 +4,6 @@
 # Default rules for all crawlers
 User-agent: *
 Allow: /
-Disallow: /api/
 
 # Sitemaps
 Sitemap: https://calctrust.com/sitemap.xml
