@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, Search, ArrowLeft } from 'lucide-react';
+import { Home, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function NotFound() {
@@ -33,17 +33,6 @@ export default function NotFound() {
                             Browse Calculators
                         </Link>
                     </Button>
-                </div>
-
-                {/* Back Link */}
-                <div>
-                    <Link
-                        href="javascript:history.back()"
-                        className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                    >
-                        <ArrowLeft className="h-4 w-4" />
-                        Go back to previous page
-                    </Link>
                 </div>
             </div>
         </main>

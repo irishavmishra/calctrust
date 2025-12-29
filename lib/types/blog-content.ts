@@ -52,6 +52,31 @@ export interface BlogContentSections {
 
     /** Freshness signal (e.g., "December 2025") */
     freshnessSignal?: string;
+
+    // ============================================
+    // Extended sections for comprehensive content
+    // ============================================
+
+    /** What is [topic] - educational foundation section */
+    whatIs401k?: string[];
+
+    /** Pros and cons list */
+    prosAndCons?: string[];
+
+    /** Roth vs Traditional comparison */
+    rothVsTraditional?: string[];
+
+    /** Early withdrawal rules and penalties */
+    earlyWithdrawal?: string[];
+
+    /** Retirement distribution options */
+    retirementDistributions?: string[];
+
+    /** Required Minimum Distributions */
+    rmd?: string[];
+
+    /** Solo/Self-directed 401(k) information */
+    solo401k?: string[];
 }
 
 export interface ExternalResource {

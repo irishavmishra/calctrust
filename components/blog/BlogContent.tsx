@@ -74,10 +74,101 @@ export function BlogContent({ content, calculatorSlot }: BlogContentProps) {
                 </Section>
             )}
 
+            {/* What Is 401(k) - Educational Foundation */}
+            {sections.whatIs401k && sections.whatIs401k.length > 0 && (
+                <Section title="What Is a 401(k)?">
+                    <div className="space-y-4">
+                        {sections.whatIs401k.map((paragraph, i) => (
+                            <p key={i} className="leading-relaxed">{paragraph}</p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Pros and Cons */}
+            {sections.prosAndCons && sections.prosAndCons.length > 0 && (
+                <Section title="Pros and Cons of a 401(k)">
+                    <div className="space-y-2">
+                        {sections.prosAndCons.map((item, i) => (
+                            <p key={i} className={`leading-relaxed ${item.startsWith('PROS:') || item.startsWith('CONS:') ? 'font-semibold text-lg mt-4' : ''}`}>
+                                {item}
+                            </p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Roth vs Traditional */}
+            {sections.rothVsTraditional && sections.rothVsTraditional.length > 0 && (
+                <Section title="Roth 401(k) vs Traditional 401(k)">
+                    <div className="space-y-2">
+                        {sections.rothVsTraditional.map((item, i) => (
+                            <p key={i} className={`leading-relaxed ${item.startsWith('TRADITIONAL') || item.startsWith('ROTH') ? 'font-semibold text-lg mt-4' : ''}`}>
+                                {item}
+                            </p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Early Withdrawal */}
+            {sections.earlyWithdrawal && sections.earlyWithdrawal.length > 0 && (
+                <Section title="Early Withdrawal Rules & Penalties">
+                    <div className="space-y-2">
+                        {sections.earlyWithdrawal.map((item, i) => (
+                            <p key={i} className={`leading-relaxed ${item.includes('PENALTIES') || item.includes('EXCEPTIONS') ? 'font-semibold text-lg mt-4' : ''}`}>
+                                {item}
+                            </p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Retirement Distributions */}
+            {sections.retirementDistributions && sections.retirementDistributions.length > 0 && (
+                <Section title="Retirement Distribution Options">
+                    <div className="space-y-2">
+                        {sections.retirementDistributions.map((item, i) => (
+                            <p key={i} className={`leading-relaxed ${item.startsWith('Option') ? 'font-semibold mt-4' : ''}`}>
+                                {item}
+                            </p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Required Minimum Distributions */}
+            {sections.rmd && sections.rmd.length > 0 && (
+                <Section title="Required Minimum Distributions (RMDs)">
+                    <div className="space-y-2">
+                        {sections.rmd.map((item, i) => (
+                            <p key={i} className="leading-relaxed">{item}</p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
+            {/* Solo 401(k) */}
+            {sections.solo401k && sections.solo401k.length > 0 && (
+                <Section title="Solo 401(k) for Self-Employed">
+                    <div className="space-y-2">
+                        {sections.solo401k.map((item, i) => (
+                            <p key={i} className="leading-relaxed">{item}</p>
+                        ))}
+                    </div>
+                </Section>
+            )}
+
             {/* Deep Dive */}
             {sections.deepDive && sections.deepDive.length > 0 && (
                 <Section title="In-Depth Analysis">
-                    <p className="text-lg leading-relaxed">{sections.deepDive.join(' ')}</p>
+                    <div className="space-y-4">
+                        {sections.deepDive.map((paragraph, i) => (
+                            <p key={i} className={`leading-relaxed ${paragraph.includes('UNDERSTANDING') || paragraph.includes('VESTING') || paragraph.includes('INVESTMENT') ? 'font-semibold text-lg mt-6' : ''}`}>
+                                {paragraph}
+                            </p>
+                        ))}
+                    </div>
                 </Section>
             )}
 
@@ -87,7 +178,7 @@ export function BlogContent({ content, calculatorSlot }: BlogContentProps) {
                     {sections.examples.map((example, i) => (
                         <Card key={i} className="mb-4">
                             <CardContent className="pt-4">
-                                <p>{example}</p>
+                                <p className={example.startsWith('EXAMPLE') ? 'font-semibold' : ''}>{example}</p>
                             </CardContent>
                         </Card>
                     ))}

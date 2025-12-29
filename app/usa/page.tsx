@@ -1,5 +1,25 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CheckCircle, Shield, Calculator, MapPin, Sparkles, TrendingUp, Users, Award, Zap, FileCheck, Clock, Lock } from 'lucide-react';
+
+export const metadata: Metadata = {
+    title: 'U.S. Salary & Paycheck Calculators | All 50 States | CalcTrust',
+    description: 'Free salary and paycheck calculators for all 50 U.S. states. Calculate take-home pay, hourly rates, overtime, and taxes with 2025 federal and state tax rules.',
+    alternates: {
+        canonical: 'https://calctrust.com/usa',
+    },
+    openGraph: {
+        title: 'U.S. Salary & Paycheck Calculators | All 50 States',
+        description: 'Free salary and paycheck calculators for all 50 U.S. states. Calculate take-home pay with accurate 2025 tax rules.',
+        url: 'https://calctrust.com/usa',
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'U.S. Salary & Paycheck Calculators | All 50 States',
+        description: 'Free salary and paycheck calculators for all 50 U.S. states.',
+    },
+};
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { SectionHeader } from '@/components/ui/section-header';
