@@ -41,4 +41,23 @@ yarn-error.log*
 next-env.d.ts
 
 #ai files
-.agent.open-next/
+.agent
+.open-next/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Tooling caches
+.cache/
+.parcel-cache/
+.sass-cache/
+.eslintcache
+
+# Turborepo / Next tooling
+.turbo/
+.next/cache/
+
+# Misc
+.history/
+.DS_Store
