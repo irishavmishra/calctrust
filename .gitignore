@@ -56,8 +56,6 @@ next-env.d.ts
 
 # Turborepo / Next tooling
 .turbo/
-.next/cache/
 
 # Misc
 .history/
-.DS_Store
