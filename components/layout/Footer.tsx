@@ -69,12 +69,15 @@ export function Footer() {
                     ))}
                 </div>
 
-                <div className="mt-16 pt-8 border-t border-border/40 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground/60">
+                <div className="mt-16 pt-8 border-t border-border/40 flex flex-col items-center gap-4 text-xs text-muted-foreground/60">
                     <div className="flex flex-col md:flex-row items-center gap-2 md:gap-4">
                         <p>© {currentYear} CalcTrust. All rights reserved.</p>
                         <span className="hidden md:inline">•</span>
                         <p>Tax rules last reviewed: December 2025</p>
                     </div>
+                    <p className="text-xs">
+                        Developed by <a href="https://rishav.online" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Rishav Mishra</a>
+                    </p>
                     <div className="flex items-center gap-4">
                         <Link href="/terms-of-service" className="hover:text-foreground transition-colors">Terms</Link>
                         <Link href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy</Link>
