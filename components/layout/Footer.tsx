@@ -26,7 +26,7 @@ const footerLinks = {
 };
 
 export function Footer() {
-    const currentYear = new Date().getFullYear();
+    const currentYear = new Date().getFullYear(); // Footer component
 
     return (
         <footer className="border-t border-border/40 bg-zinc-50/50 dark:bg-zinc-900/20">
@@ -75,8 +75,8 @@ export function Footer() {
                         <span className="hidden md:inline">•</span>
                         <p>Tax rules last reviewed: December 2025</p>
                     </div>
-                    <p className="text-xs">
-                        Developed by <a href="https://rishav.online" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Rishav Mishra</a>
+                    <p className="text-xs text-muted-foreground font-medium">
+                        Developed by <a href="https://rishav.online" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors underline">Rishav Mishra</a>
                     </p>
                     <div className="flex items-center gap-4">
                         <Link href="/terms-of-service" className="hover:text-foreground transition-colors">Terms</Link>
