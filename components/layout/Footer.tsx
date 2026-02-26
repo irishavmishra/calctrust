@@ -76,7 +76,7 @@ export function Footer() {
                         <p>Tax rules last reviewed: December 2025</p>
                     </div>
                     <p className="text-xs text-muted-foreground font-medium">
-                        Developed by <a href="https://rishav.online" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors underline">Rishav Mishra</a>
+                        Developed by <a href="https://rishav.online" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">Rishav Mishra</a>
                     </p>
                     <div className="flex items-center gap-4">
                         <Link href="/terms-of-service" className="hover:text-foreground transition-colors">Terms</Link>
